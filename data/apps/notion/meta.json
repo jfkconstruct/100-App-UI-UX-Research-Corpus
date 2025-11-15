@@ -1,0 +1,18 @@
+{
+  "app_id": "notion",
+  "name": "Notion",
+  "platforms": ["web", "ios", "android", "desktop"],
+  "category": "productivity",
+  "url": "https://www.notion.so",
+  "store_links": {
+    "ios": "https://apps.apple.com/app/notion/id1232780281",
+    "android": "https://play.google.com/store/apps/details?id=notion.id"
+  },
+  "why_interesting": [
+    "Best-in-class onboarding with progressive disclosure",
+    "Complex feature set with relatively low perceived friction",
+    "Excellent information architecture and empty states",
+    "Strong use of templates and educational moments",
+    "Seamless transition from simple notes to complex databases"
+  ]
+}

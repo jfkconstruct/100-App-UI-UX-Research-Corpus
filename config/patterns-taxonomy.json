@@ -1,0 +1,312 @@
+{
+  "patterns": [
+    {
+      "id": "progress-indicator",
+      "name": "Progress Indicator",
+      "category": "onboarding",
+      "description": "Shows user where they are in a multi-step flow. Reduces anxiety and sets expectations for how many steps remain.",
+      "aliases": ["stepper", "wizard-progress", "step-counter"]
+    },
+    {
+      "id": "benefit-oriented-headline",
+      "name": "Benefit-Oriented Headline",
+      "category": "onboarding",
+      "description": "Headlines that focus on user benefits rather than features. Answers 'What's in it for me?' immediately.",
+      "aliases": ["value-prop-headline", "benefit-headline"]
+    },
+    {
+      "id": "hero-illustration",
+      "name": "Hero Illustration",
+      "category": "onboarding",
+      "description": "Large, prominent illustration or image that conveys the app's purpose or current step visually.",
+      "aliases": ["hero-image", "splash-graphic"]
+    },
+    {
+      "id": "progressive-disclosure",
+      "name": "Progressive Disclosure",
+      "category": "onboarding",
+      "description": "Reveal complexity gradually, showing only what's needed at each step to avoid overwhelming users.",
+      "aliases": ["gradual-reveal", "staged-complexity"]
+    },
+    {
+      "id": "social-proof",
+      "name": "Social Proof",
+      "category": "onboarding",
+      "description": "Testimonials, user counts, ratings, or logos showing others trust this product.",
+      "aliases": ["testimonials", "trust-indicators"]
+    },
+    {
+      "id": "single-primary-cta",
+      "name": "Single Primary CTA",
+      "category": "decision",
+      "description": "One obvious next step with limited choices. Reduces decision paralysis and guides user forward.",
+      "aliases": ["single-cta", "primary-action"]
+    },
+    {
+      "id": "sticky-cta",
+      "name": "Sticky CTA",
+      "category": "decision",
+      "description": "Call-to-action that remains visible as user scrolls, ensuring it's always accessible.",
+      "aliases": ["fixed-cta", "floating-cta"]
+    },
+    {
+      "id": "bottom-tab-bar",
+      "name": "Bottom Tab Bar",
+      "category": "navigation",
+      "description": "Mobile navigation pattern with 3-5 primary sections accessible from bottom of screen. Thumb-friendly and always visible.",
+      "aliases": ["tab-bar", "bottom-nav"]
+    },
+    {
+      "id": "hamburger-menu",
+      "name": "Hamburger Menu",
+      "category": "navigation",
+      "description": "Three-line icon that opens a slide-out or dropdown menu. Common for secondary navigation.",
+      "aliases": ["drawer-menu", "slide-out-menu"]
+    },
+    {
+      "id": "breadcrumbs",
+      "name": "Breadcrumbs",
+      "category": "navigation",
+      "description": "Secondary navigation showing the path to current location. Helps users understand hierarchy and navigate back.",
+      "aliases": ["breadcrumb-trail"]
+    },
+    {
+      "id": "search-prominent",
+      "name": "Prominent Search",
+      "category": "navigation",
+      "description": "Search bar given high visual priority, often in header. Signals findability and quick access.",
+      "aliases": ["search-first", "search-header"]
+    },
+    {
+      "id": "back-button",
+      "name": "Back Button",
+      "category": "navigation",
+      "description": "Clear way to return to previous screen. Essential for deep navigation hierarchies.",
+      "aliases": ["return-button"]
+    },
+    {
+      "id": "floating-action-button",
+      "name": "Floating Action Button",
+      "category": "navigation",
+      "description": "Circular button that floats above content, representing primary action for current screen.",
+      "aliases": ["fab", "floating-button"]
+    },
+    {
+      "id": "inline-validation",
+      "name": "Inline Validation",
+      "category": "forms",
+      "description": "Real-time feedback on form field validity as user types or on blur. Reduces errors and frustration.",
+      "aliases": ["live-validation", "real-time-validation"]
+    },
+    {
+      "id": "smart-defaults",
+      "name": "Smart Defaults",
+      "category": "forms",
+      "description": "Pre-fill form fields with intelligent defaults based on context or user data to reduce effort.",
+      "aliases": ["pre-filled-forms", "intelligent-defaults"]
+    },
+    {
+      "id": "input-masking",
+      "name": "Input Masking",
+      "category": "forms",
+      "description": "Format input automatically (phone numbers, credit cards, dates) to match expected pattern.",
+      "aliases": ["auto-formatting", "format-on-type"]
+    },
+    {
+      "id": "multi-step-form",
+      "name": "Multi-Step Form",
+      "category": "forms",
+      "description": "Break long forms into smaller steps to reduce cognitive load and increase completion.",
+      "aliases": ["wizard-form", "stepped-form"]
+    },
+    {
+      "id": "optional-field-marking",
+      "name": "Optional Field Marking",
+      "category": "forms",
+      "description": "Clearly mark which fields are optional to reduce user anxiety and perceived effort.",
+      "aliases": ["optional-labels"]
+    },
+    {
+      "id": "error-summary",
+      "name": "Error Summary",
+      "category": "forms",
+      "description": "List of all form errors at top of form, with links to problematic fields. Aids accessibility and clarity.",
+      "aliases": ["validation-summary"]
+    },
+    {
+      "id": "infinite-scroll",
+      "name": "Infinite Scroll",
+      "category": "content",
+      "description": "Load more content automatically as user scrolls. Reduces clicks but can be disorienting.",
+      "aliases": ["endless-scroll", "auto-load"]
+    },
+    {
+      "id": "card-layout",
+      "name": "Card Layout",
+      "category": "content",
+      "description": "Content organized into discrete card components. Scannable, flexible, and mobile-friendly.",
+      "aliases": ["card-grid", "card-pattern"]
+    },
+    {
+      "id": "empty-state",
+      "name": "Empty State",
+      "category": "content",
+      "description": "Helpful screen shown when no content exists yet. Educates users and suggests first actions.",
+      "aliases": ["zero-state", "blank-slate"]
+    },
+    {
+      "id": "skeleton-screen",
+      "name": "Skeleton Screen",
+      "category": "content",
+      "description": "Show content structure while loading to set expectations and reduce perceived wait time.",
+      "aliases": ["loading-skeleton", "content-placeholder"]
+    },
+    {
+      "id": "lazy-loading",
+      "name": "Lazy Loading",
+      "category": "content",
+      "description": "Load images and heavy content only when needed (e.g., when scrolled into view). Improves performance.",
+      "aliases": ["deferred-loading"]
+    },
+    {
+      "id": "pull-to-refresh",
+      "name": "Pull to Refresh",
+      "category": "content",
+      "description": "Mobile gesture to refresh content by pulling down on screen. Intuitive and satisfying interaction.",
+      "aliases": ["swipe-refresh"]
+    },
+    {
+      "id": "like-favorite",
+      "name": "Like/Favorite",
+      "category": "social",
+      "description": "Quick action to save or endorse content. Low-friction engagement mechanism.",
+      "aliases": ["heart", "star", "bookmark"]
+    },
+    {
+      "id": "share-button",
+      "name": "Share Button",
+      "category": "social",
+      "description": "Easy sharing to social platforms or messaging apps. Drives viral growth and content distribution.",
+      "aliases": ["share-sheet"]
+    },
+    {
+      "id": "comment-thread",
+      "name": "Comment Thread",
+      "category": "social",
+      "description": "Nested or linear conversation structure. Encourages engagement and community.",
+      "aliases": ["discussion-thread"]
+    },
+    {
+      "id": "user-avatar",
+      "name": "User Avatar",
+      "category": "social",
+      "description": "Profile picture or icon representing user. Adds personality and helps identify content sources.",
+      "aliases": ["profile-picture"]
+    },
+    {
+      "id": "notification-badge",
+      "name": "Notification Badge",
+      "category": "social",
+      "description": "Numbered indicator showing unread items or pending actions. Drives re-engagement.",
+      "aliases": ["count-badge", "unread-indicator"]
+    },
+    {
+      "id": "paywall-modal",
+      "name": "Paywall Modal",
+      "category": "commerce",
+      "description": "Full-screen or modal overlay blocking access until payment. Clear upgrade path.",
+      "aliases": ["upgrade-prompt", "payment-gate"]
+    },
+    {
+      "id": "pricing-table",
+      "name": "Pricing Table",
+      "category": "commerce",
+      "description": "Comparison grid showing different plan tiers and features. Helps users choose appropriate option.",
+      "aliases": ["plan-comparison", "tier-table"]
+    },
+    {
+      "id": "shopping-cart-indicator",
+      "name": "Shopping Cart Indicator",
+      "category": "commerce",
+      "description": "Persistent cart icon with item count. Always accessible for checkout.",
+      "aliases": ["cart-badge"]
+    },
+    {
+      "id": "one-click-purchase",
+      "name": "One-Click Purchase",
+      "category": "commerce",
+      "description": "Skip cart and checkout steps by using saved payment info. Reduces friction dramatically.",
+      "aliases": ["instant-buy", "buy-now"]
+    },
+    {
+      "id": "free-trial-cta",
+      "name": "Free Trial CTA",
+      "category": "commerce",
+      "description": "Prominent offer to try before buying. Reduces perceived risk and increases conversions.",
+      "aliases": ["trial-offer"]
+    },
+    {
+      "id": "toast-notification",
+      "name": "Toast Notification",
+      "category": "feedback",
+      "description": "Brief, non-intrusive message that appears temporarily to confirm actions or provide updates.",
+      "aliases": ["snackbar", "temporary-alert"]
+    },
+    {
+      "id": "loading-spinner",
+      "name": "Loading Spinner",
+      "category": "feedback",
+      "description": "Animated indicator showing system is working. Prevents user uncertainty during waits.",
+      "aliases": ["activity-indicator", "progress-spinner"]
+    },
+    {
+      "id": "success-confirmation",
+      "name": "Success Confirmation",
+      "category": "feedback",
+      "description": "Clear visual and textual confirmation that action completed successfully.",
+      "aliases": ["success-message", "completion-state"]
+    },
+    {
+      "id": "error-message",
+      "name": "Error Message",
+      "category": "feedback",
+      "description": "Clear explanation of what went wrong and how to fix it. Should be actionable, not just descriptive.",
+      "aliases": ["error-state", "failure-message"]
+    },
+    {
+      "id": "contextual-help",
+      "name": "Contextual Help",
+      "category": "assistance",
+      "description": "Tooltips, info icons, or inline help text that explains features without leaving context.",
+      "aliases": ["inline-help", "tooltips"]
+    },
+    {
+      "id": "onboarding-checklist",
+      "name": "Onboarding Checklist",
+      "category": "assistance",
+      "description": "List of setup tasks that guides new users to value and shows progress.",
+      "aliases": ["setup-checklist", "getting-started-list"]
+    },
+    {
+      "id": "search-autocomplete",
+      "name": "Search Autocomplete",
+      "category": "search",
+      "description": "Suggest completions as user types to speed up search and guide discovery.",
+      "aliases": ["search-suggestions", "typeahead"]
+    },
+    {
+      "id": "filter-facets",
+      "name": "Filter Facets",
+      "category": "search",
+      "description": "Multiple filtering options to refine search results. Common in e-commerce and content discovery.",
+      "aliases": ["faceted-search", "filter-bar"]
+    },
+    {
+      "id": "minimal-navigation",
+      "name": "Minimal Navigation",
+      "category": "onboarding",
+      "description": "Reduce navigation options during critical flows to maintain focus and reduce abandonment.",
+      "aliases": ["focused-navigation", "reduced-nav"]
+    }
+  ]
+}

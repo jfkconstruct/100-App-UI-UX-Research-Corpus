@@ -1,0 +1,112 @@
+# UI/UX Research Corpus - Seed Apps
+# Add apps you want to analyze to this list
+
+- app_id: notion
+  name: Notion
+  category: productivity
+  platforms: [web, ios, android, desktop]
+  url: "https://www.notion.so"
+  notes:
+    - "Best-in-class onboarding with progressive disclosure"
+    - "Complex feature set with relatively low perceived friction"
+    - "Excellent information architecture and empty states"
+    - "Strong use of templates and educational moments"
+
+- app_id: duolingo
+  name: Duolingo
+  category: education
+  platforms: [web, ios, android]
+  url: "https://www.duolingo.com"
+  notes:
+    - "Gamified onboarding and habit formation"
+    - "Masterclass in behavioral psychology and engagement loops"
+    - "Clear progress indicators and achievement systems"
+    - "Low-friction entry with immediate value demonstration"
+
+- app_id: airbnb
+  name: Airbnb
+  category: travel
+  platforms: [web, ios, android]
+  url: "https://www.airbnb.com"
+  notes:
+    - "Search-first design with powerful filtering"
+    - "Beautiful imagery and trust-building elements"
+    - "Excellent booking flow with clear pricing breakdowns"
+    - "Host and guest perspectives well-balanced"
+
+- app_id: stripe
+  name: Stripe
+  category: finance
+  platforms: [web]
+  url: "https://stripe.com"
+  notes:
+    - "Developer-focused onboarding and documentation integration"
+    - "Complex financial product made accessible"
+    - "Strong use of progressive disclosure for technical depth"
+    - "Clean dashboard design with clear hierarchy"
+
+- app_id: figma
+  name: Figma
+  category: design
+  platforms: [web, desktop]
+  url: "https://www.figma.com"
+  notes:
+    - "Collaborative features seamlessly integrated"
+    - "Zero-friction start with templates and examples"
+    - "Complex tool with excellent discoverability"
+    - "Real-time collaboration UX patterns"
+
+- app_id: linear
+  name: Linear
+  category: productivity
+  platforms: [web, ios, android, desktop]
+  url: "https://linear.app"
+  notes:
+    - "Speed and keyboard shortcuts as design principle"
+    - "Minimal, focused interface with hidden depth"
+    - "Excellent command palette pattern"
+    - "Opinionated workflows that reduce decision fatigue"
+
+- app_id: spotify
+  name: Spotify
+  category: entertainment
+  platforms: [web, ios, android, desktop]
+  url: "https://www.spotify.com"
+  notes:
+    - "Personalization and discovery patterns"
+    - "Strong visual design with album art as hero"
+    - "Multiple entry points to same content (playlists, radio, search)"
+    - "Seamless cross-device experience"
+
+- app_id: slack
+  name: Slack
+  category: communication
+  platforms: [web, ios, android, desktop]
+  url: "https://slack.com"
+  notes:
+    - "Thread management and conversation organization"
+    - "Workspace onboarding with team building"
+    - "Complex notification settings made manageable"
+    - "Search and navigation in high-volume environments"
+
+- app_id: github
+  name: GitHub
+  category: developer-tools
+  platforms: [web, ios, android, desktop]
+  url: "https://github.com"
+  notes:
+    - "Social coding patterns and collaboration flows"
+    - "Complex technical product with progressive complexity"
+    - "Strong information architecture for code organization"
+    - "Pull request and code review UX"
+
+- app_id: cal-com
+  name: Cal.com
+  category: productivity
+  platforms: [web]
+  url: "https://cal.com"
+  notes:
+    - "Open source alternative with modern UX"
+    - "Booking flow optimization and calendar integration"
+    - "Clean, minimal interface with focused user goals"
+    - "Excellent empty states and setup guidance"

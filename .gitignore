@@ -1,0 +1,47 @@
+# Dependencies
+node_modules/
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# Build outputs
+dist/
+*.js
+*.js.map
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Logs
+logs/*.log
+*.log
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Playwright
+.playwright/
+playwright-report/
+test-results/
+
+# Screenshots (optional - uncomment if you want to track screenshots in git)
+# data/raw_screens/
+
+# Generated files (optional - uncomment if you don't want to track generated data)
+# data/apps/*/patterns_summary.json
+# data/atlas/
+
+# Temporary files
+tmp/
+temp/
+.cache/

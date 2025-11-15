@@ -1,0 +1,29 @@
+[
+  {
+    "flow_id": "onboarding",
+    "name": "Onboarding",
+    "primary_user_goal": "Get set up and understand Notion's basic value quickly",
+    "business_goal": "Activate new users and reduce early churn by demonstrating value",
+    "entry_point": "Sign-up completion",
+    "exit_point": "User reaches their first workspace with initial content",
+    "screens": ["onboarding-01", "onboarding-02", "onboarding-03", "onboarding-04"]
+  },
+  {
+    "flow_id": "page-creation",
+    "name": "Page Creation",
+    "primary_user_goal": "Create a new page and start adding content",
+    "business_goal": "Drive content creation and engagement with the platform",
+    "entry_point": "New page button in sidebar or slash command",
+    "exit_point": "User typing in new page or selecting a template",
+    "screens": ["page-creation-01", "page-creation-02"]
+  },
+  {
+    "flow_id": "template-selection",
+    "name": "Template Selection",
+    "primary_user_goal": "Find and use a pre-built template to get started faster",
+    "business_goal": "Accelerate time-to-value and showcase platform capabilities",
+    "entry_point": "Templates button or template gallery",
+    "exit_point": "Template applied to user's workspace",
+    "screens": ["template-selection-01", "template-selection-02", "template-selection-03"]
+  }
+]

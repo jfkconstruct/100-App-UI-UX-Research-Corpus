@@ -1,0 +1,40 @@
+{
+  "heuristics": [
+    {
+      "id": "clarity",
+      "name": "Clarity",
+      "weight": 1.0,
+      "description": "Can users immediately understand the purpose of this screen and what they should do next? Clear labeling, obvious affordances, and unambiguous messaging."
+    },
+    {
+      "id": "cognitive_load",
+      "name": "Cognitive Load",
+      "weight": 1.0,
+      "description": "How much mental effort is required to use this screen? Higher scores indicate lower cognitive load. Considers information density, decision complexity, and visual noise."
+    },
+    {
+      "id": "visual_hierarchy",
+      "name": "Visual Hierarchy",
+      "weight": 1.0,
+      "description": "Are the most important elements visually prominent? Effective use of size, color, contrast, spacing, and typography to guide attention."
+    },
+    {
+      "id": "feedback",
+      "name": "Feedback & Status",
+      "weight": 0.8,
+      "description": "Does the UI confirm actions and clearly communicate system state? Loading states, success/error messages, progress indicators, and state changes."
+    },
+    {
+      "id": "accessibility",
+      "name": "Accessibility",
+      "weight": 1.2,
+      "description": "Inclusive design quality. Color contrast, text size, keyboard navigation, screen reader support, touch target sizes, and consideration for various abilities."
+    },
+    {
+      "id": "conversion_strength",
+      "name": "Conversion Strength",
+      "weight": 1.3,
+      "description": "For CTAs and value propositions, how compelling is the presentation? Persuasive copy, visual emphasis, perceived value, reduced friction, and clear benefit communication."
+    }
+  ]
+}

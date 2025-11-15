@@ -1,0 +1,270 @@
+[
+  {
+    "screen_id": "onboarding-01",
+    "app_id": "notion",
+    "flow_id": "onboarding",
+    "step_index": 0,
+    "image_path": "data/raw_screens/notion/onboarding/01-welcome.png",
+    "screen_type": "welcome",
+    "layout_type": "full-screen-modal",
+    "primary_user_goal": "Understand what Notion is and decide to continue",
+    "primary_business_goal": "Get the user to continue onboarding and not abandon",
+    "primary_cta_label": "Get Started",
+    "secondary_cta_labels": [],
+    "navigation_elements": ["progress-indicator", "skip-link"],
+    "copy_summary": "Large headline 'Your wiki, docs & projects. Together.' with supporting copy explaining Notion's all-in-one value proposition. Clean illustration showing the product interface with multiple content types.",
+    "patterns": [
+      "progress-indicator",
+      "single-primary-cta",
+      "benefit-oriented-headline",
+      "hero-illustration",
+      "minimal-navigation"
+    ],
+    "heuristics": {
+      "clarity": 4.5,
+      "cognitive_load": 4.0,
+      "visual_hierarchy": 4.5,
+      "feedback": 3.5,
+      "accessibility": 3.5,
+      "conversion_strength": 4.0
+    },
+    "notes": "Strong clarity with benefit-focused headline that immediately communicates value proposition. Skip link is present but subtle, which might create friction for users who want to skip but also maintains focus. Progress indicator (4 dots) helps set expectations. The illustration is helpful but somewhat generic - could be more specific to user's potential use case."
+  },
+  {
+    "screen_id": "onboarding-02",
+    "app_id": "notion",
+    "flow_id": "onboarding",
+    "step_index": 1,
+    "image_path": "data/raw_screens/notion/onboarding/02-use-case.png",
+    "screen_type": "survey",
+    "layout_type": "full-screen-modal",
+    "primary_user_goal": "Indicate intended use case to get personalized experience",
+    "primary_business_goal": "Segment users and customize onboarding path",
+    "primary_cta_label": "Continue",
+    "secondary_cta_labels": ["Skip"],
+    "navigation_elements": ["progress-indicator", "back-button"],
+    "copy_summary": "Question 'What will you use Notion for?' with multiple choice options: Work, Personal, School, or combination. Each option has a descriptive icon.",
+    "patterns": [
+      "progress-indicator",
+      "single-primary-cta",
+      "card-layout",
+      "progressive-disclosure"
+    ],
+    "heuristics": {
+      "clarity": 4.5,
+      "cognitive_load": 4.5,
+      "visual_hierarchy": 4.0,
+      "feedback": 4.0,
+      "accessibility": 4.0,
+      "conversion_strength": 4.0
+    },
+    "notes": "Clear question with limited, meaningful choices. The use of cards with icons makes options easy to scan. The ability to select multiple options is good, though it's not immediately obvious - could use better affordance. Skip option is more prominent than on previous screen, acknowledging some users may want to explore first. Smart personalization opportunity."
+  },
+  {
+    "screen_id": "onboarding-03",
+    "app_id": "notion",
+    "flow_id": "onboarding",
+    "step_index": 2,
+    "image_path": "data/raw_screens/notion/onboarding/03-template-offer.png",
+    "screen_type": "template-selection",
+    "layout_type": "full-screen-modal",
+    "primary_user_goal": "Choose pre-built templates to start with relevant content",
+    "primary_business_goal": "Accelerate time-to-value by providing starting structure",
+    "primary_cta_label": "Add to workspace",
+    "secondary_cta_labels": ["Browse all templates", "Start from scratch"],
+    "navigation_elements": ["progress-indicator", "back-button"],
+    "copy_summary": "Headline 'Get started with a template' followed by 4-6 curated template cards based on previous use case selection. Each card shows preview, title, and brief description.",
+    "patterns": [
+      "progress-indicator",
+      "card-layout",
+      "smart-defaults",
+      "progressive-disclosure",
+      "hero-illustration"
+    ],
+    "heuristics": {
+      "clarity": 4.0,
+      "cognitive_load": 3.5,
+      "visual_hierarchy": 4.0,
+      "feedback": 3.5,
+      "accessibility": 3.5,
+      "conversion_strength": 4.5
+    },
+    "notes": "Excellent use of earlier input to show relevant templates. The 'Start from scratch' option respects user autonomy. Template previews are helpful but small - users might want to see more detail before committing. The cognitive load is slightly higher here with multiple options, but that's appropriate given it's a meaningful choice. Strong conversion element by immediately showing value."
+  },
+  {
+    "screen_id": "onboarding-04",
+    "app_id": "notion",
+    "flow_id": "onboarding",
+    "step_index": 3,
+    "image_path": "data/raw_screens/notion/onboarding/04-workspace-ready.png",
+    "screen_type": "success",
+    "layout_type": "full-screen-modal",
+    "primary_user_goal": "Confirm setup is complete and understand next steps",
+    "primary_business_goal": "Transition user into the product with clear direction",
+    "primary_cta_label": "Open my workspace",
+    "secondary_cta_labels": ["Watch quick tour"],
+    "navigation_elements": [],
+    "copy_summary": "Success message 'Your workspace is ready!' with brief explanation of what was set up. Optional tour offer for users who want guidance.",
+    "patterns": [
+      "success-confirmation",
+      "single-primary-cta",
+      "contextual-help"
+    ],
+    "heuristics": {
+      "clarity": 4.5,
+      "cognitive_load": 4.5,
+      "visual_hierarchy": 4.5,
+      "feedback": 5.0,
+      "accessibility": 4.0,
+      "conversion_strength": 4.0
+    },
+    "notes": "Clear success state with positive reinforcement. The optional tour is smart - doesn't force it but offers help for those who need it. The primary CTA is action-oriented and gets users into the product. Excellent feedback score because it clearly confirms what happened. Could potentially offer more specific next steps based on selected use case."
+  },
+  {
+    "screen_id": "page-creation-01",
+    "app_id": "notion",
+    "flow_id": "page-creation",
+    "step_index": 0,
+    "image_path": "data/raw_screens/notion/page-creation/01-new-page.png",
+    "screen_type": "empty-state",
+    "layout_type": "full-screen",
+    "primary_user_goal": "Start creating content on a blank page",
+    "primary_business_goal": "Encourage content creation and engagement",
+    "primary_cta_label": "",
+    "secondary_cta_labels": [],
+    "navigation_elements": ["sidebar", "back-button"],
+    "copy_summary": "Minimal empty state with placeholder text 'Untitled' as page title and 'Press / for commands' hint below. Very clean and unintimidating.",
+    "patterns": [
+      "empty-state",
+      "contextual-help",
+      "minimal-navigation"
+    ],
+    "heuristics": {
+      "clarity": 4.0,
+      "cognitive_load": 4.5,
+      "visual_hierarchy": 4.0,
+      "feedback": 3.0,
+      "accessibility": 4.0,
+      "conversion_strength": 3.5
+    },
+    "notes": "Excellent empty state that doesn't overwhelm. The slash command hint is subtle but helpful for discovery. Might be too minimal for first-time users - could benefit from more prominent guidance. The simplicity reduces cognitive load effectively. The blank canvas can be both liberating and intimidating depending on user experience level."
+  },
+  {
+    "screen_id": "page-creation-02",
+    "app_id": "notion",
+    "flow_id": "page-creation",
+    "step_index": 1,
+    "image_path": "data/raw_screens/notion/page-creation/02-slash-menu.png",
+    "screen_type": "command-palette",
+    "layout_type": "overlay",
+    "primary_user_goal": "Discover and select content blocks to add to page",
+    "primary_business_goal": "Showcase platform capabilities and enable content creation",
+    "primary_cta_label": "",
+    "secondary_cta_labels": [],
+    "navigation_elements": ["search-autocomplete"],
+    "copy_summary": "Dropdown menu showing categorized content blocks: Basic blocks (text, page, todo, heading), Database, Media, Embeds, Advanced. Each item has icon and keyboard shortcut.",
+    "patterns": [
+      "search-autocomplete",
+      "card-layout",
+      "contextual-help",
+      "progressive-disclosure"
+    ],
+    "heuristics": {
+      "clarity": 4.5,
+      "cognitive_load": 3.5,
+      "visual_hierarchy": 4.5,
+      "feedback": 4.0,
+      "accessibility": 3.5,
+      "conversion_strength": 4.0
+    },
+    "notes": "Excellent discoverability mechanism. The categorization helps users find what they need. Icons and keyboard shortcuts add helpful context. The menu is comprehensive but might be overwhelming on first use - good that it's progressive (only shows when invoked). The search capability at top of menu is crucial for power users. Could benefit from 'recently used' or 'recommended' section for faster access."
+  },
+  {
+    "screen_id": "template-selection-01",
+    "app_id": "notion",
+    "flow_id": "template-selection",
+    "step_index": 0,
+    "image_path": "data/raw_screens/notion/template-selection/01-gallery.png",
+    "screen_type": "gallery",
+    "layout_type": "grid",
+    "primary_user_goal": "Browse and find relevant template",
+    "primary_business_goal": "Demonstrate platform capabilities and accelerate value",
+    "primary_cta_label": "",
+    "secondary_cta_labels": [],
+    "navigation_elements": ["search-prominent", "filter-facets", "breadcrumbs"],
+    "copy_summary": "Template gallery with categories in sidebar (Personal, Work, Education, etc.) and grid of template cards showing preview image, title, description, and 'Use this template' button.",
+    "patterns": [
+      "card-layout",
+      "search-prominent",
+      "filter-facets",
+      "hero-illustration",
+      "lazy-loading"
+    ],
+    "heuristics": {
+      "clarity": 4.5,
+      "cognitive_load": 3.5,
+      "visual_hierarchy": 4.0,
+      "feedback": 3.5,
+      "accessibility": 3.5,
+      "conversion_strength": 4.5
+    },
+    "notes": "Well-organized gallery with clear categorization. Search is prominent for users who know what they want. Preview images help users evaluate templates quickly. The cognitive load is moderate due to number of choices, but filtering helps. Could benefit from user ratings or popularity indicators. The visual previews are excellent for conversion - users can see what they're getting."
+  },
+  {
+    "screen_id": "template-selection-02",
+    "app_id": "notion",
+    "flow_id": "template-selection",
+    "step_index": 1,
+    "image_path": "data/raw_screens/notion/template-selection/02-preview.png",
+    "screen_type": "detail",
+    "layout_type": "split-view",
+    "primary_user_goal": "Evaluate template in detail before adding to workspace",
+    "primary_business_goal": "Build confidence in template choice and drive adoption",
+    "primary_cta_label": "Use this template",
+    "secondary_cta_labels": ["Preview", "Back to gallery"],
+    "navigation_elements": ["back-button", "breadcrumbs"],
+    "copy_summary": "Template detail view with larger preview, full description, use cases, and 'What's included' section listing pages and databases in the template.",
+    "patterns": [
+      "hero-illustration",
+      "single-primary-cta",
+      "sticky-cta"
+    ],
+    "heuristics": {
+      "clarity": 4.5,
+      "cognitive_load": 4.0,
+      "visual_hierarchy": 4.5,
+      "feedback": 3.5,
+      "accessibility": 4.0,
+      "conversion_strength": 4.5
+    },
+    "notes": "Excellent detail page that helps users make informed decision. The 'What's included' section is particularly helpful - sets clear expectations. Preview option lets users explore without committing. Sticky CTA ensures it's always accessible. Good balance of information without overwhelming. Back navigation is clear."
+  },
+  {
+    "screen_id": "template-selection-03",
+    "app_id": "notion",
+    "flow_id": "template-selection",
+    "step_index": 2,
+    "image_path": "data/raw_screens/notion/template-selection/03-added.png",
+    "screen_type": "success",
+    "layout_type": "toast",
+    "primary_user_goal": "Confirm template was added and navigate to it",
+    "primary_business_goal": "Provide feedback and guide user to newly added content",
+    "primary_cta_label": "Open template",
+    "secondary_cta_labels": [],
+    "navigation_elements": [],
+    "copy_summary": "Toast notification at bottom of screen: 'Template added to your workspace' with link to open it.",
+    "patterns": [
+      "success-confirmation",
+      "toast-notification"
+    ],
+    "heuristics": {
+      "clarity": 4.5,
+      "cognitive_load": 4.5,
+      "visual_hierarchy": 4.0,
+      "feedback": 5.0,
+      "accessibility": 3.5,
+      "conversion_strength": 4.0
+    },
+    "notes": "Perfect feedback pattern - confirms action without interrupting flow. Toast is non-intrusive but clear. Link to open template is convenient. Could potentially show where in workspace the template was added for better spatial awareness. Accessibility could be improved with screen reader announcements. Excellent feedback score for clear action confirmation."
+  }
+]
