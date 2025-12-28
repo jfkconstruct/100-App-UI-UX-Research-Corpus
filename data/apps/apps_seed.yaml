@@ -706,3 +706,426 @@
     - "Project and artifact management"
     - "File upload and analysis flows"
     - "Clean, minimal interface for AI chat"
+
+# Email & Communication Tools
+- app_id: superhuman
+  name: Superhuman
+  category: productivity
+  platforms: [web, ios, android, desktop]
+  url: "https://superhuman.com"
+  notes:
+    - "Keyboard-first email experience"
+    - "Speed as core design principle"
+    - "Onboarding includes 1-on-1 training"
+    - "Premium pricing for polished experience"
+
+- app_id: hey
+  name: Hey
+  category: productivity
+  platforms: [web, ios, android]
+  url: "https://www.hey.com"
+  notes:
+    - "Email reimagined with opinionated workflows"
+    - "Screener for first-time senders"
+    - "The Feed for newsletters"
+    - "Novel approaches to email problems"
+
+- app_id: front
+  name: Front
+  category: productivity
+  platforms: [web, ios, android, desktop]
+  url: "https://front.com"
+  notes:
+    - "Shared inbox collaboration"
+    - "Internal comments on emails"
+    - "Multi-channel support (email, SMS, social)"
+    - "Team coordination patterns"
+
+# Browser & Launcher Innovation
+- app_id: arc
+  name: Arc Browser
+  category: productivity
+  platforms: [web, desktop]
+  url: "https://arc.net"
+  notes:
+    - "Browser reimagined with vertical tabs"
+    - "Spaces for context switching"
+    - "Split view and Little Arc for quick tasks"
+    - "Chromium base with radical UX changes"
+
+- app_id: raycast
+  name: Raycast
+  category: productivity
+  platforms: [desktop]
+  url: "https://www.raycast.com"
+  notes:
+    - "Spotlight replacement with extensions"
+    - "Keyboard-first productivity launcher"
+    - "Script commands and API"
+    - "Beautiful, fast, native experience"
+
+# Task Management Excellence
+- app_id: things
+  name: Things 3
+  category: productivity
+  platforms: [ios, desktop]
+  url: "https://culturedcode.com/things"
+  notes:
+    - "Award-winning design and interaction"
+    - "Magic Plus for natural task creation"
+    - "Today view and Evening routine"
+    - "Thoughtful animations and polish"
+
+- app_id: todoist
+  name: Todoist
+  category: productivity
+  platforms: [web, ios, android, desktop]
+  url: "https://todoist.com"
+  notes:
+    - "Natural language task creation"
+    - "Karma gamification system"
+    - "Cross-platform consistency"
+    - "Nested projects and filters"
+
+- app_id: any-do
+  name: Any.do
+  category: productivity
+  platforms: [web, ios, android]
+  url: "https://www.any.do"
+  notes:
+    - "Clean, minimal task management"
+    - "Daily planning moment"
+    - "Smart suggestions and reminders"
+    - "Calendar integration"
+
+# Personal Finance & Budgeting
+- app_id: ynab
+  name: YNAB
+  category: finance
+  platforms: [web, ios, android]
+  url: "https://www.ynab.com"
+  notes:
+    - "Zero-based budgeting methodology"
+    - "Educational onboarding for financial literacy"
+    - "Goal tracking and debt payoff"
+    - "Philosophy-driven product design"
+
+- app_id: mint
+  name: Mint
+  category: finance
+  platforms: [web, ios, android]
+  url: "https://www.mint.com"
+  notes:
+    - "Automatic expense categorization"
+    - "Financial overview dashboard"
+    - "Budget tracking and alerts"
+    - "Free tier monetization through recommendations"
+
+- app_id: venmo
+  name: Venmo
+  category: finance
+  platforms: [web, ios, android]
+  url: "https://venmo.com"
+  notes:
+    - "Social payment feed"
+    - "Emoji and casual payment culture"
+    - "Split bill features"
+    - "Peer-to-peer payments made social"
+
+- app_id: cash-app
+  name: Cash App
+  category: finance
+  platforms: [web, ios, android]
+  url: "https://cash.app"
+  notes:
+    - "Simple P2P payments with cashtags"
+    - "Bitcoin and stock investing integration"
+    - "Cash Card debit card"
+    - "Minimal design philosophy"
+
+# Meditation & Wellness
+- app_id: calm
+  name: Calm
+  category: health-fitness
+  platforms: [web, ios, android]
+  url: "https://www.calm.com"
+  notes:
+    - "Meditation and sleep stories"
+    - "Calming visual design and sounds"
+    - "Daily Calm routine building"
+    - "Celebrity voice content"
+
+# Automation & Integration
+- app_id: zapier
+  name: Zapier
+  category: productivity
+  platforms: [web]
+  url: "https://zapier.com"
+  notes:
+    - "No-code automation builder"
+    - "Visual workflow creation"
+    - "Thousands of app integrations"
+    - "Complex logic made accessible"
+
+- app_id: ifttt
+  name: IFTTT
+  category: productivity
+  platforms: [web, ios, android]
+  url: "https://ifttt.com"
+  notes:
+    - "Simple if-this-then-that automation"
+    - "Applet marketplace"
+    - "Consumer IoT focus"
+    - "Template-based automation discovery"
+
+# Video & Screen Recording
+- app_id: loom
+  name: Loom
+  category: communication
+  platforms: [web, ios, android, desktop]
+  url: "https://www.loom.com"
+  notes:
+    - "Async video messaging"
+    - "Screen + webcam bubble"
+    - "Instant sharing after recording"
+    - "Emoji reactions and comments on timeline"
+
+# Forms & Surveys
+- app_id: typeform
+  name: Typeform
+  category: productivity
+  platforms: [web]
+  url: "https://www.typeform.com"
+  notes:
+    - "One question at a time interface"
+    - "Conversational form experience"
+    - "Beautiful templates and themes"
+    - "Logic jumps and branching"
+
+- app_id: surveymonkey
+  name: SurveyMonkey
+  category: productivity
+  platforms: [web, ios, android]
+  url: "https://www.surveymonkey.com"
+  notes:
+    - "Survey creation and analysis"
+    - "Question bank and templates"
+    - "Response collection and reporting"
+    - "Enterprise survey platform"
+
+# Password Management
+- app_id: 1password
+  name: 1Password
+  category: security
+  platforms: [web, ios, android, desktop]
+  url: "https://1password.com"
+  notes:
+    - "Password vault with family sharing"
+    - "Watchtower security monitoring"
+    - "Browser extension auto-fill"
+    - "Travel Mode for sensitive data"
+
+- app_id: bitwarden
+  name: Bitwarden
+  category: security
+  platforms: [web, ios, android, desktop]
+  url: "https://bitwarden.com"
+  notes:
+    - "Open-source password manager"
+    - "Self-hosting option"
+    - "Free tier with core features"
+    - "Transparent security practices"
+
+# Writing & Content Tools
+- app_id: grammarly
+  name: Grammarly
+  category: productivity
+  platforms: [web, ios, android, desktop]
+  url: "https://www.grammarly.com"
+  notes:
+    - "Real-time writing assistance"
+    - "Tone and clarity suggestions"
+    - "Browser extension integration"
+    - "Goals-based writing guidance"
+
+- app_id: hemingway
+  name: Hemingway Editor
+  category: productivity
+  platforms: [web, desktop]
+  url: "https://hemingwayapp.com"
+  notes:
+    - "Bold, clear writing style checker"
+    - "Readability grade level"
+    - "Sentence complexity highlighting"
+    - "Simple, focused interface"
+
+- app_id: medium
+  name: Medium
+  category: content-publishing
+  platforms: [web, ios, android]
+  url: "https://medium.com"
+  notes:
+    - "Distraction-free reading experience"
+    - "Claps engagement mechanism"
+    - "Partner program for writers"
+    - "Publication and distribution model"
+
+- app_id: ghost
+  name: Ghost
+  category: content-publishing
+  platforms: [web]
+  url: "https://ghost.org"
+  notes:
+    - "Professional publishing platform"
+    - "Membership and subscription features"
+    - "Markdown-based editor"
+    - "Open-source and self-hostable"
+
+# Website Builders
+- app_id: squarespace
+  name: Squarespace
+  category: design
+  platforms: [web]
+  url: "https://www.squarespace.com"
+  notes:
+    - "Beautiful templates out of the box"
+    - "Drag-and-drop customization"
+    - "E-commerce integration"
+    - "All-in-one website solution"
+
+- app_id: wix
+  name: Wix
+  category: design
+  platforms: [web]
+  url: "https://www.wix.com"
+  notes:
+    - "Absolute positioning editor"
+    - "ADI (Artificial Design Intelligence)"
+    - "App marketplace"
+    - "Design freedom vs structure trade-offs"
+
+# Cloud Storage & File Management
+- app_id: dropbox
+  name: Dropbox
+  category: productivity
+  platforms: [web, ios, android, desktop]
+  url: "https://www.dropbox.com"
+  notes:
+    - "Pioneer of cloud sync UX"
+    - "Folder-based organization"
+    - "Paper for collaborative docs"
+    - "Smart Sync for local storage management"
+
+- app_id: google-drive
+  name: Google Drive
+  category: productivity
+  platforms: [web, ios, android]
+  url: "https://drive.google.com"
+  notes:
+    - "Integrated with Google Workspace"
+    - "Real-time collaborative editing"
+    - "Search across file contents"
+    - "Shared drives for teams"
+
+# Scheduling & Meetings
+- app_id: calendly
+  name: Calendly
+  category: productivity
+  platforms: [web, ios, android]
+  url: "https://calendly.com"
+  notes:
+    - "Scheduling links for meetings"
+    - "Availability preferences and buffers"
+    - "Team scheduling and round-robin"
+    - "Reduced back-and-forth coordination"
+
+- app_id: doodle
+  name: Doodle
+  category: productivity
+  platforms: [web, ios, android]
+  url: "https://doodle.com"
+  notes:
+    - "Group scheduling polls"
+    - "Meeting time finder"
+    - "Booking page for 1-on-1s"
+    - "Simple consensus building"
+
+# Reading & Knowledge
+- app_id: pocket
+  name: Pocket
+  category: productivity
+  platforms: [web, ios, android]
+  url: "https://getpocket.com"
+  notes:
+    - "Save for later reading"
+    - "Distraction-free reader view"
+    - "Tagging and organization"
+    - "Recommendations based on saves"
+
+- app_id: readwise
+  name: Readwise
+  category: productivity
+  platforms: [web, ios, android]
+  url: "https://readwise.io"
+  notes:
+    - "Highlight aggregation from books and articles"
+    - "Spaced repetition for retention"
+    - "Daily review email"
+    - "Export to note-taking apps"
+
+- app_id: feedly
+  name: Feedly
+  category: productivity
+  platforms: [web, ios, android]
+  url: "https://feedly.com"
+  notes:
+    - "RSS reader with AI categorization"
+    - "Feed organization and discovery"
+    - "Research and trend monitoring"
+    - "Integration with productivity tools"
+
+# Customer Support & CRM
+- app_id: intercom
+  name: Intercom
+  category: business
+  platforms: [web, ios, android]
+  url: "https://www.intercom.com"
+  notes:
+    - "Customer messaging platform"
+    - "In-app chat widget"
+    - "Onboarding tours and messages"
+    - "Support, sales, and marketing unified"
+
+- app_id: zendesk
+  name: Zendesk
+  category: business
+  platforms: [web, ios, android]
+  url: "https://www.zendesk.com"
+  notes:
+    - "Support ticket management"
+    - "Multi-channel support (email, chat, phone)"
+    - "Knowledge base and help center"
+    - "Agent workspace optimization"
+
+# Marketing & Email
+- app_id: mailchimp
+  name: Mailchimp
+  category: marketing
+  platforms: [web, ios, android]
+  url: "https://mailchimp.com"
+  notes:
+    - "Email marketing for non-technical users"
+    - "Campaign builder and templates"
+    - "Audience segmentation"
+    - "Expanded into all-in-one marketing"
+
+- app_id: convertkit
+  name: ConvertKit
+  category: marketing
+  platforms: [web, ios, android]
+  url: "https://convertkit.com"
+  notes:
+    - "Creator-focused email marketing"
+    - "Visual automation builder"
+    - "Landing pages and forms"
+    - "Subscriber tagging and segments"
