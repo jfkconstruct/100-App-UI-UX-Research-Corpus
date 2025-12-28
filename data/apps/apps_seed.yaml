@@ -110,3 +110,599 @@
     - "Booking flow optimization and calendar integration"
     - "Clean, minimal interface with focused user goals"
     - "Excellent empty states and setup guidance"
+
+# Social Media & Community
+- app_id: twitter
+  name: Twitter / X
+  category: social
+  platforms: [web, ios, android]
+  url: "https://twitter.com"
+  notes:
+    - "Real-time feed with algorithmic and chronological options"
+    - "Threading and conversation patterns"
+    - "Character limits driving concise communication"
+    - "Rich media integration with minimal friction"
+
+- app_id: instagram
+  name: Instagram
+  category: social
+  platforms: [web, ios, android]
+  url: "https://www.instagram.com"
+  notes:
+    - "Visual-first mobile experience"
+    - "Stories pattern and ephemeral content"
+    - "Explore and discovery algorithms"
+    - "Creator tools and engagement patterns"
+
+- app_id: linkedin
+  name: LinkedIn
+  category: social
+  platforms: [web, ios, android]
+  url: "https://www.linkedin.com"
+  notes:
+    - "Professional networking UX patterns"
+    - "Profile completeness gamification"
+    - "Job search and application flows"
+    - "Content feed balanced for professional context"
+
+- app_id: discord
+  name: Discord
+  category: communication
+  platforms: [web, ios, android, desktop]
+  url: "https://discord.com"
+  notes:
+    - "Server and channel organization patterns"
+    - "Voice/video integration in community context"
+    - "Permission systems made understandable"
+    - "Gaming-first design expanding to general use"
+
+- app_id: reddit
+  name: Reddit
+  category: social
+  platforms: [web, ios, android]
+  url: "https://www.reddit.com"
+  notes:
+    - "Subreddit discovery and navigation"
+    - "Voting and sorting mechanisms"
+    - "Community moderation tools"
+    - "Thread depth visualization"
+
+# E-commerce & Marketplace
+- app_id: amazon
+  name: Amazon
+  category: e-commerce
+  platforms: [web, ios, android]
+  url: "https://www.amazon.com"
+  notes:
+    - "One-click purchase optimization"
+    - "Product discovery and recommendation engine"
+    - "Review and rating systems"
+    - "Subscribe & Save recurring patterns"
+
+- app_id: shopify
+  name: Shopify
+  category: e-commerce
+  platforms: [web, ios, android]
+  url: "https://www.shopify.com"
+  notes:
+    - "Merchant onboarding and store setup"
+    - "Dashboard for business operations"
+    - "Theme customization without code"
+    - "Multi-step guided workflows"
+
+- app_id: etsy
+  name: Etsy
+  category: e-commerce
+  platforms: [web, ios, android]
+  url: "https://www.etsy.com"
+  notes:
+    - "Artisan marketplace discovery"
+    - "Seller story and brand building"
+    - "Custom order flows"
+    - "Trust signals for handmade items"
+
+- app_id: uber
+  name: Uber
+  category: transportation
+  platforms: [web, ios, android]
+  url: "https://www.uber.com"
+  notes:
+    - "Real-time tracking and ETA patterns"
+    - "Price transparency before commitment"
+    - "Two-sided marketplace (rider/driver)"
+    - "Map-first interface design"
+
+- app_id: doordash
+  name: DoorDash
+  category: food-delivery
+  platforms: [web, ios, android]
+  url: "https://www.doordash.com"
+  notes:
+    - "Restaurant discovery and filtering"
+    - "Real-time order tracking"
+    - "Group ordering features"
+    - "Dasher (delivery) tracking UX"
+
+# Finance & Banking
+- app_id: paypal
+  name: PayPal
+  category: finance
+  platforms: [web, ios, android]
+  url: "https://www.paypal.com"
+  notes:
+    - "Simplified payment flows"
+    - "Send money social patterns"
+    - "Security and verification UX"
+    - "Business vs personal account distinction"
+
+- app_id: coinbase
+  name: Coinbase
+  category: finance
+  platforms: [web, ios, android]
+  url: "https://www.coinbase.com"
+  notes:
+    - "Crypto complexity made accessible"
+    - "Educational onboarding for new users"
+    - "Security-first verification flows"
+    - "Portfolio tracking and visualization"
+
+- app_id: robinhood
+  name: Robinhood
+  category: finance
+  platforms: [web, ios, android]
+  url: "https://www.robinhood.com"
+  notes:
+    - "Simplified stock trading for beginners"
+    - "Real-time data visualization"
+    - "Fractional shares concept"
+    - "Gamification concerns and design choices"
+
+- app_id: mercury
+  name: Mercury
+  category: finance
+  platforms: [web, ios, android]
+  url: "https://mercury.com"
+  notes:
+    - "Startup-focused banking UX"
+    - "Fast onboarding for business accounts"
+    - "Clean dashboard for financial operations"
+    - "Integration-first design philosophy"
+
+# Health & Fitness
+- app_id: strava
+  name: Strava
+  category: health-fitness
+  platforms: [web, ios, android]
+  url: "https://www.strava.com"
+  notes:
+    - "Activity tracking and social features"
+    - "Segment competition gamification"
+    - "Route discovery and planning"
+    - "Achievement and milestone patterns"
+
+- app_id: headspace
+  name: Headspace
+  category: health-fitness
+  platforms: [web, ios, android]
+  url: "https://www.headspace.com"
+  notes:
+    - "Meditation guidance and onboarding"
+    - "Progress tracking for habits"
+    - "Playful animation and character design"
+    - "Subscription conversion patterns"
+
+- app_id: myfitnesspal
+  name: MyFitnessPal
+  category: health-fitness
+  platforms: [web, ios, android]
+  url: "https://www.myfitnesspal.com"
+  notes:
+    - "Food logging and barcode scanning"
+    - "Extensive database search UX"
+    - "Goal setting and tracking"
+    - "Community and social support features"
+
+- app_id: peloton
+  name: Peloton
+  category: health-fitness
+  platforms: [web, ios, android]
+  url: "https://www.onepeloton.com"
+  notes:
+    - "Class discovery and scheduling"
+    - "Leaderboard and competition elements"
+    - "Instructor-focused content organization"
+    - "Connected fitness ecosystem"
+
+# Education & Learning
+- app_id: coursera
+  name: Coursera
+  category: education
+  platforms: [web, ios, android]
+  url: "https://www.coursera.org"
+  notes:
+    - "Course discovery and filtering"
+    - "Progress tracking through curricula"
+    - "Certificate and credential display"
+    - "Video learning interface"
+
+- app_id: khan-academy
+  name: Khan Academy
+  category: education
+  platforms: [web, ios, android]
+  url: "https://www.khanacademy.org"
+  notes:
+    - "Skill tree and learning paths"
+    - "Mastery-based progression"
+    - "Interactive exercises"
+    - "Free education model with donation flows"
+
+- app_id: udemy
+  name: Udemy
+  category: education
+  platforms: [web, ios, android]
+  url: "https://www.udemy.com"
+  notes:
+    - "Course marketplace dynamics"
+    - "Preview and sample content"
+    - "Pricing and sales patterns"
+    - "Student reviews and social proof"
+
+- app_id: quizlet
+  name: Quizlet
+  category: education
+  platforms: [web, ios, android]
+  url: "https://quizlet.com"
+  notes:
+    - "Flashcard creation and study modes"
+    - "Spaced repetition patterns"
+    - "User-generated content marketplace"
+    - "Game-based learning features"
+
+# Productivity & Work Tools
+- app_id: asana
+  name: Asana
+  category: productivity
+  platforms: [web, ios, android, desktop]
+  url: "https://asana.com"
+  notes:
+    - "Multiple view modes (list, board, timeline, calendar)"
+    - "Task dependencies and relationships"
+    - "Team collaboration patterns"
+    - "Onboarding for different team sizes"
+
+- app_id: trello
+  name: Trello
+  category: productivity
+  platforms: [web, ios, android, desktop]
+  url: "https://trello.com"
+  notes:
+    - "Kanban board pattern popularization"
+    - "Simple drag-and-drop interactions"
+    - "Power-ups and extensibility"
+    - "Templates for quick starts"
+
+- app_id: monday
+  name: Monday.com
+  category: productivity
+  platforms: [web, ios, android, desktop]
+  url: "https://monday.com"
+  notes:
+    - "Colorful, visual project management"
+    - "Customizable workflows and automations"
+    - "Dashboard and reporting views"
+    - "No-code automation builder"
+
+- app_id: airtable
+  name: Airtable
+  category: productivity
+  platforms: [web, ios, android, desktop]
+  url: "https://www.airtable.com"
+  notes:
+    - "Spreadsheet-database hybrid interface"
+    - "Multiple views (grid, gallery, kanban, calendar)"
+    - "Relational data made visual"
+    - "Template marketplace"
+
+- app_id: miro
+  name: Miro
+  category: collaboration
+  platforms: [web, ios, android, desktop]
+  url: "https://miro.com"
+  notes:
+    - "Infinite canvas collaboration"
+    - "Real-time multiplayer cursors"
+    - "Template library for workshops"
+    - "Zoom and navigation patterns for large boards"
+
+- app_id: coda
+  name: Coda
+  category: productivity
+  platforms: [web, ios, android]
+  url: "https://coda.io"
+  notes:
+    - "Document-as-application concept"
+    - "Building blocks and formulas"
+    - "Publishing and sharing modes"
+    - "Progressive disclosure of power features"
+
+# Communication & Messaging
+- app_id: zoom
+  name: Zoom
+  category: communication
+  platforms: [web, ios, android, desktop]
+  url: "https://zoom.us"
+  notes:
+    - "One-click meeting join"
+    - "Host controls and participant management"
+    - "Virtual backgrounds and video settings"
+    - "Simplicity over feature complexity"
+
+- app_id: whatsapp
+  name: WhatsApp
+  category: communication
+  platforms: [web, ios, android]
+  url: "https://www.whatsapp.com"
+  notes:
+    - "Phone number based onboarding"
+    - "Status/Stories ephemeral content"
+    - "Group chat management"
+    - "End-to-end encryption messaging"
+
+- app_id: telegram
+  name: Telegram
+  category: communication
+  platforms: [web, ios, android, desktop]
+  url: "https://telegram.org"
+  notes:
+    - "Channel and group distinctions"
+    - "Bot ecosystem and integrations"
+    - "File sharing and cloud storage"
+    - "Secret chats and privacy features"
+
+- app_id: notion-calendar
+  name: Notion Calendar
+  category: productivity
+  platforms: [web, ios, android, desktop]
+  url: "https://www.notion.so/product/calendar"
+  notes:
+    - "Calendar management with context"
+    - "Meeting scheduling flows"
+    - "Integration with Notion workspace"
+    - "Time blocking and planning"
+
+# Design & Creative Tools
+- app_id: canva
+  name: Canva
+  category: design
+  platforms: [web, ios, android]
+  url: "https://www.canva.com"
+  notes:
+    - "Template-first design approach"
+    - "Drag-and-drop simplicity"
+    - "Non-designer onboarding excellence"
+    - "Asset library and search"
+
+- app_id: framer
+  name: Framer
+  category: design
+  platforms: [web]
+  url: "https://www.framer.com"
+  notes:
+    - "Design-to-code workflow"
+    - "Interactive prototype building"
+    - "Component-based design system"
+    - "Publishing and CMS integration"
+
+- app_id: webflow
+  name: Webflow
+  category: design
+  platforms: [web]
+  url: "https://webflow.com"
+  notes:
+    - "Visual development platform"
+    - "CMS and e-commerce without code"
+    - "Designer vs Editor modes"
+    - "Complex tool with excellent learning resources"
+
+- app_id: adobe-xd
+  name: Adobe XD
+  category: design
+  platforms: [web, desktop]
+  url: "https://www.adobe.com/products/xd.html"
+  notes:
+    - "Prototyping and design handoff"
+    - "Repeat grid and responsive resize"
+    - "Component states and interactions"
+    - "Adobe ecosystem integration"
+
+# Developer Tools & Platforms
+- app_id: vercel
+  name: Vercel
+  category: developer-tools
+  platforms: [web]
+  url: "https://vercel.com"
+  notes:
+    - "Deploy preview patterns"
+    - "Git integration workflows"
+    - "Zero-config deployment UX"
+    - "Analytics and performance insights"
+
+- app_id: netlify
+  name: Netlify
+  category: developer-tools
+  platforms: [web]
+  url: "https://www.netlify.com"
+  notes:
+    - "Continuous deployment visualization"
+    - "Build logs and debugging"
+    - "Domain management simplified"
+    - "Function deployment patterns"
+
+- app_id: railway
+  name: Railway
+  category: developer-tools
+  platforms: [web]
+  url: "https://railway.app"
+  notes:
+    - "Infrastructure deployment simplified"
+    - "Project canvas visualization"
+    - "Template marketplace"
+    - "Pricing transparency"
+
+- app_id: supabase
+  name: Supabase
+  category: developer-tools
+  platforms: [web]
+  url: "https://supabase.com"
+  notes:
+    - "Firebase alternative with SQL"
+    - "Database schema visualization"
+    - "Auto-generated API documentation"
+    - "Real-time subscriptions UX"
+
+- app_id: postman
+  name: Postman
+  category: developer-tools
+  platforms: [web, desktop]
+  url: "https://www.postman.com"
+  notes:
+    - "API testing and documentation"
+    - "Collection organization patterns"
+    - "Collaboration on API development"
+    - "Environment and variable management"
+
+# Entertainment & Media
+- app_id: netflix
+  name: Netflix
+  category: entertainment
+  platforms: [web, ios, android]
+  url: "https://www.netflix.com"
+  notes:
+    - "Personalized content discovery"
+    - "Autoplay and continuous engagement"
+    - "Profile management for households"
+    - "Continue watching persistence"
+
+- app_id: youtube
+  name: YouTube
+  category: entertainment
+  platforms: [web, ios, android]
+  url: "https://www.youtube.com"
+  notes:
+    - "Video recommendations algorithm"
+    - "Creator studio and upload flows"
+    - "Comments and community features"
+    - "Shorts vertical video integration"
+
+- app_id: twitch
+  name: Twitch
+  category: entertainment
+  platforms: [web, ios, android]
+  url: "https://www.twitch.tv"
+  notes:
+    - "Live streaming discovery"
+    - "Chat and emote culture"
+    - "Subscription and bits monetization"
+    - "Raid and host features"
+
+- app_id: substack
+  name: Substack
+  category: content-publishing
+  platforms: [web, ios, android]
+  url: "https://substack.com"
+  notes:
+    - "Newsletter publishing simplified"
+    - "Subscription and payment flows"
+    - "Writer-first platform design"
+    - "Reader experience and archives"
+
+# Note-taking & Knowledge Management
+- app_id: obsidian
+  name: Obsidian
+  category: productivity
+  platforms: [web, ios, android, desktop]
+  url: "https://obsidian.md"
+  notes:
+    - "Local-first knowledge base"
+    - "Graph view and linking"
+    - "Plugin and theme ecosystem"
+    - "Markdown-based simplicity"
+
+- app_id: roam-research
+  name: Roam Research
+  category: productivity
+  platforms: [web]
+  url: "https://roamresearch.com"
+  notes:
+    - "Bidirectional linking pioneer"
+    - "Daily notes pattern"
+    - "Block-level references"
+    - "Network thought visualization"
+
+- app_id: evernote
+  name: Evernote
+  category: productivity
+  platforms: [web, ios, android, desktop]
+  url: "https://evernote.com"
+  notes:
+    - "Web clipper and capture tools"
+    - "Notebook organization hierarchy"
+    - "Search within images and PDFs"
+    - "Legacy product with modern redesign"
+
+# Travel & Booking
+- app_id: booking
+  name: Booking.com
+  category: travel
+  platforms: [web, ios, android]
+  url: "https://www.booking.com"
+  notes:
+    - "Hotel search and filtering"
+    - "Price transparency and deals"
+    - "Booking modification flows"
+    - "Review and rating integration"
+
+- app_id: expedia
+  name: Expedia
+  category: travel
+  platforms: [web, ios, android]
+  url: "https://www.expedia.com"
+  notes:
+    - "Multi-service bundling (flight + hotel)"
+    - "Rewards program integration"
+    - "Trip planning and itinerary"
+    - "Price tracking and alerts"
+
+# AI & Emerging Tech
+- app_id: chatgpt
+  name: ChatGPT
+  category: ai
+  platforms: [web, ios, android]
+  url: "https://chat.openai.com"
+  notes:
+    - "Conversational AI interface"
+    - "Prompt engineering patterns emerging"
+    - "History and conversation management"
+    - "Subscription tiers and upgrades"
+
+- app_id: midjourney
+  name: Midjourney
+  category: ai
+  platforms: [web]
+  url: "https://www.midjourney.com"
+  notes:
+    - "Discord-based AI art generation"
+    - "Prompt iteration and refinement"
+    - "Gallery and community exploration"
+    - "Unique distribution through Discord"
+
+- app_id: claude
+  name: Claude
+  category: ai
+  platforms: [web]
+  url: "https://claude.ai"
+  notes:
+    - "Long-form conversation design"
+    - "Project and artifact management"
+    - "File upload and analysis flows"
+    - "Clean, minimal interface for AI chat"
