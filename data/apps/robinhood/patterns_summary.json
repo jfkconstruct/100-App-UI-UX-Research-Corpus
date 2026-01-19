@@ -1,0 +1,347 @@
+{
+  "app_id": "robinhood",
+  "total_screens": 10,
+  "patterns": [
+    {
+      "pattern_id": "single-primary-cta",
+      "pattern_name": "Single Primary CTA",
+      "frequency": 4,
+      "percentage": 40,
+      "avg_heuristics": {
+        "clarity": 5,
+        "cognitive_load": 4.5,
+        "visual_hierarchy": 5,
+        "feedback": 4.5,
+        "accessibility": 4,
+        "conversion_strength": 4.8
+      },
+      "screens": [
+        "robinhood-landing",
+        "robinhood-buy-flow",
+        "robinhood-sell-flow",
+        "robinhood-deposit-withdraw"
+      ]
+    },
+    {
+      "pattern_id": "progressive-disclosure",
+      "pattern_name": "Progressive Disclosure",
+      "frequency": 4,
+      "percentage": 40,
+      "avg_heuristics": {
+        "clarity": 4.8,
+        "cognitive_load": 4,
+        "visual_hierarchy": 5,
+        "feedback": 4.8,
+        "accessibility": 3.8,
+        "conversion_strength": 5
+      },
+      "screens": [
+        "robinhood-signup",
+        "robinhood-stock-detail",
+        "robinhood-buy-flow",
+        "robinhood-deposit-withdraw"
+      ]
+    },
+    {
+      "pattern_id": "inline-validation",
+      "pattern_name": "Inline Validation",
+      "frequency": 4,
+      "percentage": 40,
+      "avg_heuristics": {
+        "clarity": 5,
+        "cognitive_load": 4.3,
+        "visual_hierarchy": 5,
+        "feedback": 5,
+        "accessibility": 4,
+        "conversion_strength": 4.8
+      },
+      "screens": [
+        "robinhood-signup",
+        "robinhood-buy-flow",
+        "robinhood-sell-flow",
+        "robinhood-deposit-withdraw"
+      ]
+    },
+    {
+      "pattern_id": "card-layout",
+      "pattern_name": "Card Layout",
+      "frequency": 4,
+      "percentage": 40,
+      "avg_heuristics": {
+        "clarity": 4.5,
+        "cognitive_load": 3.3,
+        "visual_hierarchy": 4.5,
+        "feedback": 4.5,
+        "accessibility": 3.5,
+        "conversion_strength": 4
+      },
+      "screens": [
+        "robinhood-portfolio-home",
+        "robinhood-stock-detail",
+        "robinhood-search-discover",
+        "robinhood-news-feed"
+      ]
+    },
+    {
+      "pattern_id": "social-proof",
+      "pattern_name": "Social Proof",
+      "frequency": 2,
+      "percentage": 20,
+      "avg_heuristics": {
+        "clarity": 4.5,
+        "cognitive_load": 4,
+        "visual_hierarchy": 5,
+        "feedback": 3.5,
+        "accessibility": 3.5,
+        "conversion_strength": 5
+      },
+      "screens": [
+        "robinhood-landing",
+        "robinhood-stock-detail"
+      ]
+    },
+    {
+      "pattern_id": "pull-to-refresh",
+      "pattern_name": "Pull to Refresh",
+      "frequency": 2,
+      "percentage": 20,
+      "avg_heuristics": {
+        "clarity": 4.5,
+        "cognitive_load": 3,
+        "visual_hierarchy": 4.5,
+        "feedback": 4.5,
+        "accessibility": 3.5,
+        "conversion_strength": 3.5
+      },
+      "screens": [
+        "robinhood-portfolio-home",
+        "robinhood-news-feed"
+      ]
+    },
+    {
+      "pattern_id": "infinite-scroll",
+      "pattern_name": "Infinite Scroll",
+      "frequency": 2,
+      "percentage": 20,
+      "avg_heuristics": {
+        "clarity": 4.5,
+        "cognitive_load": 3,
+        "visual_hierarchy": 4.5,
+        "feedback": 4.5,
+        "accessibility": 3.5,
+        "conversion_strength": 3.5
+      },
+      "screens": [
+        "robinhood-portfolio-home",
+        "robinhood-news-feed"
+      ]
+    },
+    {
+      "pattern_id": "progress-indicator",
+      "pattern_name": "Progress Indicator",
+      "frequency": 1,
+      "percentage": 10,
+      "avg_heuristics": {
+        "clarity": 5,
+        "cognitive_load": 4,
+        "visual_hierarchy": 5,
+        "feedback": 5,
+        "accessibility": 4,
+        "conversion_strength": 5
+      },
+      "screens": [
+        "robinhood-signup"
+      ]
+    },
+    {
+      "pattern_id": "bottom-tab-bar",
+      "pattern_name": "Bottom Tab Bar",
+      "frequency": 1,
+      "percentage": 10,
+      "avg_heuristics": {
+        "clarity": 5,
+        "cognitive_load": 3,
+        "visual_hierarchy": 5,
+        "feedback": 5,
+        "accessibility": 3,
+        "conversion_strength": 4
+      },
+      "screens": [
+        "robinhood-portfolio-home"
+      ]
+    },
+    {
+      "pattern_id": "skeleton-screen",
+      "pattern_name": "Skeleton Screen",
+      "frequency": 1,
+      "percentage": 10,
+      "avg_heuristics": {
+        "clarity": 5,
+        "cognitive_load": 3,
+        "visual_hierarchy": 5,
+        "feedback": 5,
+        "accessibility": 3,
+        "conversion_strength": 4
+      },
+      "screens": [
+        "robinhood-portfolio-home"
+      ]
+    },
+    {
+      "pattern_id": "sticky-cta",
+      "pattern_name": "Sticky CTA",
+      "frequency": 1,
+      "percentage": 10,
+      "avg_heuristics": {
+        "clarity": 4,
+        "cognitive_load": 3,
+        "visual_hierarchy": 5,
+        "feedback": 4,
+        "accessibility": 3,
+        "conversion_strength": 5
+      },
+      "screens": [
+        "robinhood-stock-detail"
+      ]
+    },
+    {
+      "pattern_id": "search-prominent",
+      "pattern_name": "Prominent Search",
+      "frequency": 1,
+      "percentage": 10,
+      "avg_heuristics": {
+        "clarity": 5,
+        "cognitive_load": 4,
+        "visual_hierarchy": 4,
+        "feedback": 5,
+        "accessibility": 4,
+        "conversion_strength": 4
+      },
+      "screens": [
+        "robinhood-search-discover"
+      ]
+    }
+  ],
+  "flows": [
+    {
+      "flow_id": "onboarding",
+      "flow_name": "New User Onboarding",
+      "unique_patterns": [
+        "single-primary-cta",
+        "hero-section",
+        "social-proof",
+        "trust-badges",
+        "sticky-header",
+        "progressive-disclosure",
+        "single-input-forms",
+        "inline-validation",
+        "social-login",
+        "progress-indicator"
+      ],
+      "pattern_combinations": []
+    },
+    {
+      "flow_id": "core_experience",
+      "flow_name": "Portfolio Monitoring",
+      "unique_patterns": [
+        "card-layout",
+        "bottom-tab-bar",
+        "pull-to-refresh",
+        "real-time-updates",
+        "data-visualization",
+        "skeleton-screen",
+        "infinite-scroll"
+      ],
+      "pattern_combinations": []
+    },
+    {
+      "flow_id": "research",
+      "flow_name": "Stock Research",
+      "unique_patterns": [
+        "sticky-cta",
+        "data-visualization",
+        "card-layout",
+        "progressive-disclosure",
+        "social-proof",
+        "related-content",
+        "infinite-scroll",
+        "content-filtering",
+        "personalization",
+        "pull-to-refresh"
+      ],
+      "pattern_combinations": []
+    },
+    {
+      "flow_id": "trading",
+      "flow_name": "Buy/Sell Execution",
+      "unique_patterns": [
+        "single-primary-cta",
+        "inline-validation",
+        "progressive-disclosure",
+        "real-time-updates",
+        "confirmation-dialog"
+      ],
+      "pattern_combinations": [
+        [
+          "inline-validation",
+          "single-primary-cta"
+        ],
+        [
+          "real-time-updates",
+          "single-primary-cta"
+        ],
+        [
+          "confirmation-dialog",
+          "single-primary-cta"
+        ],
+        [
+          "inline-validation",
+          "real-time-updates"
+        ],
+        [
+          "confirmation-dialog",
+          "inline-validation"
+        ],
+        [
+          "confirmation-dialog",
+          "real-time-updates"
+        ]
+      ]
+    },
+    {
+      "flow_id": "discovery",
+      "flow_name": "Stock Discovery",
+      "unique_patterns": [
+        "search-prominent",
+        "card-layout",
+        "category-filters",
+        "auto-complete",
+        "recent-searches",
+        "trending-content"
+      ],
+      "pattern_combinations": []
+    },
+    {
+      "flow_id": "money_movement",
+      "flow_name": "Deposit and Withdrawal",
+      "unique_patterns": [
+        "single-primary-cta",
+        "inline-validation",
+        "progressive-disclosure",
+        "upsell-placement"
+      ],
+      "pattern_combinations": []
+    },
+    {
+      "flow_id": "account_management",
+      "flow_name": "Account Settings",
+      "unique_patterns": [
+        "list-menu",
+        "section-headers",
+        "upsell-placement",
+        "security-badges"
+      ],
+      "pattern_combinations": []
+    }
+  ]
+}

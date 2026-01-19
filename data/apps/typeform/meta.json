@@ -1,0 +1,70 @@
+{
+  "app_id": "typeform",
+  "name": "Typeform",
+  "tagline": "Forms that break the pattern.",
+  "category": "productivity",
+  "subcategories": ["forms", "surveys", "data-collection", "lead-generation"],
+  "platforms": ["web", "ios", "android"],
+  "url": "https://www.typeform.com",
+  "company": "Typeform S.L.",
+  "founded": 2012,
+  "headquarters": "Barcelona, Spain",
+  "analysis_date": "2026-01-19",
+  "version_analyzed": "web-2026",
+  "monthly_active_users": "10M+",
+  "why_interesting": [
+    "Pioneered the conversational form experience with one-question-at-a-time interface",
+    "Dramatically higher completion rates (up to 3x) compared to traditional forms through reduced cognitive load",
+    "Beautiful, customizable themes transform utilitarian data collection into branded experiences",
+    "Logic jumps and branching create personalized, adaptive form journeys",
+    "Keyboard-first navigation makes form completion feel like a conversation, not a task",
+    "Progress indicators and smooth transitions reduce form abandonment anxiety",
+    "Rich media integration (videos, images, GIFs) makes forms engaging rather than boring",
+    "Question types designed for specific data needs while maintaining conversational flow",
+    "Analytics dashboard provides actionable insights beyond raw response data",
+    "Seamless integrations turn form responses into workflows across business tools"
+  ],
+  "key_metrics": {
+    "forms_created": "500M+ all-time",
+    "responses_collected": "10B+",
+    "average_completion_rate": "59% (vs. 20% industry average)",
+    "countries_served": "180+",
+    "integrations_available": "120+"
+  },
+  "competitive_landscape": {
+    "direct_competitors": ["Google Forms", "SurveyMonkey", "JotForm", "Tally", "Formspark"],
+    "indirect_competitors": ["Calendly", "Notion Forms", "Airtable Forms", "HubSpot Forms"],
+    "key_differentiator": "One-question-at-a-time conversational UX that prioritizes respondent experience over form builder convenience"
+  },
+  "business_model": {
+    "type": "freemium",
+    "free_tier": "10 questions per form, 10 responses/month, basic themes",
+    "basic_tier": "Basic - $25/month - Unlimited questions/responses, file uploads, payment collection",
+    "plus_tier": "Plus - $50/month - Logic jumps, calculator, hidden fields, custom branding",
+    "business_tier": "Business - $83/month - Drop-off analytics, priority support, advanced integrations",
+    "enterprise_tier": "Enterprise - Custom pricing - SSO, dedicated success manager, custom contracts"
+  },
+  "notable_ux_innovations": [
+    "One question at a time display paradigm",
+    "Keyboard-first form navigation",
+    "Smooth transition animations between questions",
+    "Logic jumps for branching paths",
+    "Calculator for real-time computations",
+    "Welcome and ending screens for branded experience",
+    "Question piping (dynamic text based on previous answers)",
+    "Conversational tone in default question copy",
+    "Partial response tracking"
+  ],
+  "tags": [
+    "conversational-ui",
+    "one-at-a-time",
+    "form-builder",
+    "survey-tool",
+    "lead-generation",
+    "freemium",
+    "keyboard-navigation",
+    "logic-branching",
+    "beautiful-defaults",
+    "respondent-focused"
+  ]
+}

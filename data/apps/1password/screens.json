@@ -1,0 +1,313 @@
+[
+  {
+    "screen_id": "landing-01",
+    "app_id": "1password",
+    "flow_id": "marketing",
+    "step_index": 0,
+    "image_path": "data/raw_screens/1password/marketing/01-landing.png",
+    "screen_type": "marketing-landing",
+    "layout_type": "hero-section",
+    "primary_user_goal": "Understand what 1Password does and why it matters for security",
+    "primary_business_goal": "Convert visitors to trial signups with clear value proposition",
+    "primary_cta_label": "Try free for 14 days",
+    "secondary_cta_labels": ["See plans & pricing", "Watch demo"],
+    "navigation_elements": ["top-nav", "product-dropdown", "business-link", "sign-in"],
+    "copy_summary": "Bold headline 'The password manager loved by millions' with supporting copy emphasizing security without complexity. Hero illustration shows the vault interface across devices with a family/team context.",
+    "patterns": [
+      "hero-illustration",
+      "single-primary-cta",
+      "social-proof",
+      "benefit-oriented-headline",
+      "trust-badges"
+    ],
+    "heuristics": {
+      "clarity": 4.5,
+      "cognitive_load": 4.0,
+      "visual_hierarchy": 4.5,
+      "feedback": 3.5,
+      "accessibility": 4.0,
+      "conversion_strength": 4.5
+    },
+    "notes": "Strong landing page that immediately addresses the core value proposition. Trust badges (Forbes, NYT, Wired) build credibility. The 14-day trial removes purchase friction. Interesting that they lead with emotional benefit (loved by millions) rather than technical security features. Device showcase demonstrates cross-platform consistency. Navigation is clean but comprehensive for different audience segments (personal vs business)."
+  },
+  {
+    "screen_id": "onboarding-01",
+    "app_id": "1password",
+    "flow_id": "onboarding",
+    "step_index": 0,
+    "image_path": "data/raw_screens/1password/onboarding/01-account-setup.png",
+    "screen_type": "form",
+    "layout_type": "centered-card",
+    "primary_user_goal": "Create account and set up master password securely",
+    "primary_business_goal": "Ensure proper account setup with strong security foundation",
+    "primary_cta_label": "Create Account",
+    "secondary_cta_labels": ["Already have an account?"],
+    "navigation_elements": ["progress-indicator", "help-link"],
+    "copy_summary": "Account creation with email input and master password setup. Clear explanation of what a master password is and why it matters. Password strength meter with real-time feedback. Checkbox for Emergency Kit download reminder.",
+    "patterns": [
+      "progress-indicator",
+      "inline-validation",
+      "password-strength-meter",
+      "contextual-help",
+      "single-primary-cta"
+    ],
+    "heuristics": {
+      "clarity": 4.5,
+      "cognitive_load": 3.5,
+      "visual_hierarchy": 4.0,
+      "feedback": 5.0,
+      "accessibility": 4.0,
+      "conversion_strength": 3.5
+    },
+    "notes": "Critical screen where security and usability must balance. The password strength meter provides excellent real-time feedback. Contextual help explains master password importance without being preachy. The Emergency Kit concept is introduced early, setting expectations for security responsibility. Slightly higher cognitive load due to security requirements, but necessary. The framing of 'your one password to remember' reinforces the core value proposition."
+  },
+  {
+    "screen_id": "onboarding-02",
+    "app_id": "1password",
+    "flow_id": "onboarding",
+    "step_index": 1,
+    "image_path": "data/raw_screens/1password/onboarding/02-emergency-kit.png",
+    "screen_type": "education",
+    "layout_type": "full-screen-modal",
+    "primary_user_goal": "Understand and save Emergency Kit for account recovery",
+    "primary_business_goal": "Ensure users have recovery mechanism to prevent account lockouts",
+    "primary_cta_label": "Download Emergency Kit",
+    "secondary_cta_labels": ["Print", "I'll do this later"],
+    "navigation_elements": ["progress-indicator", "back-button"],
+    "copy_summary": "Explanation of Emergency Kit containing Secret Key and account details. Visual preview of the PDF document. Strong emphasis on storing securely and not sharing. Warning about consequences of losing this information.",
+    "patterns": [
+      "progress-indicator",
+      "contextual-help",
+      "single-primary-cta",
+      "warning-state",
+      "hero-illustration"
+    ],
+    "heuristics": {
+      "clarity": 4.5,
+      "cognitive_load": 3.5,
+      "visual_hierarchy": 4.0,
+      "feedback": 4.0,
+      "accessibility": 4.0,
+      "conversion_strength": 3.5
+    },
+    "notes": "Unique to password managers - the Emergency Kit concept is 1Password's solution to the master password recovery problem. The screen does excellent job explaining WHY without being overly technical. The 'I'll do this later' option respects user autonomy but the design clearly encourages immediate action. This is a friction point for conversion but essential for security. The visual preview of the document helps users understand what they're getting."
+  },
+  {
+    "screen_id": "vault-01",
+    "app_id": "1password",
+    "flow_id": "vault-management",
+    "step_index": 0,
+    "image_path": "data/raw_screens/1password/vault/01-main-view.png",
+    "screen_type": "list",
+    "layout_type": "sidebar-detail",
+    "primary_user_goal": "Find and access stored credentials quickly",
+    "primary_business_goal": "Demonstrate value through organized, searchable credential management",
+    "primary_cta_label": "New Item",
+    "secondary_cta_labels": [],
+    "navigation_elements": ["sidebar", "search-prominent", "categories-filter", "vault-switcher"],
+    "copy_summary": "Main vault view with sidebar showing categories (Logins, Credit Cards, Identities, Secure Notes, etc.). List of items with favicons, titles, and usernames. Search bar prominently placed at top. Vault switcher for managing multiple vaults.",
+    "patterns": [
+      "search-prominent",
+      "card-layout",
+      "filter-facets",
+      "notification-badge",
+      "empty-state",
+      "lazy-loading"
+    ],
+    "heuristics": {
+      "clarity": 4.5,
+      "cognitive_load": 4.0,
+      "visual_hierarchy": 4.5,
+      "feedback": 4.0,
+      "accessibility": 4.0,
+      "conversion_strength": 4.0
+    },
+    "notes": "The heart of 1Password's UX. Search is rightfully prominent since most users come here to find a specific item. Category sidebar provides alternative navigation for browsing. Favicons add visual recognition and make scanning faster. The vault switcher is subtle but important for family/team users. Items show just enough info (site name, username) without revealing sensitive data. The 'New Item' button is always accessible but doesn't dominate - retrieval is the primary use case."
+  },
+  {
+    "screen_id": "item-detail-01",
+    "app_id": "1password",
+    "flow_id": "vault-management",
+    "step_index": 1,
+    "image_path": "data/raw_screens/1password/vault/02-item-detail.png",
+    "screen_type": "detail",
+    "layout_type": "detail-panel",
+    "primary_user_goal": "View and copy credential details securely",
+    "primary_business_goal": "Provide quick access while maintaining security (encourage auto-fill)",
+    "primary_cta_label": "Open & Fill",
+    "secondary_cta_labels": ["Copy Password", "Edit", "Move", "Delete"],
+    "navigation_elements": ["back-button", "actions-menu"],
+    "copy_summary": "Item detail view showing website favicon, title, and all stored fields. Password shown as dots with reveal toggle. One-click copy buttons for each field. Website URL as clickable link. Tags, notes, and custom fields visible. 'Open & Fill' prominent CTA to launch browser with auto-fill.",
+    "patterns": [
+      "single-primary-cta",
+      "contextual-help",
+      "inline-actions",
+      "password-reveal-toggle",
+      "copy-to-clipboard"
+    ],
+    "heuristics": {
+      "clarity": 4.5,
+      "cognitive_load": 4.0,
+      "visual_hierarchy": 4.5,
+      "feedback": 5.0,
+      "accessibility": 4.0,
+      "conversion_strength": 4.5
+    },
+    "notes": "Excellent information density without feeling cluttered. The password reveal toggle balances security with usability - hidden by default, easily revealed when needed. Copy buttons provide instant feedback (checkmark appears). 'Open & Fill' is the ideal action path and rightly gets primary CTA treatment. The edit/delete actions are accessible but secondary. Custom fields support flexibility for non-standard credentials. Timestamps for last modified add trust."
+  },
+  {
+    "screen_id": "add-item-01",
+    "app_id": "1password",
+    "flow_id": "add-item",
+    "step_index": 0,
+    "image_path": "data/raw_screens/1password/add-item/01-type-selection.png",
+    "screen_type": "selection",
+    "layout_type": "grid",
+    "primary_user_goal": "Choose the right item type for what they want to store",
+    "primary_business_goal": "Ensure proper data categorization for better organization and auto-fill",
+    "primary_cta_label": "",
+    "secondary_cta_labels": [],
+    "navigation_elements": ["close-button", "search-autocomplete"],
+    "copy_summary": "Grid of item types with icons: Login, Credit Card, Identity, Secure Note, Password, Document, Bank Account, Driver License, Passport, Social Security Number, Software License, etc. Search to filter types. Categories grouped logically.",
+    "patterns": [
+      "card-layout",
+      "search-autocomplete",
+      "progressive-disclosure",
+      "icon-grid"
+    ],
+    "heuristics": {
+      "clarity": 4.5,
+      "cognitive_load": 3.5,
+      "visual_hierarchy": 4.0,
+      "feedback": 3.5,
+      "accessibility": 4.0,
+      "conversion_strength": 4.0
+    },
+    "notes": "Good variety of item types shows 1Password's versatility beyond just passwords. Icons make scanning easy. The categorization (Common, Financial, Personal, etc.) helps users find the right type. 'Login' is likely most used and appropriately positioned first. Search is available for power users who know what they want. The breadth of options might be overwhelming for new users, but the grid layout manages it well."
+  },
+  {
+    "screen_id": "add-item-02",
+    "app_id": "1password",
+    "flow_id": "add-item",
+    "step_index": 1,
+    "image_path": "data/raw_screens/1password/add-item/02-login-form.png",
+    "screen_type": "form",
+    "layout_type": "scrollable-form",
+    "primary_user_goal": "Enter credential details accurately and completely",
+    "primary_business_goal": "Capture sufficient data for reliable auto-fill",
+    "primary_cta_label": "Save",
+    "secondary_cta_labels": ["Cancel", "Generate Password"],
+    "navigation_elements": ["close-button", "vault-selector"],
+    "copy_summary": "Form fields for item name, website URL, username, password with generator button. Vault selector for choosing where to save. Sections for additional fields, notes, and tags. Password generator accessible inline.",
+    "patterns": [
+      "inline-validation",
+      "single-primary-cta",
+      "smart-defaults",
+      "contextual-help",
+      "password-generator"
+    ],
+    "heuristics": {
+      "clarity": 4.5,
+      "cognitive_load": 4.0,
+      "visual_hierarchy": 4.0,
+      "feedback": 4.5,
+      "accessibility": 4.0,
+      "conversion_strength": 4.0
+    },
+    "notes": "Clean form that captures essential fields without overwhelming. The inline password generator is a key feature - encourages strong unique passwords by making generation effortless. Vault selector is important for family/team users with multiple vaults. The 'Add more' section uses progressive disclosure to hide advanced fields until needed. Auto-detection of website from URL for item name is a nice touch. Form validates as you type."
+  },
+  {
+    "screen_id": "browser-ext-01",
+    "app_id": "1password",
+    "flow_id": "browser-extension",
+    "step_index": 0,
+    "image_path": "data/raw_screens/1password/extension/01-popup.png",
+    "screen_type": "popup",
+    "layout_type": "compact-list",
+    "primary_user_goal": "Quickly access and fill credentials for current website",
+    "primary_business_goal": "Drive daily active usage through seamless auto-fill experience",
+    "primary_cta_label": "Fill",
+    "secondary_cta_labels": ["Copy username", "Copy password", "Open vault"],
+    "navigation_elements": ["search-prominent", "settings-gear", "lock-button"],
+    "copy_summary": "Browser extension popup showing matching logins for current website. List of credentials with fill buttons. Search bar for finding other items. Quick access to vault and settings. Lock button for immediate security.",
+    "patterns": [
+      "search-prominent",
+      "contextual-matching",
+      "inline-actions",
+      "notification-badge",
+      "compact-list"
+    ],
+    "heuristics": {
+      "clarity": 4.5,
+      "cognitive_load": 4.5,
+      "visual_hierarchy": 4.5,
+      "feedback": 4.5,
+      "accessibility": 3.5,
+      "conversion_strength": 5.0
+    },
+    "notes": "The browser extension is where 1Password's value is most directly experienced. Contextual matching automatically surfaces relevant credentials for the current site - brilliant UX. One-click fill eliminates friction. The compact design respects browser chrome constraints while providing full functionality. Search allows finding items not automatically matched. Lock button provides security without leaving the context. This is the daily driver that builds the habit."
+  },
+  {
+    "screen_id": "watchtower-01",
+    "app_id": "1password",
+    "flow_id": "watchtower",
+    "step_index": 0,
+    "image_path": "data/raw_screens/1password/watchtower/01-dashboard.png",
+    "screen_type": "dashboard",
+    "layout_type": "card-grid",
+    "primary_user_goal": "Understand and improve overall password security posture",
+    "primary_business_goal": "Differentiate through proactive security and increase perceived value",
+    "primary_cta_label": "Fix weak passwords",
+    "secondary_cta_labels": ["Check for breaches", "Enable 2FA"],
+    "navigation_elements": ["sidebar", "refresh-button"],
+    "copy_summary": "Security dashboard with overall security score. Cards showing: compromised passwords, reused passwords, weak passwords, unsecured websites, inactive 2FA, expiring items. Each card shows count and severity. Clear CTAs to address each issue.",
+    "patterns": [
+      "dashboard-metrics",
+      "card-layout",
+      "notification-badge",
+      "progress-indicator",
+      "contextual-help",
+      "gamification"
+    ],
+    "heuristics": {
+      "clarity": 4.5,
+      "cognitive_load": 3.5,
+      "visual_hierarchy": 4.5,
+      "feedback": 5.0,
+      "accessibility": 4.0,
+      "conversion_strength": 5.0
+    },
+    "notes": "Watchtower transforms 1Password from passive storage to active security advisor. The security score gamifies improvement and creates engagement loop. Breach detection (via Have I Been Pwned integration) is a killer feature. Each issue category has clear count and actionable path to resolution. Color coding (red/yellow/green) creates urgency without panic. This feature alone justifies subscription for many users. The dashboard design makes complex security concepts accessible."
+  },
+  {
+    "screen_id": "family-sharing-01",
+    "app_id": "1password",
+    "flow_id": "family-sharing",
+    "step_index": 0,
+    "image_path": "data/raw_screens/1password/sharing/01-family-view.png",
+    "screen_type": "management",
+    "layout_type": "sidebar-detail",
+    "primary_user_goal": "Share credentials with family members safely",
+    "primary_business_goal": "Drive family plan upgrades and reduce churn through shared value",
+    "primary_cta_label": "Share item",
+    "secondary_cta_labels": ["Invite family member", "Create shared vault"],
+    "navigation_elements": ["sidebar", "member-list", "vault-list"],
+    "copy_summary": "Family management view showing family members with their roles. Shared vaults visible with access controls. Individual and shared items distinguished. Invite flow for adding new family members. Recovery options for family organizer.",
+    "patterns": [
+      "role-based-access",
+      "card-layout",
+      "empty-state",
+      "contextual-help",
+      "notification-badge"
+    ],
+    "heuristics": {
+      "clarity": 4.0,
+      "cognitive_load": 3.5,
+      "visual_hierarchy": 4.0,
+      "feedback": 4.0,
+      "accessibility": 4.0,
+      "conversion_strength": 4.5
+    },
+    "notes": "Family sharing is a key differentiator and retention driver. The permissions model is sophisticated but presented simply. Shared vaults allow selective sharing without all-or-nothing approach. Family organizer has recovery capabilities - addresses the 'what if I die' concern. The distinction between personal and shared items is clear. Inviting family members is streamlined. This feature creates significant switching costs once family is onboarded."
+  }
+]

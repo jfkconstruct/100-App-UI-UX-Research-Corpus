@@ -1,0 +1,186 @@
+[
+  {
+    "flow_id": "typeform-signup-to-create",
+    "name": "New User: Signup to First Form",
+    "description": "Complete journey from landing page through account creation to first form creation",
+    "primary_user_goal": "Create a form that collects data effectively while providing a good respondent experience",
+    "business_goal": "Convert visitor to registered user with published form (activation)",
+    "entry_point": "Landing page, template gallery, or referral from existing form",
+    "exit_point": "Published form with shareable link",
+    "estimated_duration": "10-20 minutes",
+    "friction_points": [
+      "Account creation (minimized with social login options)",
+      "Template vs blank decision (mitigated by template recommendations)",
+      "Question configuration complexity (reduced by smart defaults)",
+      "Understanding one-at-a-time paradigm (resolved through preview)"
+    ],
+    "screens": [
+      "typeform-landing",
+      "typeform-template-gallery",
+      "typeform-form-builder",
+      "typeform-question-editor",
+      "typeform-share-publish"
+    ],
+    "success_metrics": [
+      "Signup completion rate",
+      "Time to first form publish",
+      "Form completion by first respondent",
+      "Return to edit after first responses"
+    ],
+    "notes": "Typeform's activation flow emphasizes experiencing the product as a respondent before building. Many users first encounter Typeform by filling out someone else's form and thinking 'I want my forms to work like this.' The template gallery accelerates time-to-value by providing starting points that demonstrate best practices."
+  },
+  {
+    "flow_id": "typeform-template-to-form",
+    "name": "Template to Published Form",
+    "description": "Core creation flow from selecting a template through customization to sharing",
+    "primary_user_goal": "Transform a template into a personalized, branded form ready for distribution",
+    "business_goal": "Deliver value that drives form completion and return usage",
+    "entry_point": "Template gallery or dashboard 'Create' button",
+    "exit_point": "Shared or embedded form collecting responses",
+    "estimated_duration": "5-15 minutes depending on customization depth",
+    "friction_points": [
+      "Adapting template to specific needs (solved by flexible editing)",
+      "Configuring logic without confusion (solved by visual flow)",
+      "Matching brand aesthetics (solved by theme system)",
+      "Choosing distribution method (solved by clear share options)"
+    ],
+    "screens": [
+      "typeform-template-gallery",
+      "typeform-form-builder",
+      "typeform-question-editor",
+      "typeform-theme-customization",
+      "typeform-share-publish"
+    ],
+    "success_metrics": [
+      "Template-to-publish completion rate",
+      "Average editing time",
+      "Questions added/modified per form",
+      "Theme customization rate"
+    ],
+    "notes": "This is Typeform's core product loop. Templates provide structure while customization creates ownership. The flow is optimized to get forms published quickly - a form collecting responses is more valuable than a perfect form never shared. Preview functionality lets builders experience their form as respondents will."
+  },
+  {
+    "flow_id": "typeform-advanced-form",
+    "name": "Advanced Form: Logic and Personalization",
+    "description": "Building sophisticated forms with conditional logic, calculations, and personalization",
+    "primary_user_goal": "Create intelligent forms that adapt to respondent answers",
+    "business_goal": "Drive upgrades through advanced feature usage; enable complex use cases",
+    "entry_point": "Form builder with existing questions",
+    "exit_point": "Logic-enabled form with tested conditional paths",
+    "estimated_duration": "15-45 minutes depending on complexity",
+    "friction_points": [
+      "Understanding logic jump concept (solved by visual flowchart)",
+      "Testing all paths work correctly (solved by preview with logic)",
+      "Calculator formula syntax (solved by helper and examples)",
+      "Hidden field configuration (solved by clear documentation)"
+    ],
+    "screens": [
+      "typeform-form-builder",
+      "typeform-question-editor",
+      "typeform-logic-branching"
+    ],
+    "success_metrics": [
+      "Logic feature adoption rate",
+      "Forms with 3+ logic rules",
+      "Logic-enabled form completion rates",
+      "Upgrade conversion from logic limit"
+    ],
+    "notes": "Logic features are key upgrade drivers and competitive differentiators. The visual flowchart makes complex branching understandable. Natural language conditions (not programming) make logic accessible to non-technical users. Calculator feature enables lead scoring, quizzes with calculated results, and ROI calculators."
+  },
+  {
+    "flow_id": "typeform-respondent-journey",
+    "name": "Respondent: Form Completion",
+    "description": "End user experience of filling out a Typeform",
+    "primary_user_goal": "Complete form quickly and without frustration",
+    "business_goal": "Maximize completion rate and response quality",
+    "entry_point": "Form link, embedded form, or QR code scan",
+    "exit_point": "Thank you screen with optional redirect",
+    "estimated_duration": "1-10 minutes depending on form length",
+    "friction_points": [
+      "Initial engagement (solved by welcome screen)",
+      "Form length anxiety (solved by progress indicator)",
+      "Input confusion (solved by clear question types)",
+      "Abandonment temptation (solved by engaging experience)"
+    ],
+    "screens": [
+      "typeform-respondent-experience"
+    ],
+    "key_interactions": [
+      "Enter key to progress",
+      "Arrow keys for option selection",
+      "Number keys for multiple choice",
+      "Back button for corrections",
+      "Tab for accessibility navigation"
+    ],
+    "success_metrics": [
+      "Form start rate",
+      "Completion rate",
+      "Average completion time",
+      "Question drop-off points",
+      "Response quality scores"
+    ],
+    "notes": "The respondent experience IS Typeform's product. Every design decision serves completion rates. One-at-a-time reduces cognitive load. Keyboard navigation creates flow state. Progress indicators prevent abandonment. Smooth animations make the experience feel crafted, not clinical. This is why Typeform can charge premium pricing - they optimize for the respondent, not just the builder."
+  },
+  {
+    "flow_id": "typeform-analyze-results",
+    "name": "Analyze and Export Results",
+    "description": "Reviewing collected responses and extracting insights",
+    "primary_user_goal": "Understand what responses reveal and take action on insights",
+    "business_goal": "Demonstrate data value; drive continued usage and upgrades for analytics",
+    "entry_point": "Form dashboard or results notification",
+    "exit_point": "Exported data or connected integration action",
+    "estimated_duration": "5-30 minutes depending on analysis depth",
+    "friction_points": [
+      "Finding specific responses (solved by filtering)",
+      "Understanding aggregate patterns (solved by visualizations)",
+      "Identifying drop-off causes (solved by funnel analysis)",
+      "Getting data into other tools (solved by integrations)"
+    ],
+    "screens": [
+      "typeform-results-analytics"
+    ],
+    "success_metrics": [
+      "Results view frequency",
+      "Export/integration activation rate",
+      "Report creation rate",
+      "Return to edit after analysis"
+    ],
+    "notes": "Results analysis closes the value loop. Users see the impact of their form design choices through completion rates and drop-off analysis. This drives iteration - users return to improve forms based on data. Integrations (Zapier, HubSpot, Slack, Google Sheets) turn responses into workflows, embedding Typeform deeper into business processes."
+  },
+  {
+    "flow_id": "typeform-upgrade",
+    "name": "Free to Paid Upgrade",
+    "description": "Conversion journey from free user to paying subscriber",
+    "primary_user_goal": "Access features needed for current use case",
+    "business_goal": "Convert free users to recurring revenue",
+    "entry_point": "Feature limit hit, upgrade prompt, or pricing page",
+    "exit_point": "Completed subscription purchase",
+    "estimated_duration": "2-5 minutes for purchase flow",
+    "friction_points": [
+      "Uncertainty about which tier (solved by feature comparison)",
+      "Price sensitivity (solved by response volume framing)",
+      "Commitment anxiety (solved by monthly option)",
+      "Payment friction (solved by standard checkout)"
+    ],
+    "screens": [
+      "typeform-pricing"
+    ],
+    "conversion_triggers": [
+      "Hitting 10 question per form limit",
+      "Exceeding 10 responses/month limit",
+      "Needing logic jumps or calculator",
+      "Wanting custom branding (remove Typeform logo)",
+      "Requiring file upload in forms",
+      "Needing payment collection",
+      "Wanting drop-off analytics"
+    ],
+    "success_metrics": [
+      "Free to paid conversion rate",
+      "Average time to conversion",
+      "Upgrade trigger distribution",
+      "Monthly vs annual plan split",
+      "Tier distribution (Basic vs Plus vs Business)"
+    ],
+    "notes": "Typeform's upgrade triggers are well-designed. Free tier is useful but naturally limited for serious use. Question and response limits are the primary triggers for casual users. Logic and branding are triggers for professionals. The 'Plus' tier is positioned as the sweet spot. Enterprise features (SSO, compliance) drive larger contracts."
+  }
+]

@@ -1,0 +1,39 @@
+{
+  "app_id": "robinhood",
+  "name": "Robinhood",
+  "category": "finance",
+  "subcategory": "stock_trading",
+  "platforms": ["ios", "android", "web"],
+  "url": "https://robinhood.com",
+  "app_store_url": "https://apps.apple.com/app/robinhood-investing-for-all/id938003185",
+  "play_store_url": "https://play.google.com/store/apps/details?id=com.robinhood.android",
+  "analysis_date": "2026-01-19",
+  "version_analyzed": "2024.48",
+  "company": "Robinhood Markets, Inc.",
+  "founded": 2013,
+  "headquarters": "Menlo Park, California",
+  "why_interesting": "Robinhood revolutionized retail investing by eliminating trading commissions and creating a mobile-first, radically simplified trading experience. The app pioneered the democratization of stock trading for millennials and Gen Z through intuitive design, gamification elements (confetti animations, push notifications for price movements), and fractional shares. However, its UX has been controversial - praised for accessibility but criticized for potentially encouraging risky trading behavior through game-like mechanics. The app represents a masterclass in reducing complexity in a traditionally complex domain while raising important questions about responsible design in fintech.",
+  "key_features": [
+    "Commission-free stock and ETF trading",
+    "Fractional shares (invest any dollar amount)",
+    "Real-time market data and price charts",
+    "Cryptocurrency trading",
+    "Options trading",
+    "Cash management with debit card",
+    "Recurring investments",
+    "IPO access",
+    "24-hour market trading",
+    "News and analyst ratings"
+  ],
+  "target_audience": [
+    "First-time investors",
+    "Millennials and Gen Z",
+    "Mobile-first users",
+    "Cost-conscious traders",
+    "Casual retail investors"
+  ],
+  "business_model": "Payment for order flow, Robinhood Gold subscription, interest on uninvested cash, margin lending, stock loan income",
+  "competitors": ["E*TRADE", "TD Ameritrade", "Fidelity", "Charles Schwab", "Webull", "Public.com", "SoFi"],
+  "monthly_active_users": "23 million+",
+  "design_philosophy": "Radical simplification of complex financial concepts, mobile-first interface, engagement through gamification, progressive disclosure of advanced features"
+}

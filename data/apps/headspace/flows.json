@@ -1,0 +1,74 @@
+[
+  {
+    "flow_id": "landing",
+    "name": "Landing Page",
+    "primary_user_goal": "Understand what Headspace offers and decide to try",
+    "business_goal": "Convert visitors to free trial signup",
+    "entry_point": "Direct URL, marketing, or app store",
+    "exit_point": "Click 'Try for free' or login",
+    "screens": ["landing-01"]
+  },
+  {
+    "flow_id": "onboarding",
+    "name": "Onboarding",
+    "primary_user_goal": "Set up personalized meditation experience",
+    "business_goal": "Segment users for personalization and increase commitment",
+    "entry_point": "After signup or free trial start",
+    "exit_point": "First meditation recommended",
+    "screens": ["onboarding-01", "onboarding-02"]
+  },
+  {
+    "flow_id": "home",
+    "name": "Today Dashboard",
+    "primary_user_goal": "Find today's meditation and continue practice",
+    "business_goal": "Drive daily meditation completion and habit formation",
+    "entry_point": "App open or login",
+    "exit_point": "Start meditation or navigate to content",
+    "screens": ["home-01"]
+  },
+  {
+    "flow_id": "meditation",
+    "name": "Meditation Session",
+    "primary_user_goal": "Complete guided meditation and feel calmer",
+    "business_goal": "Deliver core product value and reinforce habit",
+    "entry_point": "Tap meditation from Today or browse",
+    "exit_point": "Session completion screen",
+    "screens": ["meditation-01", "meditation-02"]
+  },
+  {
+    "flow_id": "courses",
+    "name": "Course Browser",
+    "primary_user_goal": "Find meditation courses for specific life challenges",
+    "business_goal": "Increase content discovery and deepen engagement",
+    "entry_point": "Explore tab or course recommendation",
+    "exit_point": "Start course or return to Today",
+    "screens": ["courses-01"]
+  },
+  {
+    "flow_id": "sleep",
+    "name": "Sleep Content",
+    "primary_user_goal": "Find content to improve sleep quality",
+    "business_goal": "Expand use cases and increase daily sessions",
+    "entry_point": "Sleep tab in navigation",
+    "exit_point": "Start sleepcast or sleep content",
+    "screens": ["sleep-01"]
+  },
+  {
+    "flow_id": "progress",
+    "name": "Progress Tracking",
+    "primary_user_goal": "Review meditation progress and stay motivated",
+    "business_goal": "Reinforce habit through visible progress",
+    "entry_point": "Profile or stats section",
+    "exit_point": "Return to Today or start meditation",
+    "screens": ["progress-01"]
+  },
+  {
+    "flow_id": "subscription",
+    "name": "Subscription Conversion",
+    "primary_user_goal": "Evaluate and purchase subscription",
+    "business_goal": "Convert free users to paid subscribers",
+    "entry_point": "Paywall on premium content or settings",
+    "exit_point": "Purchase complete or dismiss",
+    "screens": ["subscription-01"]
+  }
+]

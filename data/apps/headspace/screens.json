@@ -1,0 +1,304 @@
+[
+  {
+    "screen_id": "landing-01",
+    "app_id": "headspace",
+    "flow_id": "landing",
+    "step_index": 0,
+    "image_path": "data/raw_screens/headspace/landing/01-homepage.png",
+    "screen_type": "landing",
+    "layout_type": "hero-cta",
+    "primary_user_goal": "Understand what Headspace offers and decide to try meditation",
+    "primary_business_goal": "Convert visitors to start free trial signup",
+    "primary_cta_label": "Try for free",
+    "secondary_cta_labels": ["Log in", "Get Headspace for work"],
+    "navigation_elements": ["logo", "nav-links", "login-button"],
+    "copy_summary": "Calming hero with playful illustrated characters in meditation poses. Headline emphasizes stress relief and better sleep. Soft orange and coral color palette creates warmth and approachability.",
+    "patterns": [
+      "single-primary-cta",
+      "hero-illustration",
+      "benefit-oriented-headline",
+      "free-trial-cta",
+      "social-proof"
+    ],
+    "heuristics": {
+      "clarity": 5,
+      "cognitive_load": 5,
+      "visual_hierarchy": 5,
+      "feedback": 3,
+      "accessibility": 4,
+      "conversion_strength": 5
+    },
+    "notes": "The landing page immediately communicates calm through visual design. Playful illustrations differentiate from clinical wellness apps. 'Try for free' removes risk barrier. The orange/coral palette is distinctive and ownable in the meditation space."
+  },
+  {
+    "screen_id": "onboarding-01",
+    "app_id": "headspace",
+    "flow_id": "onboarding",
+    "step_index": 0,
+    "image_path": "data/raw_screens/headspace/onboarding/01-goal-selection.png",
+    "screen_type": "survey",
+    "layout_type": "card-list",
+    "primary_user_goal": "Share meditation goals to get personalized experience",
+    "primary_business_goal": "Segment users for content personalization and retention",
+    "primary_cta_label": "",
+    "secondary_cta_labels": [],
+    "navigation_elements": ["progress-indicator", "skip-button"],
+    "copy_summary": "Question 'What brings you to Headspace?' with options: Reduce stress, Sleep better, Build focus, Reduce anxiety, Increase happiness, Learn to meditate. Calming illustration accompanies question.",
+    "patterns": [
+      "progress-indicator",
+      "card-layout",
+      "progressive-disclosure",
+      "hero-illustration"
+    ],
+    "heuristics": {
+      "clarity": 5,
+      "cognitive_load": 4,
+      "visual_hierarchy": 5,
+      "feedback": 4,
+      "accessibility": 4,
+      "conversion_strength": 5
+    },
+    "notes": "Goal selection creates immediate personalization and investment. Options cover both problem-focused (stress, anxiety) and aspiration-focused (happiness, focus) motivations. Selection auto-advances to reduce friction. The question format feels conversational, not clinical."
+  },
+  {
+    "screen_id": "onboarding-02",
+    "app_id": "headspace",
+    "flow_id": "onboarding",
+    "step_index": 1,
+    "image_path": "data/raw_screens/headspace/onboarding/02-experience-level.png",
+    "screen_type": "survey",
+    "layout_type": "card-list",
+    "primary_user_goal": "Indicate meditation experience for appropriate content",
+    "primary_business_goal": "Match content difficulty to prevent frustration or boredom",
+    "primary_cta_label": "",
+    "secondary_cta_labels": [],
+    "navigation_elements": ["progress-indicator", "back-button", "skip-button"],
+    "copy_summary": "Question 'Have you meditated before?' with options: New to meditation, Tried a few times, Meditate sometimes, Regular practice. Friendly character illustration.",
+    "patterns": [
+      "progress-indicator",
+      "card-layout",
+      "progressive-disclosure"
+    ],
+    "heuristics": {
+      "clarity": 5,
+      "cognitive_load": 5,
+      "visual_hierarchy": 4,
+      "feedback": 4,
+      "accessibility": 4,
+      "conversion_strength": 4
+    },
+    "notes": "Non-judgmental framing for all experience levels. 'New to meditation' is normalized as a valid starting point. This prevents intimidation that might cause drop-off. The graduated options provide useful segmentation data."
+  },
+  {
+    "screen_id": "home-01",
+    "app_id": "headspace",
+    "flow_id": "home",
+    "step_index": 0,
+    "image_path": "data/raw_screens/headspace/home/01-today-screen.png",
+    "screen_type": "dashboard",
+    "layout_type": "vertical-scroll",
+    "primary_user_goal": "Find today's meditation and continue practice",
+    "primary_business_goal": "Drive daily meditation completion and streak building",
+    "primary_cta_label": "Start",
+    "secondary_cta_labels": ["See all", "Explore"],
+    "navigation_elements": ["bottom-tab-bar", "profile-avatar", "streak-indicator", "notification-bell"],
+    "copy_summary": "Personalized 'Today' view with recommended meditation based on time of day and goals. Daily meditation prominently featured. Progress stats visible. Curated content sections below.",
+    "patterns": [
+      "bottom-tab-bar",
+      "card-layout",
+      "progress-indicator",
+      "single-primary-cta",
+      "personalization",
+      "notification-badge"
+    ],
+    "heuristics": {
+      "clarity": 5,
+      "cognitive_load": 3,
+      "visual_hierarchy": 5,
+      "feedback": 4,
+      "accessibility": 4,
+      "conversion_strength": 5
+    },
+    "notes": "The 'Today' screen removes decision paralysis by recommending a specific meditation. Time-of-day awareness (morning vs evening content) feels personalized. Streak indicator provides gentle accountability. The single prominent CTA makes starting effortless."
+  },
+  {
+    "screen_id": "meditation-01",
+    "app_id": "headspace",
+    "flow_id": "meditation",
+    "step_index": 0,
+    "image_path": "data/raw_screens/headspace/meditation/01-player.png",
+    "screen_type": "player",
+    "layout_type": "full-screen",
+    "primary_user_goal": "Complete meditation session with guidance",
+    "primary_business_goal": "Deliver core product value and build habit",
+    "primary_cta_label": "Pause",
+    "secondary_cta_labels": [],
+    "navigation_elements": ["close-button", "progress-bar", "timer"],
+    "copy_summary": "Immersive meditation player with calming animated background. Andy's voice guides the session. Progress bar shows time remaining. Minimal UI to maintain focus.",
+    "patterns": [
+      "progress-indicator",
+      "single-primary-cta",
+      "immersive-experience"
+    ],
+    "heuristics": {
+      "clarity": 5,
+      "cognitive_load": 5,
+      "visual_hierarchy": 5,
+      "feedback": 5,
+      "accessibility": 4,
+      "conversion_strength": 4
+    },
+    "notes": "The meditation player exemplifies 'less is more' - minimal UI reduces distraction during practice. Animated backgrounds (breathing patterns, nature scenes) provide gentle visual focus without being distracting. Progress bar is subtle but reassuring."
+  },
+  {
+    "screen_id": "meditation-02",
+    "app_id": "headspace",
+    "flow_id": "meditation",
+    "step_index": 1,
+    "image_path": "data/raw_screens/headspace/meditation/02-completion.png",
+    "screen_type": "success",
+    "layout_type": "celebration",
+    "primary_user_goal": "Feel accomplished and motivated to continue practice",
+    "primary_business_goal": "Reinforce habit and encourage return",
+    "primary_cta_label": "Done",
+    "secondary_cta_labels": ["Reflect", "Share"],
+    "navigation_elements": [],
+    "copy_summary": "Gentle celebration with session stats: duration, streak count, total minutes practiced. Encouraging message from Andy. Option to add reflection notes.",
+    "patterns": [
+      "success-confirmation",
+      "progress-indicator",
+      "single-primary-cta",
+      "hero-illustration"
+    ],
+    "heuristics": {
+      "clarity": 5,
+      "cognitive_load": 5,
+      "visual_hierarchy": 5,
+      "feedback": 5,
+      "accessibility": 4,
+      "conversion_strength": 4
+    },
+    "notes": "Completion screen provides satisfying closure without jarring transition. Stats reinforce progress and investment. Streak display leverages loss aversion for retention. Reflection option deepens engagement for committed users without burdening casual ones."
+  },
+  {
+    "screen_id": "courses-01",
+    "app_id": "headspace",
+    "flow_id": "courses",
+    "step_index": 0,
+    "image_path": "data/raw_screens/headspace/courses/01-browse.png",
+    "screen_type": "browse",
+    "layout_type": "grid",
+    "primary_user_goal": "Find meditation courses for specific needs",
+    "primary_business_goal": "Increase content discovery and session depth",
+    "primary_cta_label": "Start course",
+    "secondary_cta_labels": ["Filter", "Search"],
+    "navigation_elements": ["bottom-tab-bar", "category-tabs", "search-icon"],
+    "copy_summary": "Course library organized by category: Stress, Sleep, Focus, Anxiety, Relationships, Personal growth. Each course shows session count, duration, and distinctive illustration.",
+    "patterns": [
+      "bottom-tab-bar",
+      "card-layout",
+      "filter-bar",
+      "search-bar"
+    ],
+    "heuristics": {
+      "clarity": 4,
+      "cognitive_load": 3,
+      "visual_hierarchy": 4,
+      "feedback": 4,
+      "accessibility": 4,
+      "conversion_strength": 4
+    },
+    "notes": "Course organization by life challenge makes content discoverable and relevant. Visual design consistency with unique course illustrations creates brand cohesion. Session counts set expectations for commitment. Category tabs allow quick filtering."
+  },
+  {
+    "screen_id": "sleep-01",
+    "app_id": "headspace",
+    "flow_id": "sleep",
+    "step_index": 0,
+    "image_path": "data/raw_screens/headspace/sleep/01-sleep-tab.png",
+    "screen_type": "browse",
+    "layout_type": "vertical-scroll",
+    "primary_user_goal": "Find content to help fall asleep or improve sleep quality",
+    "primary_business_goal": "Expand use cases beyond meditation and increase daily sessions",
+    "primary_cta_label": "Play",
+    "secondary_cta_labels": ["Set sleep reminder", "See all sleepcasts"],
+    "navigation_elements": ["bottom-tab-bar", "category-tabs"],
+    "copy_summary": "Dark-themed sleep section with Sleepcasts, sleep music, wind-down exercises, and sleep stories. Featured sleepcast prominent. Nighttime color scheme signals transition to sleep mode.",
+    "patterns": [
+      "bottom-tab-bar",
+      "card-layout",
+      "category-tabs",
+      "hero-illustration"
+    ],
+    "heuristics": {
+      "clarity": 5,
+      "cognitive_load": 4,
+      "visual_hierarchy": 5,
+      "feedback": 4,
+      "accessibility": 4,
+      "conversion_strength": 4
+    },
+    "notes": "Brilliant use of dark theme for sleep section - visually signals wind-down and reduces blue light. Sleepcasts are a unique content innovation. Sleep content expands app utility beyond traditional meditation. Content variety (music, stories, exercises) serves different sleep needs."
+  },
+  {
+    "screen_id": "progress-01",
+    "app_id": "headspace",
+    "flow_id": "progress",
+    "step_index": 0,
+    "image_path": "data/raw_screens/headspace/progress/01-stats.png",
+    "screen_type": "dashboard",
+    "layout_type": "stats-grid",
+    "primary_user_goal": "Review meditation progress and stay motivated",
+    "primary_business_goal": "Reinforce habit through visible progress and achievements",
+    "primary_cta_label": "",
+    "secondary_cta_labels": ["View journey", "See milestones"],
+    "navigation_elements": ["back-button", "share-button"],
+    "copy_summary": "Progress dashboard showing total sessions, streak count, total mindful minutes, badges earned. Calendar view of meditation activity. Milestone achievements displayed.",
+    "patterns": [
+      "progress-indicator",
+      "card-layout",
+      "notification-badge",
+      "social-proof"
+    ],
+    "heuristics": {
+      "clarity": 5,
+      "cognitive_load": 4,
+      "visual_hierarchy": 4,
+      "feedback": 5,
+      "accessibility": 4,
+      "conversion_strength": 3
+    },
+    "notes": "Stats dashboard makes invisible progress visible. 'Mindful minutes' metric is unique and meaningful. Calendar view shows consistency patterns. Milestones and badges add gamification without feeling game-like. Share option enables social accountability."
+  },
+  {
+    "screen_id": "subscription-01",
+    "app_id": "headspace",
+    "flow_id": "subscription",
+    "step_index": 0,
+    "image_path": "data/raw_screens/headspace/subscription/01-pricing.png",
+    "screen_type": "pricing",
+    "layout_type": "card-list",
+    "primary_user_goal": "Understand subscription options and value",
+    "primary_business_goal": "Convert free users to paid subscribers",
+    "primary_cta_label": "Start free trial",
+    "secondary_cta_labels": ["Restore purchase", "Redeem code"],
+    "navigation_elements": ["close-button"],
+    "copy_summary": "Subscription options: Monthly and Annual plans with savings emphasized on annual. Free trial prominently featured. Benefits list: Full library, personalized recommendations, offline access, family plan option.",
+    "patterns": [
+      "single-primary-cta",
+      "free-trial-cta",
+      "card-layout",
+      "social-proof",
+      "pricing-comparison"
+    ],
+    "heuristics": {
+      "clarity": 5,
+      "cognitive_load": 4,
+      "visual_hierarchy": 5,
+      "feedback": 3,
+      "accessibility": 4,
+      "conversion_strength": 5
+    },
+    "notes": "Free trial reduces commitment barrier significantly. Annual savings clearly displayed to encourage longer commitment. Benefits focus on value rather than features. Clean design doesn't feel pushy. Strategic placement after value demonstration in free content."
+  }
+]

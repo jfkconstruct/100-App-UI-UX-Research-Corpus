@@ -1,0 +1,65 @@
+[
+  {
+    "flow_id": "marketing",
+    "name": "Marketing Landing",
+    "primary_user_goal": "Understand 1Password value proposition and decide to try it",
+    "business_goal": "Convert visitors to trial signups",
+    "entry_point": "Website homepage or marketing campaign",
+    "exit_point": "Trial signup or pricing page",
+    "screens": ["landing-01"]
+  },
+  {
+    "flow_id": "onboarding",
+    "name": "Account Setup",
+    "primary_user_goal": "Create account with secure master password and understand key concepts",
+    "business_goal": "Ensure proper security foundation and reduce support burden from lockouts",
+    "entry_point": "Trial signup or account creation",
+    "exit_point": "User reaches empty vault ready to add first item",
+    "screens": ["onboarding-01", "onboarding-02"]
+  },
+  {
+    "flow_id": "vault-management",
+    "name": "Vault Navigation",
+    "primary_user_goal": "Find and access stored credentials quickly",
+    "business_goal": "Deliver core value and drive daily usage habit",
+    "entry_point": "App launch or unlock",
+    "exit_point": "Credential copied or auto-filled",
+    "screens": ["vault-01", "item-detail-01"]
+  },
+  {
+    "flow_id": "add-item",
+    "name": "Add New Item",
+    "primary_user_goal": "Store a new credential or secure information",
+    "business_goal": "Increase vault size and stickiness",
+    "entry_point": "New Item button or save prompt",
+    "exit_point": "Item saved to vault",
+    "screens": ["add-item-01", "add-item-02"]
+  },
+  {
+    "flow_id": "browser-extension",
+    "name": "Browser Auto-Fill",
+    "primary_user_goal": "Fill login credentials without manual entry",
+    "business_goal": "Demonstrate daily value and build usage habit",
+    "entry_point": "Website login form or extension icon click",
+    "exit_point": "Credentials filled into form",
+    "screens": ["browser-ext-01"]
+  },
+  {
+    "flow_id": "watchtower",
+    "name": "Security Monitoring",
+    "primary_user_goal": "Understand and improve password security across all accounts",
+    "business_goal": "Differentiate from competitors and justify ongoing subscription",
+    "entry_point": "Watchtower menu item or security alert",
+    "exit_point": "Security issues identified and addressed",
+    "screens": ["watchtower-01"]
+  },
+  {
+    "flow_id": "family-sharing",
+    "name": "Family Sharing",
+    "primary_user_goal": "Securely share credentials with family members",
+    "business_goal": "Drive family plan adoption and reduce churn through shared value",
+    "entry_point": "Family section or share button on item",
+    "exit_point": "Item or vault shared with family member",
+    "screens": ["family-sharing-01"]
+  }
+]

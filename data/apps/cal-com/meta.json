@@ -1,0 +1,16 @@
+{
+  "app_id": "cal-com",
+  "name": "Cal.com",
+  "category": "productivity",
+  "platforms": ["web", "ios", "android"],
+  "url": "https://cal.com",
+  "analyzed_version": "2024",
+  "analysis_date": "2026-01-19",
+  "why_interesting": [
+    "Open-source Calendly alternative with full self-hosting capability",
+    "Clean, frictionless booking flow that minimizes drop-off",
+    "Excellent calendar integration supporting Google, Outlook, and Apple",
+    "Modern UX with thoughtful defaults for scheduling scenarios",
+    "Developer-friendly with API-first architecture"
+  ]
+}

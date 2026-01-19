@@ -1,0 +1,411 @@
+{
+  "app_id": "1password",
+  "total_screens": 10,
+  "patterns": [
+    {
+      "pattern_id": "contextual-help",
+      "pattern_name": "Contextual Help",
+      "frequency": 6,
+      "percentage": 60,
+      "avg_heuristics": {
+        "clarity": 4.4,
+        "cognitive_load": 3.7,
+        "visual_hierarchy": 4.2,
+        "feedback": 4.6,
+        "accessibility": 4,
+        "conversion_strength": 4.2
+      },
+      "screens": [
+        "onboarding-01",
+        "onboarding-02",
+        "item-detail-01",
+        "add-item-02",
+        "watchtower-01",
+        "family-sharing-01"
+      ]
+    },
+    {
+      "pattern_id": "single-primary-cta",
+      "pattern_name": "Single Primary CTA",
+      "frequency": 5,
+      "percentage": 50,
+      "avg_heuristics": {
+        "clarity": 4.5,
+        "cognitive_load": 3.8,
+        "visual_hierarchy": 4.2,
+        "feedback": 4.4,
+        "accessibility": 4,
+        "conversion_strength": 4
+      },
+      "screens": [
+        "landing-01",
+        "onboarding-01",
+        "onboarding-02",
+        "item-detail-01",
+        "add-item-02"
+      ]
+    },
+    {
+      "pattern_id": "card-layout",
+      "pattern_name": "Card Layout",
+      "frequency": 4,
+      "percentage": 40,
+      "avg_heuristics": {
+        "clarity": 4.4,
+        "cognitive_load": 3.6,
+        "visual_hierarchy": 4.3,
+        "feedback": 4.1,
+        "accessibility": 4,
+        "conversion_strength": 4.4
+      },
+      "screens": [
+        "vault-01",
+        "add-item-01",
+        "watchtower-01",
+        "family-sharing-01"
+      ]
+    },
+    {
+      "pattern_id": "notification-badge",
+      "pattern_name": "Notification Badge",
+      "frequency": 4,
+      "percentage": 40,
+      "avg_heuristics": {
+        "clarity": 4.4,
+        "cognitive_load": 3.9,
+        "visual_hierarchy": 4.4,
+        "feedback": 4.4,
+        "accessibility": 3.9,
+        "conversion_strength": 4.6
+      },
+      "screens": [
+        "vault-01",
+        "browser-ext-01",
+        "watchtower-01",
+        "family-sharing-01"
+      ]
+    },
+    {
+      "pattern_id": "progress-indicator",
+      "pattern_name": "Progress Indicator",
+      "frequency": 3,
+      "percentage": 30,
+      "avg_heuristics": {
+        "clarity": 4.5,
+        "cognitive_load": 3.5,
+        "visual_hierarchy": 4.2,
+        "feedback": 4.7,
+        "accessibility": 4,
+        "conversion_strength": 4
+      },
+      "screens": [
+        "onboarding-01",
+        "onboarding-02",
+        "watchtower-01"
+      ]
+    },
+    {
+      "pattern_id": "hero-illustration",
+      "pattern_name": "Hero Illustration",
+      "frequency": 2,
+      "percentage": 20,
+      "avg_heuristics": {
+        "clarity": 4.5,
+        "cognitive_load": 3.8,
+        "visual_hierarchy": 4.3,
+        "feedback": 3.8,
+        "accessibility": 4,
+        "conversion_strength": 4
+      },
+      "screens": [
+        "landing-01",
+        "onboarding-02"
+      ]
+    },
+    {
+      "pattern_id": "inline-validation",
+      "pattern_name": "Inline Validation",
+      "frequency": 2,
+      "percentage": 20,
+      "avg_heuristics": {
+        "clarity": 4.5,
+        "cognitive_load": 3.8,
+        "visual_hierarchy": 4,
+        "feedback": 4.8,
+        "accessibility": 4,
+        "conversion_strength": 3.8
+      },
+      "screens": [
+        "onboarding-01",
+        "add-item-02"
+      ]
+    },
+    {
+      "pattern_id": "search-prominent",
+      "pattern_name": "Prominent Search",
+      "frequency": 2,
+      "percentage": 20,
+      "avg_heuristics": {
+        "clarity": 4.5,
+        "cognitive_load": 4.3,
+        "visual_hierarchy": 4.5,
+        "feedback": 4.3,
+        "accessibility": 3.8,
+        "conversion_strength": 4.5
+      },
+      "screens": [
+        "vault-01",
+        "browser-ext-01"
+      ]
+    },
+    {
+      "pattern_id": "empty-state",
+      "pattern_name": "Empty State",
+      "frequency": 2,
+      "percentage": 20,
+      "avg_heuristics": {
+        "clarity": 4.3,
+        "cognitive_load": 3.8,
+        "visual_hierarchy": 4.3,
+        "feedback": 4,
+        "accessibility": 4,
+        "conversion_strength": 4.3
+      },
+      "screens": [
+        "vault-01",
+        "family-sharing-01"
+      ]
+    },
+    {
+      "pattern_id": "social-proof",
+      "pattern_name": "Social Proof",
+      "frequency": 1,
+      "percentage": 10,
+      "avg_heuristics": {
+        "clarity": 4.5,
+        "cognitive_load": 4,
+        "visual_hierarchy": 4.5,
+        "feedback": 3.5,
+        "accessibility": 4,
+        "conversion_strength": 4.5
+      },
+      "screens": [
+        "landing-01"
+      ]
+    },
+    {
+      "pattern_id": "benefit-oriented-headline",
+      "pattern_name": "Benefit-Oriented Headline",
+      "frequency": 1,
+      "percentage": 10,
+      "avg_heuristics": {
+        "clarity": 4.5,
+        "cognitive_load": 4,
+        "visual_hierarchy": 4.5,
+        "feedback": 3.5,
+        "accessibility": 4,
+        "conversion_strength": 4.5
+      },
+      "screens": [
+        "landing-01"
+      ]
+    },
+    {
+      "pattern_id": "filter-facets",
+      "pattern_name": "Filter Facets",
+      "frequency": 1,
+      "percentage": 10,
+      "avg_heuristics": {
+        "clarity": 4.5,
+        "cognitive_load": 4,
+        "visual_hierarchy": 4.5,
+        "feedback": 4,
+        "accessibility": 4,
+        "conversion_strength": 4
+      },
+      "screens": [
+        "vault-01"
+      ]
+    },
+    {
+      "pattern_id": "lazy-loading",
+      "pattern_name": "Lazy Loading",
+      "frequency": 1,
+      "percentage": 10,
+      "avg_heuristics": {
+        "clarity": 4.5,
+        "cognitive_load": 4,
+        "visual_hierarchy": 4.5,
+        "feedback": 4,
+        "accessibility": 4,
+        "conversion_strength": 4
+      },
+      "screens": [
+        "vault-01"
+      ]
+    },
+    {
+      "pattern_id": "search-autocomplete",
+      "pattern_name": "Search Autocomplete",
+      "frequency": 1,
+      "percentage": 10,
+      "avg_heuristics": {
+        "clarity": 4.5,
+        "cognitive_load": 3.5,
+        "visual_hierarchy": 4,
+        "feedback": 3.5,
+        "accessibility": 4,
+        "conversion_strength": 4
+      },
+      "screens": [
+        "add-item-01"
+      ]
+    },
+    {
+      "pattern_id": "progressive-disclosure",
+      "pattern_name": "Progressive Disclosure",
+      "frequency": 1,
+      "percentage": 10,
+      "avg_heuristics": {
+        "clarity": 4.5,
+        "cognitive_load": 3.5,
+        "visual_hierarchy": 4,
+        "feedback": 3.5,
+        "accessibility": 4,
+        "conversion_strength": 4
+      },
+      "screens": [
+        "add-item-01"
+      ]
+    },
+    {
+      "pattern_id": "smart-defaults",
+      "pattern_name": "Smart Defaults",
+      "frequency": 1,
+      "percentage": 10,
+      "avg_heuristics": {
+        "clarity": 4.5,
+        "cognitive_load": 4,
+        "visual_hierarchy": 4,
+        "feedback": 4.5,
+        "accessibility": 4,
+        "conversion_strength": 4
+      },
+      "screens": [
+        "add-item-02"
+      ]
+    }
+  ],
+  "flows": [
+    {
+      "flow_id": "marketing",
+      "flow_name": "Marketing Landing",
+      "unique_patterns": [
+        "hero-illustration",
+        "single-primary-cta",
+        "social-proof",
+        "benefit-oriented-headline",
+        "trust-badges"
+      ],
+      "pattern_combinations": []
+    },
+    {
+      "flow_id": "onboarding",
+      "flow_name": "Account Setup",
+      "unique_patterns": [
+        "progress-indicator",
+        "inline-validation",
+        "password-strength-meter",
+        "contextual-help",
+        "single-primary-cta",
+        "warning-state",
+        "hero-illustration"
+      ],
+      "pattern_combinations": [
+        [
+          "contextual-help",
+          "progress-indicator"
+        ],
+        [
+          "progress-indicator",
+          "single-primary-cta"
+        ],
+        [
+          "contextual-help",
+          "single-primary-cta"
+        ]
+      ]
+    },
+    {
+      "flow_id": "vault-management",
+      "flow_name": "Vault Navigation",
+      "unique_patterns": [
+        "search-prominent",
+        "card-layout",
+        "filter-facets",
+        "notification-badge",
+        "empty-state",
+        "lazy-loading",
+        "single-primary-cta",
+        "contextual-help",
+        "inline-actions",
+        "password-reveal-toggle",
+        "copy-to-clipboard"
+      ],
+      "pattern_combinations": []
+    },
+    {
+      "flow_id": "add-item",
+      "flow_name": "Add New Item",
+      "unique_patterns": [
+        "card-layout",
+        "search-autocomplete",
+        "progressive-disclosure",
+        "icon-grid",
+        "inline-validation",
+        "single-primary-cta",
+        "smart-defaults",
+        "contextual-help",
+        "password-generator"
+      ],
+      "pattern_combinations": []
+    },
+    {
+      "flow_id": "browser-extension",
+      "flow_name": "Browser Auto-Fill",
+      "unique_patterns": [
+        "search-prominent",
+        "contextual-matching",
+        "inline-actions",
+        "notification-badge",
+        "compact-list"
+      ],
+      "pattern_combinations": []
+    },
+    {
+      "flow_id": "watchtower",
+      "flow_name": "Security Monitoring",
+      "unique_patterns": [
+        "dashboard-metrics",
+        "card-layout",
+        "notification-badge",
+        "progress-indicator",
+        "contextual-help",
+        "gamification"
+      ],
+      "pattern_combinations": []
+    },
+    {
+      "flow_id": "family-sharing",
+      "flow_name": "Family Sharing",
+      "unique_patterns": [
+        "role-based-access",
+        "card-layout",
+        "empty-state",
+        "contextual-help",
+        "notification-badge"
+      ],
+      "pattern_combinations": []
+    }
+  ]
+}

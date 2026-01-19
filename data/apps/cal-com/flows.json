@@ -1,0 +1,56 @@
+[
+  {
+    "flow_id": "landing",
+    "name": "Landing Page",
+    "primary_user_goal": "Understand Cal.com's value proposition for scheduling",
+    "business_goal": "Convert visitors to signup or self-host download",
+    "entry_point": "Direct URL, marketing, or referral",
+    "exit_point": "Click 'Get started' or 'Self-host'",
+    "screens": ["landing-01", "pricing-01"]
+  },
+  {
+    "flow_id": "booking",
+    "name": "Public Booking Flow",
+    "primary_user_goal": "Book a meeting with host quickly and easily",
+    "business_goal": "Maximize booking completion rate",
+    "entry_point": "Public booking link (cal.com/username)",
+    "exit_point": "Booking confirmation with calendar invite",
+    "screens": ["booking-01", "booking-02", "booking-03", "booking-04"]
+  },
+  {
+    "flow_id": "dashboard",
+    "name": "Booking Management",
+    "primary_user_goal": "View and manage scheduled meetings",
+    "business_goal": "Drive daily engagement and retention",
+    "entry_point": "Login or app open",
+    "exit_point": "Navigate to specific booking or other section",
+    "screens": ["dashboard-01"]
+  },
+  {
+    "flow_id": "event-setup",
+    "name": "Event Type Setup",
+    "primary_user_goal": "Create and configure booking options",
+    "business_goal": "Enable flexible scheduling scenarios",
+    "entry_point": "Event Types nav item or New button",
+    "exit_point": "Save event type",
+    "screens": ["event-type-01", "event-type-02"]
+  },
+  {
+    "flow_id": "availability",
+    "name": "Availability Settings",
+    "primary_user_goal": "Define when meetings can be booked",
+    "business_goal": "Ensure accurate scheduling to prevent conflicts",
+    "entry_point": "Availability nav item",
+    "exit_point": "Save schedule",
+    "screens": ["availability-01"]
+  },
+  {
+    "flow_id": "integrations",
+    "name": "App Integrations",
+    "primary_user_goal": "Connect calendars and other productivity tools",
+    "business_goal": "Increase stickiness and reduce churn",
+    "entry_point": "Integrations nav item",
+    "exit_point": "Connected integration or return to dashboard",
+    "screens": ["integrations-01"]
+  }
+]

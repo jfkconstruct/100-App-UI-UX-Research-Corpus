@@ -1,0 +1,436 @@
+[
+  {
+    "screen_id": "typeform-landing",
+    "app_id": "typeform",
+    "flow_id": "typeform-signup-to-create",
+    "step_index": 0,
+    "image_path": "screens/landing.png",
+    "screen_type": "marketing-landing",
+    "layout_type": "hero-centered",
+    "primary_user_goal": "Understand Typeform's value proposition and sign up to create forms",
+    "primary_business_goal": "Convert visitors to registered users with clear differentiation from traditional form tools",
+    "primary_cta_label": "Get started free",
+    "secondary_cta_labels": [
+      "Log in",
+      "Talk to sales",
+      "See pricing"
+    ],
+    "navigation_elements": [
+      "Products dropdown",
+      "Templates",
+      "Integrations",
+      "Pricing",
+      "Resources dropdown"
+    ],
+    "copy_summary": "Hero emphasizes 'forms worth filling out' - focusing on respondent experience rather than builder features. Tagline 'Break the pattern' differentiates from boring traditional forms. Social proof shows trusted brands and completion rate statistics.",
+    "patterns": [
+      "single-primary-cta",
+      "social-proof-banner",
+      "hero-with-product-preview",
+      "use-case-grid",
+      "sticky-header",
+      "video-demo"
+    ],
+    "heuristics": {
+      "clarity": 5,
+      "cognitive_load": 4,
+      "visual_hierarchy": 5,
+      "feedback": 4,
+      "accessibility": 4,
+      "conversion_strength": 5
+    },
+    "notes": "Landing page immediately demonstrates the product through embedded, interactive form examples. The messaging inverts traditional form tool positioning - instead of 'build forms easily,' it promises 'forms people actually complete.' Completion rate statistics (3x higher than industry average) serve as compelling proof points."
+  },
+  {
+    "screen_id": "typeform-template-gallery",
+    "app_id": "typeform",
+    "flow_id": "typeform-template-to-form",
+    "step_index": 0,
+    "image_path": "screens/template-gallery.png",
+    "screen_type": "browse-gallery",
+    "layout_type": "grid-with-filters",
+    "primary_user_goal": "Find a suitable form template for specific use case",
+    "primary_business_goal": "Accelerate time-to-value by providing pre-built starting points",
+    "primary_cta_label": "Use this template",
+    "secondary_cta_labels": [
+      "Preview",
+      "Start from scratch",
+      "See all categories"
+    ],
+    "navigation_elements": [
+      "Category sidebar",
+      "Search bar",
+      "Use case filters",
+      "Industry filters",
+      "Sort options"
+    ],
+    "copy_summary": "Templates organized by use case (feedback, registration, quiz, lead gen). Each template card shows preview, response count from community usage, and complexity indicator. Categories use plain language not form jargon.",
+    "patterns": [
+      "card-layout",
+      "search-prominent",
+      "filter-facets",
+      "category-navigation",
+      "hover-preview",
+      "lazy-loading",
+      "popularity-indicators"
+    ],
+    "heuristics": {
+      "clarity": 5,
+      "cognitive_load": 4,
+      "visual_hierarchy": 5,
+      "feedback": 5,
+      "accessibility": 4,
+      "conversion_strength": 4
+    },
+    "notes": "Template gallery is organized around jobs-to-be-done, not form types. 'Customer feedback survey' instead of 'Multi-question form with rating scales.' Template previews show the actual form experience, not just a static screenshot. This lets users experience Typeform's differentiating UX before committing."
+  },
+  {
+    "screen_id": "typeform-form-builder",
+    "app_id": "typeform",
+    "flow_id": "typeform-template-to-form",
+    "step_index": 1,
+    "image_path": "screens/form-builder.png",
+    "screen_type": "editor-workspace",
+    "layout_type": "sidebar-canvas",
+    "primary_user_goal": "Build or customize form structure by adding and arranging questions",
+    "primary_business_goal": "Enable rapid form creation while exposing upgrade-worthy features",
+    "primary_cta_label": "Publish",
+    "secondary_cta_labels": [
+      "Preview",
+      "Add question",
+      "Theme",
+      "Share"
+    ],
+    "navigation_elements": [
+      "Question list sidebar",
+      "Question type panel",
+      "Settings tabs",
+      "Preview toggle",
+      "Undo/Redo",
+      "Form title editor"
+    ],
+    "copy_summary": "Builder interface shows question list as outline on left, with question editing in center. Question types are visually represented with clear icons. Helper text guides users on question configuration.",
+    "patterns": [
+      "progressive-disclosure",
+      "drag-drop-reorder",
+      "contextual-toolbar",
+      "inline-editing",
+      "auto-save",
+      "preview-mode",
+      "question-type-cards"
+    ],
+    "heuristics": {
+      "clarity": 5,
+      "cognitive_load": 3,
+      "visual_hierarchy": 5,
+      "feedback": 5,
+      "accessibility": 4,
+      "conversion_strength": 4
+    },
+    "notes": "Form builder prioritizes seeing the form as respondents will see it. The 'Create' view closely mirrors the 'Fill' experience, helping builders understand how their form feels. Question types are discoverable through a visual panel with examples. Drag-and-drop reordering feels natural. Auto-save removes anxiety about losing work."
+  },
+  {
+    "screen_id": "typeform-question-editor",
+    "app_id": "typeform",
+    "flow_id": "typeform-template-to-form",
+    "step_index": 2,
+    "image_path": "screens/question-editor.png",
+    "screen_type": "editor-detail",
+    "layout_type": "split-panel",
+    "primary_user_goal": "Configure individual question text, type, options, and settings",
+    "primary_business_goal": "Provide flexibility while maintaining conversational form aesthetic",
+    "primary_cta_label": null,
+    "secondary_cta_labels": [
+      "Add description",
+      "Add image/video",
+      "Required toggle",
+      "Settings"
+    ],
+    "navigation_elements": [
+      "Question text input",
+      "Answer options panel",
+      "Question settings panel",
+      "Media attachment button",
+      "Question navigation arrows"
+    ],
+    "copy_summary": "Question editor shows exactly how question will appear. Placeholder text suggests conversational phrasing. Settings revealed progressively - basics visible, advanced options in panels.",
+    "patterns": [
+      "inline-editing",
+      "progressive-disclosure",
+      "live-preview",
+      "toggle-switches",
+      "rich-text-editor",
+      "media-upload",
+      "conversational-defaults"
+    ],
+    "heuristics": {
+      "clarity": 5,
+      "cognitive_load": 3,
+      "visual_hierarchy": 4,
+      "feedback": 5,
+      "accessibility": 4,
+      "conversion_strength": 3
+    },
+    "notes": "Question editor is where Typeform's philosophy shines. Default placeholder text uses conversational tone ('What's your name?' not 'Enter name'). The editor shows exactly how the question appears to respondents - WYSIWYG editing. Required/optional toggles, descriptions, and media are all progressive disclosure - there when needed, hidden when not."
+  },
+  {
+    "screen_id": "typeform-logic-branching",
+    "app_id": "typeform",
+    "flow_id": "typeform-advanced-form",
+    "step_index": 0,
+    "image_path": "screens/logic-branching.png",
+    "screen_type": "logic-configuration",
+    "layout_type": "flowchart-visual",
+    "primary_user_goal": "Create conditional paths based on respondent answers",
+    "primary_business_goal": "Differentiate from basic form tools; drive upgrades for logic features",
+    "primary_cta_label": "Add logic",
+    "secondary_cta_labels": [
+      "Add condition",
+      "Create branch",
+      "Preview with logic"
+    ],
+    "navigation_elements": [
+      "Logic map visualization",
+      "Condition builder",
+      "Jump-to selector",
+      "Logic rule list",
+      "Test path button"
+    ],
+    "copy_summary": "Logic interface visualizes form as branching paths. Conditions are expressed in plain language ('If answer is X, then jump to Y'). Visual flowchart shows how respondents will navigate.",
+    "patterns": [
+      "flowchart-visualization",
+      "conditional-logic-builder",
+      "natural-language-conditions",
+      "visual-path-preview",
+      "progressive-disclosure",
+      "premium-badge"
+    ],
+    "heuristics": {
+      "clarity": 4,
+      "cognitive_load": 3,
+      "visual_hierarchy": 4,
+      "feedback": 5,
+      "accessibility": 3,
+      "conversion_strength": 5
+    },
+    "notes": "Logic branching is a key differentiator and premium feature. The visual flowchart makes complex logic understandable. Conditions use natural language ('If this answer contains...') not programming syntax. Preview with logic lets builders test paths without publishing. This feature alone justifies upgrade for many users creating sophisticated surveys."
+  },
+  {
+    "screen_id": "typeform-theme-customization",
+    "app_id": "typeform",
+    "flow_id": "typeform-template-to-form",
+    "step_index": 3,
+    "image_path": "screens/theme-customization.png",
+    "screen_type": "style-editor",
+    "layout_type": "sidebar-preview",
+    "primary_user_goal": "Customize form appearance to match brand or preferences",
+    "primary_business_goal": "Enable brand consistency; gate full customization to paid plans",
+    "primary_cta_label": "Apply theme",
+    "secondary_cta_labels": [
+      "Save as custom theme",
+      "Browse themes",
+      "Upload background"
+    ],
+    "navigation_elements": [
+      "Theme gallery",
+      "Color picker",
+      "Font selector",
+      "Background options",
+      "Button style",
+      "Preview panel"
+    ],
+    "copy_summary": "Theme panel shows preset themes with live preview. Color controls allow primary color selection with automatic complementary colors. Font choices curated for readability in conversational format.",
+    "patterns": [
+      "theme-gallery",
+      "live-preview",
+      "color-picker",
+      "font-selector",
+      "background-upload",
+      "premium-themes",
+      "brand-color-extraction"
+    ],
+    "heuristics": {
+      "clarity": 5,
+      "cognitive_load": 4,
+      "visual_hierarchy": 5,
+      "feedback": 5,
+      "accessibility": 4,
+      "conversion_strength": 4
+    },
+    "notes": "Themes are a major Typeform differentiator - forms can be beautiful, not just functional. Preset themes cover diverse aesthetics from minimal to bold. Live preview shows changes instantly. Custom themes (save your brand colors, fonts) are a compelling upgrade trigger. Background images/videos transform forms into immersive experiences."
+  },
+  {
+    "screen_id": "typeform-share-publish",
+    "app_id": "typeform",
+    "flow_id": "typeform-template-to-form",
+    "step_index": 4,
+    "image_path": "screens/share-publish.png",
+    "screen_type": "distribution-hub",
+    "layout_type": "options-grid",
+    "primary_user_goal": "Distribute form to target audience through preferred channel",
+    "primary_business_goal": "Maximize form distribution to drive response volume",
+    "primary_cta_label": "Copy link",
+    "secondary_cta_labels": [
+      "Embed in website",
+      "Share via email",
+      "Generate QR code",
+      "Social sharing"
+    ],
+    "navigation_elements": [
+      "Share link input",
+      "Embed code generator",
+      "Email composer",
+      "Social share buttons",
+      "Custom URL field",
+      "Access settings"
+    ],
+    "copy_summary": "Share panel provides multiple distribution options with one-click copy. Embed options include full-page, popup, slider, and popover. Custom URL available on paid plans.",
+    "patterns": [
+      "single-primary-cta",
+      "copy-to-clipboard",
+      "embed-code-generator",
+      "share-options-grid",
+      "qr-code-generation",
+      "access-control",
+      "custom-domain"
+    ],
+    "heuristics": {
+      "clarity": 5,
+      "cognitive_load": 4,
+      "visual_hierarchy": 5,
+      "feedback": 5,
+      "accessibility": 4,
+      "conversion_strength": 4
+    },
+    "notes": "Share screen recognizes that forms are distributed many ways. Direct link is default and easiest. Embed options include multiple formats - full-page takeover, corner popup, slider from side. Each embed type shows preview of how it appears. QR code generation is built-in for offline-to-online use cases. Access controls (password, close date) available for gated forms."
+  },
+  {
+    "screen_id": "typeform-results-analytics",
+    "app_id": "typeform",
+    "flow_id": "typeform-analyze-results",
+    "step_index": 0,
+    "image_path": "screens/results-analytics.png",
+    "screen_type": "analytics-dashboard",
+    "layout_type": "dashboard-cards",
+    "primary_user_goal": "Analyze form responses and extract insights",
+    "primary_business_goal": "Demonstrate value of collected data; drive upgrades for advanced analytics",
+    "primary_cta_label": "Export responses",
+    "secondary_cta_labels": [
+      "View individual responses",
+      "Create report",
+      "Connect integration"
+    ],
+    "navigation_elements": [
+      "Summary view",
+      "Responses list",
+      "Question breakdown",
+      "Drop-off analysis",
+      "Export options",
+      "Filter controls"
+    ],
+    "copy_summary": "Results dashboard shows response count, completion rate, average time. Each question shows aggregated data with appropriate visualization (charts for multiple choice, word clouds for text). Drop-off analysis shows where respondents abandon.",
+    "patterns": [
+      "dashboard-metrics",
+      "data-visualization",
+      "filter-facets",
+      "export-options",
+      "individual-response-view",
+      "drop-off-funnel",
+      "premium-analytics"
+    ],
+    "heuristics": {
+      "clarity": 5,
+      "cognitive_load": 3,
+      "visual_hierarchy": 5,
+      "feedback": 4,
+      "accessibility": 4,
+      "conversion_strength": 4
+    },
+    "notes": "Results page goes beyond raw data to provide insights. Completion rate prominently displayed - reinforces Typeform's value prop. Question-by-question breakdown uses appropriate charts. Drop-off analysis (premium) shows exactly where respondents abandon - actionable for optimization. Individual response view enables qualitative analysis. Export to CSV/Excel for external analysis."
+  },
+  {
+    "screen_id": "typeform-pricing",
+    "app_id": "typeform",
+    "flow_id": "typeform-upgrade",
+    "step_index": 0,
+    "image_path": "screens/pricing.png",
+    "screen_type": "pricing-page",
+    "layout_type": "comparison-cards",
+    "primary_user_goal": "Understand pricing tiers and select appropriate plan",
+    "primary_business_goal": "Convert free users to paid subscribers with clear value articulation",
+    "primary_cta_label": "Start free trial",
+    "secondary_cta_labels": [
+      "Contact sales",
+      "Compare all features",
+      "See FAQ"
+    ],
+    "navigation_elements": [
+      "Plan toggle (monthly/yearly)",
+      "Plan cards",
+      "Feature comparison table",
+      "FAQ section",
+      "Contact sales link"
+    ],
+    "copy_summary": "Plans positioned by response volume and features. Logic, branding, and advanced analytics clearly marked per tier. Annual discount highlighted. Free tier shown as legitimate starting point.",
+    "patterns": [
+      "pricing-comparison",
+      "annual-discount-highlight",
+      "feature-comparison-table",
+      "free-trial-cta",
+      "social-proof-banner",
+      "faq-accordion",
+      "tiered-feature-reveal"
+    ],
+    "heuristics": {
+      "clarity": 5,
+      "cognitive_load": 4,
+      "visual_hierarchy": 5,
+      "feedback": 3,
+      "accessibility": 4,
+      "conversion_strength": 5
+    },
+    "notes": "Pricing page clearly differentiates tiers by response limits and feature access. Logic jumps, calculator, and hidden fields are clear upgrade triggers. The 'Plus' tier is visually recommended for most users. Free tier is presented honestly - good for trying but limited. Feature comparison table is scannable. FAQ addresses common objections."
+  },
+  {
+    "screen_id": "typeform-respondent-experience",
+    "app_id": "typeform",
+    "flow_id": "typeform-respondent-journey",
+    "step_index": 0,
+    "image_path": "screens/respondent-experience.png",
+    "screen_type": "form-experience",
+    "layout_type": "full-screen-single",
+    "primary_user_goal": "Complete form efficiently while feeling engaged rather than burdened",
+    "primary_business_goal": "Maximize completion rates and quality of responses",
+    "primary_cta_label": "Press Enter",
+    "secondary_cta_labels": [
+      "OK",
+      "Skip",
+      "Back"
+    ],
+    "navigation_elements": [
+      "Progress bar",
+      "Back button",
+      "Keyboard hints",
+      "Submit indicator"
+    ],
+    "copy_summary": "Single question displayed full-screen. Question text is large and conversational. Answer options are keyboard-navigable. Progress indicator shows completion percentage. Smooth animations between questions create flow state.",
+    "patterns": [
+      "one-at-a-time",
+      "progressive-disclosure",
+      "keyboard-navigation",
+      "progress-indicator",
+      "smooth-transitions",
+      "conversational-copy",
+      "full-screen-focus"
+    ],
+    "heuristics": {
+      "clarity": 5,
+      "cognitive_load": 5,
+      "visual_hierarchy": 5,
+      "feedback": 5,
+      "accessibility": 4,
+      "conversion_strength": 5
+    },
+    "notes": "This is Typeform's core innovation - the respondent experience. One question at a time eliminates visual overwhelm. Full-screen display commands attention. Keyboard navigation (Enter to continue, up/down for options) creates flow. Progress bar reduces abandonment anxiety. Transitions between questions are smooth and satisfying. The experience feels like a conversation, not a form."
+  }
+]
