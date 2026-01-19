@@ -1,0 +1,15 @@
+{
+  "app_id": "stripe",
+  "name": "Stripe",
+  "category": "finance",
+  "platforms": ["web"],
+  "url": "https://stripe.com",
+  "analyzed_version": "2024",
+  "analysis_date": "2026-01-19",
+  "why_interesting": [
+    "Developer-focused UX with documentation integration",
+    "Complex financial product made accessible",
+    "Progressive disclosure for technical depth",
+    "Clean dashboard design with clear hierarchy"
+  ]
+}

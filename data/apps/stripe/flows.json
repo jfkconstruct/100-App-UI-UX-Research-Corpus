@@ -1,0 +1,47 @@
+[
+  {
+    "flow_id": "landing",
+    "name": "Landing Page",
+    "primary_user_goal": "Understand Stripe's payment capabilities",
+    "business_goal": "Convert visitors to signup or sales",
+    "entry_point": "Direct URL or marketing",
+    "exit_point": "Click 'Start now' or 'Contact sales'",
+    "screens": ["landing-01", "landing-02"]
+  },
+  {
+    "flow_id": "docs",
+    "name": "Documentation",
+    "primary_user_goal": "Learn how to integrate Stripe",
+    "business_goal": "Enable self-serve integration",
+    "entry_point": "Developers nav or search",
+    "exit_point": "Start building or get API keys",
+    "screens": ["docs-01", "docs-02"]
+  },
+  {
+    "flow_id": "dashboard",
+    "name": "Dashboard",
+    "primary_user_goal": "Monitor payments and business metrics",
+    "business_goal": "Drive product usage and feature adoption",
+    "entry_point": "Login",
+    "exit_point": "Navigate to specific feature",
+    "screens": ["dashboard-01", "dashboard-02", "dashboard-03"]
+  },
+  {
+    "flow_id": "onboarding",
+    "name": "Account Setup",
+    "primary_user_goal": "Complete required steps to accept payments",
+    "business_goal": "Collect compliance information",
+    "entry_point": "First login after signup",
+    "exit_point": "Account activated",
+    "screens": ["onboarding-01"]
+  },
+  {
+    "flow_id": "checkout",
+    "name": "Checkout",
+    "primary_user_goal": "Complete purchase securely",
+    "business_goal": "Maximize payment conversion",
+    "entry_point": "Merchant checkout redirect",
+    "exit_point": "Payment complete",
+    "screens": ["checkout-01"]
+  }
+]

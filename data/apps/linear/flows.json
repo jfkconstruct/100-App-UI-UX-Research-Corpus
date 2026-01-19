@@ -1,0 +1,47 @@
+[
+  {
+    "flow_id": "landing",
+    "name": "Landing Page",
+    "primary_user_goal": "Understand Linear's value for product teams",
+    "business_goal": "Convert visitors to signup",
+    "entry_point": "Direct URL or marketing",
+    "exit_point": "Click 'Start building'",
+    "screens": ["landing-01", "landing-02"]
+  },
+  {
+    "flow_id": "onboarding",
+    "name": "Onboarding",
+    "primary_user_goal": "Set up workspace and team",
+    "business_goal": "Complete account setup with team context",
+    "entry_point": "Signup completion",
+    "exit_point": "Enter dashboard",
+    "screens": ["onboarding-01", "onboarding-02"]
+  },
+  {
+    "flow_id": "dashboard",
+    "name": "Dashboard",
+    "primary_user_goal": "Manage work and stay on top of tasks",
+    "business_goal": "Drive daily engagement",
+    "entry_point": "Login or app open",
+    "exit_point": "Navigate to specific issue or view",
+    "screens": ["dashboard-01", "dashboard-02"]
+  },
+  {
+    "flow_id": "issue",
+    "name": "Issue Management",
+    "primary_user_goal": "Create and track work items",
+    "business_goal": "Capture and organize team work",
+    "entry_point": "Cmd+I or New Issue button",
+    "exit_point": "Issue saved",
+    "screens": ["issue-01", "issue-02"]
+  },
+  {
+    "flow_id": "roadmap",
+    "name": "Roadmap Planning",
+    "primary_user_goal": "Plan and visualize project timeline",
+    "business_goal": "Enable strategic planning",
+    "entry_point": "Roadmap nav item",
+    "exit_point": "Return to issues or other view",
+    "screens": ["roadmap-01"]
+  }
+]

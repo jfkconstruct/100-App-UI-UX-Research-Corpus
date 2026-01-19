@@ -1,0 +1,294 @@
+[
+  {
+    "screen_id": "landing-01",
+    "app_id": "figma",
+    "flow_id": "landing",
+    "step_index": 0,
+    "image_path": "data/raw_screens/figma/landing/01-homepage.png",
+    "screen_type": "landing",
+    "layout_type": "hero-cta",
+    "primary_user_goal": "Understand Figma's collaborative design capabilities",
+    "primary_business_goal": "Convert visitors to signup or trial",
+    "primary_cta_label": "Get started for free",
+    "secondary_cta_labels": ["Contact sales"],
+    "navigation_elements": ["top-nav", "logo"],
+    "copy_summary": "Headline 'Design, prototype, develop. All in Figma.' with animated product showcase. Emphasis on collaboration and all-in-one platform.",
+    "patterns": [
+      "single-primary-cta",
+      "benefit-oriented-headline",
+      "hero-illustration",
+      "social-proof"
+    ],
+    "heuristics": {
+      "clarity": 5,
+      "cognitive_load": 5,
+      "visual_hierarchy": 5,
+      "feedback": 3,
+      "accessibility": 4,
+      "conversion_strength": 5
+    },
+    "notes": "The animated product demo shows real collaboration happening. 'Free' prominently featured reduces barrier. Company logos provide social proof. Clean, professional design matches product quality."
+  },
+  {
+    "screen_id": "landing-02",
+    "app_id": "figma",
+    "flow_id": "landing",
+    "step_index": 1,
+    "image_path": "data/raw_screens/figma/landing/02-features.png",
+    "screen_type": "features",
+    "layout_type": "alternating",
+    "primary_user_goal": "Understand key features and how Figma works",
+    "primary_business_goal": "Build desire and differentiate from competitors",
+    "primary_cta_label": "Get started",
+    "secondary_cta_labels": [],
+    "navigation_elements": ["sticky-cta"],
+    "copy_summary": "Feature sections: Real-time collaboration, Components and variants, Prototyping, Developer handoff. Each with video/animation demo.",
+    "patterns": [
+      "hero-illustration",
+      "progressive-disclosure",
+      "sticky-cta"
+    ],
+    "heuristics": {
+      "clarity": 5,
+      "cognitive_load": 4,
+      "visual_hierarchy": 5,
+      "feedback": 4,
+      "accessibility": 4,
+      "conversion_strength": 5
+    },
+    "notes": "Video demos show features in action rather than just describing them. Alternating layout keeps scrolling interesting. Real-time collaboration is the key differentiator and shown prominently."
+  },
+  {
+    "screen_id": "onboarding-01",
+    "app_id": "figma",
+    "flow_id": "onboarding",
+    "step_index": 0,
+    "image_path": "data/raw_screens/figma/onboarding/01-signup.png",
+    "screen_type": "signup",
+    "layout_type": "centered-card",
+    "primary_user_goal": "Create account to start designing",
+    "primary_business_goal": "Convert visitor to registered user",
+    "primary_cta_label": "Create account",
+    "secondary_cta_labels": ["Continue with Google", "Continue with SSO"],
+    "navigation_elements": [],
+    "copy_summary": "Simple signup form: Email, password. Social login options. Link to sign in for existing users.",
+    "patterns": [
+      "single-primary-cta",
+      "inline-validation",
+      "social-proof"
+    ],
+    "heuristics": {
+      "clarity": 5,
+      "cognitive_load": 5,
+      "visual_hierarchy": 5,
+      "feedback": 4,
+      "accessibility": 4,
+      "conversion_strength": 5
+    },
+    "notes": "Minimal signup form - email and password only. Google SSO reduces friction significantly. No unnecessary fields or questions. Clean design matches product aesthetic."
+  },
+  {
+    "screen_id": "onboarding-02",
+    "app_id": "figma",
+    "flow_id": "onboarding",
+    "step_index": 1,
+    "image_path": "data/raw_screens/figma/onboarding/02-use-case.png",
+    "screen_type": "survey",
+    "layout_type": "card-list",
+    "primary_user_goal": "Indicate role and use case for personalized experience",
+    "primary_business_goal": "Segment users for onboarding path and marketing",
+    "primary_cta_label": "Continue",
+    "secondary_cta_labels": ["Skip"],
+    "navigation_elements": ["progress-indicator"],
+    "copy_summary": "Question 'What do you want to do in Figma?' with options: Design, Prototype, Handoff to developers, Brainstorm, etc.",
+    "patterns": [
+      "progress-indicator",
+      "card-layout",
+      "progressive-disclosure"
+    ],
+    "heuristics": {
+      "clarity": 5,
+      "cognitive_load": 4,
+      "visual_hierarchy": 5,
+      "feedback": 4,
+      "accessibility": 4,
+      "conversion_strength": 4
+    },
+    "notes": "Role selection enables personalized onboarding. Options cover full spectrum from designers to developers. Skip option available for users who want to explore freely."
+  },
+  {
+    "screen_id": "editor-01",
+    "app_id": "figma",
+    "flow_id": "editor",
+    "step_index": 0,
+    "image_path": "data/raw_screens/figma/editor/01-canvas.png",
+    "screen_type": "editor",
+    "layout_type": "canvas-with-panels",
+    "primary_user_goal": "Design and create visual assets",
+    "primary_business_goal": "Enable productive design work that creates switching costs",
+    "primary_cta_label": "",
+    "secondary_cta_labels": [],
+    "navigation_elements": ["toolbar", "layers-panel", "properties-panel", "search-prominent"],
+    "copy_summary": "Infinite canvas with toolbar at top, layers panel on left, properties panel on right. Frame shows design in progress.",
+    "patterns": [
+      "search-prominent",
+      "contextual-help",
+      "progressive-disclosure"
+    ],
+    "heuristics": {
+      "clarity": 4,
+      "cognitive_load": 3,
+      "visual_hierarchy": 4,
+      "feedback": 5,
+      "accessibility": 4,
+      "conversion_strength": 4
+    },
+    "notes": "The canvas is the core of Figma. Infinite zoom and pan. Panels can be hidden for more canvas space. Tool discovery through toolbar and right-click menus. Quick actions with keyboard shortcuts."
+  },
+  {
+    "screen_id": "editor-02",
+    "app_id": "figma",
+    "flow_id": "editor",
+    "step_index": 1,
+    "image_path": "data/raw_screens/figma/editor/02-multiplayer.png",
+    "screen_type": "editor",
+    "layout_type": "canvas-with-panels",
+    "primary_user_goal": "Collaborate with team members in real-time",
+    "primary_business_goal": "Demonstrate collaboration value and increase team adoption",
+    "primary_cta_label": "Share",
+    "secondary_cta_labels": [],
+    "navigation_elements": ["collaborator-avatars", "toolbar"],
+    "copy_summary": "Canvas showing multiple cursors with collaborator names. Real-time updates as others edit. Avatar stack in top right showing who's viewing.",
+    "patterns": [
+      "user-avatar",
+      "contextual-help",
+      "notification-badge"
+    ],
+    "heuristics": {
+      "clarity": 5,
+      "cognitive_load": 4,
+      "visual_hierarchy": 4,
+      "feedback": 5,
+      "accessibility": 4,
+      "conversion_strength": 5
+    },
+    "notes": "Multiplayer cursors are Figma's signature feature. Each collaborator has colored cursor with name. Changes appear instantly. This is the killer feature that drives team adoption."
+  },
+  {
+    "screen_id": "editor-03",
+    "app_id": "figma",
+    "flow_id": "editor",
+    "step_index": 2,
+    "image_path": "data/raw_screens/figma/editor/03-components.png",
+    "screen_type": "panel",
+    "layout_type": "sidebar",
+    "primary_user_goal": "Create and manage reusable design components",
+    "primary_business_goal": "Enable design systems that increase platform value",
+    "primary_cta_label": "Create component",
+    "secondary_cta_labels": [],
+    "navigation_elements": ["search-autocomplete"],
+    "copy_summary": "Assets panel showing component library. Organized by file/team. Search to find components. Drag to canvas to use.",
+    "patterns": [
+      "search-autocomplete",
+      "card-layout",
+      "progressive-disclosure",
+      "lazy-loading"
+    ],
+    "heuristics": {
+      "clarity": 4,
+      "cognitive_load": 4,
+      "visual_hierarchy": 4,
+      "feedback": 4,
+      "accessibility": 4,
+      "conversion_strength": 4
+    },
+    "notes": "Components panel enables design systems. Search is crucial for large libraries. Team libraries shared across files. Variants visible within component cards."
+  },
+  {
+    "screen_id": "prototype-01",
+    "app_id": "figma",
+    "flow_id": "prototype",
+    "step_index": 0,
+    "image_path": "data/raw_screens/figma/prototype/01-connections.png",
+    "screen_type": "editor",
+    "layout_type": "canvas-with-panels",
+    "primary_user_goal": "Create interactive prototype from designs",
+    "primary_business_goal": "Enable end-to-end design workflow in Figma",
+    "primary_cta_label": "Present",
+    "secondary_cta_labels": [],
+    "navigation_elements": ["toolbar", "prototype-panel"],
+    "copy_summary": "Prototype mode showing blue connection lines between frames. Interaction details panel on right. Triggers and animations configurable.",
+    "patterns": [
+      "contextual-help",
+      "progressive-disclosure"
+    ],
+    "heuristics": {
+      "clarity": 4,
+      "cognitive_load": 3,
+      "visual_hierarchy": 4,
+      "feedback": 5,
+      "accessibility": 4,
+      "conversion_strength": 4
+    },
+    "notes": "Visual wire-framing of interactions. Blue lines show prototype flow at a glance. Interaction triggers are comprehensive. Smart animate creates smooth transitions automatically."
+  },
+  {
+    "screen_id": "sharing-01",
+    "app_id": "figma",
+    "flow_id": "sharing",
+    "step_index": 0,
+    "image_path": "data/raw_screens/figma/sharing/01-modal.png",
+    "screen_type": "modal",
+    "layout_type": "form",
+    "primary_user_goal": "Share design with team members or stakeholders",
+    "primary_business_goal": "Drive collaboration and increase team size",
+    "primary_cta_label": "Copy link",
+    "secondary_cta_labels": ["Invite"],
+    "navigation_elements": [],
+    "copy_summary": "Share modal with: Invite by email, Copy link, Permission settings (view, edit, comment). Team/organization sharing options.",
+    "patterns": [
+      "single-primary-cta",
+      "smart-defaults",
+      "contextual-help"
+    ],
+    "heuristics": {
+      "clarity": 5,
+      "cognitive_load": 4,
+      "visual_hierarchy": 5,
+      "feedback": 4,
+      "accessibility": 4,
+      "conversion_strength": 5
+    },
+    "notes": "Sharing is viral growth engine. Link sharing is one-click. Permission levels clear. Can share with people outside organization. Embed option for documentation."
+  },
+  {
+    "screen_id": "community-01",
+    "app_id": "figma",
+    "flow_id": "community",
+    "step_index": 0,
+    "image_path": "data/raw_screens/figma/community/01-browse.png",
+    "screen_type": "gallery",
+    "layout_type": "grid",
+    "primary_user_goal": "Find templates, plugins, and inspiration",
+    "primary_business_goal": "Increase platform value through ecosystem",
+    "primary_cta_label": "",
+    "secondary_cta_labels": [],
+    "navigation_elements": ["search-prominent", "filter-facets", "top-nav"],
+    "copy_summary": "Community hub showing design files, plugins, widgets. Categories: UI Kits, Icons, Wireframes, etc. Search and filter options.",
+    "patterns": [
+      "search-prominent",
+      "filter-facets",
+      "card-layout",
+      "lazy-loading"
+    ],
+    "heuristics": {
+      "clarity": 5,
+      "cognitive_load": 4,
+      "visual_hierarchy": 4,
+      "feedback": 4,
+      "accessibility": 4,
+      "conversion_strength": 4
+    },
+    "notes": "Community is a massive value-add. Free resources for designers. Plugins extend functionality. This ecosystem creates platform lock-in and increases value for all users."
+  }
+]

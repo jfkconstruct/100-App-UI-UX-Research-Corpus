@@ -1,0 +1,397 @@
+{
+  "app_id": "linear",
+  "total_screens": 9,
+  "patterns": [
+    {
+      "pattern_id": "single-primary-cta",
+      "pattern_name": "Single Primary CTA",
+      "frequency": 4,
+      "percentage": 44.4,
+      "avg_heuristics": {
+        "clarity": 5,
+        "cognitive_load": 4.8,
+        "visual_hierarchy": 5,
+        "feedback": 3.8,
+        "accessibility": 4,
+        "conversion_strength": 4.3
+      },
+      "screens": [
+        "landing-01",
+        "onboarding-01",
+        "onboarding-02",
+        "issue-01"
+      ]
+    },
+    {
+      "pattern_id": "progressive-disclosure",
+      "pattern_name": "Progressive Disclosure",
+      "frequency": 4,
+      "percentage": 44.4,
+      "avg_heuristics": {
+        "clarity": 4.8,
+        "cognitive_load": 4,
+        "visual_hierarchy": 4.5,
+        "feedback": 4,
+        "accessibility": 3.5,
+        "conversion_strength": 3.8
+      },
+      "screens": [
+        "landing-02",
+        "onboarding-02",
+        "dashboard-02",
+        "roadmap-01"
+      ]
+    },
+    {
+      "pattern_id": "contextual-help",
+      "pattern_name": "Contextual Help",
+      "frequency": 4,
+      "percentage": 44.4,
+      "avg_heuristics": {
+        "clarity": 4.5,
+        "cognitive_load": 3.5,
+        "visual_hierarchy": 4.8,
+        "feedback": 4.3,
+        "accessibility": 3.8,
+        "conversion_strength": 3.8
+      },
+      "screens": [
+        "dashboard-01",
+        "dashboard-02",
+        "issue-01",
+        "issue-02"
+      ]
+    },
+    {
+      "pattern_id": "card-layout",
+      "pattern_name": "Card Layout",
+      "frequency": 3,
+      "percentage": 33.3,
+      "avg_heuristics": {
+        "clarity": 4.3,
+        "cognitive_load": 3.3,
+        "visual_hierarchy": 4.3,
+        "feedback": 3.7,
+        "accessibility": 4,
+        "conversion_strength": 3.7
+      },
+      "screens": [
+        "landing-02",
+        "dashboard-01",
+        "issue-02"
+      ]
+    },
+    {
+      "pattern_id": "hero-illustration",
+      "pattern_name": "Hero Illustration",
+      "frequency": 2,
+      "percentage": 22.2,
+      "avg_heuristics": {
+        "clarity": 5,
+        "cognitive_load": 4.5,
+        "visual_hierarchy": 4.5,
+        "feedback": 3,
+        "accessibility": 4,
+        "conversion_strength": 4.5
+      },
+      "screens": [
+        "landing-01",
+        "landing-02"
+      ]
+    },
+    {
+      "pattern_id": "progress-indicator",
+      "pattern_name": "Progress Indicator",
+      "frequency": 2,
+      "percentage": 22.2,
+      "avg_heuristics": {
+        "clarity": 5,
+        "cognitive_load": 5,
+        "visual_hierarchy": 5,
+        "feedback": 4,
+        "accessibility": 4,
+        "conversion_strength": 4
+      },
+      "screens": [
+        "onboarding-01",
+        "onboarding-02"
+      ]
+    },
+    {
+      "pattern_id": "smart-defaults",
+      "pattern_name": "Smart Defaults",
+      "frequency": 2,
+      "percentage": 22.2,
+      "avg_heuristics": {
+        "clarity": 5,
+        "cognitive_load": 4.5,
+        "visual_hierarchy": 5,
+        "feedback": 4,
+        "accessibility": 4,
+        "conversion_strength": 4
+      },
+      "screens": [
+        "onboarding-01",
+        "issue-01"
+      ]
+    },
+    {
+      "pattern_id": "inline-validation",
+      "pattern_name": "Inline Validation",
+      "frequency": 2,
+      "percentage": 22.2,
+      "avg_heuristics": {
+        "clarity": 5,
+        "cognitive_load": 4.5,
+        "visual_hierarchy": 5,
+        "feedback": 4,
+        "accessibility": 4,
+        "conversion_strength": 4
+      },
+      "screens": [
+        "onboarding-01",
+        "issue-01"
+      ]
+    },
+    {
+      "pattern_id": "benefit-oriented-headline",
+      "pattern_name": "Benefit-Oriented Headline",
+      "frequency": 1,
+      "percentage": 11.1,
+      "avg_heuristics": {
+        "clarity": 5,
+        "cognitive_load": 5,
+        "visual_hierarchy": 5,
+        "feedback": 3,
+        "accessibility": 4,
+        "conversion_strength": 5
+      },
+      "screens": [
+        "landing-01"
+      ]
+    },
+    {
+      "pattern_id": "social-proof",
+      "pattern_name": "Social Proof",
+      "frequency": 1,
+      "percentage": 11.1,
+      "avg_heuristics": {
+        "clarity": 5,
+        "cognitive_load": 5,
+        "visual_hierarchy": 5,
+        "feedback": 3,
+        "accessibility": 4,
+        "conversion_strength": 5
+      },
+      "screens": [
+        "landing-01"
+      ]
+    },
+    {
+      "pattern_id": "sticky-cta",
+      "pattern_name": "Sticky CTA",
+      "frequency": 1,
+      "percentage": 11.1,
+      "avg_heuristics": {
+        "clarity": 5,
+        "cognitive_load": 4,
+        "visual_hierarchy": 4,
+        "feedback": 3,
+        "accessibility": 4,
+        "conversion_strength": 4
+      },
+      "screens": [
+        "landing-02"
+      ]
+    },
+    {
+      "pattern_id": "search-prominent",
+      "pattern_name": "Prominent Search",
+      "frequency": 1,
+      "percentage": 11.1,
+      "avg_heuristics": {
+        "clarity": 4,
+        "cognitive_load": 3,
+        "visual_hierarchy": 5,
+        "feedback": 4,
+        "accessibility": 4,
+        "conversion_strength": 4
+      },
+      "screens": [
+        "dashboard-01"
+      ]
+    },
+    {
+      "pattern_id": "notification-badge",
+      "pattern_name": "Notification Badge",
+      "frequency": 1,
+      "percentage": 11.1,
+      "avg_heuristics": {
+        "clarity": 4,
+        "cognitive_load": 3,
+        "visual_hierarchy": 5,
+        "feedback": 4,
+        "accessibility": 4,
+        "conversion_strength": 4
+      },
+      "screens": [
+        "dashboard-01"
+      ]
+    },
+    {
+      "pattern_id": "search-autocomplete",
+      "pattern_name": "Search Autocomplete",
+      "frequency": 1,
+      "percentage": 11.1,
+      "avg_heuristics": {
+        "clarity": 5,
+        "cognitive_load": 4,
+        "visual_hierarchy": 5,
+        "feedback": 5,
+        "accessibility": 3,
+        "conversion_strength": 4
+      },
+      "screens": [
+        "dashboard-02"
+      ]
+    },
+    {
+      "pattern_id": "comment-thread",
+      "pattern_name": "Comment Thread",
+      "frequency": 1,
+      "percentage": 11.1,
+      "avg_heuristics": {
+        "clarity": 4,
+        "cognitive_load": 3,
+        "visual_hierarchy": 4,
+        "feedback": 4,
+        "accessibility": 4,
+        "conversion_strength": 3
+      },
+      "screens": [
+        "issue-02"
+      ]
+    },
+    {
+      "pattern_id": "breadcrumbs",
+      "pattern_name": "Breadcrumbs",
+      "frequency": 1,
+      "percentage": 11.1,
+      "avg_heuristics": {
+        "clarity": 4,
+        "cognitive_load": 3,
+        "visual_hierarchy": 4,
+        "feedback": 4,
+        "accessibility": 4,
+        "conversion_strength": 3
+      },
+      "screens": [
+        "issue-02"
+      ]
+    },
+    {
+      "pattern_id": "filter-facets",
+      "pattern_name": "Filter Facets",
+      "frequency": 1,
+      "percentage": 11.1,
+      "avg_heuristics": {
+        "clarity": 4,
+        "cognitive_load": 3,
+        "visual_hierarchy": 4,
+        "feedback": 4,
+        "accessibility": 3,
+        "conversion_strength": 3
+      },
+      "screens": [
+        "roadmap-01"
+      ]
+    },
+    {
+      "pattern_id": "lazy-loading",
+      "pattern_name": "Lazy Loading",
+      "frequency": 1,
+      "percentage": 11.1,
+      "avg_heuristics": {
+        "clarity": 4,
+        "cognitive_load": 3,
+        "visual_hierarchy": 4,
+        "feedback": 4,
+        "accessibility": 3,
+        "conversion_strength": 3
+      },
+      "screens": [
+        "roadmap-01"
+      ]
+    }
+  ],
+  "flows": [
+    {
+      "flow_id": "landing",
+      "flow_name": "Landing Page",
+      "unique_patterns": [
+        "single-primary-cta",
+        "benefit-oriented-headline",
+        "hero-illustration",
+        "social-proof",
+        "card-layout",
+        "sticky-cta",
+        "progressive-disclosure"
+      ],
+      "pattern_combinations": []
+    },
+    {
+      "flow_id": "onboarding",
+      "flow_name": "Onboarding",
+      "unique_patterns": [
+        "progress-indicator",
+        "single-primary-cta",
+        "smart-defaults",
+        "inline-validation",
+        "progressive-disclosure"
+      ],
+      "pattern_combinations": [
+        [
+          "progress-indicator",
+          "single-primary-cta"
+        ]
+      ]
+    },
+    {
+      "flow_id": "dashboard",
+      "flow_name": "Dashboard",
+      "unique_patterns": [
+        "search-prominent",
+        "card-layout",
+        "contextual-help",
+        "notification-badge",
+        "search-autocomplete",
+        "progressive-disclosure"
+      ],
+      "pattern_combinations": []
+    },
+    {
+      "flow_id": "issue",
+      "flow_name": "Issue Management",
+      "unique_patterns": [
+        "single-primary-cta",
+        "smart-defaults",
+        "inline-validation",
+        "contextual-help",
+        "card-layout",
+        "comment-thread",
+        "breadcrumbs"
+      ],
+      "pattern_combinations": []
+    },
+    {
+      "flow_id": "roadmap",
+      "flow_name": "Roadmap Planning",
+      "unique_patterns": [
+        "filter-facets",
+        "lazy-loading",
+        "progressive-disclosure"
+      ],
+      "pattern_combinations": []
+    }
+  ]
+}

@@ -45,6 +45,8 @@ interface Flow {
   name: string;
   primary_user_goal: string;
   business_goal: string;
+  entry_point: string;
+  exit_point: string;
 }
 
 interface PatternStats {

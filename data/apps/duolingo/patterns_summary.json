@@ -1,0 +1,394 @@
+{
+  "app_id": "duolingo",
+  "total_screens": 12,
+  "patterns": [
+    {
+      "pattern_id": "single-primary-cta",
+      "pattern_name": "Single Primary CTA",
+      "frequency": 8,
+      "percentage": 66.7,
+      "avg_heuristics": {
+        "clarity": 4.8,
+        "cognitive_load": 4.4,
+        "visual_hierarchy": 4.8,
+        "feedback": 4.5,
+        "accessibility": 4,
+        "conversion_strength": 4.8
+      },
+      "screens": [
+        "landing-01",
+        "onboarding-04",
+        "onboarding-05",
+        "onboarding-06",
+        "home-01",
+        "lesson-01",
+        "lesson-02",
+        "lesson-03"
+      ]
+    },
+    {
+      "pattern_id": "progress-indicator",
+      "pattern_name": "Progress Indicator",
+      "frequency": 6,
+      "percentage": 50,
+      "avg_heuristics": {
+        "clarity": 4.8,
+        "cognitive_load": 4.2,
+        "visual_hierarchy": 4.5,
+        "feedback": 4.7,
+        "accessibility": 4,
+        "conversion_strength": 4.5
+      },
+      "screens": [
+        "onboarding-02",
+        "onboarding-03",
+        "onboarding-04",
+        "home-01",
+        "home-02",
+        "lesson-01"
+      ]
+    },
+    {
+      "pattern_id": "card-layout",
+      "pattern_name": "Card Layout",
+      "frequency": 4,
+      "percentage": 33.3,
+      "avg_heuristics": {
+        "clarity": 4.8,
+        "cognitive_load": 4,
+        "visual_hierarchy": 4.3,
+        "feedback": 4.3,
+        "accessibility": 4,
+        "conversion_strength": 4.5
+      },
+      "screens": [
+        "onboarding-01",
+        "onboarding-02",
+        "onboarding-03",
+        "home-01"
+      ]
+    },
+    {
+      "pattern_id": "progressive-disclosure",
+      "pattern_name": "Progressive Disclosure",
+      "frequency": 4,
+      "percentage": 33.3,
+      "avg_heuristics": {
+        "clarity": 4.8,
+        "cognitive_load": 4.3,
+        "visual_hierarchy": 4.3,
+        "feedback": 3.8,
+        "accessibility": 4,
+        "conversion_strength": 4.5
+      },
+      "screens": [
+        "onboarding-01",
+        "onboarding-02",
+        "onboarding-03",
+        "onboarding-06"
+      ]
+    },
+    {
+      "pattern_id": "success-confirmation",
+      "pattern_name": "Success Confirmation",
+      "frequency": 4,
+      "percentage": 33.3,
+      "avg_heuristics": {
+        "clarity": 5,
+        "cognitive_load": 4.8,
+        "visual_hierarchy": 5,
+        "feedback": 5,
+        "accessibility": 4,
+        "conversion_strength": 4.8
+      },
+      "screens": [
+        "onboarding-04",
+        "onboarding-05",
+        "home-02",
+        "lesson-02"
+      ]
+    },
+    {
+      "pattern_id": "hero-illustration",
+      "pattern_name": "Hero Illustration",
+      "frequency": 3,
+      "percentage": 25,
+      "avg_heuristics": {
+        "clarity": 5,
+        "cognitive_load": 4.7,
+        "visual_hierarchy": 5,
+        "feedback": 4.3,
+        "accessibility": 4,
+        "conversion_strength": 4.7
+      },
+      "screens": [
+        "landing-01",
+        "onboarding-05",
+        "home-02"
+      ]
+    },
+    {
+      "pattern_id": "smart-defaults",
+      "pattern_name": "Smart Defaults",
+      "frequency": 3,
+      "percentage": 25,
+      "avg_heuristics": {
+        "clarity": 4.7,
+        "cognitive_load": 4.3,
+        "visual_hierarchy": 4.3,
+        "feedback": 3.7,
+        "accessibility": 4,
+        "conversion_strength": 4.7
+      },
+      "screens": [
+        "onboarding-01",
+        "onboarding-02",
+        "onboarding-06"
+      ]
+    },
+    {
+      "pattern_id": "contextual-help",
+      "pattern_name": "Contextual Help",
+      "frequency": 3,
+      "percentage": 25,
+      "avg_heuristics": {
+        "clarity": 5,
+        "cognitive_load": 4.3,
+        "visual_hierarchy": 5,
+        "feedback": 5,
+        "accessibility": 4,
+        "conversion_strength": 4.3
+      },
+      "screens": [
+        "onboarding-04",
+        "lesson-01",
+        "lesson-03"
+      ]
+    },
+    {
+      "pattern_id": "social-proof",
+      "pattern_name": "Social Proof",
+      "frequency": 2,
+      "percentage": 16.7,
+      "avg_heuristics": {
+        "clarity": 4.5,
+        "cognitive_load": 4.5,
+        "visual_hierarchy": 4.5,
+        "feedback": 3,
+        "accessibility": 4,
+        "conversion_strength": 5
+      },
+      "screens": [
+        "landing-01",
+        "onboarding-06"
+      ]
+    },
+    {
+      "pattern_id": "benefit-oriented-headline",
+      "pattern_name": "Benefit-Oriented Headline",
+      "frequency": 1,
+      "percentage": 8.3,
+      "avg_heuristics": {
+        "clarity": 5,
+        "cognitive_load": 5,
+        "visual_hierarchy": 5,
+        "feedback": 3,
+        "accessibility": 4,
+        "conversion_strength": 5
+      },
+      "screens": [
+        "landing-01"
+      ]
+    },
+    {
+      "pattern_id": "minimal-navigation",
+      "pattern_name": "Minimal Navigation",
+      "frequency": 1,
+      "percentage": 8.3,
+      "avg_heuristics": {
+        "clarity": 5,
+        "cognitive_load": 5,
+        "visual_hierarchy": 5,
+        "feedback": 3,
+        "accessibility": 4,
+        "conversion_strength": 5
+      },
+      "screens": [
+        "landing-01"
+      ]
+    },
+    {
+      "pattern_id": "bottom-tab-bar",
+      "pattern_name": "Bottom Tab Bar",
+      "frequency": 1,
+      "percentage": 8.3,
+      "avg_heuristics": {
+        "clarity": 4,
+        "cognitive_load": 3,
+        "visual_hierarchy": 4,
+        "feedback": 5,
+        "accessibility": 4,
+        "conversion_strength": 5
+      },
+      "screens": [
+        "home-01"
+      ]
+    },
+    {
+      "pattern_id": "notification-badge",
+      "pattern_name": "Notification Badge",
+      "frequency": 1,
+      "percentage": 8.3,
+      "avg_heuristics": {
+        "clarity": 4,
+        "cognitive_load": 3,
+        "visual_hierarchy": 4,
+        "feedback": 5,
+        "accessibility": 4,
+        "conversion_strength": 5
+      },
+      "screens": [
+        "home-01"
+      ]
+    },
+    {
+      "pattern_id": "inline-validation",
+      "pattern_name": "Inline Validation",
+      "frequency": 1,
+      "percentage": 8.3,
+      "avg_heuristics": {
+        "clarity": 5,
+        "cognitive_load": 4,
+        "visual_hierarchy": 5,
+        "feedback": 5,
+        "accessibility": 4,
+        "conversion_strength": 4
+      },
+      "screens": [
+        "lesson-01"
+      ]
+    },
+    {
+      "pattern_id": "toast-notification",
+      "pattern_name": "Toast Notification",
+      "frequency": 1,
+      "percentage": 8.3,
+      "avg_heuristics": {
+        "clarity": 5,
+        "cognitive_load": 5,
+        "visual_hierarchy": 5,
+        "feedback": 5,
+        "accessibility": 4,
+        "conversion_strength": 5
+      },
+      "screens": [
+        "lesson-02"
+      ]
+    },
+    {
+      "pattern_id": "error-message",
+      "pattern_name": "Error Message",
+      "frequency": 1,
+      "percentage": 8.3,
+      "avg_heuristics": {
+        "clarity": 5,
+        "cognitive_load": 4,
+        "visual_hierarchy": 5,
+        "feedback": 5,
+        "accessibility": 4,
+        "conversion_strength": 4
+      },
+      "screens": [
+        "lesson-03"
+      ]
+    }
+  ],
+  "flows": [
+    {
+      "flow_id": "landing",
+      "flow_name": "Landing Page",
+      "unique_patterns": [
+        "single-primary-cta",
+        "benefit-oriented-headline",
+        "hero-illustration",
+        "minimal-navigation",
+        "social-proof"
+      ],
+      "pattern_combinations": []
+    },
+    {
+      "flow_id": "onboarding",
+      "flow_name": "Onboarding",
+      "unique_patterns": [
+        "card-layout",
+        "progressive-disclosure",
+        "smart-defaults",
+        "progress-indicator",
+        "single-primary-cta",
+        "success-confirmation",
+        "contextual-help",
+        "hero-illustration",
+        "social-proof"
+      ],
+      "pattern_combinations": [
+        [
+          "card-layout",
+          "progressive-disclosure"
+        ],
+        [
+          "card-layout",
+          "smart-defaults"
+        ],
+        [
+          "progressive-disclosure",
+          "smart-defaults"
+        ],
+        [
+          "card-layout",
+          "progress-indicator"
+        ],
+        [
+          "progress-indicator",
+          "progressive-disclosure"
+        ],
+        [
+          "single-primary-cta",
+          "success-confirmation"
+        ]
+      ]
+    },
+    {
+      "flow_id": "home",
+      "flow_name": "Home Dashboard",
+      "unique_patterns": [
+        "bottom-tab-bar",
+        "progress-indicator",
+        "notification-badge",
+        "card-layout",
+        "single-primary-cta",
+        "success-confirmation",
+        "hero-illustration"
+      ],
+      "pattern_combinations": []
+    },
+    {
+      "flow_id": "lesson",
+      "flow_name": "Lesson Flow",
+      "unique_patterns": [
+        "progress-indicator",
+        "single-primary-cta",
+        "contextual-help",
+        "inline-validation",
+        "success-confirmation",
+        "toast-notification",
+        "error-message"
+      ],
+      "pattern_combinations": [
+        [
+          "contextual-help",
+          "single-primary-cta"
+        ]
+      ]
+    }
+  ]
+}

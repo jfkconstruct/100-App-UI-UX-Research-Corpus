@@ -1,0 +1,269 @@
+[
+  {
+    "screen_id": "landing-01",
+    "app_id": "linear",
+    "flow_id": "landing",
+    "step_index": 0,
+    "image_path": "data/raw_screens/linear/landing/01-homepage.png",
+    "screen_type": "landing",
+    "layout_type": "hero-cta",
+    "primary_user_goal": "Understand Linear's value proposition for project management",
+    "primary_business_goal": "Convert visitors to signup",
+    "primary_cta_label": "Start building",
+    "secondary_cta_labels": ["Log in", "Contact sales"],
+    "navigation_elements": ["top-nav", "logo"],
+    "copy_summary": "Bold headline 'Linear is a purpose-built tool for planning and building products' with animated product demo. Emphasis on speed and modern design.",
+    "patterns": [
+      "single-primary-cta",
+      "benefit-oriented-headline",
+      "hero-illustration",
+      "social-proof"
+    ],
+    "heuristics": {
+      "clarity": 5,
+      "cognitive_load": 5,
+      "visual_hierarchy": 5,
+      "feedback": 3,
+      "accessibility": 4,
+      "conversion_strength": 5
+    },
+    "notes": "Striking dark theme with purple accents. The animated product demo shows the app in action. 'Purpose-built' messaging differentiates from generic tools. Company logos provide social proof. Minimal navigation keeps focus on conversion."
+  },
+  {
+    "screen_id": "landing-02",
+    "app_id": "linear",
+    "flow_id": "landing",
+    "step_index": 1,
+    "image_path": "data/raw_screens/linear/landing/02-features.png",
+    "screen_type": "features",
+    "layout_type": "grid",
+    "primary_user_goal": "Understand key features and capabilities",
+    "primary_business_goal": "Build confidence and desire for the product",
+    "primary_cta_label": "Start building",
+    "secondary_cta_labels": [],
+    "navigation_elements": ["sticky-cta"],
+    "copy_summary": "Feature grid highlighting: Keyboard-first design, Cycles for planning, Roadmaps, GitHub/GitLab integration. Each with brief explanation.",
+    "patterns": [
+      "card-layout",
+      "sticky-cta",
+      "progressive-disclosure",
+      "hero-illustration"
+    ],
+    "heuristics": {
+      "clarity": 5,
+      "cognitive_load": 4,
+      "visual_hierarchy": 4,
+      "feedback": 3,
+      "accessibility": 4,
+      "conversion_strength": 4
+    },
+    "notes": "Feature cards are scannable with clear icons. The keyboard shortcuts emphasis signals power-user focus. Integration logos build confidence. Sticky CTA ensures conversion is always accessible."
+  },
+  {
+    "screen_id": "onboarding-01",
+    "app_id": "linear",
+    "flow_id": "onboarding",
+    "step_index": 0,
+    "image_path": "data/raw_screens/linear/onboarding/01-workspace-create.png",
+    "screen_type": "form",
+    "layout_type": "centered-card",
+    "primary_user_goal": "Create workspace to start using Linear",
+    "primary_business_goal": "Complete account setup with workspace context",
+    "primary_cta_label": "Create workspace",
+    "secondary_cta_labels": ["Join existing workspace"],
+    "navigation_elements": ["progress-indicator"],
+    "copy_summary": "Clean form asking for workspace name and URL. Explanation that workspace is team's home. Option to join existing workspace.",
+    "patterns": [
+      "progress-indicator",
+      "single-primary-cta",
+      "smart-defaults",
+      "inline-validation"
+    ],
+    "heuristics": {
+      "clarity": 5,
+      "cognitive_load": 5,
+      "visual_hierarchy": 5,
+      "feedback": 4,
+      "accessibility": 4,
+      "conversion_strength": 4
+    },
+    "notes": "Minimal form with just essential fields. URL auto-generates from workspace name. Clean, fast onboarding matches product philosophy. No unnecessary questions."
+  },
+  {
+    "screen_id": "onboarding-02",
+    "app_id": "linear",
+    "flow_id": "onboarding",
+    "step_index": 1,
+    "image_path": "data/raw_screens/linear/onboarding/02-invite-team.png",
+    "screen_type": "form",
+    "layout_type": "centered-card",
+    "primary_user_goal": "Invite team members to collaborate",
+    "primary_business_goal": "Increase user count and stickiness through team adoption",
+    "primary_cta_label": "Continue",
+    "secondary_cta_labels": ["Skip for now"],
+    "navigation_elements": ["progress-indicator", "back-button"],
+    "copy_summary": "Email input for team invites with clear explanation. Option to skip and invite later.",
+    "patterns": [
+      "progress-indicator",
+      "single-primary-cta",
+      "progressive-disclosure"
+    ],
+    "heuristics": {
+      "clarity": 5,
+      "cognitive_load": 5,
+      "visual_hierarchy": 5,
+      "feedback": 4,
+      "accessibility": 4,
+      "conversion_strength": 4
+    },
+    "notes": "Skip option respects users who want to explore solo first. Multi-email input is efficient. Team size affects pricing tier, so this is also qualification."
+  },
+  {
+    "screen_id": "dashboard-01",
+    "app_id": "linear",
+    "flow_id": "dashboard",
+    "step_index": 0,
+    "image_path": "data/raw_screens/linear/dashboard/01-inbox.png",
+    "screen_type": "dashboard",
+    "layout_type": "three-column",
+    "primary_user_goal": "See what needs attention and manage work",
+    "primary_business_goal": "Drive daily engagement and task completion",
+    "primary_cta_label": "",
+    "secondary_cta_labels": [],
+    "navigation_elements": ["sidebar", "search-prominent", "breadcrumbs"],
+    "copy_summary": "Three-column layout: sidebar navigation, issue list, issue detail. Inbox shows notifications and assigned items. Keyboard shortcuts visible.",
+    "patterns": [
+      "search-prominent",
+      "card-layout",
+      "contextual-help",
+      "notification-badge"
+    ],
+    "heuristics": {
+      "clarity": 4,
+      "cognitive_load": 3,
+      "visual_hierarchy": 5,
+      "feedback": 4,
+      "accessibility": 4,
+      "conversion_strength": 4
+    },
+    "notes": "Information-dense but well-organized. The three-column layout is powerful but takes learning. Keyboard shortcut hints encourage power usage. Dark theme reduces eye strain for long sessions."
+  },
+  {
+    "screen_id": "dashboard-02",
+    "app_id": "linear",
+    "flow_id": "dashboard",
+    "step_index": 1,
+    "image_path": "data/raw_screens/linear/dashboard/02-command-palette.png",
+    "screen_type": "command-palette",
+    "layout_type": "overlay",
+    "primary_user_goal": "Quickly navigate or take action without mouse",
+    "primary_business_goal": "Enable power-user efficiency and differentiate from competitors",
+    "primary_cta_label": "",
+    "secondary_cta_labels": [],
+    "navigation_elements": ["search-autocomplete"],
+    "copy_summary": "Command palette (Cmd+K) showing recent actions, navigation options, and search. Fuzzy matching for fast finding.",
+    "patterns": [
+      "search-autocomplete",
+      "progressive-disclosure",
+      "contextual-help"
+    ],
+    "heuristics": {
+      "clarity": 5,
+      "cognitive_load": 4,
+      "visual_hierarchy": 5,
+      "feedback": 5,
+      "accessibility": 3,
+      "conversion_strength": 4
+    },
+    "notes": "The command palette is Linear's signature feature. Everything is accessible via keyboard. Recent items shown first. Actions grouped logically. This is what makes Linear feel 'fast'."
+  },
+  {
+    "screen_id": "issue-01",
+    "app_id": "linear",
+    "flow_id": "issue",
+    "step_index": 0,
+    "image_path": "data/raw_screens/linear/issue/01-create.png",
+    "screen_type": "modal",
+    "layout_type": "form",
+    "primary_user_goal": "Create a new issue quickly",
+    "primary_business_goal": "Capture work items with appropriate metadata",
+    "primary_cta_label": "Create issue",
+    "secondary_cta_labels": ["Cancel"],
+    "navigation_elements": [],
+    "copy_summary": "Issue creation modal with title, description, assignee, priority, labels, project, cycle. Keyboard shortcuts for each field.",
+    "patterns": [
+      "single-primary-cta",
+      "smart-defaults",
+      "inline-validation",
+      "contextual-help"
+    ],
+    "heuristics": {
+      "clarity": 5,
+      "cognitive_load": 4,
+      "visual_hierarchy": 5,
+      "feedback": 4,
+      "accessibility": 4,
+      "conversion_strength": 4
+    },
+    "notes": "Can create issue with just title - everything else optional. Keyboard shortcuts for every field (P for priority, etc.). Smart defaults based on context. Markdown support in description."
+  },
+  {
+    "screen_id": "issue-02",
+    "app_id": "linear",
+    "flow_id": "issue",
+    "step_index": 1,
+    "image_path": "data/raw_screens/linear/issue/02-detail.png",
+    "screen_type": "detail",
+    "layout_type": "two-column",
+    "primary_user_goal": "View and manage issue details",
+    "primary_business_goal": "Enable effective issue tracking and collaboration",
+    "primary_cta_label": "",
+    "secondary_cta_labels": [],
+    "navigation_elements": ["back-button", "breadcrumbs"],
+    "copy_summary": "Issue detail with description, activity feed, sub-issues, relations. Properties panel on right. Full editing capability inline.",
+    "patterns": [
+      "card-layout",
+      "comment-thread",
+      "contextual-help",
+      "breadcrumbs"
+    ],
+    "heuristics": {
+      "clarity": 4,
+      "cognitive_load": 3,
+      "visual_hierarchy": 4,
+      "feedback": 4,
+      "accessibility": 4,
+      "conversion_strength": 3
+    },
+    "notes": "Dense information display for power users. Activity feed shows full history. Relations and sub-issues support complex work breakdown. Everything editable inline."
+  },
+  {
+    "screen_id": "roadmap-01",
+    "app_id": "linear",
+    "flow_id": "roadmap",
+    "step_index": 0,
+    "image_path": "data/raw_screens/linear/roadmap/01-view.png",
+    "screen_type": "visualization",
+    "layout_type": "timeline",
+    "primary_user_goal": "See project timeline and plan work",
+    "primary_business_goal": "Enable strategic planning and stakeholder communication",
+    "primary_cta_label": "",
+    "secondary_cta_labels": [],
+    "navigation_elements": ["sidebar", "view-switcher", "filter-facets"],
+    "copy_summary": "Gantt-style timeline showing projects and milestones. Drag to adjust dates. Color coding by team or status.",
+    "patterns": [
+      "filter-facets",
+      "lazy-loading",
+      "progressive-disclosure"
+    ],
+    "heuristics": {
+      "clarity": 4,
+      "cognitive_load": 3,
+      "visual_hierarchy": 4,
+      "feedback": 4,
+      "accessibility": 3,
+      "conversion_strength": 3
+    },
+    "notes": "Powerful visualization for planning. Draggable timeline items. Zoom levels for different time horizons. This view is particularly useful for leadership and stakeholder communication."
+  }
+]

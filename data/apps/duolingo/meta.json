@@ -1,0 +1,15 @@
+{
+  "app_id": "duolingo",
+  "name": "Duolingo",
+  "category": "education",
+  "platforms": ["web", "ios", "android"],
+  "url": "https://www.duolingo.com",
+  "analyzed_version": "2024",
+  "analysis_date": "2026-01-19",
+  "why_interesting": [
+    "Gamification masterclass - streaks, XP, leagues, achievements",
+    "Habit formation through behavioral psychology",
+    "Low-friction onboarding with immediate value",
+    "Clear progress visualization and goal tracking"
+  ]
+}
