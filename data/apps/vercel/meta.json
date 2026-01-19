@@ -1,0 +1,17 @@
+{
+  "app_id": "vercel",
+  "name": "Vercel",
+  "category": "developer-tools",
+  "platforms": ["web"],
+  "url": "https://vercel.com",
+  "analyzed_version": "2024",
+  "analysis_date": "2026-01-19",
+  "why_interesting": [
+    "Zero-config deployment that makes complex infrastructure feel simple",
+    "Preview URLs per commit revolutionize team collaboration and review",
+    "Git-first workflow deeply integrates with developer mental models",
+    "Real-time logs and edge function visualization provide instant feedback",
+    "Developer-focused UX with exceptional information architecture",
+    "Dark mode default signals developer-centric design philosophy"
+  ]
+}

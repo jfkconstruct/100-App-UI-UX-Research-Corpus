@@ -1,0 +1,192 @@
+[
+  {
+    "flow_id": "canva-signup-to-design",
+    "name": "New User: Signup to First Design",
+    "description": "Complete journey from landing page visit through account creation to first design completion",
+    "primary_user_goal": "Create a professional-looking design without prior design experience",
+    "business_goal": "Convert visitor to registered user with completed first design (activation)",
+    "entry_point": "Landing page or template gallery (via search/referral)",
+    "exit_point": "Downloaded or shared design",
+    "estimated_duration": "5-15 minutes",
+    "friction_points": [
+      "Account creation (minimized with social login)",
+      "Template decision paralysis (mitigated by smart recommendations)",
+      "Learning editor interface (reduced by intuitive design and tips)"
+    ],
+    "screens": [
+      "canva-landing",
+      "canva-template-gallery",
+      "canva-template-selection",
+      "canva-editor-canvas",
+      "canva-element-library",
+      "canva-text-editing",
+      "canva-export-download"
+    ],
+    "success_metrics": [
+      "Signup completion rate",
+      "Time to first design",
+      "First design completion rate",
+      "Design share/download rate"
+    ],
+    "notes": "This flow is Canva's core activation funnel. The genius is that users often start editing BEFORE completing signup - they select a template, make a few edits, then are prompted to sign up to save. This demonstrates value before asking for commitment."
+  },
+  {
+    "flow_id": "canva-template-to-design",
+    "name": "Template to Finished Design",
+    "description": "Core creation flow from template selection through customization to export",
+    "primary_user_goal": "Transform a template into a personalized, share-ready design",
+    "business_goal": "Deliver value that drives return usage and word-of-mouth",
+    "entry_point": "Template gallery or home dashboard",
+    "exit_point": "Downloaded, shared, or scheduled design",
+    "estimated_duration": "3-20 minutes depending on complexity",
+    "friction_points": [
+      "Finding the right template (solved by smart search and categories)",
+      "Customizing without breaking design (solved by smart layouts)",
+      "Exporting in correct format (solved by smart defaults)"
+    ],
+    "screens": [
+      "canva-home-dashboard",
+      "canva-template-gallery",
+      "canva-template-selection",
+      "canva-editor-canvas",
+      "canva-element-library",
+      "canva-text-editing",
+      "canva-export-download"
+    ],
+    "success_metrics": [
+      "Template-to-export completion rate",
+      "Average editing time",
+      "Elements modified per design",
+      "Export format distribution"
+    ],
+    "notes": "This is the core product loop. Key insight: templates do 80% of the design work, user does 20% customization but feels 100% ownership. The flow is optimized to minimize time-to-value while maximizing perceived creativity."
+  },
+  {
+    "flow_id": "canva-returning-user",
+    "name": "Returning User: Continue or Create",
+    "description": "Returning user journey to resume work or start new project",
+    "primary_user_goal": "Quickly access previous work or start new design efficiently",
+    "business_goal": "Maintain engagement habit and deepen platform investment",
+    "entry_point": "Login or direct link to home",
+    "exit_point": "Active editing session",
+    "estimated_duration": "30 seconds to 2 minutes",
+    "friction_points": [
+      "Finding previous work (solved by recent designs and search)",
+      "Remembering where to find features (solved by consistent UI)",
+      "Decision fatigue for new designs (solved by quick-create buttons)"
+    ],
+    "screens": [
+      "canva-home-dashboard",
+      "canva-template-gallery",
+      "canva-editor-canvas"
+    ],
+    "success_metrics": [
+      "Time to resume editing",
+      "Session frequency",
+      "Designs per user per month",
+      "Feature discovery rate"
+    ],
+    "notes": "Returning users are Canva's most valuable segment. The home dashboard is optimized for continuation - recent work is immediately visible. The goal is to get users into the editor as fast as possible, whether resuming or starting fresh."
+  },
+  {
+    "flow_id": "canva-upgrade",
+    "name": "Free to Pro Upgrade",
+    "description": "Conversion journey from free user to paid subscriber",
+    "primary_user_goal": "Access premium features to improve design capabilities",
+    "business_goal": "Convert free users to paying subscribers",
+    "entry_point": "Various upgrade touchpoints (premium content, feature limit, pricing page)",
+    "exit_point": "Completed subscription purchase",
+    "estimated_duration": "2-5 minutes for purchase flow",
+    "friction_points": [
+      "Uncertainty about Pro value (solved by feature previews)",
+      "Price sensitivity (solved by free trial)",
+      "Commitment anxiety (solved by monthly option and cancel anytime)"
+    ],
+    "screens": [
+      "canva-pricing"
+    ],
+    "conversion_triggers": [
+      "Clicking premium content in editor",
+      "Hitting usage limits on AI features",
+      "Needing transparent PNG export",
+      "Wanting Brand Kit for consistency",
+      "Requiring team collaboration features"
+    ],
+    "success_metrics": [
+      "Free to trial conversion rate",
+      "Trial to paid conversion rate",
+      "Upgrade trigger distribution",
+      "Monthly vs annual plan mix"
+    ],
+    "notes": "Canva's upgrade flow is remarkably non-pushy. Premium features are visible and desirable but don't block core workflows. The 30-day free trial is the primary conversion mechanism - it removes purchase risk and creates commitment through usage."
+  },
+  {
+    "flow_id": "canva-ai-features",
+    "name": "AI/Magic Tools Discovery and Usage",
+    "description": "User journey discovering and using Canva's AI-powered features",
+    "primary_user_goal": "Leverage AI to create or enhance designs faster",
+    "business_goal": "Differentiate through AI capabilities; drive Pro upgrades for unlimited AI",
+    "entry_point": "Magic Studio hub or contextual AI suggestions in editor",
+    "exit_point": "AI-generated or AI-enhanced design element",
+    "estimated_duration": "1-5 minutes per AI interaction",
+    "friction_points": [
+      "Understanding AI capabilities (solved by clear examples)",
+      "AI quality concerns (solved by iteration options)",
+      "Usage limits on free tier (soft friction driving upgrades)"
+    ],
+    "screens": [
+      "canva-magic-studio",
+      "canva-editor-canvas"
+    ],
+    "ai_features": [
+      "Magic Design - Generate designs from prompts",
+      "Magic Write - AI copywriting assistance",
+      "Magic Edit - AI image editing",
+      "Magic Eraser - Remove objects from images",
+      "Magic Expand - Extend image boundaries",
+      "Text to Image - Generate images from prompts",
+      "Background Remover - One-click background removal"
+    ],
+    "success_metrics": [
+      "AI feature adoption rate",
+      "AI feature retention",
+      "AI usage per session",
+      "Pro upgrades from AI limit hits"
+    ],
+    "notes": "AI features are strategically integrated throughout Canva rather than siloed. The 'Magic' branding makes AI approachable. Free tier includes limited AI uses, creating natural upgrade moments without hard blocks. Quality of AI output is tuned for design context, not generic generation."
+  },
+  {
+    "flow_id": "canva-collaboration",
+    "name": "Team Collaboration Flow",
+    "description": "Multi-user collaboration on shared designs",
+    "primary_user_goal": "Collaborate with team members on designs efficiently",
+    "business_goal": "Drive Teams tier adoption through collaboration value",
+    "entry_point": "Share button or direct invite link",
+    "exit_point": "Successfully collaborated design",
+    "estimated_duration": "Varies by project complexity",
+    "friction_points": [
+      "Inviting collaborators (simplified with link sharing)",
+      "Understanding who changed what (solved by version history)",
+      "Conflicting simultaneous edits (solved by real-time sync)"
+    ],
+    "screens": [
+      "canva-editor-canvas"
+    ],
+    "collaboration_features": [
+      "Real-time multiplayer editing",
+      "Comments and @mentions",
+      "Version history",
+      "Share link with permissions",
+      "Team folders",
+      "Brand Kit sharing",
+      "Approval workflows (Teams)"
+    ],
+    "success_metrics": [
+      "Designs with multiple editors",
+      "Team folder usage",
+      "Comment resolution rate",
+      "Teams tier conversion"
+    ],
+    "notes": "Collaboration is a key driver for Teams tier adoption. Real-time multiplayer editing (Google Docs-style) is smooth and responsive. The sharing model is flexible - view, comment, or edit permissions. Brand Kit sharing ensures enterprise consistency across team designs."
+  }
+]

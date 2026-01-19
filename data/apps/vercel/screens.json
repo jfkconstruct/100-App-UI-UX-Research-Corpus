@@ -1,0 +1,317 @@
+[
+  {
+    "screen_id": "landing-01",
+    "app_id": "vercel",
+    "flow_id": "landing",
+    "step_index": 0,
+    "image_path": "data/raw_screens/vercel/landing/01-homepage.png",
+    "screen_type": "landing",
+    "layout_type": "hero-cta",
+    "primary_user_goal": "Understand Vercel's deployment platform value proposition",
+    "primary_business_goal": "Convert developers to start deploying",
+    "primary_cta_label": "Start Deploying",
+    "secondary_cta_labels": ["Get a Demo", "Talk to Sales"],
+    "navigation_elements": ["top-nav", "logo", "search-prominent"],
+    "copy_summary": "Bold headline 'Develop. Preview. Ship.' with animated gradient background. Prominent framework logos (Next.js, React, Vue, Svelte). Enterprise customer logos for social proof. Clean black/white design with accent colors.",
+    "patterns": [
+      "single-primary-cta",
+      "benefit-oriented-headline",
+      "hero-illustration",
+      "social-proof",
+      "dark-mode-default"
+    ],
+    "heuristics": {
+      "clarity": 5,
+      "cognitive_load": 4,
+      "visual_hierarchy": 5,
+      "feedback": 3,
+      "accessibility": 4,
+      "conversion_strength": 5
+    },
+    "notes": "The three-word tagline perfectly encapsulates the developer workflow. Dark mode default immediately signals 'built for developers'. Framework logos help developers self-identify. The animated background adds visual interest without distraction. Enterprise logos (Washington Post, Tripadvisor, etc.) provide credibility for larger teams."
+  },
+  {
+    "screen_id": "onboarding-01",
+    "app_id": "vercel",
+    "flow_id": "onboarding",
+    "step_index": 0,
+    "image_path": "data/raw_screens/vercel/onboarding/01-signup.png",
+    "screen_type": "auth",
+    "layout_type": "centered-card",
+    "primary_user_goal": "Create account quickly to start deploying",
+    "primary_business_goal": "Minimize friction to account creation",
+    "primary_cta_label": "Continue with GitHub",
+    "secondary_cta_labels": ["Continue with GitLab", "Continue with Bitbucket", "Continue with Email"],
+    "navigation_elements": [],
+    "copy_summary": "Minimal signup modal with Git provider options prominently displayed. GitHub as primary option given developer audience. Clean centered layout with Vercel logo.",
+    "patterns": [
+      "social-login",
+      "single-primary-cta",
+      "progressive-disclosure",
+      "smart-defaults"
+    ],
+    "heuristics": {
+      "clarity": 5,
+      "cognitive_load": 5,
+      "visual_hierarchy": 5,
+      "feedback": 4,
+      "accessibility": 4,
+      "conversion_strength": 5
+    },
+    "notes": "Git provider login is genius for a deployment platform - it establishes the connection needed for deployment while reducing signup friction. No email/password fields by default reduces cognitive load. The order of providers (GitHub first) reflects the target audience."
+  },
+  {
+    "screen_id": "onboarding-02",
+    "app_id": "vercel",
+    "flow_id": "onboarding",
+    "step_index": 1,
+    "image_path": "data/raw_screens/vercel/onboarding/02-import.png",
+    "screen_type": "wizard",
+    "layout_type": "two-column",
+    "primary_user_goal": "Connect repository and deploy first project",
+    "primary_business_goal": "Get user to first successful deployment quickly",
+    "primary_cta_label": "Import",
+    "secondary_cta_labels": ["Clone Template"],
+    "navigation_elements": ["search-prominent", "filter-facets"],
+    "copy_summary": "Import Git Repository screen showing list of user's repos from connected Git provider. Search box for filtering. Template options for starting fresh. Clear import button per repository row.",
+    "patterns": [
+      "search-prominent",
+      "lazy-loading",
+      "card-layout",
+      "contextual-help",
+      "smart-defaults"
+    ],
+    "heuristics": {
+      "clarity": 5,
+      "cognitive_load": 4,
+      "visual_hierarchy": 5,
+      "feedback": 4,
+      "accessibility": 4,
+      "conversion_strength": 5
+    },
+    "notes": "The repository list appears immediately after Git auth - no additional steps needed. Search helps users with many repos. Template option provides alternative path for new projects. Framework detection happens automatically during import."
+  },
+  {
+    "screen_id": "dashboard-01",
+    "app_id": "vercel",
+    "flow_id": "dashboard",
+    "step_index": 0,
+    "image_path": "data/raw_screens/vercel/dashboard/01-projects.png",
+    "screen_type": "dashboard",
+    "layout_type": "card-grid",
+    "primary_user_goal": "View and manage all deployed projects",
+    "primary_business_goal": "Enable efficient project management and drive engagement",
+    "primary_cta_label": "Add New...",
+    "secondary_cta_labels": ["Import Project"],
+    "navigation_elements": ["sidebar", "search-prominent", "notification-badge", "team-switcher"],
+    "copy_summary": "Project grid showing cards with project name, framework icon, deployment status, last updated time, and production URL. Search and filters at top. Team/personal toggle. Activity feed on right sidebar.",
+    "patterns": [
+      "card-layout",
+      "search-prominent",
+      "filter-facets",
+      "notification-badge",
+      "team-switcher",
+      "activity-feed"
+    ],
+    "heuristics": {
+      "clarity": 5,
+      "cognitive_load": 4,
+      "visual_hierarchy": 5,
+      "feedback": 4,
+      "accessibility": 4,
+      "conversion_strength": 4
+    },
+    "notes": "Project cards show exactly what developers need: status, last deployment time, production URL. Framework icons provide instant recognition. The grid scales well from 1 project to hundreds. Activity feed keeps teams informed without notifications."
+  },
+  {
+    "screen_id": "project-01",
+    "app_id": "vercel",
+    "flow_id": "project",
+    "step_index": 0,
+    "image_path": "data/raw_screens/vercel/project/01-overview.png",
+    "screen_type": "detail",
+    "layout_type": "tabbed",
+    "primary_user_goal": "Monitor project health and recent deployments",
+    "primary_business_goal": "Surface deployment information and drive feature adoption",
+    "primary_cta_label": "Visit",
+    "secondary_cta_labels": ["Redeploy", "Connect Domain"],
+    "navigation_elements": ["breadcrumbs", "tabs", "production-indicator"],
+    "copy_summary": "Project overview with production deployment card, deployment history list, environment variable status, domain configuration, and analytics preview. Tabs for Deployments, Analytics, Logs, Storage, Settings.",
+    "patterns": [
+      "breadcrumbs",
+      "card-layout",
+      "tabs",
+      "status-indicators",
+      "contextual-help",
+      "quick-actions"
+    ],
+    "heuristics": {
+      "clarity": 5,
+      "cognitive_load": 4,
+      "visual_hierarchy": 5,
+      "feedback": 5,
+      "accessibility": 4,
+      "conversion_strength": 4
+    },
+    "notes": "The production deployment is prominently displayed with live URL. Deployment history provides audit trail. Tabs organize complex information without overwhelming. Status indicators (green checkmarks, pending spinners) provide instant feedback."
+  },
+  {
+    "screen_id": "deployment-01",
+    "app_id": "vercel",
+    "flow_id": "deployment",
+    "step_index": 0,
+    "image_path": "data/raw_screens/vercel/deployment/01-detail.png",
+    "screen_type": "detail",
+    "layout_type": "two-column",
+    "primary_user_goal": "Understand deployment status and troubleshoot issues",
+    "primary_business_goal": "Enable self-serve debugging and reduce support burden",
+    "primary_cta_label": "Promote to Production",
+    "secondary_cta_labels": ["Redeploy", "Inspect"],
+    "navigation_elements": ["breadcrumbs", "tabs", "back-button"],
+    "copy_summary": "Deployment detail showing build logs, deployment URL (unique preview URL), commit info, build duration, source (branch/commit). Real-time log streaming during build. Tabs for Build Logs, Runtime Logs, Source.",
+    "patterns": [
+      "breadcrumbs",
+      "progress-indicator",
+      "real-time-updates",
+      "contextual-help",
+      "log-viewer",
+      "status-indicators"
+    ],
+    "heuristics": {
+      "clarity": 5,
+      "cognitive_load": 4,
+      "visual_hierarchy": 5,
+      "feedback": 5,
+      "accessibility": 4,
+      "conversion_strength": 4
+    },
+    "notes": "Build logs stream in real-time - critical for developer experience. Each deployment gets a unique preview URL which is revolutionary for code review. Commit info links back to Git provider. Build duration helps optimize CI performance."
+  },
+  {
+    "screen_id": "preview-01",
+    "app_id": "vercel",
+    "flow_id": "preview",
+    "step_index": 0,
+    "image_path": "data/raw_screens/vercel/preview/01-toolbar.png",
+    "screen_type": "preview",
+    "layout_type": "overlay",
+    "primary_user_goal": "Review deployed preview and provide feedback",
+    "primary_business_goal": "Facilitate team collaboration and approval workflow",
+    "primary_cta_label": "Comment",
+    "secondary_cta_labels": ["Approve", "Request Changes"],
+    "navigation_elements": ["floating-toolbar", "comment-markers"],
+    "copy_summary": "Live preview deployment with Vercel toolbar overlay. Comment functionality allows clicking anywhere on page to add feedback. Approval/rejection workflow. Branch info and commit hash displayed. Share button for stakeholders.",
+    "patterns": [
+      "floating-toolbar",
+      "contextual-comments",
+      "approval-workflow",
+      "share-button",
+      "status-indicators"
+    ],
+    "heuristics": {
+      "clarity": 5,
+      "cognitive_load": 4,
+      "visual_hierarchy": 5,
+      "feedback": 5,
+      "accessibility": 4,
+      "conversion_strength": 4
+    },
+    "notes": "The preview toolbar is a key differentiator. Click-to-comment on live deployments bridges the gap between developers and stakeholders. Approval workflow integrates with Git branch protection. Every PR gets its own deployment URL automatically."
+  },
+  {
+    "screen_id": "logs-01",
+    "app_id": "vercel",
+    "flow_id": "logs",
+    "step_index": 0,
+    "image_path": "data/raw_screens/vercel/logs/01-runtime.png",
+    "screen_type": "monitoring",
+    "layout_type": "split",
+    "primary_user_goal": "Debug runtime issues and monitor function performance",
+    "primary_business_goal": "Enable self-serve debugging and showcase platform capabilities",
+    "primary_cta_label": "Filter",
+    "secondary_cta_labels": ["Export", "Clear"],
+    "navigation_elements": ["filter-facets", "search-prominent", "time-range-picker"],
+    "copy_summary": "Real-time log viewer showing function executions, edge middleware, and server-side rendering logs. Filters for log level, time range, function name. Expandable log entries showing full request/response details.",
+    "patterns": [
+      "real-time-updates",
+      "filter-facets",
+      "search-prominent",
+      "log-viewer",
+      "lazy-loading",
+      "expandable-rows"
+    ],
+    "heuristics": {
+      "clarity": 5,
+      "cognitive_load": 3,
+      "visual_hierarchy": 4,
+      "feedback": 5,
+      "accessibility": 4,
+      "conversion_strength": 3
+    },
+    "notes": "Logs stream in real-time which is essential for debugging. Syntax highlighting for JSON responses. Cold start indicators help optimize performance. The filter system handles high-volume logs well. Edge function visualization shows global distribution."
+  },
+  {
+    "screen_id": "settings-01",
+    "app_id": "vercel",
+    "flow_id": "settings",
+    "step_index": 0,
+    "image_path": "data/raw_screens/vercel/settings/01-general.png",
+    "screen_type": "settings",
+    "layout_type": "sidebar-form",
+    "primary_user_goal": "Configure project settings and environment variables",
+    "primary_business_goal": "Enable project customization while maintaining sensible defaults",
+    "primary_cta_label": "Save",
+    "secondary_cta_labels": ["Delete Project"],
+    "navigation_elements": ["sidebar", "breadcrumbs", "section-nav"],
+    "copy_summary": "Project settings with sidebar navigation: General, Domains, Git, Functions, Environment Variables, Security. Form fields for project name, build settings, Node.js version, root directory. Danger zone for project deletion at bottom.",
+    "patterns": [
+      "sidebar",
+      "breadcrumbs",
+      "form-sections",
+      "danger-zone",
+      "smart-defaults",
+      "inline-validation"
+    ],
+    "heuristics": {
+      "clarity": 5,
+      "cognitive_load": 4,
+      "visual_hierarchy": 5,
+      "feedback": 4,
+      "accessibility": 4,
+      "conversion_strength": 3
+    },
+    "notes": "Settings are well-organized into logical sections. Defaults are excellent - most projects need zero configuration. Environment variables have production/preview/development separation. Danger zone pattern prevents accidental deletion. Git integration settings allow branch configuration."
+  },
+  {
+    "screen_id": "pricing-01",
+    "app_id": "vercel",
+    "flow_id": "pricing",
+    "step_index": 0,
+    "image_path": "data/raw_screens/vercel/pricing/01-plans.png",
+    "screen_type": "pricing",
+    "layout_type": "comparison-table",
+    "primary_user_goal": "Understand pricing and choose appropriate plan",
+    "primary_business_goal": "Convert free users to paid plans and qualify enterprise leads",
+    "primary_cta_label": "Start Deploying",
+    "secondary_cta_labels": ["Contact Sales", "View Full Comparison"],
+    "navigation_elements": ["top-nav", "anchor-links"],
+    "copy_summary": "Three-tier pricing: Hobby (free), Pro ($20/user/month), Enterprise (custom). Feature comparison grid. Usage-based pricing details. FAQ section below. Enterprise benefits highlighted for larger teams.",
+    "patterns": [
+      "pricing-table",
+      "feature-comparison",
+      "tiered-pricing",
+      "social-proof",
+      "faq-accordion",
+      "sticky-cta"
+    ],
+    "heuristics": {
+      "clarity": 5,
+      "cognitive_load": 4,
+      "visual_hierarchy": 5,
+      "feedback": 3,
+      "accessibility": 4,
+      "conversion_strength": 5
+    },
+    "notes": "Generous free tier removes barrier to entry. Pro tier clearly positioned for teams. Enterprise features (SSO, SLA, support) listed prominently. The comparison table makes differences scannable. Usage metrics (bandwidth, builds) clearly defined."
+  }
+]

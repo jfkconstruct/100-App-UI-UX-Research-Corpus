@@ -1,0 +1,431 @@
+[
+  {
+    "screen_id": "canva-landing",
+    "app_id": "canva",
+    "flow_id": "canva-signup-to-design",
+    "step_index": 0,
+    "image_path": "screens/landing.png",
+    "screen_type": "marketing-landing",
+    "layout_type": "hero-split",
+    "primary_user_goal": "Understand what Canva offers and decide whether to sign up",
+    "primary_business_goal": "Convert visitors to registered users with minimal friction",
+    "primary_cta_label": "Start designing",
+    "secondary_cta_labels": [
+      "Log in",
+      "Try Canva Pro",
+      "Canva for Teams"
+    ],
+    "navigation_elements": [
+      "Design spotlight dropdown",
+      "Business dropdown",
+      "Education dropdown",
+      "Plans and pricing",
+      "Learn dropdown"
+    ],
+    "copy_summary": "Hero headline emphasizes empowerment ('Design anything') with subtext showing versatility. Social proof through user count and testimonials. Feature highlights focus on ease of use rather than technical capabilities.",
+    "patterns": [
+      "single-primary-cta",
+      "social-proof-banner",
+      "hero-with-product-preview",
+      "use-case-grid",
+      "sticky-header",
+      "lazy-loading"
+    ],
+    "heuristics": {
+      "clarity": 5,
+      "cognitive_load": 4,
+      "visual_hierarchy": 5,
+      "feedback": 4,
+      "accessibility": 4,
+      "conversion_strength": 5
+    },
+    "notes": "Landing page immediately shows actual product output (design examples) rather than abstract promises. The 'Start designing' CTA appears multiple times as user scrolls but never feels pushy. Color palette is calm and approachable, intentionally avoiding the 'pro tool' aesthetic that might intimidate non-designers."
+  },
+  {
+    "screen_id": "canva-template-gallery",
+    "app_id": "canva",
+    "flow_id": "canva-template-to-design",
+    "step_index": 1,
+    "image_path": "screens/template-gallery.png",
+    "screen_type": "browse-gallery",
+    "layout_type": "masonry-grid",
+    "primary_user_goal": "Find a suitable template for specific design needs",
+    "primary_business_goal": "Demonstrate value of template library; surface premium templates naturally",
+    "primary_cta_label": "Customize this template",
+    "secondary_cta_labels": [
+      "See all",
+      "Filter",
+      "Search templates"
+    ],
+    "navigation_elements": [
+      "Category sidebar",
+      "Search bar",
+      "Filter pills",
+      "Format selector",
+      "Sort dropdown",
+      "Breadcrumb trail"
+    ],
+    "copy_summary": "Category-first organization with clear labels. Template cards show preview with hover states revealing key info. Premium content marked with subtle crown icon - not aggressive.",
+    "patterns": [
+      "card-layout",
+      "search-prominent",
+      "filter-facets",
+      "infinite-scroll",
+      "lazy-loading",
+      "hover-preview",
+      "category-navigation",
+      "premium-badge"
+    ],
+    "heuristics": {
+      "clarity": 5,
+      "cognitive_load": 4,
+      "visual_hierarchy": 5,
+      "feedback": 5,
+      "accessibility": 4,
+      "conversion_strength": 4
+    },
+    "notes": "Template gallery is masterfully organized - combines browsing ease with search efficiency. Category sidebar provides structure while search handles specific needs. Infinite scroll with skeleton loaders maintains performance perception. Premium badges are tasteful, not blocking. Hover states provide quick preview without requiring clicks."
+  },
+  {
+    "screen_id": "canva-template-selection",
+    "app_id": "canva",
+    "flow_id": "canva-template-to-design",
+    "step_index": 2,
+    "image_path": "screens/template-selection.png",
+    "screen_type": "detail-preview",
+    "layout_type": "modal-overlay",
+    "primary_user_goal": "Evaluate template suitability before committing to edit",
+    "primary_business_goal": "Build confidence in template choice to reduce abandonment",
+    "primary_cta_label": "Customize this template",
+    "secondary_cta_labels": [
+      "Save to folder",
+      "Share",
+      "View similar"
+    ],
+    "navigation_elements": [
+      "Close modal",
+      "Previous/Next arrows",
+      "Page thumbnails (multi-page templates)"
+    ],
+    "copy_summary": "Template preview shows full design with metadata (dimensions, pages, style tags). Related templates shown below for comparison. Clear indication of free vs. premium elements within template.",
+    "patterns": [
+      "modal-preview",
+      "progressive-disclosure",
+      "related-content",
+      "single-primary-cta",
+      "quick-actions",
+      "page-pagination"
+    ],
+    "heuristics": {
+      "clarity": 5,
+      "cognitive_load": 3,
+      "visual_hierarchy": 5,
+      "feedback": 4,
+      "accessibility": 4,
+      "conversion_strength": 5
+    },
+    "notes": "Modal preview reduces commitment anxiety - user can evaluate before opening editor. Multi-page templates show page navigator. Related templates help indecisive users. The 'Customize' CTA language is key: it implies the user will make it their own, not just use someone else's work."
+  },
+  {
+    "screen_id": "canva-editor-canvas",
+    "app_id": "canva",
+    "flow_id": "canva-template-to-design",
+    "step_index": 3,
+    "image_path": "screens/editor-canvas.png",
+    "screen_type": "editor-workspace",
+    "layout_type": "canvas-sidebar",
+    "primary_user_goal": "Modify template to match personal or brand requirements",
+    "primary_business_goal": "Enable creation of share-worthy designs that drive word-of-mouth",
+    "primary_cta_label": "Share",
+    "secondary_cta_labels": [
+      "Download",
+      "Present",
+      "Print",
+      "Resize"
+    ],
+    "navigation_elements": [
+      "Left sidebar (elements panel)",
+      "Top toolbar (actions)",
+      "Right sidebar (properties)",
+      "Page navigator (bottom)",
+      "Zoom controls",
+      "Undo/Redo"
+    ],
+    "copy_summary": "Minimal text in editor - interface relies on icons with tooltips. Contextual labels appear based on selected element. Help tips surface when user might be stuck.",
+    "patterns": [
+      "contextual-toolbar",
+      "progressive-disclosure",
+      "direct-manipulation",
+      "snap-to-grid",
+      "smart-guides",
+      "contextual-help",
+      "keyboard-shortcuts",
+      "auto-save"
+    ],
+    "heuristics": {
+      "clarity": 5,
+      "cognitive_load": 3,
+      "visual_hierarchy": 5,
+      "feedback": 5,
+      "accessibility": 3,
+      "conversion_strength": 4
+    },
+    "notes": "The editor is Canva's crown jewel. Toolbars appear contextually based on selection - text selected shows text tools, image shows image tools. This progressive disclosure keeps the interface clean while maintaining power. Real-time auto-save eliminates data loss anxiety. The canvas feels responsive and direct - changes feel immediate."
+  },
+  {
+    "screen_id": "canva-element-library",
+    "app_id": "canva",
+    "flow_id": "canva-template-to-design",
+    "step_index": 4,
+    "image_path": "screens/element-library.png",
+    "screen_type": "asset-browser",
+    "layout_type": "sidebar-panel",
+    "primary_user_goal": "Find and add visual elements (graphics, photos, icons) to design",
+    "primary_business_goal": "Demonstrate asset library value; gate premium assets strategically",
+    "primary_cta_label": "Add to design",
+    "secondary_cta_labels": [
+      "Upload your own",
+      "See all",
+      "AI-generate"
+    ],
+    "navigation_elements": [
+      "Search within elements",
+      "Category tabs",
+      "Filter by color",
+      "Filter by style",
+      "Recent/Starred sections"
+    ],
+    "copy_summary": "Category labels are clear and scannable. Search suggestions appear as user types. Premium elements have subtle badge, click reveals upgrade prompt.",
+    "patterns": [
+      "search-prominent",
+      "filter-facets",
+      "lazy-loading",
+      "drag-drop-to-canvas",
+      "premium-badge",
+      "color-picker-filter",
+      "recent-items",
+      "ai-suggestions"
+    ],
+    "heuristics": {
+      "clarity": 5,
+      "cognitive_load": 4,
+      "visual_hierarchy": 4,
+      "feedback": 5,
+      "accessibility": 4,
+      "conversion_strength": 4
+    },
+    "notes": "Element library is vast but navigable. Drag-and-drop from library to canvas is instant and satisfying. Color filter is genius - find elements matching design palette. Premium elements are mixed with free naturally, creating discovery moments rather than paywalled sections. AI-powered search understands intent ('happy dog playing')."
+  },
+  {
+    "screen_id": "canva-text-editing",
+    "app_id": "canva",
+    "flow_id": "canva-template-to-design",
+    "step_index": 5,
+    "image_path": "screens/text-editing.png",
+    "screen_type": "editor-submode",
+    "layout_type": "contextual-toolbar",
+    "primary_user_goal": "Edit, style, and position text within design",
+    "primary_business_goal": "Enable professional-looking typography without design expertise",
+    "primary_cta_label": null,
+    "secondary_cta_labels": [
+      "Add text box",
+      "Font combinations",
+      "Effects",
+      "Magic Write"
+    ],
+    "navigation_elements": [
+      "Font family dropdown",
+      "Font size slider",
+      "Color picker",
+      "Alignment controls",
+      "Spacing controls",
+      "Effects panel"
+    ],
+    "copy_summary": "Font names are readable in their own typeface (preview). Suggested font pairings remove typography guesswork. Magic Write offers AI assistance for copy.",
+    "patterns": [
+      "contextual-toolbar",
+      "inline-editing",
+      "font-preview",
+      "suggested-combinations",
+      "progressive-disclosure",
+      "ai-assistance"
+    ],
+    "heuristics": {
+      "clarity": 5,
+      "cognitive_load": 3,
+      "visual_hierarchy": 4,
+      "feedback": 5,
+      "accessibility": 4,
+      "conversion_strength": 3
+    },
+    "notes": "Text editing shows deep understanding of non-designer needs. Font pairing suggestions eliminate the 'what fonts go together' problem. Text effects (shadows, curves) are one-click. Magic Write AI helps users who struggle with copy. Double-click to edit is standard, but Canva also allows single-click then type for faster workflow."
+  },
+  {
+    "screen_id": "canva-export-download",
+    "app_id": "canva",
+    "flow_id": "canva-template-to-design",
+    "step_index": 6,
+    "image_path": "screens/export-download.png",
+    "screen_type": "export-modal",
+    "layout_type": "modal-form",
+    "primary_user_goal": "Download design in appropriate format for intended use",
+    "primary_business_goal": "Complete the value loop; surface premium export options",
+    "primary_cta_label": "Download",
+    "secondary_cta_labels": [
+      "Share link",
+      "Schedule",
+      "Print with Canva"
+    ],
+    "navigation_elements": [
+      "File type selector",
+      "Quality slider",
+      "Page selector",
+      "Advanced options accordion"
+    ],
+    "copy_summary": "Format recommendations based on design type (print vs. digital). Clear explanations of format differences. Premium formats (SVG, transparent PNG) marked but not blocked entirely.",
+    "patterns": [
+      "progressive-disclosure",
+      "format-recommendations",
+      "premium-upsell",
+      "quality-preview",
+      "single-primary-cta",
+      "smart-defaults"
+    ],
+    "heuristics": {
+      "clarity": 5,
+      "cognitive_load": 3,
+      "visual_hierarchy": 5,
+      "feedback": 4,
+      "accessibility": 4,
+      "conversion_strength": 5
+    },
+    "notes": "Export dialog is where Canva demonstrates premium value without blocking free users. Smart defaults choose appropriate format. Quality slider shows file size tradeoff. Transparent background (premium) shows clear preview of value. The 'Print with Canva' option is well-positioned for users who need physical output."
+  },
+  {
+    "screen_id": "canva-pricing",
+    "app_id": "canva",
+    "flow_id": "canva-upgrade",
+    "step_index": 0,
+    "image_path": "screens/pricing.png",
+    "screen_type": "pricing-page",
+    "layout_type": "comparison-cards",
+    "primary_user_goal": "Understand pricing tiers and determine best value for needs",
+    "primary_business_goal": "Convert free users to paid plans with clear value proposition",
+    "primary_cta_label": "Try free for 30 days",
+    "secondary_cta_labels": [
+      "Contact sales",
+      "Compare plans",
+      "See what's included"
+    ],
+    "navigation_elements": [
+      "Plan toggle (monthly/yearly)",
+      "Plan cards",
+      "Feature comparison table",
+      "FAQ accordion"
+    ],
+    "copy_summary": "Plans positioned by user type (individual, team, enterprise). Feature lists focus on outcomes not features. Free tier shown as legitimate option, not stripped-down version.",
+    "patterns": [
+      "pricing-comparison",
+      "free-trial-cta",
+      "annual-discount-highlight",
+      "feature-comparison-table",
+      "social-proof-banner",
+      "faq-accordion",
+      "money-back-guarantee"
+    ],
+    "heuristics": {
+      "clarity": 5,
+      "cognitive_load": 4,
+      "visual_hierarchy": 5,
+      "feedback": 3,
+      "accessibility": 4,
+      "conversion_strength": 5
+    },
+    "notes": "Pricing page respects free tier - doesn't make users feel like second-class citizens. Pro tier is the clear recommendation (highlighted). Team/Enterprise tiers use 'per user' pricing clearly. Annual discount is prominent but monthly option is available. Feature comparison table is scannable with checkmarks. Free trial removes purchase anxiety."
+  },
+  {
+    "screen_id": "canva-home-dashboard",
+    "app_id": "canva",
+    "flow_id": "canva-returning-user",
+    "step_index": 0,
+    "image_path": "screens/home-dashboard.png",
+    "screen_type": "dashboard-home",
+    "layout_type": "feed-sidebar",
+    "primary_user_goal": "Continue previous work or start new design quickly",
+    "primary_business_goal": "Re-engage users with their content and suggest new creation opportunities",
+    "primary_cta_label": "Create a design",
+    "secondary_cta_labels": [
+      "Try something new",
+      "Import",
+      "Brand Kit"
+    ],
+    "navigation_elements": [
+      "Recent designs",
+      "Folders",
+      "Shared with you",
+      "Brand Kit",
+      "Content Planner",
+      "Quick create buttons"
+    ],
+    "copy_summary": "Personalized greeting. Recent work is immediately visible. Suggested templates based on past usage. Quick-create buttons for common formats.",
+    "patterns": [
+      "recent-items",
+      "quick-actions",
+      "personalized-suggestions",
+      "card-layout",
+      "search-prominent",
+      "notification-center"
+    ],
+    "heuristics": {
+      "clarity": 5,
+      "cognitive_load": 3,
+      "visual_hierarchy": 5,
+      "feedback": 4,
+      "accessibility": 4,
+      "conversion_strength": 4
+    },
+    "notes": "Home dashboard prioritizes continuity - recent designs are front and center. Quick-create buttons for common sizes (Instagram post, presentation, etc.) reduce friction. The design is organized but not overwhelming. Search is prominent for users who know what they want. Folder system helps power users organize extensive design libraries."
+  },
+  {
+    "screen_id": "canva-magic-studio",
+    "app_id": "canva",
+    "flow_id": "canva-ai-features",
+    "step_index": 0,
+    "image_path": "screens/magic-studio.png",
+    "screen_type": "feature-hub",
+    "layout_type": "feature-cards",
+    "primary_user_goal": "Discover and use AI-powered design tools",
+    "primary_business_goal": "Showcase AI differentiation; drive Pro upgrades for unlimited AI usage",
+    "primary_cta_label": "Try Magic Studio",
+    "secondary_cta_labels": [
+      "Magic Write",
+      "Magic Design",
+      "Magic Edit",
+      "Text to Image"
+    ],
+    "navigation_elements": [
+      "AI tool cards",
+      "Usage meter",
+      "Tutorial links",
+      "Recent AI creations"
+    ],
+    "copy_summary": "AI features branded as 'Magic' tools for approachability. Clear explanations of each tool's purpose. Examples show before/after transformations.",
+    "patterns": [
+      "feature-cards",
+      "progressive-disclosure",
+      "usage-metering",
+      "before-after-preview",
+      "contextual-help",
+      "free-trial-cta"
+    ],
+    "heuristics": {
+      "clarity": 5,
+      "cognitive_load": 3,
+      "visual_hierarchy": 4,
+      "feedback": 4,
+      "accessibility": 4,
+      "conversion_strength": 5
+    },
+    "notes": "Magic Studio is Canva's AI hub. The 'Magic' branding makes AI approachable rather than technical. Each tool has clear purpose (background removal, image generation, writing assistance). Usage meters for free tier create upgrade pressure without hard blocks. Integration with main editor is seamless - AI feels like natural extension, not separate feature."
+  }
+]

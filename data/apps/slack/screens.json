@@ -1,0 +1,304 @@
+[
+  {
+    "screen_id": "landing-01",
+    "app_id": "slack",
+    "flow_id": "marketing-to-signup",
+    "step_index": 0,
+    "image_path": "data/raw_screens/slack/marketing/01-landing.png",
+    "screen_type": "landing",
+    "layout_type": "full-screen",
+    "primary_user_goal": "Understand Slack's value proposition and decide to try it",
+    "primary_business_goal": "Convert visitors to sign-ups or workspace creation",
+    "primary_cta_label": "Get Started Free",
+    "secondary_cta_labels": ["Talk to Sales", "Sign In"],
+    "navigation_elements": ["top-nav", "hamburger-menu"],
+    "copy_summary": "Hero headline 'Made for people. Built for productivity.' with supporting copy emphasizing team communication. Product screenshots showing the interface with conversations and channels.",
+    "patterns": [
+      "benefit-oriented-headline",
+      "hero-illustration",
+      "single-primary-cta",
+      "social-proof",
+      "hamburger-menu"
+    ],
+    "heuristics": {
+      "clarity": 4.5,
+      "cognitive_load": 4.0,
+      "visual_hierarchy": 4.5,
+      "feedback": 3.5,
+      "accessibility": 4.0,
+      "conversion_strength": 4.5
+    },
+    "notes": "Strong landing page with clear value proposition. The 'Get Started Free' CTA reduces friction by emphasizing free tier. Product screenshots give visitors a preview of the interface. Social proof with enterprise logos builds trust. The navigation is clean but the hamburger menu on desktop might hide important links."
+  },
+  {
+    "screen_id": "workspace-create-01",
+    "app_id": "slack",
+    "flow_id": "workspace-onboarding",
+    "step_index": 0,
+    "image_path": "data/raw_screens/slack/onboarding/01-create-workspace.png",
+    "screen_type": "form",
+    "layout_type": "centered-card",
+    "primary_user_goal": "Create a new workspace for their team",
+    "primary_business_goal": "Capture workspace creation and begin team onboarding",
+    "primary_cta_label": "Next",
+    "secondary_cta_labels": ["Sign in to existing workspace"],
+    "navigation_elements": ["progress-indicator", "back-button"],
+    "copy_summary": "Clean form asking 'What's the name of your company or team?' with single input field. Progress indicator shows step 1 of multi-step flow.",
+    "patterns": [
+      "progress-indicator",
+      "single-primary-cta",
+      "inline-validation",
+      "minimal-navigation"
+    ],
+    "heuristics": {
+      "clarity": 5.0,
+      "cognitive_load": 5.0,
+      "visual_hierarchy": 4.5,
+      "feedback": 4.0,
+      "accessibility": 4.5,
+      "conversion_strength": 4.0
+    },
+    "notes": "Excellent single-question-per-screen approach reduces cognitive load dramatically. Progress indicator sets expectations for the flow length. Inline validation provides immediate feedback. The question is straightforward and sets context for workspace naming. Very low friction entry point."
+  },
+  {
+    "screen_id": "workspace-invite-01",
+    "app_id": "slack",
+    "flow_id": "workspace-onboarding",
+    "step_index": 1,
+    "image_path": "data/raw_screens/slack/onboarding/02-invite-team.png",
+    "screen_type": "form",
+    "layout_type": "centered-card",
+    "primary_user_goal": "Invite team members to join the workspace",
+    "primary_business_goal": "Drive team adoption and create network effects",
+    "primary_cta_label": "Add Teammates",
+    "secondary_cta_labels": ["Skip for now", "Copy invite link"],
+    "navigation_elements": ["progress-indicator", "back-button"],
+    "copy_summary": "Email input fields for inviting teammates. Option to copy an invite link. 'Skip for now' option for those who want to explore first.",
+    "patterns": [
+      "progress-indicator",
+      "inline-validation",
+      "contextual-help",
+      "skip-option"
+    ],
+    "heuristics": {
+      "clarity": 4.5,
+      "cognitive_load": 4.0,
+      "visual_hierarchy": 4.0,
+      "feedback": 4.0,
+      "accessibility": 4.0,
+      "conversion_strength": 4.5
+    },
+    "notes": "Smart placement of team invitation early in the flow - critical for product value. Skip option respects users who want to explore alone first. Copy link provides alternative for sharing. Multiple email inputs with + button pattern is familiar. Could potentially integrate with contact book for easier invites."
+  },
+  {
+    "screen_id": "sidebar-01",
+    "app_id": "slack",
+    "flow_id": "daily-usage",
+    "step_index": 0,
+    "image_path": "data/raw_screens/slack/core/01-sidebar.png",
+    "screen_type": "navigation",
+    "layout_type": "sidebar",
+    "primary_user_goal": "Navigate between channels, DMs, and workspaces",
+    "primary_business_goal": "Enable efficient navigation and feature discovery",
+    "primary_cta_label": "",
+    "secondary_cta_labels": ["Add channels", "Add teammates"],
+    "navigation_elements": ["sidebar", "workspace-switcher", "search-prominent"],
+    "copy_summary": "Left sidebar showing workspace icon at top, followed by sections: Threads, Later, DMs, Channels (with expandable list), Apps. Unread badges indicate activity. Search bar at top.",
+    "patterns": [
+      "notification-badge",
+      "hamburger-menu",
+      "search-prominent",
+      "collapsible-sections",
+      "user-avatar"
+    ],
+    "heuristics": {
+      "clarity": 4.0,
+      "cognitive_load": 3.5,
+      "visual_hierarchy": 4.0,
+      "feedback": 4.5,
+      "accessibility": 3.5,
+      "conversion_strength": 3.5
+    },
+    "notes": "The sidebar is the navigation hub of Slack. Notification badges are highly visible, creating urgency for engagement. Collapsible sections help manage cognitive load in busy workspaces. Workspace switcher at top enables multi-workspace users. Search bar prominence reflects its importance. The sidebar can become overwhelming in large workspaces - Slack addresses this with sections and customization."
+  },
+  {
+    "screen_id": "channel-view-01",
+    "app_id": "slack",
+    "flow_id": "daily-usage",
+    "step_index": 1,
+    "image_path": "data/raw_screens/slack/core/02-channel-view.png",
+    "screen_type": "feed",
+    "layout_type": "chat",
+    "primary_user_goal": "Read and participate in channel conversations",
+    "primary_business_goal": "Drive engagement and communication activity",
+    "primary_cta_label": "",
+    "secondary_cta_labels": [],
+    "navigation_elements": ["channel-header", "members-list", "pinned-items"],
+    "copy_summary": "Main channel view with chronological messages. Each message shows avatar, username, timestamp, and content. Message actions appear on hover. Composer at bottom with formatting options, emoji picker, attachments.",
+    "patterns": [
+      "user-avatar",
+      "comment-thread",
+      "contextual-help",
+      "toast-notification",
+      "lazy-loading"
+    ],
+    "heuristics": {
+      "clarity": 4.5,
+      "cognitive_load": 4.0,
+      "visual_hierarchy": 4.5,
+      "feedback": 4.5,
+      "accessibility": 4.0,
+      "conversion_strength": 4.0
+    },
+    "notes": "Clean message layout with clear visual hierarchy. Hover actions reduce visual clutter while maintaining discoverability. Thread replies indicator shows conversation depth without cluttering main view. Emoji reactions visible but compact. Rich composer supports multiple content types. The chronological feed is familiar and scannable."
+  },
+  {
+    "screen_id": "thread-view-01",
+    "app_id": "slack",
+    "flow_id": "thread-interaction",
+    "step_index": 0,
+    "image_path": "data/raw_screens/slack/core/03-thread-view.png",
+    "screen_type": "detail",
+    "layout_type": "split-view",
+    "primary_user_goal": "Follow and participate in a threaded conversation",
+    "primary_business_goal": "Enable focused discussions without channel noise",
+    "primary_cta_label": "Reply",
+    "secondary_cta_labels": ["Also send to channel"],
+    "navigation_elements": ["close-button", "thread-header"],
+    "copy_summary": "Right panel showing thread context - original message at top, followed by replies. Reply composer at bottom with 'Also send to #channel' checkbox. Reply count and participant avatars visible.",
+    "patterns": [
+      "comment-thread",
+      "user-avatar",
+      "split-view",
+      "contextual-help"
+    ],
+    "heuristics": {
+      "clarity": 4.5,
+      "cognitive_load": 4.0,
+      "visual_hierarchy": 4.5,
+      "feedback": 4.0,
+      "accessibility": 4.0,
+      "conversion_strength": 4.0
+    },
+    "notes": "The thread panel is Slack's signature UX innovation. It keeps focused discussions out of the main channel while maintaining context. The 'Also send to channel' option bridges thread conversations back to the main view when needed. Original message context at top prevents confusion. Close button for easy return to channel view. Participant avatars show who's in the conversation."
+  },
+  {
+    "screen_id": "search-01",
+    "app_id": "slack",
+    "flow_id": "search",
+    "step_index": 0,
+    "image_path": "data/raw_screens/slack/core/04-search.png",
+    "screen_type": "search",
+    "layout_type": "full-screen-modal",
+    "primary_user_goal": "Find specific messages, files, or people",
+    "primary_business_goal": "Enable information retrieval and increase platform stickiness",
+    "primary_cta_label": "",
+    "secondary_cta_labels": [],
+    "navigation_elements": ["search-autocomplete", "filter-facets", "recent-searches"],
+    "copy_summary": "Universal search modal with prominent search input. Filter options for messages, files, channels, people. Recent searches and suggested queries. Advanced search modifiers shown (from:, in:, during:).",
+    "patterns": [
+      "search-prominent",
+      "search-autocomplete",
+      "filter-facets",
+      "contextual-help"
+    ],
+    "heuristics": {
+      "clarity": 4.0,
+      "cognitive_load": 3.5,
+      "visual_hierarchy": 4.0,
+      "feedback": 4.5,
+      "accessibility": 4.0,
+      "conversion_strength": 3.5
+    },
+    "notes": "Slack's search is powerful with advanced modifiers. The autocomplete surfaces relevant channels, people, and past searches. Filter facets help narrow results. The search modifiers (from:, in:, during:) are powerful but require learning - good contextual hints help discoverability. Recent searches accelerate repeat lookups. Could be overwhelming for new users but excellent for power users."
+  },
+  {
+    "screen_id": "notifications-01",
+    "app_id": "slack",
+    "flow_id": "settings",
+    "step_index": 0,
+    "image_path": "data/raw_screens/slack/settings/01-notifications.png",
+    "screen_type": "settings",
+    "layout_type": "form",
+    "primary_user_goal": "Control when and how to receive notifications",
+    "primary_business_goal": "Reduce notification fatigue while maintaining engagement",
+    "primary_cta_label": "Save Changes",
+    "secondary_cta_labels": ["Reset to defaults"],
+    "navigation_elements": ["settings-nav", "back-button"],
+    "copy_summary": "Notification preferences with sections: Notify me about (all messages, DMs, mentions), Sound & appearance, When I'm not active on desktop, Do Not Disturb schedule. Channel-specific overrides available.",
+    "patterns": [
+      "progressive-disclosure",
+      "contextual-help",
+      "smart-defaults",
+      "inline-validation"
+    ],
+    "heuristics": {
+      "clarity": 4.0,
+      "cognitive_load": 3.5,
+      "visual_hierarchy": 4.0,
+      "feedback": 4.0,
+      "accessibility": 4.0,
+      "conversion_strength": 3.5
+    },
+    "notes": "Complex notification settings made manageable through good organization. Progressive disclosure hides advanced options. Do Not Disturb schedule is prominently featured - acknowledging notification fatigue. Channel-specific overrides provide granular control without cluttering main view. Smart defaults reduce need for configuration. The sections are logically grouped. Could benefit from notification preview to test settings."
+  },
+  {
+    "screen_id": "integrations-01",
+    "app_id": "slack",
+    "flow_id": "integrations",
+    "step_index": 0,
+    "image_path": "data/raw_screens/slack/integrations/01-app-directory.png",
+    "screen_type": "gallery",
+    "layout_type": "grid",
+    "primary_user_goal": "Discover and install apps to extend Slack functionality",
+    "primary_business_goal": "Increase platform stickiness through integrations",
+    "primary_cta_label": "Add to Slack",
+    "secondary_cta_labels": ["Learn more"],
+    "navigation_elements": ["search-prominent", "filter-facets", "breadcrumbs"],
+    "copy_summary": "App directory with categories (Productivity, Developer Tools, Communication, etc.). Each app card shows icon, name, description, and rating. Featured apps section at top.",
+    "patterns": [
+      "card-layout",
+      "search-prominent",
+      "filter-facets",
+      "social-proof"
+    ],
+    "heuristics": {
+      "clarity": 4.5,
+      "cognitive_load": 3.5,
+      "visual_hierarchy": 4.0,
+      "feedback": 3.5,
+      "accessibility": 4.0,
+      "conversion_strength": 4.5
+    },
+    "notes": "Well-organized app marketplace. Category filtering helps discovery. Ratings and install counts provide social proof. Featured section highlights key integrations. Search is prominent for users who know what they want. The 'Add to Slack' one-click install reduces friction. Permission scopes could be more visible before installation."
+  },
+  {
+    "screen_id": "huddle-01",
+    "app_id": "slack",
+    "flow_id": "huddle",
+    "step_index": 0,
+    "image_path": "data/raw_screens/slack/core/05-huddle.png",
+    "screen_type": "audio-video",
+    "layout_type": "overlay",
+    "primary_user_goal": "Have a quick audio/video conversation with teammates",
+    "primary_business_goal": "Increase real-time engagement and reduce meeting friction",
+    "primary_cta_label": "Join Huddle",
+    "secondary_cta_labels": ["Turn on video", "Share screen"],
+    "navigation_elements": ["participant-list", "huddle-controls"],
+    "copy_summary": "Lightweight audio/video interface at bottom of screen. Shows participant avatars and speaking indicators. Controls for mute, video, screen share, and leave. Minimal UI doesn't take over the whole screen.",
+    "patterns": [
+      "user-avatar",
+      "toast-notification",
+      "minimal-navigation"
+    ],
+    "heuristics": {
+      "clarity": 4.5,
+      "cognitive_load": 4.5,
+      "visual_hierarchy": 4.0,
+      "feedback": 5.0,
+      "accessibility": 4.0,
+      "conversion_strength": 4.0
+    },
+    "notes": "Huddles are Slack's answer to spontaneous audio calls. The lightweight UI is less intimidating than a full video call. Speaking indicators provide excellent real-time feedback. The persistent but minimal overlay allows continuing other work. One-click join reduces friction compared to scheduling meetings. Screen sharing integration is seamless."
+  }
+]

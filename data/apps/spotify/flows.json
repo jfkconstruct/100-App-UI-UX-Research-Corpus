@@ -1,0 +1,47 @@
+[
+  {
+    "flow_id": "discovery",
+    "name": "Music Discovery",
+    "primary_user_goal": "Find new music that matches personal taste and mood",
+    "business_goal": "Increase catalog exploration, listening time, and platform stickiness through personalization",
+    "entry_point": "Home screen or personalized playlist notification",
+    "exit_point": "User playing discovered content or saving to library",
+    "screens": ["home-01", "discover-weekly-01"]
+  },
+  {
+    "flow_id": "search",
+    "name": "Search and Find",
+    "primary_user_goal": "Locate specific song, artist, album, or playlist",
+    "business_goal": "Minimize friction between intent and playback to maximize listening sessions",
+    "entry_point": "Search tab in bottom navigation",
+    "exit_point": "User plays or saves found content",
+    "screens": ["search-01", "search-02"]
+  },
+  {
+    "flow_id": "content-consumption",
+    "name": "Content Browsing",
+    "primary_user_goal": "Explore albums, playlists, or artist catalogs in depth",
+    "business_goal": "Drive saves, follows, and complete album/playlist listens",
+    "entry_point": "Tapping album, playlist, or artist from any screen",
+    "exit_point": "User plays content, saves to library, or follows artist",
+    "screens": ["album-01", "playlist-01", "artist-01"]
+  },
+  {
+    "flow_id": "playback",
+    "name": "Active Listening",
+    "primary_user_goal": "Control playback, view current track, and manage queue",
+    "business_goal": "Maximize listening session duration and encourage track saves",
+    "entry_point": "Tapping mini player or starting playback",
+    "exit_point": "User pauses or ends listening session",
+    "screens": ["now-playing-01", "mini-player-01"]
+  },
+  {
+    "flow_id": "library",
+    "name": "Library Management",
+    "primary_user_goal": "Access and organize saved music, playlists, and podcasts",
+    "business_goal": "Encourage library building to increase switching costs and return visits",
+    "entry_point": "Library tab in bottom navigation",
+    "exit_point": "User plays saved content or creates/edits playlist",
+    "screens": ["library-01"]
+  }
+]

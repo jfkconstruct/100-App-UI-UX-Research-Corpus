@@ -1,0 +1,83 @@
+[
+  {
+    "flow_id": "landing",
+    "name": "Landing Page",
+    "primary_user_goal": "Understand Vercel's deployment platform capabilities",
+    "business_goal": "Convert developers to start deploying",
+    "entry_point": "Direct URL, search, or referral",
+    "exit_point": "Click 'Start Deploying' or 'Get a Demo'",
+    "screens": ["landing-01"]
+  },
+  {
+    "flow_id": "onboarding",
+    "name": "Signup and First Deploy",
+    "primary_user_goal": "Create account and deploy first project",
+    "business_goal": "Minimize time to first successful deployment",
+    "entry_point": "Click 'Start Deploying' from landing",
+    "exit_point": "First project deployed successfully",
+    "screens": ["onboarding-01", "onboarding-02"]
+  },
+  {
+    "flow_id": "dashboard",
+    "name": "Project Dashboard",
+    "primary_user_goal": "View and manage all projects",
+    "business_goal": "Enable efficient project management",
+    "entry_point": "Login or navigation",
+    "exit_point": "Select specific project",
+    "screens": ["dashboard-01"]
+  },
+  {
+    "flow_id": "project",
+    "name": "Project Detail",
+    "primary_user_goal": "Monitor project health and deployments",
+    "business_goal": "Surface deployment information and features",
+    "entry_point": "Click project from dashboard",
+    "exit_point": "Navigate to deployment or settings",
+    "screens": ["project-01"]
+  },
+  {
+    "flow_id": "deployment",
+    "name": "Deployment Detail",
+    "primary_user_goal": "Review deployment status and logs",
+    "business_goal": "Enable self-serve debugging",
+    "entry_point": "Click deployment from project",
+    "exit_point": "Visit preview URL or promote to production",
+    "screens": ["deployment-01"]
+  },
+  {
+    "flow_id": "preview",
+    "name": "Preview Deployment Review",
+    "primary_user_goal": "Review changes and provide feedback",
+    "business_goal": "Facilitate team collaboration",
+    "entry_point": "Click preview URL or PR comment link",
+    "exit_point": "Approve, request changes, or add comments",
+    "screens": ["preview-01"]
+  },
+  {
+    "flow_id": "logs",
+    "name": "Runtime Logs",
+    "primary_user_goal": "Debug runtime issues and monitor performance",
+    "business_goal": "Enable self-serve debugging and reduce support",
+    "entry_point": "Logs tab from project",
+    "exit_point": "Issue identified or resolved",
+    "screens": ["logs-01"]
+  },
+  {
+    "flow_id": "settings",
+    "name": "Project Settings",
+    "primary_user_goal": "Configure project settings and environment",
+    "business_goal": "Enable customization while maintaining defaults",
+    "entry_point": "Settings tab from project",
+    "exit_point": "Settings saved",
+    "screens": ["settings-01"]
+  },
+  {
+    "flow_id": "pricing",
+    "name": "Pricing Evaluation",
+    "primary_user_goal": "Understand pricing and choose plan",
+    "business_goal": "Convert to paid plans and qualify enterprise",
+    "entry_point": "Pricing link from nav or upgrade prompt",
+    "exit_point": "Select plan or contact sales",
+    "screens": ["pricing-01"]
+  }
+]

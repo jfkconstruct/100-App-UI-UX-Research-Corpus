@@ -8,11 +8,173 @@ This atlas compares common user flows across applications.
 
 ---
 
+## Search to Booking
+
+**Flow Type:** `search-to-book`
+
+**Found in 1 app(s):** Airbnb
+
+### Implementations
+
+#### Airbnb
+
+**User Goal:** Find and book a place to stay
+
+**Business Goal:** Convert browsers into bookers with maximum revenue
+
+**Path:** Homepage search bar or category browsing → Booking confirmation with trip details
+
+---
+
+## Host Listing Management
+
+**Flow Type:** `host-management`
+
+**Found in 1 app(s):** Airbnb
+
+### Implementations
+
+#### Airbnb
+
+**User Goal:** Create and manage property listings
+
+**Business Goal:** Grow supply side of marketplace with quality listings
+
+**Path:** Host dashboard or 'Become a Host' CTA → Published listing or updated listing settings
+
+---
+
+## Post-Stay Experience
+
+**Flow Type:** `post-stay`
+
+**Found in 1 app(s):** Airbnb
+
+### Implementations
+
+#### Airbnb
+
+**User Goal:** Leave feedback and plan next trip
+
+**Business Goal:** Generate reviews for social proof and encourage repeat bookings
+
+**Path:** Post-checkout notification or email → Submitted review or dismissed prompt
+
+---
+
+## New User: Signup to First Design
+
+**Flow Type:** `canva-signup-to-design`
+
+**Found in 1 app(s):** Canva
+
+### Implementations
+
+#### Canva
+
+**User Goal:** Create a professional-looking design without prior design experience
+
+**Business Goal:** Convert visitor to registered user with completed first design (activation)
+
+**Path:** Landing page or template gallery (via search/referral) → Downloaded or shared design
+
+---
+
+## Template to Finished Design
+
+**Flow Type:** `canva-template-to-design`
+
+**Found in 1 app(s):** Canva
+
+### Implementations
+
+#### Canva
+
+**User Goal:** Transform a template into a personalized, share-ready design
+
+**Business Goal:** Deliver value that drives return usage and word-of-mouth
+
+**Path:** Template gallery or home dashboard → Downloaded, shared, or scheduled design
+
+---
+
+## Returning User: Continue or Create
+
+**Flow Type:** `canva-returning-user`
+
+**Found in 1 app(s):** Canva
+
+### Implementations
+
+#### Canva
+
+**User Goal:** Quickly access previous work or start new design efficiently
+
+**Business Goal:** Maintain engagement habit and deepen platform investment
+
+**Path:** Login or direct link to home → Active editing session
+
+---
+
+## Free to Pro Upgrade
+
+**Flow Type:** `canva-upgrade`
+
+**Found in 1 app(s):** Canva
+
+### Implementations
+
+#### Canva
+
+**User Goal:** Access premium features to improve design capabilities
+
+**Business Goal:** Convert free users to paying subscribers
+
+**Path:** Various upgrade touchpoints (premium content, feature limit, pricing page) → Completed subscription purchase
+
+---
+
+## AI/Magic Tools Discovery and Usage
+
+**Flow Type:** `canva-ai-features`
+
+**Found in 1 app(s):** Canva
+
+### Implementations
+
+#### Canva
+
+**User Goal:** Leverage AI to create or enhance designs faster
+
+**Business Goal:** Differentiate through AI capabilities; drive Pro upgrades for unlimited AI
+
+**Path:** Magic Studio hub or contextual AI suggestions in editor → AI-generated or AI-enhanced design element
+
+---
+
+## Team Collaboration Flow
+
+**Flow Type:** `canva-collaboration`
+
+**Found in 1 app(s):** Canva
+
+### Implementations
+
+#### Canva
+
+**User Goal:** Collaborate with team members on designs efficiently
+
+**Business Goal:** Drive Teams tier adoption through collaboration value
+
+**Path:** Share button or direct invite link → Successfully collaborated design
+
+---
+
 ## Landing Page
 
 **Flow Type:** `landing`
 
-**Found in 4 app(s):** Duolingo, Figma, Linear, Stripe
+**Found in 5 app(s):** Duolingo, Figma, Linear, Stripe, Vercel
 
 ### Implementations
 
@@ -48,13 +210,21 @@ This atlas compares common user flows across applications.
 
 **Path:** Direct URL or marketing → Click 'Start now' or 'Contact sales'
 
+#### Vercel
+
+**User Goal:** Understand Vercel's deployment platform capabilities
+
+**Business Goal:** Convert developers to start deploying
+
+**Path:** Direct URL, search, or referral → Click 'Start Deploying' or 'Get a Demo'
+
 ---
 
 ## Onboarding
 
 **Flow Type:** `onboarding`
 
-**Found in 5 app(s):** Duolingo, Figma, Linear, Notion, Stripe
+**Found in 6 app(s):** Duolingo, Figma, Linear, Notion, Stripe, Vercel
 
 ### Implementations
 
@@ -97,6 +267,14 @@ This atlas compares common user flows across applications.
 **Business Goal:** Collect compliance information
 
 **Path:** First login after signup → Account activated
+
+#### Vercel
+
+**User Goal:** Create account and deploy first project
+
+**Business Goal:** Minimize time to first successful deployment
+
+**Path:** Click 'Start Deploying' from landing → First project deployed successfully
 
 ---
 
@@ -212,7 +390,7 @@ This atlas compares common user flows across applications.
 
 **Flow Type:** `dashboard`
 
-**Found in 2 app(s):** Linear, Stripe
+**Found in 3 app(s):** Linear, Stripe, Vercel
 
 ### Implementations
 
@@ -231,6 +409,14 @@ This atlas compares common user flows across applications.
 **Business Goal:** Drive product usage and feature adoption
 
 **Path:** Login → Navigate to specific feature
+
+#### Vercel
+
+**User Goal:** View and manage all projects
+
+**Business Goal:** Enable efficient project management
+
+**Path:** Login or navigation → Select specific project
 
 ---
 
@@ -306,6 +492,238 @@ This atlas compares common user flows across applications.
 
 ---
 
+## Marketing to Sign-up
+
+**Flow Type:** `marketing-to-signup`
+
+**Found in 1 app(s):** Slack
+
+### Implementations
+
+#### Slack
+
+**User Goal:** Learn about Slack and decide to create an account
+
+**Business Goal:** Convert website visitors to registered users
+
+**Path:** Landing page or marketing campaign → Account creation completion
+
+---
+
+## Workspace Onboarding
+
+**Flow Type:** `workspace-onboarding`
+
+**Found in 1 app(s):** Slack
+
+### Implementations
+
+#### Slack
+
+**User Goal:** Create a workspace and invite team members
+
+**Business Goal:** Activate new workspaces with multiple users for network effects
+
+**Path:** Sign-up completion or 'Create Workspace' action → User reaches workspace with initial setup complete
+
+---
+
+## Daily Usage
+
+**Flow Type:** `daily-usage`
+
+**Found in 1 app(s):** Slack
+
+### Implementations
+
+#### Slack
+
+**User Goal:** Navigate, read, and participate in team conversations
+
+**Business Goal:** Drive daily engagement and message volume
+
+**Path:** App launch or notification tap → User closes app or switches workspace
+
+---
+
+## Thread Interaction
+
+**Flow Type:** `thread-interaction`
+
+**Found in 1 app(s):** Slack
+
+### Implementations
+
+#### Slack
+
+**User Goal:** Follow and participate in focused threaded discussions
+
+**Business Goal:** Enable deeper conversations without disrupting channel flow
+
+**Path:** Click on thread indicator or 'Reply in thread' action → Thread panel closed or navigation away
+
+---
+
+## Search
+
+**Flow Type:** `search`
+
+**Found in 2 app(s):** Slack, Spotify
+
+### Implementations
+
+#### Slack
+
+**User Goal:** Find specific messages, files, channels, or people
+
+**Business Goal:** Enable information retrieval and increase platform value
+
+**Path:** Cmd+K shortcut or search bar click → User navigates to search result or cancels search
+
+#### Spotify
+
+**User Goal:** Locate specific song, artist, album, or playlist
+
+**Business Goal:** Minimize friction between intent and playback to maximize listening sessions
+
+**Path:** Search tab in bottom navigation → User plays or saves found content
+
+---
+
+## Notification Settings
+
+**Flow Type:** `settings`
+
+**Found in 2 app(s):** Slack, Vercel
+
+### Implementations
+
+#### Slack
+
+**User Goal:** Customize notification preferences to reduce noise
+
+**Business Goal:** Prevent notification fatigue and churn while maintaining engagement
+
+**Path:** Preferences menu or notification overflow → Settings saved and preferences applied
+
+#### Vercel
+
+**User Goal:** Configure project settings and environment
+
+**Business Goal:** Enable customization while maintaining defaults
+
+**Path:** Settings tab from project → Settings saved
+
+---
+
+## App Integrations
+
+**Flow Type:** `integrations`
+
+**Found in 1 app(s):** Slack
+
+### Implementations
+
+#### Slack
+
+**User Goal:** Extend Slack with third-party apps and automations
+
+**Business Goal:** Increase platform stickiness and ecosystem value
+
+**Path:** Apps button in sidebar or 'Add apps' action → App installed and configured in workspace
+
+---
+
+## Huddle
+
+**Flow Type:** `huddle`
+
+**Found in 1 app(s):** Slack
+
+### Implementations
+
+#### Slack
+
+**User Goal:** Have a quick audio/video conversation with teammates
+
+**Business Goal:** Increase real-time engagement and reduce reliance on external meeting tools
+
+**Path:** Huddle button in channel or DM header → Huddle ended or user leaves
+
+---
+
+## Music Discovery
+
+**Flow Type:** `discovery`
+
+**Found in 1 app(s):** Spotify
+
+### Implementations
+
+#### Spotify
+
+**User Goal:** Find new music that matches personal taste and mood
+
+**Business Goal:** Increase catalog exploration, listening time, and platform stickiness through personalization
+
+**Path:** Home screen or personalized playlist notification → User playing discovered content or saving to library
+
+---
+
+## Content Browsing
+
+**Flow Type:** `content-consumption`
+
+**Found in 1 app(s):** Spotify
+
+### Implementations
+
+#### Spotify
+
+**User Goal:** Explore albums, playlists, or artist catalogs in depth
+
+**Business Goal:** Drive saves, follows, and complete album/playlist listens
+
+**Path:** Tapping album, playlist, or artist from any screen → User plays content, saves to library, or follows artist
+
+---
+
+## Active Listening
+
+**Flow Type:** `playback`
+
+**Found in 1 app(s):** Spotify
+
+### Implementations
+
+#### Spotify
+
+**User Goal:** Control playback, view current track, and manage queue
+
+**Business Goal:** Maximize listening session duration and encourage track saves
+
+**Path:** Tapping mini player or starting playback → User pauses or ends listening session
+
+---
+
+## Library Management
+
+**Flow Type:** `library`
+
+**Found in 1 app(s):** Spotify
+
+### Implementations
+
+#### Spotify
+
+**User Goal:** Access and organize saved music, playlists, and podcasts
+
+**Business Goal:** Encourage library building to increase switching costs and return visits
+
+**Path:** Library tab in bottom navigation → User plays saved content or creates/edits playlist
+
+---
+
 ## Documentation
 
 **Flow Type:** `docs`
@@ -339,6 +757,96 @@ This atlas compares common user flows across applications.
 **Business Goal:** Maximize payment conversion
 
 **Path:** Merchant checkout redirect → Payment complete
+
+---
+
+## Project Detail
+
+**Flow Type:** `project`
+
+**Found in 1 app(s):** Vercel
+
+### Implementations
+
+#### Vercel
+
+**User Goal:** Monitor project health and deployments
+
+**Business Goal:** Surface deployment information and features
+
+**Path:** Click project from dashboard → Navigate to deployment or settings
+
+---
+
+## Deployment Detail
+
+**Flow Type:** `deployment`
+
+**Found in 1 app(s):** Vercel
+
+### Implementations
+
+#### Vercel
+
+**User Goal:** Review deployment status and logs
+
+**Business Goal:** Enable self-serve debugging
+
+**Path:** Click deployment from project → Visit preview URL or promote to production
+
+---
+
+## Preview Deployment Review
+
+**Flow Type:** `preview`
+
+**Found in 1 app(s):** Vercel
+
+### Implementations
+
+#### Vercel
+
+**User Goal:** Review changes and provide feedback
+
+**Business Goal:** Facilitate team collaboration
+
+**Path:** Click preview URL or PR comment link → Approve, request changes, or add comments
+
+---
+
+## Runtime Logs
+
+**Flow Type:** `logs`
+
+**Found in 1 app(s):** Vercel
+
+### Implementations
+
+#### Vercel
+
+**User Goal:** Debug runtime issues and monitor performance
+
+**Business Goal:** Enable self-serve debugging and reduce support
+
+**Path:** Logs tab from project → Issue identified or resolved
+
+---
+
+## Pricing Evaluation
+
+**Flow Type:** `pricing`
+
+**Found in 1 app(s):** Vercel
+
+### Implementations
+
+#### Vercel
+
+**User Goal:** Understand pricing and choose plan
+
+**Business Goal:** Convert to paid plans and qualify enterprise
+
+**Path:** Pricing link from nav or upgrade prompt → Select plan or contact sales
 
 ---
 

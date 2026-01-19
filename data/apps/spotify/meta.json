@@ -1,0 +1,21 @@
+{
+  "app_id": "spotify",
+  "name": "Spotify",
+  "platforms": ["web", "ios", "android", "desktop", "smart-tv", "gaming-consoles"],
+  "category": "entertainment",
+  "url": "https://www.spotify.com",
+  "store_links": {
+    "ios": "https://apps.apple.com/app/spotify-music-and-podcasts/id324684580",
+    "android": "https://play.google.com/store/apps/details?id=com.spotify.music"
+  },
+  "analysis_date": "2026-01-19",
+  "why_interesting": [
+    "Industry-leading personalization algorithms (Discover Weekly, Release Radar, Daily Mixes)",
+    "Album art as hero visual element creates emotional connection with content",
+    "Seamless cross-device experience with Spotify Connect",
+    "Pioneered playlist culture and collaborative listening experiences",
+    "Exceptional dark UI optimized for content consumption and reduced eye strain",
+    "Bottom navigation pattern that has become mobile audio app standard",
+    "Social features integrated without disrupting core listening experience"
+  ]
+}

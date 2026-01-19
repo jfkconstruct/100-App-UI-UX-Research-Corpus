@@ -1,0 +1,324 @@
+{
+  "app_id": "canva",
+  "total_screens": 10,
+  "patterns": [
+    {
+      "pattern_id": "progressive-disclosure",
+      "pattern_name": "Progressive Disclosure",
+      "frequency": 5,
+      "percentage": 50,
+      "avg_heuristics": {
+        "clarity": 5,
+        "cognitive_load": 3,
+        "visual_hierarchy": 4.6,
+        "feedback": 4.4,
+        "accessibility": 3.8,
+        "conversion_strength": 4.4
+      },
+      "screens": [
+        "canva-template-selection",
+        "canva-editor-canvas",
+        "canva-text-editing",
+        "canva-export-download",
+        "canva-magic-studio"
+      ]
+    },
+    {
+      "pattern_id": "single-primary-cta",
+      "pattern_name": "Single Primary CTA",
+      "frequency": 3,
+      "percentage": 30,
+      "avg_heuristics": {
+        "clarity": 5,
+        "cognitive_load": 3.3,
+        "visual_hierarchy": 5,
+        "feedback": 4,
+        "accessibility": 4,
+        "conversion_strength": 5
+      },
+      "screens": [
+        "canva-landing",
+        "canva-template-selection",
+        "canva-export-download"
+      ]
+    },
+    {
+      "pattern_id": "lazy-loading",
+      "pattern_name": "Lazy Loading",
+      "frequency": 3,
+      "percentage": 30,
+      "avg_heuristics": {
+        "clarity": 5,
+        "cognitive_load": 4,
+        "visual_hierarchy": 4.7,
+        "feedback": 4.7,
+        "accessibility": 4,
+        "conversion_strength": 4.3
+      },
+      "screens": [
+        "canva-landing",
+        "canva-template-gallery",
+        "canva-element-library"
+      ]
+    },
+    {
+      "pattern_id": "search-prominent",
+      "pattern_name": "Prominent Search",
+      "frequency": 3,
+      "percentage": 30,
+      "avg_heuristics": {
+        "clarity": 5,
+        "cognitive_load": 3.7,
+        "visual_hierarchy": 4.7,
+        "feedback": 4.7,
+        "accessibility": 4,
+        "conversion_strength": 4
+      },
+      "screens": [
+        "canva-template-gallery",
+        "canva-element-library",
+        "canva-home-dashboard"
+      ]
+    },
+    {
+      "pattern_id": "card-layout",
+      "pattern_name": "Card Layout",
+      "frequency": 2,
+      "percentage": 20,
+      "avg_heuristics": {
+        "clarity": 5,
+        "cognitive_load": 3.5,
+        "visual_hierarchy": 5,
+        "feedback": 4.5,
+        "accessibility": 4,
+        "conversion_strength": 4
+      },
+      "screens": [
+        "canva-template-gallery",
+        "canva-home-dashboard"
+      ]
+    },
+    {
+      "pattern_id": "filter-facets",
+      "pattern_name": "Filter Facets",
+      "frequency": 2,
+      "percentage": 20,
+      "avg_heuristics": {
+        "clarity": 5,
+        "cognitive_load": 4,
+        "visual_hierarchy": 4.5,
+        "feedback": 5,
+        "accessibility": 4,
+        "conversion_strength": 4
+      },
+      "screens": [
+        "canva-template-gallery",
+        "canva-element-library"
+      ]
+    },
+    {
+      "pattern_id": "contextual-help",
+      "pattern_name": "Contextual Help",
+      "frequency": 2,
+      "percentage": 20,
+      "avg_heuristics": {
+        "clarity": 5,
+        "cognitive_load": 3,
+        "visual_hierarchy": 4.5,
+        "feedback": 4.5,
+        "accessibility": 3.5,
+        "conversion_strength": 4.5
+      },
+      "screens": [
+        "canva-editor-canvas",
+        "canva-magic-studio"
+      ]
+    },
+    {
+      "pattern_id": "free-trial-cta",
+      "pattern_name": "Free Trial CTA",
+      "frequency": 2,
+      "percentage": 20,
+      "avg_heuristics": {
+        "clarity": 5,
+        "cognitive_load": 3.5,
+        "visual_hierarchy": 4.5,
+        "feedback": 3.5,
+        "accessibility": 4,
+        "conversion_strength": 5
+      },
+      "screens": [
+        "canva-pricing",
+        "canva-magic-studio"
+      ]
+    },
+    {
+      "pattern_id": "infinite-scroll",
+      "pattern_name": "Infinite Scroll",
+      "frequency": 1,
+      "percentage": 10,
+      "avg_heuristics": {
+        "clarity": 5,
+        "cognitive_load": 4,
+        "visual_hierarchy": 5,
+        "feedback": 5,
+        "accessibility": 4,
+        "conversion_strength": 4
+      },
+      "screens": [
+        "canva-template-gallery"
+      ]
+    },
+    {
+      "pattern_id": "smart-defaults",
+      "pattern_name": "Smart Defaults",
+      "frequency": 1,
+      "percentage": 10,
+      "avg_heuristics": {
+        "clarity": 5,
+        "cognitive_load": 3,
+        "visual_hierarchy": 5,
+        "feedback": 4,
+        "accessibility": 4,
+        "conversion_strength": 5
+      },
+      "screens": [
+        "canva-export-download"
+      ]
+    }
+  ],
+  "flows": [
+    {
+      "flow_id": "canva-signup-to-design",
+      "flow_name": "New User: Signup to First Design",
+      "unique_patterns": [
+        "single-primary-cta",
+        "social-proof-banner",
+        "hero-with-product-preview",
+        "use-case-grid",
+        "sticky-header",
+        "lazy-loading"
+      ],
+      "pattern_combinations": []
+    },
+    {
+      "flow_id": "canva-template-to-design",
+      "flow_name": "Template to Finished Design",
+      "unique_patterns": [
+        "card-layout",
+        "search-prominent",
+        "filter-facets",
+        "infinite-scroll",
+        "lazy-loading",
+        "hover-preview",
+        "category-navigation",
+        "premium-badge",
+        "modal-preview",
+        "progressive-disclosure",
+        "related-content",
+        "single-primary-cta",
+        "quick-actions",
+        "page-pagination",
+        "contextual-toolbar",
+        "direct-manipulation",
+        "snap-to-grid",
+        "smart-guides",
+        "contextual-help",
+        "keyboard-shortcuts",
+        "auto-save",
+        "drag-drop-to-canvas",
+        "color-picker-filter",
+        "recent-items",
+        "ai-suggestions",
+        "inline-editing",
+        "font-preview",
+        "suggested-combinations",
+        "ai-assistance",
+        "format-recommendations",
+        "premium-upsell",
+        "quality-preview",
+        "smart-defaults"
+      ],
+      "pattern_combinations": [
+        [
+          "filter-facets",
+          "search-prominent"
+        ],
+        [
+          "lazy-loading",
+          "search-prominent"
+        ],
+        [
+          "premium-badge",
+          "search-prominent"
+        ],
+        [
+          "filter-facets",
+          "lazy-loading"
+        ],
+        [
+          "filter-facets",
+          "premium-badge"
+        ],
+        [
+          "lazy-loading",
+          "premium-badge"
+        ],
+        [
+          "progressive-disclosure",
+          "single-primary-cta"
+        ],
+        [
+          "contextual-toolbar",
+          "progressive-disclosure"
+        ]
+      ]
+    },
+    {
+      "flow_id": "canva-returning-user",
+      "flow_name": "Returning User: Continue or Create",
+      "unique_patterns": [
+        "recent-items",
+        "quick-actions",
+        "personalized-suggestions",
+        "card-layout",
+        "search-prominent",
+        "notification-center"
+      ],
+      "pattern_combinations": []
+    },
+    {
+      "flow_id": "canva-upgrade",
+      "flow_name": "Free to Pro Upgrade",
+      "unique_patterns": [
+        "pricing-comparison",
+        "free-trial-cta",
+        "annual-discount-highlight",
+        "feature-comparison-table",
+        "social-proof-banner",
+        "faq-accordion",
+        "money-back-guarantee"
+      ],
+      "pattern_combinations": []
+    },
+    {
+      "flow_id": "canva-ai-features",
+      "flow_name": "AI/Magic Tools Discovery and Usage",
+      "unique_patterns": [
+        "feature-cards",
+        "progressive-disclosure",
+        "usage-metering",
+        "before-after-preview",
+        "contextual-help",
+        "free-trial-cta"
+      ],
+      "pattern_combinations": []
+    },
+    {
+      "flow_id": "canva-collaboration",
+      "flow_name": "Team Collaboration Flow",
+      "unique_patterns": [],
+      "pattern_combinations": []
+    }
+  ]
+}

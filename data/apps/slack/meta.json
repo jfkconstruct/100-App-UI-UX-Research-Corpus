@@ -1,0 +1,21 @@
+{
+  "app_id": "slack",
+  "name": "Slack",
+  "platforms": ["web", "ios", "android", "desktop"],
+  "category": "communication",
+  "url": "https://slack.com",
+  "store_links": {
+    "ios": "https://apps.apple.com/app/slack/id618783545",
+    "android": "https://play.google.com/store/apps/details?id=com.Slack"
+  },
+  "analysis_date": "2024-11-15",
+  "why_interesting": [
+    "Revolutionary threaded conversation model that reduces channel noise",
+    "Best-in-class workspace onboarding with team-specific personalization",
+    "Complex notification settings made manageable through progressive disclosure",
+    "Powerful universal search across messages, files, and integrations",
+    "Emoji reaction culture that enables lightweight communication",
+    "Seamless integration ecosystem with 2000+ apps",
+    "Channel-based architecture that scales from small teams to enterprises"
+  ]
+}

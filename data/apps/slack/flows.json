@@ -1,0 +1,74 @@
+[
+  {
+    "flow_id": "marketing-to-signup",
+    "name": "Marketing to Sign-up",
+    "primary_user_goal": "Learn about Slack and decide to create an account",
+    "business_goal": "Convert website visitors to registered users",
+    "entry_point": "Landing page or marketing campaign",
+    "exit_point": "Account creation completion",
+    "screens": ["landing-01"]
+  },
+  {
+    "flow_id": "workspace-onboarding",
+    "name": "Workspace Onboarding",
+    "primary_user_goal": "Create a workspace and invite team members",
+    "business_goal": "Activate new workspaces with multiple users for network effects",
+    "entry_point": "Sign-up completion or 'Create Workspace' action",
+    "exit_point": "User reaches workspace with initial setup complete",
+    "screens": ["workspace-create-01", "workspace-invite-01"]
+  },
+  {
+    "flow_id": "daily-usage",
+    "name": "Daily Usage",
+    "primary_user_goal": "Navigate, read, and participate in team conversations",
+    "business_goal": "Drive daily engagement and message volume",
+    "entry_point": "App launch or notification tap",
+    "exit_point": "User closes app or switches workspace",
+    "screens": ["sidebar-01", "channel-view-01"]
+  },
+  {
+    "flow_id": "thread-interaction",
+    "name": "Thread Interaction",
+    "primary_user_goal": "Follow and participate in focused threaded discussions",
+    "business_goal": "Enable deeper conversations without disrupting channel flow",
+    "entry_point": "Click on thread indicator or 'Reply in thread' action",
+    "exit_point": "Thread panel closed or navigation away",
+    "screens": ["thread-view-01"]
+  },
+  {
+    "flow_id": "search",
+    "name": "Search",
+    "primary_user_goal": "Find specific messages, files, channels, or people",
+    "business_goal": "Enable information retrieval and increase platform value",
+    "entry_point": "Cmd+K shortcut or search bar click",
+    "exit_point": "User navigates to search result or cancels search",
+    "screens": ["search-01"]
+  },
+  {
+    "flow_id": "settings",
+    "name": "Notification Settings",
+    "primary_user_goal": "Customize notification preferences to reduce noise",
+    "business_goal": "Prevent notification fatigue and churn while maintaining engagement",
+    "entry_point": "Preferences menu or notification overflow",
+    "exit_point": "Settings saved and preferences applied",
+    "screens": ["notifications-01"]
+  },
+  {
+    "flow_id": "integrations",
+    "name": "App Integrations",
+    "primary_user_goal": "Extend Slack with third-party apps and automations",
+    "business_goal": "Increase platform stickiness and ecosystem value",
+    "entry_point": "Apps button in sidebar or 'Add apps' action",
+    "exit_point": "App installed and configured in workspace",
+    "screens": ["integrations-01"]
+  },
+  {
+    "flow_id": "huddle",
+    "name": "Huddle",
+    "primary_user_goal": "Have a quick audio/video conversation with teammates",
+    "business_goal": "Increase real-time engagement and reduce reliance on external meeting tools",
+    "entry_point": "Huddle button in channel or DM header",
+    "exit_point": "Huddle ended or user leaves",
+    "screens": ["huddle-01"]
+  }
+]

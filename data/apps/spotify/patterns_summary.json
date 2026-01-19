@@ -1,0 +1,387 @@
+{
+  "app_id": "spotify",
+  "total_screens": 10,
+  "patterns": [
+    {
+      "pattern_id": "card-layout",
+      "pattern_name": "Card Layout",
+      "frequency": 4,
+      "percentage": 40,
+      "avg_heuristics": {
+        "clarity": 4.6,
+        "cognitive_load": 3.9,
+        "visual_hierarchy": 4.6,
+        "feedback": 4.1,
+        "accessibility": 3.6,
+        "conversion_strength": 4.4
+      },
+      "screens": [
+        "home-01",
+        "search-01",
+        "search-02",
+        "artist-01"
+      ]
+    },
+    {
+      "pattern_id": "like-favorite",
+      "pattern_name": "Like/Favorite",
+      "frequency": 4,
+      "percentage": 40,
+      "avg_heuristics": {
+        "clarity": 4.8,
+        "cognitive_load": 4.4,
+        "visual_hierarchy": 4.6,
+        "feedback": 4.5,
+        "accessibility": 3.8,
+        "conversion_strength": 4.3
+      },
+      "screens": [
+        "album-01",
+        "playlist-01",
+        "now-playing-01",
+        "mini-player-01"
+      ]
+    },
+    {
+      "pattern_id": "bottom-tab-bar",
+      "pattern_name": "Bottom Tab Bar",
+      "frequency": 3,
+      "percentage": 30,
+      "avg_heuristics": {
+        "clarity": 4.7,
+        "cognitive_load": 4,
+        "visual_hierarchy": 4.5,
+        "feedback": 4,
+        "accessibility": 3.7,
+        "conversion_strength": 4.2
+      },
+      "screens": [
+        "home-01",
+        "search-01",
+        "library-01"
+      ]
+    },
+    {
+      "pattern_id": "share-button",
+      "pattern_name": "Share Button",
+      "frequency": 3,
+      "percentage": 30,
+      "avg_heuristics": {
+        "clarity": 4.8,
+        "cognitive_load": 4.2,
+        "visual_hierarchy": 4.8,
+        "feedback": 4.3,
+        "accessibility": 3.7,
+        "conversion_strength": 4.3
+      },
+      "screens": [
+        "album-01",
+        "playlist-01",
+        "now-playing-01"
+      ]
+    },
+    {
+      "pattern_id": "social-proof",
+      "pattern_name": "Social Proof",
+      "frequency": 3,
+      "percentage": 30,
+      "avg_heuristics": {
+        "clarity": 4.5,
+        "cognitive_load": 3.8,
+        "visual_hierarchy": 4.5,
+        "feedback": 4.2,
+        "accessibility": 3.5,
+        "conversion_strength": 4.7
+      },
+      "screens": [
+        "playlist-01",
+        "artist-01",
+        "discover-weekly-01"
+      ]
+    },
+    {
+      "pattern_id": "user-avatar",
+      "pattern_name": "User Avatar",
+      "frequency": 2,
+      "percentage": 20,
+      "avg_heuristics": {
+        "clarity": 4.5,
+        "cognitive_load": 4,
+        "visual_hierarchy": 4.8,
+        "feedback": 4.3,
+        "accessibility": 3.5,
+        "conversion_strength": 4.8
+      },
+      "screens": [
+        "home-01",
+        "discover-weekly-01"
+      ]
+    },
+    {
+      "pattern_id": "search-prominent",
+      "pattern_name": "Prominent Search",
+      "frequency": 2,
+      "percentage": 20,
+      "avg_heuristics": {
+        "clarity": 4.8,
+        "cognitive_load": 4,
+        "visual_hierarchy": 4.5,
+        "feedback": 4.3,
+        "accessibility": 3.8,
+        "conversion_strength": 4.3
+      },
+      "screens": [
+        "search-01",
+        "search-02"
+      ]
+    },
+    {
+      "pattern_id": "sticky-cta",
+      "pattern_name": "Sticky CTA",
+      "frequency": 2,
+      "percentage": 20,
+      "avg_heuristics": {
+        "clarity": 4.8,
+        "cognitive_load": 4,
+        "visual_hierarchy": 4.8,
+        "feedback": 4,
+        "accessibility": 3.5,
+        "conversion_strength": 4.5
+      },
+      "screens": [
+        "album-01",
+        "playlist-01"
+      ]
+    },
+    {
+      "pattern_id": "progress-indicator",
+      "pattern_name": "Progress Indicator",
+      "frequency": 2,
+      "percentage": 20,
+      "avg_heuristics": {
+        "clarity": 4.8,
+        "cognitive_load": 4.8,
+        "visual_hierarchy": 4.5,
+        "feedback": 5,
+        "accessibility": 4,
+        "conversion_strength": 4
+      },
+      "screens": [
+        "now-playing-01",
+        "mini-player-01"
+      ]
+    },
+    {
+      "pattern_id": "infinite-scroll",
+      "pattern_name": "Infinite Scroll",
+      "frequency": 1,
+      "percentage": 10,
+      "avg_heuristics": {
+        "clarity": 4.5,
+        "cognitive_load": 4,
+        "visual_hierarchy": 5,
+        "feedback": 4,
+        "accessibility": 3.5,
+        "conversion_strength": 4.5
+      },
+      "screens": [
+        "home-01"
+      ]
+    },
+    {
+      "pattern_id": "lazy-loading",
+      "pattern_name": "Lazy Loading",
+      "frequency": 1,
+      "percentage": 10,
+      "avg_heuristics": {
+        "clarity": 4.5,
+        "cognitive_load": 4,
+        "visual_hierarchy": 5,
+        "feedback": 4,
+        "accessibility": 3.5,
+        "conversion_strength": 4.5
+      },
+      "screens": [
+        "home-01"
+      ]
+    }
+  ],
+  "flows": [
+    {
+      "flow_id": "discovery",
+      "flow_name": "Music Discovery",
+      "unique_patterns": [
+        "card-layout",
+        "bottom-tab-bar",
+        "infinite-scroll",
+        "lazy-loading",
+        "user-avatar",
+        "time-aware-greeting",
+        "horizontal-scroll-carousel",
+        "album-art-hero",
+        "personalized-content",
+        "time-based-refresh",
+        "list-view",
+        "social-proof"
+      ],
+      "pattern_combinations": [
+        [
+          "album-art-hero",
+          "user-avatar"
+        ]
+      ]
+    },
+    {
+      "flow_id": "search",
+      "flow_name": "Search and Find",
+      "unique_patterns": [
+        "search-prominent",
+        "card-layout",
+        "bottom-tab-bar",
+        "recent-searches",
+        "color-coded-categories",
+        "visual-search-entry",
+        "filter-tabs",
+        "list-view",
+        "thumbnail-preview",
+        "content-type-badges"
+      ],
+      "pattern_combinations": [
+        [
+          "card-layout",
+          "search-prominent"
+        ]
+      ]
+    },
+    {
+      "flow_id": "content-consumption",
+      "flow_name": "Content Browsing",
+      "unique_patterns": [
+        "album-art-hero",
+        "sticky-cta",
+        "like-favorite",
+        "share-button",
+        "context-menu",
+        "list-view",
+        "gradient-overlay",
+        "social-proof",
+        "collaborative-editing",
+        "follow-button",
+        "verified-badge",
+        "card-layout",
+        "horizontal-scroll-carousel",
+        "artist-bio"
+      ],
+      "pattern_combinations": [
+        [
+          "album-art-hero",
+          "sticky-cta"
+        ],
+        [
+          "album-art-hero",
+          "like-favorite"
+        ],
+        [
+          "album-art-hero",
+          "share-button"
+        ],
+        [
+          "album-art-hero",
+          "context-menu"
+        ],
+        [
+          "album-art-hero",
+          "list-view"
+        ],
+        [
+          "like-favorite",
+          "sticky-cta"
+        ],
+        [
+          "share-button",
+          "sticky-cta"
+        ],
+        [
+          "context-menu",
+          "sticky-cta"
+        ],
+        [
+          "list-view",
+          "sticky-cta"
+        ],
+        [
+          "like-favorite",
+          "share-button"
+        ],
+        [
+          "context-menu",
+          "like-favorite"
+        ],
+        [
+          "like-favorite",
+          "list-view"
+        ],
+        [
+          "context-menu",
+          "share-button"
+        ],
+        [
+          "list-view",
+          "share-button"
+        ],
+        [
+          "context-menu",
+          "list-view"
+        ],
+        [
+          "album-art-hero",
+          "social-proof"
+        ]
+      ]
+    },
+    {
+      "flow_id": "playback",
+      "flow_name": "Active Listening",
+      "unique_patterns": [
+        "album-art-hero",
+        "media-controls",
+        "progress-indicator",
+        "like-favorite",
+        "share-button",
+        "device-picker",
+        "gesture-navigation",
+        "persistent-player",
+        "thumbnail-preview",
+        "expandable-control"
+      ],
+      "pattern_combinations": [
+        [
+          "media-controls",
+          "progress-indicator"
+        ],
+        [
+          "like-favorite",
+          "media-controls"
+        ],
+        [
+          "like-favorite",
+          "progress-indicator"
+        ]
+      ]
+    },
+    {
+      "flow_id": "library",
+      "flow_name": "Library Management",
+      "unique_patterns": [
+        "bottom-tab-bar",
+        "filter-chips",
+        "list-view",
+        "thumbnail-preview",
+        "sort-options",
+        "grid-toggle",
+        "download-indicator"
+      ],
+      "pattern_combinations": []
+    }
+  ]
+}
