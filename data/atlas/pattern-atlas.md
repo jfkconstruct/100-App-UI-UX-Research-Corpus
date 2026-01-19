@@ -32,14 +32,14 @@ This atlas catalogs UI/UX patterns found across analyzed applications, with usag
 **Description:** Reveal complexity gradually, showing only what's needed at each step to avoid overwhelming users.
 
 **Usage Statistics:**
-- Used in 14 app(s)
-- Total occurrences: 48
-- Apps: 1password, airbnb, cal-com, canva, duolingo, figma, headspace, linear, notion, robinhood, slack, stripe, typeform, vercel
+- Used in 19 app(s)
+- Total occurrences: 67
+- Apps: 1password, airbnb, arc, cal-com, canva, duolingo, figma, headspace, linear, loom, notion, railway, robinhood, slack, stripe, superhuman, typeform, vercel, zapier
 
 **Average Quality Scores:**
 - Overall: 4.5/5.0 (Grade: A)
-- Clarity: 4.9/5.0
-- Cognitive Load: 4.4/5.0
+- Clarity: 4.8/5.0
+- Cognitive Load: 4.5/5.0
 - Visual Hierarchy: 4.7/5.0
 - Feedback: 4.2/5.0
 - Accessibility: 4.1/5.0
@@ -47,12 +47,12 @@ This atlas catalogs UI/UX patterns found across analyzed applications, with usag
 
 **Examples:**
 
+- **Arc Browser** (arc-download) - Score: 4.9/5.0
+  - Image: `screens/download.png`
 - **Cal.com** (booking-04) - Score: 4.8/5.0
   - Image: `data/raw_screens/cal-com/booking/04-success.png`
 - **Robinhood** (robinhood-deposit-withdraw) - Score: 4.8/5.0
   - Image: `screens/deposit-withdraw.png`
-- **Typeform** (typeform-respondent-experience) - Score: 4.8/5.0
-  - Image: `screens/respondent-experience.png`
 
 **When It Works:**
 - This pattern consistently scores well (4.5/5.0 average)
@@ -71,9 +71,9 @@ This atlas catalogs UI/UX patterns found across analyzed applications, with usag
 **Description:** Shows user where they are in a multi-step flow. Reduces anxiety and sets expectations for how many steps remain.
 
 **Usage Statistics:**
-- Used in 13 app(s)
-- Total occurrences: 35
-- Apps: 1password, airbnb, duolingo, figma, headspace, linear, notion, robinhood, slack, spotify, stripe, typeform, vercel
+- Used in 15 app(s)
+- Total occurrences: 39
+- Apps: 1password, airbnb, duolingo, figma, headspace, linear, loom, notion, robinhood, slack, spotify, stripe, superhuman, typeform, vercel
 
 **Average Quality Scores:**
 - Overall: 4.5/5.0 (Grade: A)
@@ -82,7 +82,7 @@ This atlas catalogs UI/UX patterns found across analyzed applications, with usag
 - Visual Hierarchy: 4.8/5.0
 - Feedback: 4.7/5.0
 - Accessibility: 4.0/5.0
-- Conversion Strength: 4.4/5.0
+- Conversion Strength: 4.5/5.0
 
 **Examples:**
 
@@ -103,45 +103,6 @@ This atlas catalogs UI/UX patterns found across analyzed applications, with usag
 
 ---
 
-### Hero Illustration
-
-**Pattern ID:** `hero-illustration`
-
-**Description:** Large, prominent illustration or image that conveys the app's purpose or current step visually.
-
-**Usage Statistics:**
-- Used in 11 app(s)
-- Total occurrences: 25
-- Apps: 1password, airbnb, cal-com, duolingo, figma, headspace, linear, notion, slack, stripe, vercel
-
-**Average Quality Scores:**
-- Overall: 4.5/5.0 (Grade: A)
-- Clarity: 4.9/5.0
-- Cognitive Load: 4.5/5.0
-- Visual Hierarchy: 4.9/5.0
-- Feedback: 3.4/5.0
-- Accessibility: 4.0/5.0
-- Conversion Strength: 4.9/5.0
-
-**Examples:**
-
-- **Duolingo** (onboarding-05) - Score: 4.8/5.0
-  - Image: `data/raw_screens/duolingo/onboarding/05-lesson-complete.png`
-- **Airbnb** (landing-01) - Score: 4.6/5.0
-  - Image: `data/raw_screens/airbnb/booking/01-landing.png`
-- **Cal.com** (landing-01) - Score: 4.6/5.0
-  - Image: `data/raw_screens/cal-com/landing/01-homepage.png`
-
-**When It Works:**
-- This pattern consistently scores well (4.5/5.0 average)
-- Provides excellent clarity for users
-- Reduces cognitive load effectively
-- Strong conversion and engagement driver
-
-**When to Avoid:**
-
----
-
 ### Social Proof
 
 **Pattern ID:** `social-proof`
@@ -149,14 +110,14 @@ This atlas catalogs UI/UX patterns found across analyzed applications, with usag
 **Description:** Testimonials, user counts, ratings, or logos showing others trust this product.
 
 **Usage Statistics:**
-- Used in 12 app(s)
-- Total occurrences: 24
-- Apps: 1password, airbnb, cal-com, duolingo, figma, headspace, linear, robinhood, slack, spotify, stripe, vercel
+- Used in 16 app(s)
+- Total occurrences: 31
+- Apps: 1password, airbnb, arc, cal-com, duolingo, figma, headspace, linear, loom, robinhood, slack, spotify, stripe, superhuman, vercel, zapier
 
 **Average Quality Scores:**
 - Overall: 4.4/5.0 (Grade: A-)
 - Clarity: 4.8/5.0
-- Cognitive Load: 4.5/5.0
+- Cognitive Load: 4.4/5.0
 - Visual Hierarchy: 4.8/5.0
 - Feedback: 3.4/5.0
 - Accessibility: 4.0/5.0
@@ -181,6 +142,45 @@ This atlas catalogs UI/UX patterns found across analyzed applications, with usag
 
 ---
 
+### Hero Illustration
+
+**Pattern ID:** `hero-illustration`
+
+**Description:** Large, prominent illustration or image that conveys the app's purpose or current step visually.
+
+**Usage Statistics:**
+- Used in 14 app(s)
+- Total occurrences: 28
+- Apps: 1password, airbnb, cal-com, duolingo, figma, headspace, linear, loom, notion, slack, stripe, superhuman, vercel, zapier
+
+**Average Quality Scores:**
+- Overall: 4.4/5.0 (Grade: A-)
+- Clarity: 4.8/5.0
+- Cognitive Load: 4.5/5.0
+- Visual Hierarchy: 4.8/5.0
+- Feedback: 3.4/5.0
+- Accessibility: 4.0/5.0
+- Conversion Strength: 4.9/5.0
+
+**Examples:**
+
+- **Duolingo** (onboarding-05) - Score: 4.8/5.0
+  - Image: `data/raw_screens/duolingo/onboarding/05-lesson-complete.png`
+- **Airbnb** (landing-01) - Score: 4.6/5.0
+  - Image: `data/raw_screens/airbnb/booking/01-landing.png`
+- **Cal.com** (landing-01) - Score: 4.6/5.0
+  - Image: `data/raw_screens/cal-com/landing/01-homepage.png`
+
+**When It Works:**
+- This pattern consistently scores well (4.4/5.0 average)
+- Provides excellent clarity for users
+- Reduces cognitive load effectively
+- Strong conversion and engagement driver
+
+**When to Avoid:**
+
+---
+
 ### Benefit-Oriented Headline
 
 **Pattern ID:** `benefit-oriented-headline`
@@ -188,15 +188,15 @@ This atlas catalogs UI/UX patterns found across analyzed applications, with usag
 **Description:** Headlines that focus on user benefits rather than features. Answers 'What's in it for me?' immediately.
 
 **Usage Statistics:**
-- Used in 10 app(s)
-- Total occurrences: 10
-- Apps: 1password, cal-com, duolingo, figma, headspace, linear, notion, slack, stripe, vercel
+- Used in 13 app(s)
+- Total occurrences: 14
+- Apps: 1password, cal-com, duolingo, figma, headspace, linear, loom, notion, slack, stripe, superhuman, vercel, zapier
 
 **Average Quality Scores:**
 - Overall: 4.4/5.0 (Grade: A-)
-- Clarity: 4.9/5.0
+- Clarity: 4.8/5.0
 - Cognitive Load: 4.5/5.0
-- Visual Hierarchy: 4.9/5.0
+- Visual Hierarchy: 4.8/5.0
 - Feedback: 3.2/5.0
 - Accessibility: 4.0/5.0
 - Conversion Strength: 4.8/5.0
@@ -227,17 +227,17 @@ This atlas catalogs UI/UX patterns found across analyzed applications, with usag
 **Description:** Reduce navigation options during critical flows to maintain focus and reduce abandonment.
 
 **Usage Statistics:**
-- Used in 3 app(s)
-- Total occurrences: 5
-- Apps: duolingo, notion, slack
+- Used in 4 app(s)
+- Total occurrences: 6
+- Apps: duolingo, loom, notion, slack
 
 **Average Quality Scores:**
-- Overall: 4.3/5.0 (Grade: A-)
-- Clarity: 4.8/5.0
-- Cognitive Load: 4.7/5.0
-- Visual Hierarchy: 4.7/5.0
-- Feedback: 3.5/5.0
-- Accessibility: 4.0/5.0
+- Overall: 4.4/5.0 (Grade: A-)
+- Clarity: 4.9/5.0
+- Cognitive Load: 4.8/5.0
+- Visual Hierarchy: 4.6/5.0
+- Feedback: 3.9/5.0
+- Accessibility: 3.9/5.0
 - Conversion Strength: 4.3/5.0
 
 **Examples:**
@@ -246,11 +246,11 @@ This atlas catalogs UI/UX patterns found across analyzed applications, with usag
   - Image: `data/raw_screens/duolingo/landing/01-homepage.png`
 - **Slack** (workspace-create-01) - Score: 4.5/5.0
   - Image: `data/raw_screens/slack/onboarding/01-create-workspace.png`
-- **Notion** (onboarding-01) - Score: 4.0/5.0
-  - Image: `data/raw_screens/notion/onboarding/01-welcome.png`
+- **Loom** (recording-active-01) - Score: 4.4/5.0
+  - Image: `data/raw_screens/loom/recording/02-active.png`
 
 **When It Works:**
-- This pattern consistently scores well (4.3/5.0 average)
+- This pattern consistently scores well (4.4/5.0 average)
 - Provides excellent clarity for users
 - Reduces cognitive load effectively
 - Strong conversion and engagement driver
@@ -268,16 +268,16 @@ This atlas catalogs UI/UX patterns found across analyzed applications, with usag
 **Description:** One obvious next step with limited choices. Reduces decision paralysis and guides user forward.
 
 **Usage Statistics:**
-- Used in 14 app(s)
-- Total occurrences: 58
-- Apps: 1password, airbnb, cal-com, canva, duolingo, figma, headspace, linear, notion, robinhood, slack, stripe, typeform, vercel
+- Used in 17 app(s)
+- Total occurrences: 68
+- Apps: 1password, airbnb, cal-com, canva, duolingo, figma, headspace, linear, loom, notion, robinhood, slack, stripe, superhuman, typeform, vercel, zapier
 
 **Average Quality Scores:**
 - Overall: 4.6/5.0 (Grade: A)
 - Clarity: 4.9/5.0
 - Cognitive Load: 4.6/5.0
 - Visual Hierarchy: 4.9/5.0
-- Feedback: 4.4/5.0
+- Feedback: 4.3/5.0
 - Accessibility: 4.2/5.0
 - Conversion Strength: 4.7/5.0
 
@@ -347,16 +347,16 @@ This atlas catalogs UI/UX patterns found across analyzed applications, with usag
 **Description:** Search bar given high visual priority, often in header. Signals findability and quick access.
 
 **Usage Statistics:**
-- Used in 13 app(s)
-- Total occurrences: 26
-- Apps: 1password, airbnb, cal-com, canva, figma, linear, notion, robinhood, slack, spotify, stripe, typeform, vercel
+- Used in 18 app(s)
+- Total occurrences: 37
+- Apps: 1password, airbnb, arc, cal-com, canva, figma, linear, loom, notion, railway, robinhood, slack, spotify, stripe, superhuman, typeform, vercel, zapier
 
 **Average Quality Scores:**
 - Overall: 4.3/5.0 (Grade: A-)
 - Clarity: 4.8/5.0
 - Cognitive Load: 3.9/5.0
-- Visual Hierarchy: 4.5/5.0
-- Feedback: 4.2/5.0
+- Visual Hierarchy: 4.6/5.0
+- Feedback: 4.3/5.0
 - Accessibility: 3.9/5.0
 - Conversion Strength: 4.4/5.0
 
@@ -364,10 +364,10 @@ This atlas catalogs UI/UX patterns found across analyzed applications, with usag
 
 - **Airbnb** (landing-01) - Score: 4.6/5.0
   - Image: `data/raw_screens/airbnb/booking/01-landing.png`
+- **Railway** (railway-template-marketplace) - Score: 4.5/5.0
+  - Image: `screens/template-marketplace.png`
 - **Stripe** (docs-01) - Score: 4.5/5.0
   - Image: `data/raw_screens/stripe/docs/01-overview.png`
-- **Vercel** (onboarding-02) - Score: 4.5/5.0
-  - Image: `data/raw_screens/vercel/onboarding/02-import.png`
 
 **When It Works:**
 - This pattern consistently scores well (4.3/5.0 average)
@@ -533,16 +533,16 @@ This atlas catalogs UI/UX patterns found across analyzed applications, with usag
 **Description:** Pre-fill form fields with intelligent defaults based on context or user data to reduce effort.
 
 **Usage Statistics:**
-- Used in 11 app(s)
-- Total occurrences: 24
-- Apps: 1password, airbnb, cal-com, canva, duolingo, figma, linear, notion, slack, stripe, vercel
+- Used in 15 app(s)
+- Total occurrences: 33
+- Apps: 1password, airbnb, cal-com, canva, duolingo, figma, linear, loom, notion, railway, slack, stripe, superhuman, vercel, zapier
 
 **Average Quality Scores:**
 - Overall: 4.4/5.0 (Grade: A-)
-- Clarity: 4.7/5.0
-- Cognitive Load: 4.1/5.0
+- Clarity: 4.8/5.0
+- Cognitive Load: 4.3/5.0
 - Visual Hierarchy: 4.6/5.0
-- Feedback: 4.3/5.0
+- Feedback: 4.4/5.0
 - Accessibility: 4.0/5.0
 - Conversion Strength: 4.6/5.0
 
@@ -552,8 +552,8 @@ This atlas catalogs UI/UX patterns found across analyzed applications, with usag
   - Image: `data/raw_screens/stripe/checkout/01-hosted.png`
 - **Cal.com** (booking-02) - Score: 4.7/5.0
   - Image: `data/raw_screens/cal-com/booking/02-time-selection.png`
-- **Vercel** (onboarding-01) - Score: 4.7/5.0
-  - Image: `data/raw_screens/vercel/onboarding/01-signup.png`
+- **Railway** (railway-service-deployment) - Score: 4.7/5.0
+  - Image: `screens/service-deployment.png`
 
 **When It Works:**
 - This pattern consistently scores well (4.4/5.0 average)
@@ -572,17 +572,17 @@ This atlas catalogs UI/UX patterns found across analyzed applications, with usag
 **Description:** Real-time feedback on form field validity as user types or on blur. Reduces errors and frustration.
 
 **Usage Statistics:**
-- Used in 10 app(s)
-- Total occurrences: 23
-- Apps: 1password, airbnb, cal-com, duolingo, figma, linear, robinhood, slack, stripe, vercel
+- Used in 13 app(s)
+- Total occurrences: 32
+- Apps: 1password, airbnb, cal-com, duolingo, figma, linear, railway, robinhood, slack, stripe, superhuman, vercel, zapier
 
 **Average Quality Scores:**
 - Overall: 4.5/5.0 (Grade: A)
 - Clarity: 4.9/5.0
-- Cognitive Load: 4.5/5.0
-- Visual Hierarchy: 4.8/5.0
+- Cognitive Load: 4.6/5.0
+- Visual Hierarchy: 4.7/5.0
 - Feedback: 4.5/5.0
-- Accessibility: 4.2/5.0
+- Accessibility: 4.1/5.0
 - Conversion Strength: 4.4/5.0
 
 **Examples:**
@@ -611,21 +611,23 @@ This atlas catalogs UI/UX patterns found across analyzed applications, with usag
 **Description:** Break long forms into smaller steps to reduce cognitive load and increase completion.
 
 **Usage Statistics:**
-- Used in 2 app(s)
-- Total occurrences: 4
-- Apps: airbnb, stripe
+- Used in 3 app(s)
+- Total occurrences: 7
+- Apps: airbnb, stripe, zapier
 
 **Average Quality Scores:**
 - Overall: 4.3/5.0 (Grade: A-)
-- Clarity: 4.8/5.0
-- Cognitive Load: 3.8/5.0
+- Clarity: 4.7/5.0
+- Cognitive Load: 4.0/5.0
 - Visual Hierarchy: 4.5/5.0
 - Feedback: 4.3/5.0
 - Accessibility: 4.0/5.0
-- Conversion Strength: 4.3/5.0
+- Conversion Strength: 4.5/5.0
 
 **Examples:**
 
+- **Zapier** (templates-02) - Score: 4.5/5.0
+  - Image: `data/raw_screens/zapier/templates/02-customize.png`
 - **Stripe** (onboarding-01) - Score: 4.3/5.0
   - Image: `data/raw_screens/stripe/onboarding/01-account-setup.png`
 - **Airbnb** (checkout-06) - Score: 4.2/5.0
@@ -634,6 +636,7 @@ This atlas catalogs UI/UX patterns found across analyzed applications, with usag
 **When It Works:**
 - This pattern consistently scores well (4.3/5.0 average)
 - Provides excellent clarity for users
+- Reduces cognitive load effectively
 - Strong conversion and engagement driver
 
 **When to Avoid:**
@@ -685,17 +688,17 @@ This atlas catalogs UI/UX patterns found across analyzed applications, with usag
 **Description:** Content organized into discrete card components. Scannable, flexible, and mobile-friendly.
 
 **Usage Statistics:**
-- Used in 15 app(s)
-- Total occurrences: 54
-- Apps: 1password, airbnb, cal-com, canva, duolingo, figma, headspace, linear, notion, robinhood, slack, spotify, stripe, typeform, vercel
+- Used in 19 app(s)
+- Total occurrences: 63
+- Apps: 1password, airbnb, cal-com, canva, duolingo, figma, headspace, linear, loom, notion, railway, robinhood, slack, spotify, stripe, superhuman, typeform, vercel, zapier
 
 **Average Quality Scores:**
 - Overall: 4.4/5.0 (Grade: A-)
-- Clarity: 4.9/5.0
+- Clarity: 4.8/5.0
 - Cognitive Load: 4.1/5.0
 - Visual Hierarchy: 4.6/5.0
 - Feedback: 4.3/5.0
-- Accessibility: 4.1/5.0
+- Accessibility: 4.0/5.0
 - Conversion Strength: 4.4/5.0
 
 **Examples:**
@@ -724,17 +727,17 @@ This atlas catalogs UI/UX patterns found across analyzed applications, with usag
 **Description:** Load images and heavy content only when needed (e.g., when scrolled into view). Improves performance.
 
 **Usage Statistics:**
-- Used in 11 app(s)
-- Total occurrences: 16
-- Apps: 1password, airbnb, canva, figma, linear, notion, slack, spotify, stripe, typeform, vercel
+- Used in 13 app(s)
+- Total occurrences: 21
+- Apps: 1password, airbnb, canva, figma, linear, loom, notion, slack, spotify, stripe, typeform, vercel, zapier
 
 **Average Quality Scores:**
-- Overall: 4.2/5.0 (Grade: A-)
+- Overall: 4.3/5.0 (Grade: A-)
 - Clarity: 4.7/5.0
 - Cognitive Load: 4.0/5.0
 - Visual Hierarchy: 4.6/5.0
-- Feedback: 4.1/5.0
-- Accessibility: 3.8/5.0
+- Feedback: 4.2/5.0
+- Accessibility: 3.9/5.0
 - Conversion Strength: 4.2/5.0
 
 **Examples:**
@@ -743,11 +746,11 @@ This atlas catalogs UI/UX patterns found across analyzed applications, with usag
   - Image: `data/raw_screens/airbnb/booking/04-photo-gallery.png`
 - **Canva** (canva-landing) - Score: 4.5/5.0
   - Image: `screens/landing.png`
-- **Vercel** (onboarding-02) - Score: 4.5/5.0
-  - Image: `data/raw_screens/vercel/onboarding/02-import.png`
+- **Loom** (player-01) - Score: 4.5/5.0
+  - Image: `data/raw_screens/loom/player/01-viewer.png`
 
 **When It Works:**
-- This pattern consistently scores well (4.2/5.0 average)
+- This pattern consistently scores well (4.3/5.0 average)
 - Provides excellent clarity for users
 - Reduces cognitive load effectively
 - Strong conversion and engagement driver
@@ -763,18 +766,18 @@ This atlas catalogs UI/UX patterns found across analyzed applications, with usag
 **Description:** Load more content automatically as user scrolls. Reduces clicks but can be disorienting.
 
 **Usage Statistics:**
-- Used in 4 app(s)
-- Total occurrences: 5
-- Apps: airbnb, canva, robinhood, spotify
+- Used in 5 app(s)
+- Total occurrences: 6
+- Apps: airbnb, canva, railway, robinhood, spotify
 
 **Average Quality Scores:**
-- Overall: 4.3/5.0 (Grade: A-)
-- Clarity: 4.8/5.0
+- Overall: 4.1/5.0 (Grade: A-)
+- Clarity: 4.6/5.0
 - Cognitive Load: 3.8/5.0
-- Visual Hierarchy: 4.9/5.0
-- Feedback: 4.5/5.0
-- Accessibility: 3.5/5.0
-- Conversion Strength: 4.3/5.0
+- Visual Hierarchy: 4.7/5.0
+- Feedback: 4.6/5.0
+- Accessibility: 3.4/5.0
+- Conversion Strength: 4.0/5.0
 
 **Examples:**
 
@@ -786,11 +789,12 @@ This atlas catalogs UI/UX patterns found across analyzed applications, with usag
   - Image: `data/raw_screens/spotify/home/01-home-feed.png`
 
 **When It Works:**
-- This pattern consistently scores well (4.3/5.0 average)
+- This pattern consistently scores well (4.1/5.0 average)
 - Provides excellent clarity for users
 - Strong conversion and engagement driver
 
 **When to Avoid:**
+- May have accessibility concerns
 
 ---
 
@@ -911,17 +915,17 @@ This atlas catalogs UI/UX patterns found across analyzed applications, with usag
 **Description:** Numbered indicator showing unread items or pending actions. Drives re-engagement.
 
 **Usage Statistics:**
-- Used in 9 app(s)
-- Total occurrences: 13
-- Apps: 1password, airbnb, duolingo, figma, headspace, linear, slack, stripe, vercel
+- Used in 10 app(s)
+- Total occurrences: 15
+- Apps: 1password, airbnb, duolingo, figma, headspace, linear, loom, slack, stripe, vercel
 
 **Average Quality Scores:**
 - Overall: 4.2/5.0 (Grade: A-)
 - Clarity: 4.5/5.0
-- Cognitive Load: 3.6/5.0
+- Cognitive Load: 3.7/5.0
 - Visual Hierarchy: 4.5/5.0
 - Feedback: 4.3/5.0
-- Accessibility: 3.8/5.0
+- Accessibility: 3.9/5.0
 - Conversion Strength: 4.3/5.0
 
 **Examples:**
@@ -949,30 +953,69 @@ This atlas catalogs UI/UX patterns found across analyzed applications, with usag
 **Description:** Profile picture or icon representing user. Adds personality and helps identify content sources.
 
 **Usage Statistics:**
-- Used in 4 app(s)
-- Total occurrences: 9
-- Apps: airbnb, figma, slack, spotify
+- Used in 5 app(s)
+- Total occurrences: 12
+- Apps: airbnb, figma, loom, slack, spotify
 
 **Average Quality Scores:**
 - Overall: 4.4/5.0 (Grade: A-)
-- Clarity: 4.6/5.0
-- Cognitive Load: 4.0/5.0
+- Clarity: 4.7/5.0
+- Cognitive Load: 4.1/5.0
 - Visual Hierarchy: 4.3/5.0
 - Feedback: 4.6/5.0
-- Accessibility: 3.9/5.0
-- Conversion Strength: 4.8/5.0
+- Accessibility: 4.0/5.0
+- Conversion Strength: 4.6/5.0
 
 **Examples:**
 
 - **Figma** (editor-02) - Score: 4.5/5.0
   - Image: `data/raw_screens/figma/editor/02-multiplayer.png`
+- **Loom** (player-01) - Score: 4.5/5.0
+  - Image: `data/raw_screens/loom/player/01-viewer.png`
 - **Airbnb** (listing-detail-03) - Score: 4.3/5.0
   - Image: `data/raw_screens/airbnb/booking/03-listing-detail.png`
-- **Slack** (huddle-01) - Score: 4.3/5.0
-  - Image: `data/raw_screens/slack/core/05-huddle.png`
 
 **When It Works:**
 - This pattern consistently scores well (4.4/5.0 average)
+- Provides excellent clarity for users
+- Reduces cognitive load effectively
+- Strong conversion and engagement driver
+
+**When to Avoid:**
+
+---
+
+### Share Button
+
+**Pattern ID:** `share-button`
+
+**Description:** Easy sharing to social platforms or messaging apps. Drives viral growth and content distribution.
+
+**Usage Statistics:**
+- Used in 4 app(s)
+- Total occurrences: 7
+- Apps: airbnb, loom, spotify, vercel
+
+**Average Quality Scores:**
+- Overall: 4.5/5.0 (Grade: A)
+- Clarity: 4.8/5.0
+- Cognitive Load: 4.0/5.0
+- Visual Hierarchy: 4.8/5.0
+- Feedback: 4.8/5.0
+- Accessibility: 4.0/5.0
+- Conversion Strength: 4.5/5.0
+
+**Examples:**
+
+- **Loom** (post-recording-01) - Score: 4.5/5.0
+  - Image: `data/raw_screens/loom/recording/03-post-recording.png`
+- **Spotify** (now-playing-01) - Score: 4.5/5.0
+  - Image: `data/raw_screens/spotify/now-playing/01-full-player.png`
+- **Vercel** (preview-01) - Score: 4.4/5.0
+  - Image: `data/raw_screens/vercel/preview/01-toolbar.png`
+
+**When It Works:**
+- This pattern consistently scores well (4.5/5.0 average)
 - Provides excellent clarity for users
 - Reduces cognitive load effectively
 - Strong conversion and engagement driver
@@ -1018,45 +1061,6 @@ This atlas catalogs UI/UX patterns found across analyzed applications, with usag
 
 ---
 
-### Share Button
-
-**Pattern ID:** `share-button`
-
-**Description:** Easy sharing to social platforms or messaging apps. Drives viral growth and content distribution.
-
-**Usage Statistics:**
-- Used in 3 app(s)
-- Total occurrences: 5
-- Apps: airbnb, spotify, vercel
-
-**Average Quality Scores:**
-- Overall: 4.4/5.0 (Grade: A-)
-- Clarity: 4.8/5.0
-- Cognitive Load: 4.0/5.0
-- Visual Hierarchy: 4.8/5.0
-- Feedback: 4.7/5.0
-- Accessibility: 4.0/5.0
-- Conversion Strength: 4.3/5.0
-
-**Examples:**
-
-- **Spotify** (now-playing-01) - Score: 4.5/5.0
-  - Image: `data/raw_screens/spotify/now-playing/01-full-player.png`
-- **Vercel** (preview-01) - Score: 4.4/5.0
-  - Image: `data/raw_screens/vercel/preview/01-toolbar.png`
-- **Airbnb** (listing-detail-03) - Score: 4.3/5.0
-  - Image: `data/raw_screens/airbnb/booking/03-listing-detail.png`
-
-**When It Works:**
-- This pattern consistently scores well (4.4/5.0 average)
-- Provides excellent clarity for users
-- Reduces cognitive load effectively
-- Strong conversion and engagement driver
-
-**When to Avoid:**
-
----
-
 ### Comment Thread
 
 **Pattern ID:** `comment-thread`
@@ -1064,28 +1068,30 @@ This atlas catalogs UI/UX patterns found across analyzed applications, with usag
 **Description:** Nested or linear conversation structure. Encourages engagement and community.
 
 **Usage Statistics:**
-- Used in 2 app(s)
-- Total occurrences: 3
-- Apps: linear, slack
+- Used in 3 app(s)
+- Total occurrences: 5
+- Apps: linear, loom, slack
 
 **Average Quality Scores:**
-- Overall: 4.0/5.0 (Grade: A-)
-- Clarity: 4.3/5.0
-- Cognitive Load: 3.5/5.0
+- Overall: 4.1/5.0 (Grade: A-)
+- Clarity: 4.5/5.0
+- Cognitive Load: 3.8/5.0
 - Visual Hierarchy: 4.3/5.0
 - Feedback: 4.3/5.0
-- Accessibility: 4.0/5.0
-- Conversion Strength: 3.5/5.0
+- Accessibility: 4.2/5.0
+- Conversion Strength: 3.7/5.0
 
 **Examples:**
 
+- **Loom** (player-01) - Score: 4.5/5.0
+  - Image: `data/raw_screens/loom/player/01-viewer.png`
 - **Slack** (channel-view-01) - Score: 4.2/5.0
   - Image: `data/raw_screens/slack/core/02-channel-view.png`
 - **Linear** (issue-02) - Score: 3.6/5.0
   - Image: `data/raw_screens/linear/issue/02-detail.png`
 
 **When It Works:**
-- This pattern consistently scores well (4.0/5.0 average)
+- This pattern consistently scores well (4.1/5.0 average)
 - Provides excellent clarity for users
 
 **When to Avoid:**
@@ -1177,15 +1183,15 @@ This atlas catalogs UI/UX patterns found across analyzed applications, with usag
 **Description:** Clear visual and textual confirmation that action completed successfully.
 
 **Usage Statistics:**
-- Used in 4 app(s)
-- Total occurrences: 8
-- Apps: airbnb, duolingo, headspace, notion
+- Used in 5 app(s)
+- Total occurrences: 9
+- Apps: airbnb, duolingo, headspace, notion, zapier
 
 **Average Quality Scores:**
-- Overall: 4.6/5.0 (Grade: A)
-- Clarity: 4.9/5.0
-- Cognitive Load: 4.8/5.0
-- Visual Hierarchy: 4.9/5.0
+- Overall: 4.5/5.0 (Grade: A)
+- Clarity: 4.8/5.0
+- Cognitive Load: 4.6/5.0
+- Visual Hierarchy: 4.7/5.0
 - Feedback: 5.0/5.0
 - Accessibility: 4.1/5.0
 - Conversion Strength: 4.3/5.0
@@ -1200,7 +1206,7 @@ This atlas catalogs UI/UX patterns found across analyzed applications, with usag
   - Image: `data/raw_screens/headspace/meditation/02-completion.png`
 
 **When It Works:**
-- This pattern consistently scores well (4.6/5.0 average)
+- This pattern consistently scores well (4.5/5.0 average)
 - Provides excellent clarity for users
 - Reduces cognitive load effectively
 - Strong conversion and engagement driver
@@ -1216,30 +1222,30 @@ This atlas catalogs UI/UX patterns found across analyzed applications, with usag
 **Description:** Brief, non-intrusive message that appears temporarily to confirm actions or provide updates.
 
 **Usage Statistics:**
-- Used in 3 app(s)
-- Total occurrences: 4
-- Apps: duolingo, notion, slack
+- Used in 5 app(s)
+- Total occurrences: 7
+- Apps: duolingo, loom, notion, railway, slack
 
 **Average Quality Scores:**
-- Overall: 4.4/5.0 (Grade: A-)
-- Clarity: 4.7/5.0
-- Cognitive Load: 4.7/5.0
+- Overall: 4.3/5.0 (Grade: A-)
+- Clarity: 4.6/5.0
+- Cognitive Load: 4.5/5.0
 - Visual Hierarchy: 4.3/5.0
-- Feedback: 5.0/5.0
-- Accessibility: 3.8/5.0
-- Conversion Strength: 4.3/5.0
+- Feedback: 4.7/5.0
+- Accessibility: 4.0/5.0
+- Conversion Strength: 4.0/5.0
 
 **Examples:**
 
 - **Duolingo** (lesson-02) - Score: 4.8/5.0
   - Image: `data/raw_screens/duolingo/lesson/02-correct-feedback.png`
+- **Loom** (player-01) - Score: 4.5/5.0
+  - Image: `data/raw_screens/loom/player/01-viewer.png`
 - **Slack** (huddle-01) - Score: 4.3/5.0
   - Image: `data/raw_screens/slack/core/05-huddle.png`
-- **Notion** (template-selection-03) - Score: 4.2/5.0
-  - Image: `data/raw_screens/notion/template-selection/03-added.png`
 
 **When It Works:**
-- This pattern consistently scores well (4.4/5.0 average)
+- This pattern consistently scores well (4.3/5.0 average)
 - Provides excellent clarity for users
 - Reduces cognitive load effectively
 - Strong conversion and engagement driver
@@ -1292,16 +1298,16 @@ This atlas catalogs UI/UX patterns found across analyzed applications, with usag
 **Description:** Tooltips, info icons, or inline help text that explains features without leaving context.
 
 **Usage Statistics:**
-- Used in 10 app(s)
-- Total occurrences: 38
-- Apps: 1password, airbnb, canva, duolingo, figma, linear, notion, slack, stripe, vercel
+- Used in 15 app(s)
+- Total occurrences: 60
+- Apps: 1password, airbnb, arc, canva, duolingo, figma, linear, loom, notion, railway, slack, stripe, superhuman, vercel, zapier
 
 **Average Quality Scores:**
 - Overall: 4.5/5.0 (Grade: A)
 - Clarity: 4.9/5.0
-- Cognitive Load: 4.1/5.0
+- Cognitive Load: 4.3/5.0
 - Visual Hierarchy: 4.6/5.0
-- Feedback: 4.7/5.0
+- Feedback: 4.8/5.0
 - Accessibility: 4.0/5.0
 - Conversion Strength: 4.6/5.0
 
@@ -1309,10 +1315,10 @@ This atlas catalogs UI/UX patterns found across analyzed applications, with usag
 
 - **Duolingo** (onboarding-04) - Score: 4.8/5.0
   - Image: `data/raw_screens/duolingo/onboarding/04-first-lesson.png`
+- **Railway** (railway-service-deployment) - Score: 4.7/5.0
+  - Image: `screens/service-deployment.png`
 - **Stripe** (docs-02) - Score: 4.7/5.0
   - Image: `data/raw_screens/stripe/docs/02-quickstart.png`
-- **Airbnb** (confirmation-07) - Score: 4.6/5.0
-  - Image: `data/raw_screens/airbnb/booking/07-confirmation.png`
 
 **When It Works:**
 - This pattern consistently scores well (4.5/5.0 average)
@@ -1333,15 +1339,15 @@ This atlas catalogs UI/UX patterns found across analyzed applications, with usag
 **Description:** Multiple filtering options to refine search results. Common in e-commerce and content discovery.
 
 **Usage Statistics:**
-- Used in 11 app(s)
-- Total occurrences: 19
-- Apps: 1password, airbnb, cal-com, canva, figma, linear, notion, slack, stripe, typeform, vercel
+- Used in 13 app(s)
+- Total occurrences: 24
+- Apps: 1password, airbnb, cal-com, canva, figma, linear, loom, notion, slack, stripe, typeform, vercel, zapier
 
 **Average Quality Scores:**
-- Overall: 4.3/5.0 (Grade: A-)
-- Clarity: 4.8/5.0
+- Overall: 4.2/5.0 (Grade: A-)
+- Clarity: 4.7/5.0
 - Cognitive Load: 3.9/5.0
-- Visual Hierarchy: 4.6/5.0
+- Visual Hierarchy: 4.5/5.0
 - Feedback: 4.2/5.0
 - Accessibility: 3.9/5.0
 - Conversion Strength: 4.2/5.0
@@ -1356,7 +1362,7 @@ This atlas catalogs UI/UX patterns found across analyzed applications, with usag
   - Image: `screens/template-gallery.png`
 
 **When It Works:**
-- This pattern consistently scores well (4.3/5.0 average)
+- This pattern consistently scores well (4.2/5.0 average)
 - Provides excellent clarity for users
 - Strong conversion and engagement driver
 
@@ -1371,30 +1377,30 @@ This atlas catalogs UI/UX patterns found across analyzed applications, with usag
 **Description:** Suggest completions as user types to speed up search and guide discovery.
 
 **Usage Statistics:**
-- Used in 5 app(s)
-- Total occurrences: 5
-- Apps: 1password, figma, linear, notion, slack
+- Used in 6 app(s)
+- Total occurrences: 7
+- Apps: 1password, figma, linear, notion, slack, superhuman
 
 **Average Quality Scores:**
-- Overall: 4.0/5.0 (Grade: A-)
-- Clarity: 4.4/5.0
-- Cognitive Load: 3.7/5.0
-- Visual Hierarchy: 4.3/5.0
-- Feedback: 4.2/5.0
-- Accessibility: 3.7/5.0
+- Overall: 4.1/5.0 (Grade: A-)
+- Clarity: 4.5/5.0
+- Cognitive Load: 3.9/5.0
+- Visual Hierarchy: 4.4/5.0
+- Feedback: 4.3/5.0
+- Accessibility: 3.8/5.0
 - Conversion Strength: 3.9/5.0
 
 **Examples:**
 
+- **Superhuman** (compose-01) - Score: 4.6/5.0
+  - Image: `data/raw_screens/superhuman/compose/01-new-email.png`
 - **Linear** (dashboard-02) - Score: 4.3/5.0
   - Image: `data/raw_screens/linear/dashboard/02-command-palette.png`
 - **Figma** (editor-03) - Score: 4.0/5.0
   - Image: `data/raw_screens/figma/editor/03-components.png`
-- **Notion** (page-creation-02) - Score: 4.0/5.0
-  - Image: `data/raw_screens/notion/page-creation/02-slash-menu.png`
 
 **When It Works:**
-- This pattern consistently scores well (4.0/5.0 average)
+- This pattern consistently scores well (4.1/5.0 average)
 - Provides excellent clarity for users
 
 **When to Avoid:**

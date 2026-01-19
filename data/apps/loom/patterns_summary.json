@@ -1,0 +1,454 @@
+{
+  "app_id": "loom",
+  "total_screens": 10,
+  "patterns": [
+    {
+      "pattern_id": "contextual-help",
+      "pattern_name": "Contextual Help",
+      "frequency": 6,
+      "percentage": 60,
+      "avg_heuristics": {
+        "clarity": 4.6,
+        "cognitive_load": 4.1,
+        "visual_hierarchy": 4.4,
+        "feedback": 4.6,
+        "accessibility": 4,
+        "conversion_strength": 4.3
+      },
+      "screens": [
+        "recording-setup-01",
+        "post-recording-01",
+        "player-01",
+        "comments-01",
+        "sharing-01",
+        "analytics-01"
+      ]
+    },
+    {
+      "pattern_id": "single-primary-cta",
+      "pattern_name": "Single Primary CTA",
+      "frequency": 5,
+      "percentage": 50,
+      "avg_heuristics": {
+        "clarity": 4.6,
+        "cognitive_load": 4,
+        "visual_hierarchy": 4.5,
+        "feedback": 4.3,
+        "accessibility": 4,
+        "conversion_strength": 4.7
+      },
+      "screens": [
+        "landing-01",
+        "recording-setup-01",
+        "post-recording-01",
+        "sharing-01",
+        "pricing-01"
+      ]
+    },
+    {
+      "pattern_id": "user-avatar",
+      "pattern_name": "User Avatar",
+      "frequency": 3,
+      "percentage": 30,
+      "avg_heuristics": {
+        "clarity": 4.8,
+        "cognitive_load": 4.5,
+        "visual_hierarchy": 4.5,
+        "feedback": 4.7,
+        "accessibility": 4,
+        "conversion_strength": 3.8
+      },
+      "screens": [
+        "recording-active-01",
+        "player-01",
+        "comments-01"
+      ]
+    },
+    {
+      "pattern_id": "progress-indicator",
+      "pattern_name": "Progress Indicator",
+      "frequency": 3,
+      "percentage": 30,
+      "avg_heuristics": {
+        "clarity": 4.5,
+        "cognitive_load": 4.2,
+        "visual_hierarchy": 4.3,
+        "feedback": 4.8,
+        "accessibility": 3.7,
+        "conversion_strength": 4.3
+      },
+      "screens": [
+        "recording-active-01",
+        "post-recording-01",
+        "analytics-01"
+      ]
+    },
+    {
+      "pattern_id": "lazy-loading",
+      "pattern_name": "Lazy Loading",
+      "frequency": 3,
+      "percentage": 30,
+      "avg_heuristics": {
+        "clarity": 4.5,
+        "cognitive_load": 4,
+        "visual_hierarchy": 4.2,
+        "feedback": 4.3,
+        "accessibility": 4,
+        "conversion_strength": 4
+      },
+      "screens": [
+        "player-01",
+        "library-01",
+        "analytics-01"
+      ]
+    },
+    {
+      "pattern_id": "benefit-oriented-headline",
+      "pattern_name": "Benefit-Oriented Headline",
+      "frequency": 2,
+      "percentage": 20,
+      "avg_heuristics": {
+        "clarity": 4.5,
+        "cognitive_load": 3.8,
+        "visual_hierarchy": 4.5,
+        "feedback": 3.8,
+        "accessibility": 4,
+        "conversion_strength": 4.8
+      },
+      "screens": [
+        "landing-01",
+        "pricing-01"
+      ]
+    },
+    {
+      "pattern_id": "social-proof",
+      "pattern_name": "Social Proof",
+      "frequency": 2,
+      "percentage": 20,
+      "avg_heuristics": {
+        "clarity": 4.5,
+        "cognitive_load": 3.8,
+        "visual_hierarchy": 4.5,
+        "feedback": 3.8,
+        "accessibility": 4,
+        "conversion_strength": 4.8
+      },
+      "screens": [
+        "landing-01",
+        "pricing-01"
+      ]
+    },
+    {
+      "pattern_id": "toast-notification",
+      "pattern_name": "Toast Notification",
+      "frequency": 2,
+      "percentage": 20,
+      "avg_heuristics": {
+        "clarity": 5,
+        "cognitive_load": 4.8,
+        "visual_hierarchy": 4.5,
+        "feedback": 4.8,
+        "accessibility": 4,
+        "conversion_strength": 4
+      },
+      "screens": [
+        "recording-active-01",
+        "player-01"
+      ]
+    },
+    {
+      "pattern_id": "share-button",
+      "pattern_name": "Share Button",
+      "frequency": 2,
+      "percentage": 20,
+      "avg_heuristics": {
+        "clarity": 4.5,
+        "cognitive_load": 4,
+        "visual_hierarchy": 4.5,
+        "feedback": 4.5,
+        "accessibility": 4,
+        "conversion_strength": 4.8
+      },
+      "screens": [
+        "post-recording-01",
+        "sharing-01"
+      ]
+    },
+    {
+      "pattern_id": "comment-thread",
+      "pattern_name": "Comment Thread",
+      "frequency": 2,
+      "percentage": 20,
+      "avg_heuristics": {
+        "clarity": 4.8,
+        "cognitive_load": 4.3,
+        "visual_hierarchy": 4.5,
+        "feedback": 4.5,
+        "accessibility": 4.3,
+        "conversion_strength": 3.8
+      },
+      "screens": [
+        "player-01",
+        "comments-01"
+      ]
+    },
+    {
+      "pattern_id": "card-layout",
+      "pattern_name": "Card Layout",
+      "frequency": 2,
+      "percentage": 20,
+      "avg_heuristics": {
+        "clarity": 4.3,
+        "cognitive_load": 3.8,
+        "visual_hierarchy": 4,
+        "feedback": 4.3,
+        "accessibility": 3.8,
+        "conversion_strength": 4
+      },
+      "screens": [
+        "library-01",
+        "analytics-01"
+      ]
+    },
+    {
+      "pattern_id": "filter-facets",
+      "pattern_name": "Filter Facets",
+      "frequency": 2,
+      "percentage": 20,
+      "avg_heuristics": {
+        "clarity": 4.3,
+        "cognitive_load": 3.8,
+        "visual_hierarchy": 4,
+        "feedback": 4.3,
+        "accessibility": 3.8,
+        "conversion_strength": 4
+      },
+      "screens": [
+        "library-01",
+        "analytics-01"
+      ]
+    },
+    {
+      "pattern_id": "notification-badge",
+      "pattern_name": "Notification Badge",
+      "frequency": 2,
+      "percentage": 20,
+      "avg_heuristics": {
+        "clarity": 4.5,
+        "cognitive_load": 4,
+        "visual_hierarchy": 4.3,
+        "feedback": 4.3,
+        "accessibility": 4,
+        "conversion_strength": 3.8
+      },
+      "screens": [
+        "library-01",
+        "comments-01"
+      ]
+    },
+    {
+      "pattern_id": "hero-illustration",
+      "pattern_name": "Hero Illustration",
+      "frequency": 1,
+      "percentage": 10,
+      "avg_heuristics": {
+        "clarity": 4.5,
+        "cognitive_load": 4,
+        "visual_hierarchy": 4.5,
+        "feedback": 4,
+        "accessibility": 4,
+        "conversion_strength": 5
+      },
+      "screens": [
+        "landing-01"
+      ]
+    },
+    {
+      "pattern_id": "smart-defaults",
+      "pattern_name": "Smart Defaults",
+      "frequency": 1,
+      "percentage": 10,
+      "avg_heuristics": {
+        "clarity": 5,
+        "cognitive_load": 4.5,
+        "visual_hierarchy": 4.5,
+        "feedback": 5,
+        "accessibility": 4,
+        "conversion_strength": 4.5
+      },
+      "screens": [
+        "recording-setup-01"
+      ]
+    },
+    {
+      "pattern_id": "minimal-navigation",
+      "pattern_name": "Minimal Navigation",
+      "frequency": 1,
+      "percentage": 10,
+      "avg_heuristics": {
+        "clarity": 5,
+        "cognitive_load": 5,
+        "visual_hierarchy": 4.5,
+        "feedback": 5,
+        "accessibility": 3.5,
+        "conversion_strength": 4
+      },
+      "screens": [
+        "recording-active-01"
+      ]
+    },
+    {
+      "pattern_id": "search-prominent",
+      "pattern_name": "Prominent Search",
+      "frequency": 1,
+      "percentage": 10,
+      "avg_heuristics": {
+        "clarity": 4.5,
+        "cognitive_load": 4,
+        "visual_hierarchy": 4,
+        "feedback": 4,
+        "accessibility": 4,
+        "conversion_strength": 4
+      },
+      "screens": [
+        "library-01"
+      ]
+    },
+    {
+      "pattern_id": "progressive-disclosure",
+      "pattern_name": "Progressive Disclosure",
+      "frequency": 1,
+      "percentage": 10,
+      "avg_heuristics": {
+        "clarity": 4.5,
+        "cognitive_load": 4,
+        "visual_hierarchy": 4.5,
+        "feedback": 4,
+        "accessibility": 4,
+        "conversion_strength": 4.5
+      },
+      "screens": [
+        "sharing-01"
+      ]
+    }
+  ],
+  "flows": [
+    {
+      "flow_id": "marketing-to-signup",
+      "flow_name": "Marketing to Sign-up",
+      "unique_patterns": [
+        "benefit-oriented-headline",
+        "hero-illustration",
+        "single-primary-cta",
+        "social-proof",
+        "animated-demo",
+        "comparison-table",
+        "toggle-selection"
+      ],
+      "pattern_combinations": [
+        [
+          "benefit-oriented-headline",
+          "single-primary-cta"
+        ],
+        [
+          "benefit-oriented-headline",
+          "social-proof"
+        ],
+        [
+          "single-primary-cta",
+          "social-proof"
+        ]
+      ]
+    },
+    {
+      "flow_id": "create-recording",
+      "flow_name": "Create Recording",
+      "unique_patterns": [
+        "single-primary-cta",
+        "toggle-selection",
+        "live-preview",
+        "smart-defaults",
+        "contextual-help",
+        "floating-controls",
+        "user-avatar",
+        "minimal-navigation",
+        "progress-indicator",
+        "toast-notification",
+        "share-button",
+        "inline-editing"
+      ],
+      "pattern_combinations": [
+        [
+          "contextual-help",
+          "single-primary-cta"
+        ]
+      ]
+    },
+    {
+      "flow_id": "view-recording",
+      "flow_name": "View Recording",
+      "unique_patterns": [
+        "user-avatar",
+        "comment-thread",
+        "toast-notification",
+        "contextual-help",
+        "lazy-loading",
+        "inline-editing",
+        "notification-badge"
+      ],
+      "pattern_combinations": [
+        [
+          "comment-thread",
+          "user-avatar"
+        ],
+        [
+          "contextual-help",
+          "user-avatar"
+        ],
+        [
+          "comment-thread",
+          "contextual-help"
+        ]
+      ]
+    },
+    {
+      "flow_id": "manage-library",
+      "flow_name": "Manage Video Library",
+      "unique_patterns": [
+        "card-layout",
+        "search-prominent",
+        "filter-facets",
+        "notification-badge",
+        "lazy-loading",
+        "progress-indicator",
+        "contextual-help"
+      ],
+      "pattern_combinations": [
+        [
+          "card-layout",
+          "filter-facets"
+        ],
+        [
+          "card-layout",
+          "lazy-loading"
+        ],
+        [
+          "filter-facets",
+          "lazy-loading"
+        ]
+      ]
+    },
+    {
+      "flow_id": "share-recording",
+      "flow_name": "Share Recording",
+      "unique_patterns": [
+        "share-button",
+        "single-primary-cta",
+        "toggle-selection",
+        "contextual-help",
+        "progressive-disclosure"
+      ],
+      "pattern_combinations": []
+    }
+  ]
+}

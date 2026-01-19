@@ -30,7 +30,7 @@ This atlas compares common user flows across applications.
 
 **Flow Type:** `onboarding`
 
-**Found in 9 app(s):** 1Password, Duolingo, Figma, Headspace, Linear, Notion, Robinhood, Stripe, Vercel
+**Found in 12 app(s):** 1Password, Arc Browser, Duolingo, Figma, Headspace, Linear, Notion, Railway, Robinhood, Stripe, Superhuman, Vercel
 
 ### Implementations
 
@@ -41,6 +41,14 @@ This atlas compares common user flows across applications.
 **Business Goal:** Ensure proper security foundation and reduce support burden from lockouts
 
 **Path:** Trial signup or account creation → User reaches empty vault ready to add first item
+
+#### Arc Browser
+
+**User Goal:** Download Arc and learn its unique interface paradigm
+
+**Business Goal:** Convert website visitors into active Arc users and guide them through the learning curve
+
+**Path:** Landing page visit → Completed setup with at least one Space configured
 
 #### Duolingo
 
@@ -82,6 +90,14 @@ This atlas compares common user flows across applications.
 
 **Path:** Sign-up completion → User reaches their first workspace with initial content
 
+#### Railway
+
+**User Goal:** Get from landing page to first successful deployment
+
+**Business Goal:** Maximize activation rate by minimizing time-to-first-deploy
+
+**Path:** Landing page or GitHub OAuth callback → Successful first deployment with running service
+
 #### Robinhood
 
 **User Goal:** Create an account and start investing as quickly as possible
@@ -97,6 +113,14 @@ This atlas compares common user flows across applications.
 **Business Goal:** Collect compliance information
 
 **Path:** First login after signup → Account activated
+
+#### Superhuman
+
+**User Goal:** Learn Superhuman's keyboard-first workflow
+
+**Business Goal:** Ensure user success through personalized training
+
+**Path:** Account activation → Complete training session
 
 #### Vercel
 
@@ -252,11 +276,163 @@ This atlas compares common user flows across applications.
 
 ---
 
+## Daily Browsing Workflow
+
+**Flow Type:** `core-browsing`
+
+**Found in 1 app(s):** Arc Browser
+
+### Implementations
+
+#### Arc Browser
+
+**User Goal:** Browse the web efficiently with minimal tab chaos
+
+**Business Goal:** Prove Arc's productivity benefits through daily usage superiority
+
+**Path:** Opening Arc or clicking external link → Closing Arc or switching to another app
+
+---
+
+## Context Switching with Spaces
+
+**Flow Type:** `context-management`
+
+**Found in 1 app(s):** Arc Browser
+
+### Implementations
+
+#### Arc Browser
+
+**User Goal:** Maintain separate browsing contexts for different life areas
+
+**Business Goal:** Create switching costs that increase Arc loyalty and demonstrate unique value
+
+**Path:** Creating a new Space or switching between existing Spaces → Settled into appropriate Space for current task
+
+---
+
+## Split View Multitasking
+
+**Flow Type:** `multitasking`
+
+**Found in 1 app(s):** Arc Browser
+
+### Implementations
+
+#### Arc Browser
+
+**User Goal:** Work with multiple pages simultaneously without window management
+
+**Business Goal:** Position Arc as essential for knowledge work and productivity
+
+**Path:** Need to view two pages side-by-side → Task completed or split closed
+
+---
+
+## Command Bar Navigation
+
+**Flow Type:** `navigation`
+
+**Found in 1 app(s):** Arc Browser
+
+### Implementations
+
+#### Arc Browser
+
+**User Goal:** Quickly find and navigate to content without mouse interaction
+
+**Business Goal:** Train users on keyboard-centric workflow that increases efficiency and Arc loyalty
+
+**Path:** Pressing Cmd+T or clicking URL area → Navigating to destination or dismissing bar
+
+---
+
+## Little Arc Quick Lookup
+
+**Flow Type:** `quick-tasks`
+
+**Found in 1 app(s):** Arc Browser
+
+### Implementations
+
+#### Arc Browser
+
+**User Goal:** Look something up quickly without adding to tab clutter
+
+**Business Goal:** Demonstrate Arc's thoughtful approach to tab management and hygiene
+
+**Path:** Clicking external link or invoking Little Arc manually → Closing Little Arc or promoting to full tab
+
+---
+
+## Easel Content Capture and Organization
+
+**Flow Type:** `content-capture`
+
+**Found in 1 app(s):** Arc Browser
+
+### Implementations
+
+#### Arc Browser
+
+**User Goal:** Capture, annotate, and organize web research visually
+
+**Business Goal:** Expand Arc's value proposition into knowledge management
+
+**Path:** Creating new Easel or capturing content to existing Easel → Completed visual organization or shared Easel
+
+---
+
+## Boost Website Customization
+
+**Flow Type:** `customization`
+
+**Found in 1 app(s):** Arc Browser
+
+### Implementations
+
+#### Arc Browser
+
+**User Goal:** Fix or improve a website's appearance and usability
+
+**Business Goal:** Increase user investment and community engagement through personalization
+
+**Path:** Wanting to change a website's appearance → Boost created and applied
+
+---
+
+## Settings and Preferences Configuration
+
+**Flow Type:** `configuration`
+
+**Found in 2 app(s):** Arc Browser, Railway
+
+### Implementations
+
+#### Arc Browser
+
+**User Goal:** Configure Arc to match personal workflow and preferences
+
+**Business Goal:** Enable power user customization while maintaining approachability
+
+**Path:** Opening Settings via menu or keyboard shortcut → Configuration complete
+
+#### Railway
+
+**User Goal:** Manage environment variables and project settings
+
+**Business Goal:** Enable proper configuration management for production readiness
+
+**Path:** Variables tab or Settings menu → Saved configuration with redeployed services
+
+---
+
 ## Landing Page
 
 **Flow Type:** `landing`
 
-**Found in 7 app(s):** Cal.com, Duolingo, Figma, Headspace, Linear, Stripe, Vercel
+**Found in 8 app(s):** Cal.com, Duolingo, Figma, Headspace, Linear, Stripe, Superhuman, Vercel
 
 ### Implementations
 
@@ -307,6 +483,14 @@ This atlas compares common user flows across applications.
 **Business Goal:** Convert visitors to signup or sales
 
 **Path:** Direct URL or marketing → Click 'Start now' or 'Contact sales'
+
+#### Superhuman
+
+**User Goal:** Understand Superhuman's value for email productivity
+
+**Business Goal:** Convert visitors to waitlist signup
+
+**Path:** Direct URL or marketing campaign → Click 'Get Superhuman'
 
 #### Vercel
 
@@ -790,6 +974,112 @@ This atlas compares common user flows across applications.
 
 ---
 
+## Marketing to Sign-up
+
+**Flow Type:** `marketing-to-signup`
+
+**Found in 3 app(s):** Loom, Slack, Zapier
+
+### Implementations
+
+#### Loom
+
+**User Goal:** Learn about Loom and decide to create an account
+
+**Business Goal:** Convert website visitors to registered users
+
+**Path:** Landing page or marketing campaign → Account creation completion
+
+#### Slack
+
+**User Goal:** Learn about Slack and decide to create an account
+
+**Business Goal:** Convert website visitors to registered users
+
+**Path:** Landing page or marketing campaign → Account creation completion
+
+#### Zapier
+
+**User Goal:** Understand Zapier's value proposition and create an account
+
+**Business Goal:** Convert website visitors to registered users
+
+**Path:** Homepage or marketing landing page → Account created and onboarding begins
+
+---
+
+## Create Recording
+
+**Flow Type:** `create-recording`
+
+**Found in 1 app(s):** Loom
+
+### Implementations
+
+#### Loom
+
+**User Goal:** Record and share a video message quickly
+
+**Business Goal:** Drive video creation and establish sharing habit
+
+**Path:** Browser extension click, desktop app, or web dashboard → Video link copied and ready to share
+
+---
+
+## View Recording
+
+**Flow Type:** `view-recording`
+
+**Found in 1 app(s):** Loom
+
+### Implementations
+
+#### Loom
+
+**User Goal:** Watch a shared video and provide feedback
+
+**Business Goal:** Enable engagement and demonstrate video value to potential new users
+
+**Path:** Shared Loom link from email, Slack, or other channel → Video watched, reaction/comment added, or viewer signs up
+
+---
+
+## Manage Video Library
+
+**Flow Type:** `manage-library`
+
+**Found in 1 app(s):** Loom
+
+### Implementations
+
+#### Loom
+
+**User Goal:** Find, organize, and analyze previously recorded videos
+
+**Business Goal:** Drive re-engagement and showcase analytics value
+
+**Path:** Dashboard navigation or notification about video activity → User finds desired video or creates new recording
+
+---
+
+## Share Recording
+
+**Flow Type:** `share-recording`
+
+**Found in 1 app(s):** Loom
+
+### Implementations
+
+#### Loom
+
+**User Goal:** Distribute video through appropriate channels with proper access controls
+
+**Business Goal:** Maximize video reach and track distribution
+
+**Path:** Share button on video player or library → Link shared via copy, email, Slack, or embed
+
+---
+
 ## Page Creation
 
 **Flow Type:** `page-creation`
@@ -823,6 +1113,122 @@ This atlas compares common user flows across applications.
 **Business Goal:** Accelerate time-to-value and showcase platform capabilities
 
 **Path:** Templates button or template gallery → Template applied to user's workspace
+
+---
+
+## Service Deployment Flow
+
+**Flow Type:** `deployment`
+
+**Found in 2 app(s):** Railway, Vercel
+
+### Implementations
+
+#### Railway
+
+**User Goal:** Deploy new code or service to the platform
+
+**Business Goal:** Make deployment so easy users prefer Railway over alternatives
+
+**Path:** New Service button on canvas or GitHub push → Running deployment with accessible URL
+
+#### Vercel
+
+**User Goal:** Review deployment status and logs
+
+**Business Goal:** Enable self-serve debugging
+
+**Path:** Click deployment from project → Visit preview URL or promote to production
+
+---
+
+## Template Marketplace Deployment
+
+**Flow Type:** `template-deployment`
+
+**Found in 1 app(s):** Railway
+
+### Implementations
+
+#### Railway
+
+**User Goal:** Deploy a pre-configured application stack without manual setup
+
+**Business Goal:** Reduce time-to-value and showcase platform capabilities
+
+**Path:** Template marketplace or direct template link → Fully configured project with all services running
+
+---
+
+## Database Provisioning Flow
+
+**Flow Type:** `database-setup`
+
+**Found in 1 app(s):** Railway
+
+### Implementations
+
+#### Railway
+
+**User Goal:** Create a managed database and connect it to my application
+
+**Business Goal:** Increase platform stickiness through data service adoption
+
+**Path:** Add Database button on canvas → Running database with connection string in environment variables
+
+---
+
+## Log Debugging Flow
+
+**Flow Type:** `debugging`
+
+**Found in 1 app(s):** Railway
+
+### Implementations
+
+#### Railway
+
+**User Goal:** Diagnose and fix issues with running services
+
+**Business Goal:** Enable self-service debugging to reduce support burden
+
+**Path:** Logs tab or deployment failure notification → Identified issue with clear path to resolution
+
+---
+
+## Project Canvas Management
+
+**Flow Type:** `project-management`
+
+**Found in 1 app(s):** Railway
+
+### Implementations
+
+#### Railway
+
+**User Goal:** Visualize and manage complex multi-service architectures
+
+**Business Goal:** Demonstrate value of Railway for growing infrastructure
+
+**Path:** Project dashboard after login → Organized canvas with all services visible
+
+---
+
+## Usage and Billing Flow
+
+**Flow Type:** `billing`
+
+**Found in 1 app(s):** Railway
+
+### Implementations
+
+#### Railway
+
+**User Goal:** Understand and control infrastructure spending
+
+**Business Goal:** Build trust through transparency and prevent bill shock
+
+**Path:** Usage menu item or spending alert → Clear understanding of costs with optional spending limits set
 
 ---
 
@@ -942,24 +1348,6 @@ This atlas compares common user flows across applications.
 
 ---
 
-## Marketing to Sign-up
-
-**Flow Type:** `marketing-to-signup`
-
-**Found in 1 app(s):** Slack
-
-### Implementations
-
-#### Slack
-
-**User Goal:** Learn about Slack and decide to create an account
-
-**Business Goal:** Convert website visitors to registered users
-
-**Path:** Landing page or marketing campaign → Account creation completion
-
----
-
 ## Workspace Onboarding
 
 **Flow Type:** `workspace-onboarding`
@@ -1044,7 +1432,7 @@ This atlas compares common user flows across applications.
 
 **Flow Type:** `settings`
 
-**Found in 2 app(s):** Slack, Vercel
+**Found in 3 app(s):** Slack, Superhuman, Vercel
 
 ### Implementations
 
@@ -1055,6 +1443,14 @@ This atlas compares common user flows across applications.
 **Business Goal:** Prevent notification fatigue and churn while maintaining engagement
 
 **Path:** Preferences menu or notification overflow → Settings saved and preferences applied
+
+#### Superhuman
+
+**User Goal:** Customize Superhuman experience
+
+**Business Goal:** Enable personalization for retention
+
+**Path:** Cmd+, or settings menu → Return to inbox
 
 #### Vercel
 
@@ -1171,6 +1567,114 @@ This atlas compares common user flows across applications.
 **Business Goal:** Maximize payment conversion
 
 **Path:** Merchant checkout redirect → Payment complete
+
+---
+
+## Waitlist Signup
+
+**Flow Type:** `waitlist`
+
+**Found in 1 app(s):** Superhuman
+
+### Implementations
+
+#### Superhuman
+
+**User Goal:** Request access to Superhuman
+
+**Business Goal:** Capture qualified leads and build exclusivity
+
+**Path:** Click CTA on landing page → Confirmation of waitlist status
+
+---
+
+## Inbox Management
+
+**Flow Type:** `inbox`
+
+**Found in 1 app(s):** Superhuman
+
+### Implementations
+
+#### Superhuman
+
+**User Goal:** Process email efficiently and reach inbox zero
+
+**Business Goal:** Drive daily engagement and demonstrate speed value
+
+**Path:** Login or app launch → Inbox zero or session end
+
+---
+
+## Email Composition
+
+**Flow Type:** `compose`
+
+**Found in 1 app(s):** Superhuman
+
+### Implementations
+
+#### Superhuman
+
+**User Goal:** Write and send emails quickly
+
+**Business Goal:** Enable fast communication throughput
+
+**Path:** Press 'c' or click Compose → Email sent or saved as draft
+
+---
+
+## Command Palette
+
+**Flow Type:** `command`
+
+**Found in 1 app(s):** Superhuman
+
+### Implementations
+
+#### Superhuman
+
+**User Goal:** Execute any action without leaving keyboard
+
+**Business Goal:** Enable power-user efficiency and differentiation
+
+**Path:** Press Cmd+K → Action executed or palette dismissed
+
+---
+
+## Email Triage
+
+**Flow Type:** `triage`
+
+**Found in 1 app(s):** Superhuman
+
+### Implementations
+
+#### Superhuman
+
+**User Goal:** Make quick decisions on each email
+
+**Business Goal:** Prove productivity value through fast processing
+
+**Path:** Select email in inbox → Email archived, snoozed, or replied
+
+---
+
+## Keyboard Shortcuts Help
+
+**Flow Type:** `help`
+
+**Found in 1 app(s):** Superhuman
+
+### Implementations
+
+#### Superhuman
+
+**User Goal:** Learn or remember keyboard shortcuts
+
+**Business Goal:** Train users toward power-user behavior
+
+**Path:** Press '?' or access from menu → Close help panel
 
 ---
 
@@ -1300,24 +1804,6 @@ This atlas compares common user flows across applications.
 
 ---
 
-## Deployment Detail
-
-**Flow Type:** `deployment`
-
-**Found in 1 app(s):** Vercel
-
-### Implementations
-
-#### Vercel
-
-**User Goal:** Review deployment status and logs
-
-**Business Goal:** Enable self-serve debugging
-
-**Path:** Click deployment from project → Visit preview URL or promote to production
-
----
-
 ## Preview Deployment Review
 
 **Flow Type:** `preview`
@@ -1369,6 +1855,96 @@ This atlas compares common user flows across applications.
 **Business Goal:** Convert to paid plans and qualify enterprise
 
 **Path:** Pricing link from nav or upgrade prompt → Select plan or contact sales
+
+---
+
+## App Discovery
+
+**Flow Type:** `app-discovery`
+
+**Found in 1 app(s):** Zapier
+
+### Implementations
+
+#### Zapier
+
+**User Goal:** Find apps that integrate with Zapier or discover new integration possibilities
+
+**Business Goal:** Showcase integration breadth and inspire automation ideas
+
+**Path:** App directory link or search → User selects an app to view integrations or starts creating a Zap
+
+---
+
+## Zap Creation
+
+**Flow Type:** `zap-creation`
+
+**Found in 1 app(s):** Zapier
+
+### Implementations
+
+#### Zapier
+
+**User Goal:** Create a working automation that connects two or more apps
+
+**Business Goal:** Activate users by getting them to create their first successful Zap
+
+**Path:** Create Zap button or template selection → Zap is tested, turned on, and running
+
+---
+
+## Zap Management
+
+**Flow Type:** `zap-management`
+
+**Found in 1 app(s):** Zapier
+
+### Implementations
+
+#### Zapier
+
+**User Goal:** Monitor, edit, and organize existing automations
+
+**Business Goal:** Drive ongoing engagement and expansion of automation usage
+
+**Path:** Dashboard or Zaps navigation → User completes management task (edit, toggle, organize)
+
+---
+
+## Pricing Evaluation
+
+**Flow Type:** `pricing-evaluation`
+
+**Found in 1 app(s):** Zapier
+
+### Implementations
+
+#### Zapier
+
+**User Goal:** Understand pricing and determine the right plan for their needs
+
+**Business Goal:** Convert free users to paid plans and upsell to higher tiers
+
+**Path:** Pricing link or upgrade prompt → User selects a plan or starts a trial
+
+---
+
+## Template Discovery
+
+**Flow Type:** `template-discovery`
+
+**Found in 1 app(s):** Zapier
+
+### Implementations
+
+#### Zapier
+
+**User Goal:** Find and use pre-built automations to save setup time
+
+**Business Goal:** Accelerate time-to-value and reduce activation friction
+
+**Path:** Templates gallery or recommended templates → Template customized and Zap activated
 
 ---
 

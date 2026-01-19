@@ -1,0 +1,43 @@
+{
+  "app_id": "railway",
+  "name": "Railway",
+  "category": "developer-tools",
+  "subcategory": "infrastructure-deployment",
+  "platforms": ["web", "cli"],
+  "url": "https://railway.app",
+  "analysis_date": "2026-01-19",
+  "version_analyzed": "2.0",
+  "company": "Railway Corporation",
+  "founded": 2020,
+  "headquarters": "San Francisco, CA",
+  "tagline": "Instant deployments, effortless scale",
+  "why_interesting": [
+    "Pioneered the canvas-based project visualization paradigm for infrastructure management",
+    "Template marketplace democratizes deployment patterns and best practices",
+    "Radical pricing transparency with real-time usage estimation and spend tracking",
+    "Zero-config deployment philosophy reduces cognitive overhead for developers",
+    "Service graph visualization makes complex microservice architectures comprehensible",
+    "Environment-first design treats staging/production as first-class concepts",
+    "Progressive disclosure of complexity - simple by default, powerful when needed",
+    "Exceptional developer experience through thoughtful CLI and GitHub integration"
+  ],
+  "target_users": [
+    "Individual developers building side projects",
+    "Startup engineering teams seeking fast deployment",
+    "DevOps engineers managing microservice architectures",
+    "Backend developers needing managed databases",
+    "Full-stack developers deploying complete applications"
+  ],
+  "key_competitors": ["Vercel", "Render", "Fly.io", "Heroku", "DigitalOcean App Platform"],
+  "monthly_active_users_estimate": "500K+",
+  "notable_features": [
+    "Project canvas with service visualization",
+    "One-click template deployments",
+    "Managed PostgreSQL, MySQL, Redis, MongoDB",
+    "Real-time log streaming",
+    "Automatic HTTPS and custom domains",
+    "Environment variable management with inheritance",
+    "GitHub integration with preview deployments",
+    "Usage-based pricing with spending controls"
+  ]
+}

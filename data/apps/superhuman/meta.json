@@ -1,0 +1,17 @@
+{
+  "app_id": "superhuman",
+  "name": "Superhuman",
+  "category": "productivity",
+  "platforms": ["web", "ios", "android", "desktop"],
+  "url": "https://superhuman.com",
+  "analyzed_version": "2024",
+  "analysis_date": "2026-01-19",
+  "why_interesting": [
+    "Speed as core design principle - every interaction under 100ms",
+    "Keyboard-first interface with comprehensive shortcuts for all actions",
+    "Premium onboarding with mandatory 1-on-1 training session",
+    "Command palette (Cmd+K) as primary navigation paradigm",
+    "Split inbox for automated email triage and categorization",
+    "Pioneered the 'premium email client' category at $30/month"
+  ]
+}

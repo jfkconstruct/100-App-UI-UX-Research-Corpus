@@ -1,0 +1,340 @@
+{
+  "app_id": "superhuman",
+  "total_screens": 10,
+  "patterns": [
+    {
+      "pattern_id": "contextual-help",
+      "pattern_name": "Contextual Help",
+      "frequency": 8,
+      "percentage": 80,
+      "avg_heuristics": {
+        "clarity": 4.8,
+        "cognitive_load": 3.9,
+        "visual_hierarchy": 4.6,
+        "feedback": 4.4,
+        "accessibility": 3.6,
+        "conversion_strength": 3.9
+      },
+      "screens": [
+        "onboarding-01",
+        "inbox-01",
+        "compose-01",
+        "command-palette-01",
+        "split-inbox-01",
+        "shortcuts-01",
+        "settings-01",
+        "triage-01"
+      ]
+    },
+    {
+      "pattern_id": "progressive-disclosure",
+      "pattern_name": "Progressive Disclosure",
+      "frequency": 5,
+      "percentage": 50,
+      "avg_heuristics": {
+        "clarity": 4.6,
+        "cognitive_load": 3.8,
+        "visual_hierarchy": 4.4,
+        "feedback": 4,
+        "accessibility": 3.8,
+        "conversion_strength": 3.6
+      },
+      "screens": [
+        "waitlist-01",
+        "command-palette-01",
+        "split-inbox-01",
+        "shortcuts-01",
+        "settings-01"
+      ]
+    },
+    {
+      "pattern_id": "smart-defaults",
+      "pattern_name": "Smart Defaults",
+      "frequency": 5,
+      "percentage": 50,
+      "avg_heuristics": {
+        "clarity": 4.6,
+        "cognitive_load": 4,
+        "visual_hierarchy": 4.6,
+        "feedback": 4.4,
+        "accessibility": 3.8,
+        "conversion_strength": 4
+      },
+      "screens": [
+        "onboarding-01",
+        "compose-01",
+        "split-inbox-01",
+        "settings-01",
+        "triage-01"
+      ]
+    },
+    {
+      "pattern_id": "single-primary-cta",
+      "pattern_name": "Single Primary CTA",
+      "frequency": 4,
+      "percentage": 40,
+      "avg_heuristics": {
+        "clarity": 5,
+        "cognitive_load": 4.8,
+        "visual_hierarchy": 5,
+        "feedback": 4,
+        "accessibility": 4,
+        "conversion_strength": 4.5
+      },
+      "screens": [
+        "landing-01",
+        "waitlist-01",
+        "onboarding-01",
+        "compose-01"
+      ]
+    },
+    {
+      "pattern_id": "inline-validation",
+      "pattern_name": "Inline Validation",
+      "frequency": 4,
+      "percentage": 40,
+      "avg_heuristics": {
+        "clarity": 4.5,
+        "cognitive_load": 4.3,
+        "visual_hierarchy": 4.5,
+        "feedback": 4.3,
+        "accessibility": 4,
+        "conversion_strength": 3.8
+      },
+      "screens": [
+        "waitlist-01",
+        "compose-01",
+        "split-inbox-01",
+        "settings-01"
+      ]
+    },
+    {
+      "pattern_id": "search-prominent",
+      "pattern_name": "Prominent Search",
+      "frequency": 2,
+      "percentage": 20,
+      "avg_heuristics": {
+        "clarity": 5,
+        "cognitive_load": 3.5,
+        "visual_hierarchy": 4.5,
+        "feedback": 4,
+        "accessibility": 3.5,
+        "conversion_strength": 3.5
+      },
+      "screens": [
+        "inbox-01",
+        "shortcuts-01"
+      ]
+    },
+    {
+      "pattern_id": "card-layout",
+      "pattern_name": "Card Layout",
+      "frequency": 2,
+      "percentage": 20,
+      "avg_heuristics": {
+        "clarity": 5,
+        "cognitive_load": 3.5,
+        "visual_hierarchy": 4.5,
+        "feedback": 4,
+        "accessibility": 3.5,
+        "conversion_strength": 3.5
+      },
+      "screens": [
+        "inbox-01",
+        "shortcuts-01"
+      ]
+    },
+    {
+      "pattern_id": "search-autocomplete",
+      "pattern_name": "Search Autocomplete",
+      "frequency": 2,
+      "percentage": 20,
+      "avg_heuristics": {
+        "clarity": 5,
+        "cognitive_load": 4.5,
+        "visual_hierarchy": 5,
+        "feedback": 5,
+        "accessibility": 3.5,
+        "conversion_strength": 4
+      },
+      "screens": [
+        "compose-01",
+        "command-palette-01"
+      ]
+    },
+    {
+      "pattern_id": "benefit-oriented-headline",
+      "pattern_name": "Benefit-Oriented Headline",
+      "frequency": 1,
+      "percentage": 10,
+      "avg_heuristics": {
+        "clarity": 5,
+        "cognitive_load": 5,
+        "visual_hierarchy": 5,
+        "feedback": 3,
+        "accessibility": 4,
+        "conversion_strength": 5
+      },
+      "screens": [
+        "landing-01"
+      ]
+    },
+    {
+      "pattern_id": "hero-illustration",
+      "pattern_name": "Hero Illustration",
+      "frequency": 1,
+      "percentage": 10,
+      "avg_heuristics": {
+        "clarity": 5,
+        "cognitive_load": 5,
+        "visual_hierarchy": 5,
+        "feedback": 3,
+        "accessibility": 4,
+        "conversion_strength": 5
+      },
+      "screens": [
+        "landing-01"
+      ]
+    },
+    {
+      "pattern_id": "social-proof",
+      "pattern_name": "Social Proof",
+      "frequency": 1,
+      "percentage": 10,
+      "avg_heuristics": {
+        "clarity": 5,
+        "cognitive_load": 5,
+        "visual_hierarchy": 5,
+        "feedback": 3,
+        "accessibility": 4,
+        "conversion_strength": 5
+      },
+      "screens": [
+        "landing-01"
+      ]
+    },
+    {
+      "pattern_id": "progress-indicator",
+      "pattern_name": "Progress Indicator",
+      "frequency": 1,
+      "percentage": 10,
+      "avg_heuristics": {
+        "clarity": 5,
+        "cognitive_load": 4,
+        "visual_hierarchy": 5,
+        "feedback": 4,
+        "accessibility": 4,
+        "conversion_strength": 5
+      },
+      "screens": [
+        "onboarding-01"
+      ]
+    }
+  ],
+  "flows": [
+    {
+      "flow_id": "landing",
+      "flow_name": "Landing Page",
+      "unique_patterns": [
+        "single-primary-cta",
+        "benefit-oriented-headline",
+        "hero-illustration",
+        "social-proof"
+      ],
+      "pattern_combinations": []
+    },
+    {
+      "flow_id": "waitlist",
+      "flow_name": "Waitlist Signup",
+      "unique_patterns": [
+        "single-primary-cta",
+        "inline-validation",
+        "progressive-disclosure",
+        "exclusivity-signal"
+      ],
+      "pattern_combinations": []
+    },
+    {
+      "flow_id": "onboarding",
+      "flow_name": "1-on-1 Onboarding",
+      "unique_patterns": [
+        "progress-indicator",
+        "single-primary-cta",
+        "contextual-help",
+        "smart-defaults"
+      ],
+      "pattern_combinations": []
+    },
+    {
+      "flow_id": "inbox",
+      "flow_name": "Inbox Management",
+      "unique_patterns": [
+        "search-prominent",
+        "card-layout",
+        "contextual-help",
+        "split-inbox",
+        "keyboard-first",
+        "smart-defaults",
+        "progressive-disclosure",
+        "inline-validation"
+      ],
+      "pattern_combinations": []
+    },
+    {
+      "flow_id": "compose",
+      "flow_name": "Email Composition",
+      "unique_patterns": [
+        "single-primary-cta",
+        "smart-defaults",
+        "inline-validation",
+        "search-autocomplete",
+        "contextual-help"
+      ],
+      "pattern_combinations": []
+    },
+    {
+      "flow_id": "command",
+      "flow_name": "Command Palette",
+      "unique_patterns": [
+        "search-autocomplete",
+        "progressive-disclosure",
+        "contextual-help",
+        "keyboard-first"
+      ],
+      "pattern_combinations": []
+    },
+    {
+      "flow_id": "triage",
+      "flow_name": "Email Triage",
+      "unique_patterns": [
+        "contextual-help",
+        "smart-defaults",
+        "undo-capability",
+        "keyboard-first"
+      ],
+      "pattern_combinations": []
+    },
+    {
+      "flow_id": "help",
+      "flow_name": "Keyboard Shortcuts Help",
+      "unique_patterns": [
+        "search-prominent",
+        "card-layout",
+        "contextual-help",
+        "progressive-disclosure"
+      ],
+      "pattern_combinations": []
+    },
+    {
+      "flow_id": "settings",
+      "flow_name": "Settings",
+      "unique_patterns": [
+        "smart-defaults",
+        "progressive-disclosure",
+        "contextual-help",
+        "inline-validation"
+      ],
+      "pattern_combinations": []
+    }
+  ]
+}
