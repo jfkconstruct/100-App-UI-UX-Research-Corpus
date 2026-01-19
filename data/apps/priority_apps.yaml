@@ -1,0 +1,167 @@
+# Priority Apps for Analysis
+# Curated list of 20 high-value apps to analyze first
+# Selected for: UX innovation, pattern diversity, accessible landing pages
+
+# =============================================================================
+# TIER 1: Must-Analyze (Exceptional UX, High Pattern Density)
+# =============================================================================
+
+tier_1:
+  - app_id: notion
+    priority: 1
+    rationale: "Best-in-class onboarding, progressive disclosure, information architecture"
+    key_patterns: [onboarding, empty-states, progressive-disclosure, templates]
+    capture_difficulty: low
+
+  - app_id: duolingo
+    priority: 2
+    rationale: "Gamification masterclass, habit formation, engagement loops"
+    key_patterns: [gamification, progress-indicators, streaks, rewards]
+    capture_difficulty: low
+
+  - app_id: linear
+    priority: 3
+    rationale: "Speed-first design, command palette, keyboard shortcuts"
+    key_patterns: [command-palette, keyboard-first, minimal-ui, focused-workflows]
+    capture_difficulty: low
+
+  - app_id: stripe
+    priority: 4
+    rationale: "Developer UX excellence, documentation integration, complex made simple"
+    key_patterns: [developer-onboarding, progressive-disclosure, dashboard, docs-integration]
+    capture_difficulty: low
+
+  - app_id: figma
+    priority: 5
+    rationale: "Collaborative design, real-time multiplayer, tool discoverability"
+    key_patterns: [collaboration, multiplayer-cursors, tool-panels, templates]
+    capture_difficulty: low
+
+# =============================================================================
+# TIER 2: High-Value (Strong UX, Diverse Patterns)
+# =============================================================================
+
+tier_2:
+  - app_id: airbnb
+    priority: 6
+    rationale: "Search-first design, trust signals, booking flow"
+    key_patterns: [search-filters, trust-signals, booking-flow, imagery]
+    capture_difficulty: low
+
+  - app_id: spotify
+    priority: 7
+    rationale: "Personalization, discovery, cross-device experience"
+    key_patterns: [personalization, discovery, continuous-play, playlists]
+    capture_difficulty: medium
+
+  - app_id: canva
+    priority: 8
+    rationale: "Non-designer onboarding, template-first, drag-and-drop"
+    key_patterns: [template-gallery, drag-drop, asset-library, quick-actions]
+    capture_difficulty: low
+
+  - app_id: slack
+    priority: 9
+    rationale: "Team onboarding, notification management, search in context"
+    key_patterns: [workspace-setup, threads, notifications, search]
+    capture_difficulty: medium
+
+  - app_id: vercel
+    priority: 10
+    rationale: "Zero-config deployment, preview URLs, developer dashboard"
+    key_patterns: [git-integration, deploy-preview, dashboard, pricing-tiers]
+    capture_difficulty: low
+
+# =============================================================================
+# TIER 3: Pattern-Specific (Each excels in specific patterns)
+# =============================================================================
+
+tier_3:
+  - app_id: typeform
+    priority: 11
+    rationale: "Conversational UI, one-question-at-a-time, engagement"
+    key_patterns: [conversational-form, focus-mode, progress-bar, branching]
+    capture_difficulty: low
+
+  - app_id: cal-com
+    priority: 12
+    rationale: "Booking flow optimization, calendar integration, open-source"
+    key_patterns: [scheduling, calendar-picker, time-slots, confirmation]
+    capture_difficulty: low
+
+  - app_id: headspace
+    priority: 13
+    rationale: "Meditation onboarding, habit building, playful design"
+    key_patterns: [habit-building, progress-tracking, animations, subscription]
+    capture_difficulty: low
+
+  - app_id: robinhood
+    priority: 14
+    rationale: "Simplified trading, data visualization, real-time updates"
+    key_patterns: [data-viz, real-time, simplified-complex, gamification-caution]
+    capture_difficulty: medium
+
+  - app_id: 1password
+    priority: 15
+    rationale: "Security UX, vault organization, browser extension"
+    key_patterns: [security-ux, vault-organization, auto-fill, family-sharing]
+    capture_difficulty: medium
+
+# =============================================================================
+# TIER 4: Category Representatives (Cover remaining pattern categories)
+# =============================================================================
+
+tier_4:
+  - app_id: zapier
+    priority: 16
+    rationale: "No-code automation, visual workflow builder"
+    key_patterns: [no-code, visual-builder, integrations, trigger-action]
+    capture_difficulty: low
+
+  - app_id: loom
+    priority: 17
+    rationale: "Async video, instant sharing, timeline comments"
+    key_patterns: [screen-recording, instant-share, timeline-comments, reactions]
+    capture_difficulty: low
+
+  - app_id: superhuman
+    priority: 18
+    rationale: "Keyboard-first email, speed optimization, premium onboarding"
+    key_patterns: [keyboard-shortcuts, speed-focus, premium-onboarding, email-triage]
+    capture_difficulty: high
+
+  - app_id: arc
+    priority: 19
+    rationale: "Browser reimagined, spaces, vertical tabs"
+    key_patterns: [vertical-tabs, spaces, split-view, command-bar]
+    capture_difficulty: medium
+
+  - app_id: railway
+    priority: 20
+    rationale: "Infrastructure visualization, template marketplace, pricing clarity"
+    key_patterns: [canvas-visualization, templates, pricing-transparency, logs]
+    capture_difficulty: low
+
+# =============================================================================
+# Summary Statistics
+# =============================================================================
+
+summary:
+  total_priority_apps: 20
+  capture_difficulty:
+    low: 13
+    medium: 5
+    high: 2
+  categories_covered:
+    - productivity
+    - education
+    - design
+    - finance
+    - entertainment
+    - communication
+    - developer-tools
+    - health-fitness
+    - security
+    - automation
+  estimated_screens: 60-100
+  recommended_start: "tier_1 apps (1-5) for immediate high-value analysis"
