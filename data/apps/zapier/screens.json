@@ -1,0 +1,312 @@
+[
+  {
+    "screen_id": "landing-01",
+    "app_id": "zapier",
+    "flow_id": "marketing-to-signup",
+    "step_index": 0,
+    "image_path": "data/raw_screens/zapier/landing/01-homepage.png",
+    "screen_type": "landing",
+    "layout_type": "full-screen",
+    "primary_user_goal": "Understand what Zapier does and how it can help automate work",
+    "primary_business_goal": "Convert visitors to sign-ups by demonstrating automation value",
+    "primary_cta_label": "Start free with email",
+    "secondary_cta_labels": ["Start free with Google", "Explore features", "See pricing"],
+    "navigation_elements": ["top-nav", "product-dropdown", "solutions-dropdown", "resources-dropdown", "pricing-link"],
+    "copy_summary": "Hero headline 'Automate without limits' with subheadline explaining how Zapier connects apps and automates workflows. Animated product demo showing real integrations. Social proof with customer logos and integration count (6,000+ apps).",
+    "patterns": [
+      "benefit-oriented-headline",
+      "hero-illustration",
+      "social-proof",
+      "single-primary-cta",
+      "animated-product-demo"
+    ],
+    "heuristics": {
+      "clarity": 4.5,
+      "cognitive_load": 4.0,
+      "visual_hierarchy": 4.5,
+      "feedback": 3.5,
+      "accessibility": 4.0,
+      "conversion_strength": 4.5
+    },
+    "notes": "Strong landing page with clear value proposition. The animated demo showing actual integrations is highly effective at communicating the product's purpose. Dual sign-up CTAs (email and Google) reduce friction. Social proof with recognizable logos builds trust. The 6,000+ apps statistic is prominently displayed. Could potentially overwhelm with information below the fold, but above-fold messaging is focused."
+  },
+  {
+    "screen_id": "app-directory-01",
+    "app_id": "zapier",
+    "flow_id": "app-discovery",
+    "step_index": 0,
+    "image_path": "data/raw_screens/zapier/app-directory/01-browse.png",
+    "screen_type": "gallery",
+    "layout_type": "grid",
+    "primary_user_goal": "Find specific apps or discover new integrations",
+    "primary_business_goal": "Showcase breadth of integrations and inspire automation ideas",
+    "primary_cta_label": "",
+    "secondary_cta_labels": ["View integrations", "Try it"],
+    "navigation_elements": ["search-prominent", "category-filters", "popularity-sort", "breadcrumbs"],
+    "copy_summary": "App directory with prominent search bar, category sidebar (Marketing, Sales, CRM, etc.), and grid of app cards showing logo, name, description, and integration count. Featured apps section highlights popular integrations.",
+    "patterns": [
+      "search-prominent",
+      "filter-facets",
+      "card-layout",
+      "lazy-loading",
+      "popularity-indicators"
+    ],
+    "heuristics": {
+      "clarity": 4.5,
+      "cognitive_load": 3.5,
+      "visual_hierarchy": 4.0,
+      "feedback": 4.0,
+      "accessibility": 4.0,
+      "conversion_strength": 4.0
+    },
+    "notes": "Excellent discoverability for 6,000+ apps. Search is prominently placed and fast with autocomplete. Category filters help users browse by use case. Integration count on each app card provides social proof. The sheer number of apps could be overwhelming, but the filtering and search make it manageable. Popular apps are surfaced effectively."
+  },
+  {
+    "screen_id": "zap-editor-trigger-01",
+    "app_id": "zapier",
+    "flow_id": "zap-creation",
+    "step_index": 0,
+    "image_path": "data/raw_screens/zapier/zap-editor/01-trigger-selection.png",
+    "screen_type": "form",
+    "layout_type": "split-view",
+    "primary_user_goal": "Select the trigger app and event that starts the automation",
+    "primary_business_goal": "Guide users through Zap creation with clear first step",
+    "primary_cta_label": "Continue",
+    "secondary_cta_labels": ["Change trigger"],
+    "navigation_elements": ["step-indicator", "app-search", "back-button", "help-panel"],
+    "copy_summary": "Trigger configuration panel with 'When this happens...' framing. App selector with search, recently used apps, and popular apps. Event dropdown showing available triggers for selected app (e.g., 'New Email', 'New Attachment').",
+    "patterns": [
+      "progressive-disclosure",
+      "multi-step-form",
+      "search-prominent",
+      "contextual-help",
+      "smart-defaults"
+    ],
+    "heuristics": {
+      "clarity": 4.5,
+      "cognitive_load": 4.0,
+      "visual_hierarchy": 4.5,
+      "feedback": 4.0,
+      "accessibility": 4.0,
+      "conversion_strength": 4.0
+    },
+    "notes": "Excellent progressive disclosure - only shows relevant options for selected app. The 'When this happens...' framing makes trigger concept intuitive for non-technical users. Recently used apps speed up repeat Zap creation. Event descriptions are clear and action-oriented. The split view keeps context visible while configuring. Help panel provides guidance without cluttering main UI."
+  },
+  {
+    "screen_id": "zap-editor-trigger-02",
+    "app_id": "zapier",
+    "flow_id": "zap-creation",
+    "step_index": 1,
+    "image_path": "data/raw_screens/zapier/zap-editor/02-trigger-account.png",
+    "screen_type": "authentication",
+    "layout_type": "modal",
+    "primary_user_goal": "Connect account for the trigger app securely",
+    "primary_business_goal": "Establish app connections while building trust",
+    "primary_cta_label": "Sign in to [App]",
+    "secondary_cta_labels": ["Choose another account", "Learn about permissions"],
+    "navigation_elements": ["back-button", "close-modal"],
+    "copy_summary": "Account connection modal explaining what permissions Zapier needs. Shows connected accounts if any exist, with option to add new. Security messaging about data handling and OAuth flow explanation.",
+    "patterns": [
+      "progressive-disclosure",
+      "trust-indicators",
+      "inline-validation",
+      "contextual-help"
+    ],
+    "heuristics": {
+      "clarity": 4.0,
+      "cognitive_load": 4.0,
+      "visual_hierarchy": 4.0,
+      "feedback": 4.5,
+      "accessibility": 4.0,
+      "conversion_strength": 3.5
+    },
+    "notes": "Critical trust-building moment handled well. Clear explanation of permissions needed. Previously connected accounts shown for quick selection. Security messaging reassures users about data safety. OAuth flow is standard but permissions request could be clearer about exactly what Zapier can access. The step feels necessary but adds friction to the flow."
+  },
+  {
+    "screen_id": "zap-editor-action-01",
+    "app_id": "zapier",
+    "flow_id": "zap-creation",
+    "step_index": 2,
+    "image_path": "data/raw_screens/zapier/zap-editor/03-action-config.png",
+    "screen_type": "form",
+    "layout_type": "split-view",
+    "primary_user_goal": "Configure what action should happen when trigger fires",
+    "primary_business_goal": "Enable powerful automations while maintaining simplicity",
+    "primary_cta_label": "Continue",
+    "secondary_cta_labels": ["Add another action", "Add filter"],
+    "navigation_elements": ["step-indicator", "workflow-canvas", "field-mapper", "help-panel"],
+    "copy_summary": "Action configuration with 'Then do this...' framing. Field mapping interface showing available data from trigger (e.g., sender email, subject, body). Dropdown fields with data pills that can be inserted. Required vs optional field indicators.",
+    "patterns": [
+      "progressive-disclosure",
+      "multi-step-form",
+      "inline-validation",
+      "contextual-help",
+      "drag-and-drop",
+      "data-mapping"
+    ],
+    "heuristics": {
+      "clarity": 4.0,
+      "cognitive_load": 3.5,
+      "visual_hierarchy": 4.0,
+      "feedback": 4.5,
+      "accessibility": 3.5,
+      "conversion_strength": 4.0
+    },
+    "notes": "This is where Zapier's UX truly shines. The field mapping with data pills is intuitive - users can see exactly what data flows from trigger to action. Progressive disclosure shows only relevant fields. Required fields are clearly marked. The visual workflow representation provides context. Cognitive load is moderate due to complexity but well-managed. Could improve accessibility of drag-and-drop interactions."
+  },
+  {
+    "screen_id": "zap-editor-test-01",
+    "app_id": "zapier",
+    "flow_id": "zap-creation",
+    "step_index": 3,
+    "image_path": "data/raw_screens/zapier/zap-editor/04-test-zap.png",
+    "screen_type": "preview",
+    "layout_type": "split-view",
+    "primary_user_goal": "Verify the Zap works correctly before turning it on",
+    "primary_business_goal": "Build confidence and reduce support requests from broken Zaps",
+    "primary_cta_label": "Test step",
+    "secondary_cta_labels": ["Skip test", "Retest"],
+    "navigation_elements": ["step-indicator", "test-results-panel", "back-button"],
+    "copy_summary": "Test interface showing sample trigger data and preview of action output. Clear success/failure states with detailed error messages if something goes wrong. Option to test with real or sample data.",
+    "patterns": [
+      "inline-validation",
+      "progressive-disclosure",
+      "contextual-help",
+      "success-confirmation",
+      "error-recovery"
+    ],
+    "heuristics": {
+      "clarity": 4.5,
+      "cognitive_load": 4.0,
+      "visual_hierarchy": 4.0,
+      "feedback": 5.0,
+      "accessibility": 4.0,
+      "conversion_strength": 4.5
+    },
+    "notes": "Testing is crucial for automation confidence and Zapier handles it excellently. Real data preview shows exactly what will happen. Success/failure states are unmistakable. Error messages are actionable with suggestions for fixes. The 'Skip test' option respects user autonomy while encouraging testing. This step significantly reduces broken Zaps and support burden."
+  },
+  {
+    "screen_id": "dashboard-01",
+    "app_id": "zapier",
+    "flow_id": "zap-management",
+    "step_index": 0,
+    "image_path": "data/raw_screens/zapier/dashboard/01-zap-list.png",
+    "screen_type": "dashboard",
+    "layout_type": "list",
+    "primary_user_goal": "View, manage, and monitor all active Zaps",
+    "primary_business_goal": "Drive engagement and help users expand automation usage",
+    "primary_cta_label": "Create Zap",
+    "secondary_cta_labels": ["View history", "Edit", "Turn off"],
+    "navigation_elements": ["sidebar-nav", "search-filter", "folder-tree", "status-filter"],
+    "copy_summary": "Zap dashboard showing list of automations with status indicators (on/off), last run time, task usage, and quick actions. Folder organization for grouping related Zaps. Usage metrics showing tasks consumed this billing period.",
+    "patterns": [
+      "card-layout",
+      "search-prominent",
+      "filter-facets",
+      "status-indicators",
+      "quick-actions"
+    ],
+    "heuristics": {
+      "clarity": 4.5,
+      "cognitive_load": 4.0,
+      "visual_hierarchy": 4.5,
+      "feedback": 4.5,
+      "accessibility": 4.0,
+      "conversion_strength": 4.0
+    },
+    "notes": "Clean dashboard that scales from few to hundreds of Zaps. Status indicators are immediately visible. Folder organization helps power users stay organized. Task usage display keeps users aware of billing. Quick actions (edit, toggle, delete) are accessible without opening each Zap. The 'Create Zap' CTA is always visible. Search and filters handle large Zap libraries well."
+  },
+  {
+    "screen_id": "pricing-01",
+    "app_id": "zapier",
+    "flow_id": "pricing-evaluation",
+    "step_index": 0,
+    "image_path": "data/raw_screens/zapier/pricing/01-plans.png",
+    "screen_type": "pricing",
+    "layout_type": "comparison-grid",
+    "primary_user_goal": "Understand pricing options and choose appropriate plan",
+    "primary_business_goal": "Convert free users to paid and upsell to higher tiers",
+    "primary_cta_label": "Start free trial",
+    "secondary_cta_labels": ["Contact sales", "Compare all features"],
+    "navigation_elements": ["plan-toggle-monthly-annual", "feature-comparison", "faq-section"],
+    "copy_summary": "Pricing page with Free, Starter, Professional, Team, and Company tiers. Each plan shows task limits, multi-step Zap availability, premium apps access, and key features. Annual discount toggle prominent. Task-based pricing explained with examples.",
+    "patterns": [
+      "comparison-table",
+      "progressive-disclosure",
+      "social-proof",
+      "trust-indicators",
+      "pricing-anchor"
+    ],
+    "heuristics": {
+      "clarity": 4.0,
+      "cognitive_load": 3.5,
+      "visual_hierarchy": 4.0,
+      "feedback": 3.5,
+      "accessibility": 4.0,
+      "conversion_strength": 4.5
+    },
+    "notes": "Pricing is complex (task-based) but explained reasonably well. The free tier is generous enough to demonstrate value. Professional tier is visually highlighted as recommended. Annual toggle with savings percentage encourages longer commitment. Task-based pricing can be confusing for new users - could benefit from calculator or usage examples. Feature comparison helps justify higher tiers."
+  },
+  {
+    "screen_id": "templates-01",
+    "app_id": "zapier",
+    "flow_id": "template-discovery",
+    "step_index": 0,
+    "image_path": "data/raw_screens/zapier/templates/01-browse.png",
+    "screen_type": "gallery",
+    "layout_type": "grid",
+    "primary_user_goal": "Find pre-built automations to use or customize",
+    "primary_business_goal": "Accelerate time-to-value and inspire new automation ideas",
+    "primary_cta_label": "Use this Zap",
+    "secondary_cta_labels": ["Preview", "Customize"],
+    "navigation_elements": ["search-prominent", "category-filters", "app-filters", "popularity-sort"],
+    "copy_summary": "Template gallery with workflow cards showing trigger app, action app(s), description, and user count. Categories include Marketing, Sales, Support, HR, etc. App-specific filters let users find templates for apps they already use.",
+    "patterns": [
+      "card-layout",
+      "search-prominent",
+      "filter-facets",
+      "social-proof",
+      "lazy-loading"
+    ],
+    "heuristics": {
+      "clarity": 4.5,
+      "cognitive_load": 3.5,
+      "visual_hierarchy": 4.0,
+      "feedback": 4.0,
+      "accessibility": 4.0,
+      "conversion_strength": 4.5
+    },
+    "notes": "Templates are a major activation lever for Zapier. The visual showing trigger and action apps immediately communicates what the Zap does. User counts provide social proof for popular templates. Category and app filters help users find relevant templates quickly. One-click 'Use this Zap' dramatically reduces setup time. Could improve with user ratings or success metrics."
+  },
+  {
+    "screen_id": "templates-02",
+    "app_id": "zapier",
+    "flow_id": "template-discovery",
+    "step_index": 1,
+    "image_path": "data/raw_screens/zapier/templates/02-customize.png",
+    "screen_type": "form",
+    "layout_type": "wizard",
+    "primary_user_goal": "Customize template to work with personal accounts and preferences",
+    "primary_business_goal": "Convert template browsers to active Zap users",
+    "primary_cta_label": "Turn on Zap",
+    "secondary_cta_labels": ["Edit Zap", "Test"],
+    "navigation_elements": ["step-indicator", "account-selector", "field-customization"],
+    "copy_summary": "Template customization wizard showing pre-filled configuration with user's specific accounts. Highlights which fields need attention vs which are already configured. Quick setup option for users who want defaults.",
+    "patterns": [
+      "multi-step-form",
+      "progressive-disclosure",
+      "smart-defaults",
+      "inline-validation",
+      "contextual-help"
+    ],
+    "heuristics": {
+      "clarity": 4.5,
+      "cognitive_load": 4.5,
+      "visual_hierarchy": 4.5,
+      "feedback": 4.5,
+      "accessibility": 4.0,
+      "conversion_strength": 5.0
+    },
+    "notes": "Brilliant UX that makes template activation nearly effortless. Pre-filled fields reduce cognitive load dramatically. Clear indication of what needs user input vs what's ready. The ability to turn on immediately or customize further respects different user preferences. This is where templates deliver on their time-saving promise. Excellent conversion funnel from browse to active Zap."
+  }
+]

@@ -1,0 +1,467 @@
+{
+  "app_id": "slack",
+  "total_screens": 10,
+  "patterns": [
+    {
+      "pattern_id": "contextual-help",
+      "pattern_name": "Contextual Help",
+      "frequency": 5,
+      "percentage": 50,
+      "avg_heuristics": {
+        "clarity": 4.3,
+        "cognitive_load": 3.8,
+        "visual_hierarchy": 4.2,
+        "feedback": 4.2,
+        "accessibility": 4,
+        "conversion_strength": 3.9
+      },
+      "screens": [
+        "workspace-invite-01",
+        "channel-view-01",
+        "thread-view-01",
+        "search-01",
+        "notifications-01"
+      ]
+    },
+    {
+      "pattern_id": "user-avatar",
+      "pattern_name": "User Avatar",
+      "frequency": 4,
+      "percentage": 40,
+      "avg_heuristics": {
+        "clarity": 4.4,
+        "cognitive_load": 4,
+        "visual_hierarchy": 4.3,
+        "feedback": 4.5,
+        "accessibility": 3.9,
+        "conversion_strength": 3.9
+      },
+      "screens": [
+        "sidebar-01",
+        "channel-view-01",
+        "thread-view-01",
+        "huddle-01"
+      ]
+    },
+    {
+      "pattern_id": "inline-validation",
+      "pattern_name": "Inline Validation",
+      "frequency": 3,
+      "percentage": 30,
+      "avg_heuristics": {
+        "clarity": 4.5,
+        "cognitive_load": 4.2,
+        "visual_hierarchy": 4.2,
+        "feedback": 4,
+        "accessibility": 4.2,
+        "conversion_strength": 4
+      },
+      "screens": [
+        "workspace-create-01",
+        "workspace-invite-01",
+        "notifications-01"
+      ]
+    },
+    {
+      "pattern_id": "search-prominent",
+      "pattern_name": "Prominent Search",
+      "frequency": 3,
+      "percentage": 30,
+      "avg_heuristics": {
+        "clarity": 4.2,
+        "cognitive_load": 3.5,
+        "visual_hierarchy": 4,
+        "feedback": 4.2,
+        "accessibility": 3.8,
+        "conversion_strength": 3.8
+      },
+      "screens": [
+        "sidebar-01",
+        "search-01",
+        "integrations-01"
+      ]
+    },
+    {
+      "pattern_id": "single-primary-cta",
+      "pattern_name": "Single Primary CTA",
+      "frequency": 2,
+      "percentage": 20,
+      "avg_heuristics": {
+        "clarity": 4.8,
+        "cognitive_load": 4.5,
+        "visual_hierarchy": 4.5,
+        "feedback": 3.8,
+        "accessibility": 4.3,
+        "conversion_strength": 4.3
+      },
+      "screens": [
+        "landing-01",
+        "workspace-create-01"
+      ]
+    },
+    {
+      "pattern_id": "social-proof",
+      "pattern_name": "Social Proof",
+      "frequency": 2,
+      "percentage": 20,
+      "avg_heuristics": {
+        "clarity": 4.5,
+        "cognitive_load": 3.8,
+        "visual_hierarchy": 4.3,
+        "feedback": 3.5,
+        "accessibility": 4,
+        "conversion_strength": 4.5
+      },
+      "screens": [
+        "landing-01",
+        "integrations-01"
+      ]
+    },
+    {
+      "pattern_id": "hamburger-menu",
+      "pattern_name": "Hamburger Menu",
+      "frequency": 2,
+      "percentage": 20,
+      "avg_heuristics": {
+        "clarity": 4.3,
+        "cognitive_load": 3.8,
+        "visual_hierarchy": 4.3,
+        "feedback": 4,
+        "accessibility": 3.8,
+        "conversion_strength": 4
+      },
+      "screens": [
+        "landing-01",
+        "sidebar-01"
+      ]
+    },
+    {
+      "pattern_id": "progress-indicator",
+      "pattern_name": "Progress Indicator",
+      "frequency": 2,
+      "percentage": 20,
+      "avg_heuristics": {
+        "clarity": 4.8,
+        "cognitive_load": 4.5,
+        "visual_hierarchy": 4.3,
+        "feedback": 4,
+        "accessibility": 4.3,
+        "conversion_strength": 4.3
+      },
+      "screens": [
+        "workspace-create-01",
+        "workspace-invite-01"
+      ]
+    },
+    {
+      "pattern_id": "minimal-navigation",
+      "pattern_name": "Minimal Navigation",
+      "frequency": 2,
+      "percentage": 20,
+      "avg_heuristics": {
+        "clarity": 4.8,
+        "cognitive_load": 4.8,
+        "visual_hierarchy": 4.3,
+        "feedback": 4.5,
+        "accessibility": 4.3,
+        "conversion_strength": 4
+      },
+      "screens": [
+        "workspace-create-01",
+        "huddle-01"
+      ]
+    },
+    {
+      "pattern_id": "comment-thread",
+      "pattern_name": "Comment Thread",
+      "frequency": 2,
+      "percentage": 20,
+      "avg_heuristics": {
+        "clarity": 4.5,
+        "cognitive_load": 4,
+        "visual_hierarchy": 4.5,
+        "feedback": 4.3,
+        "accessibility": 4,
+        "conversion_strength": 4
+      },
+      "screens": [
+        "channel-view-01",
+        "thread-view-01"
+      ]
+    },
+    {
+      "pattern_id": "toast-notification",
+      "pattern_name": "Toast Notification",
+      "frequency": 2,
+      "percentage": 20,
+      "avg_heuristics": {
+        "clarity": 4.5,
+        "cognitive_load": 4.3,
+        "visual_hierarchy": 4.3,
+        "feedback": 4.8,
+        "accessibility": 4,
+        "conversion_strength": 4
+      },
+      "screens": [
+        "channel-view-01",
+        "huddle-01"
+      ]
+    },
+    {
+      "pattern_id": "filter-facets",
+      "pattern_name": "Filter Facets",
+      "frequency": 2,
+      "percentage": 20,
+      "avg_heuristics": {
+        "clarity": 4.3,
+        "cognitive_load": 3.5,
+        "visual_hierarchy": 4,
+        "feedback": 4,
+        "accessibility": 4,
+        "conversion_strength": 4
+      },
+      "screens": [
+        "search-01",
+        "integrations-01"
+      ]
+    },
+    {
+      "pattern_id": "benefit-oriented-headline",
+      "pattern_name": "Benefit-Oriented Headline",
+      "frequency": 1,
+      "percentage": 10,
+      "avg_heuristics": {
+        "clarity": 4.5,
+        "cognitive_load": 4,
+        "visual_hierarchy": 4.5,
+        "feedback": 3.5,
+        "accessibility": 4,
+        "conversion_strength": 4.5
+      },
+      "screens": [
+        "landing-01"
+      ]
+    },
+    {
+      "pattern_id": "hero-illustration",
+      "pattern_name": "Hero Illustration",
+      "frequency": 1,
+      "percentage": 10,
+      "avg_heuristics": {
+        "clarity": 4.5,
+        "cognitive_load": 4,
+        "visual_hierarchy": 4.5,
+        "feedback": 3.5,
+        "accessibility": 4,
+        "conversion_strength": 4.5
+      },
+      "screens": [
+        "landing-01"
+      ]
+    },
+    {
+      "pattern_id": "notification-badge",
+      "pattern_name": "Notification Badge",
+      "frequency": 1,
+      "percentage": 10,
+      "avg_heuristics": {
+        "clarity": 4,
+        "cognitive_load": 3.5,
+        "visual_hierarchy": 4,
+        "feedback": 4.5,
+        "accessibility": 3.5,
+        "conversion_strength": 3.5
+      },
+      "screens": [
+        "sidebar-01"
+      ]
+    },
+    {
+      "pattern_id": "lazy-loading",
+      "pattern_name": "Lazy Loading",
+      "frequency": 1,
+      "percentage": 10,
+      "avg_heuristics": {
+        "clarity": 4.5,
+        "cognitive_load": 4,
+        "visual_hierarchy": 4.5,
+        "feedback": 4.5,
+        "accessibility": 4,
+        "conversion_strength": 4
+      },
+      "screens": [
+        "channel-view-01"
+      ]
+    },
+    {
+      "pattern_id": "search-autocomplete",
+      "pattern_name": "Search Autocomplete",
+      "frequency": 1,
+      "percentage": 10,
+      "avg_heuristics": {
+        "clarity": 4,
+        "cognitive_load": 3.5,
+        "visual_hierarchy": 4,
+        "feedback": 4.5,
+        "accessibility": 4,
+        "conversion_strength": 3.5
+      },
+      "screens": [
+        "search-01"
+      ]
+    },
+    {
+      "pattern_id": "progressive-disclosure",
+      "pattern_name": "Progressive Disclosure",
+      "frequency": 1,
+      "percentage": 10,
+      "avg_heuristics": {
+        "clarity": 4,
+        "cognitive_load": 3.5,
+        "visual_hierarchy": 4,
+        "feedback": 4,
+        "accessibility": 4,
+        "conversion_strength": 3.5
+      },
+      "screens": [
+        "notifications-01"
+      ]
+    },
+    {
+      "pattern_id": "smart-defaults",
+      "pattern_name": "Smart Defaults",
+      "frequency": 1,
+      "percentage": 10,
+      "avg_heuristics": {
+        "clarity": 4,
+        "cognitive_load": 3.5,
+        "visual_hierarchy": 4,
+        "feedback": 4,
+        "accessibility": 4,
+        "conversion_strength": 3.5
+      },
+      "screens": [
+        "notifications-01"
+      ]
+    },
+    {
+      "pattern_id": "card-layout",
+      "pattern_name": "Card Layout",
+      "frequency": 1,
+      "percentage": 10,
+      "avg_heuristics": {
+        "clarity": 4.5,
+        "cognitive_load": 3.5,
+        "visual_hierarchy": 4,
+        "feedback": 3.5,
+        "accessibility": 4,
+        "conversion_strength": 4.5
+      },
+      "screens": [
+        "integrations-01"
+      ]
+    }
+  ],
+  "flows": [
+    {
+      "flow_id": "marketing-to-signup",
+      "flow_name": "Marketing to Sign-up",
+      "unique_patterns": [
+        "benefit-oriented-headline",
+        "hero-illustration",
+        "single-primary-cta",
+        "social-proof",
+        "hamburger-menu"
+      ],
+      "pattern_combinations": []
+    },
+    {
+      "flow_id": "workspace-onboarding",
+      "flow_name": "Workspace Onboarding",
+      "unique_patterns": [
+        "progress-indicator",
+        "single-primary-cta",
+        "inline-validation",
+        "minimal-navigation",
+        "contextual-help",
+        "skip-option"
+      ],
+      "pattern_combinations": [
+        [
+          "inline-validation",
+          "progress-indicator"
+        ]
+      ]
+    },
+    {
+      "flow_id": "daily-usage",
+      "flow_name": "Daily Usage",
+      "unique_patterns": [
+        "notification-badge",
+        "hamburger-menu",
+        "search-prominent",
+        "collapsible-sections",
+        "user-avatar",
+        "comment-thread",
+        "contextual-help",
+        "toast-notification",
+        "lazy-loading"
+      ],
+      "pattern_combinations": []
+    },
+    {
+      "flow_id": "thread-interaction",
+      "flow_name": "Thread Interaction",
+      "unique_patterns": [
+        "comment-thread",
+        "user-avatar",
+        "split-view",
+        "contextual-help"
+      ],
+      "pattern_combinations": []
+    },
+    {
+      "flow_id": "search",
+      "flow_name": "Search",
+      "unique_patterns": [
+        "search-prominent",
+        "search-autocomplete",
+        "filter-facets",
+        "contextual-help"
+      ],
+      "pattern_combinations": []
+    },
+    {
+      "flow_id": "settings",
+      "flow_name": "Notification Settings",
+      "unique_patterns": [
+        "progressive-disclosure",
+        "contextual-help",
+        "smart-defaults",
+        "inline-validation"
+      ],
+      "pattern_combinations": []
+    },
+    {
+      "flow_id": "integrations",
+      "flow_name": "App Integrations",
+      "unique_patterns": [
+        "card-layout",
+        "search-prominent",
+        "filter-facets",
+        "social-proof"
+      ],
+      "pattern_combinations": []
+    },
+    {
+      "flow_id": "huddle",
+      "flow_name": "Huddle",
+      "unique_patterns": [
+        "user-avatar",
+        "toast-notification",
+        "minimal-navigation"
+      ],
+      "pattern_combinations": []
+    }
+  ]
+}

@@ -1,0 +1,271 @@
+[
+  {
+    "screen_id": "landing-01",
+    "app_id": "stripe",
+    "flow_id": "landing",
+    "step_index": 0,
+    "image_path": "data/raw_screens/stripe/landing/01-homepage.png",
+    "screen_type": "landing",
+    "layout_type": "hero-cta",
+    "primary_user_goal": "Understand Stripe's payment infrastructure offering",
+    "primary_business_goal": "Convert developers and businesses to start integration",
+    "primary_cta_label": "Start now",
+    "secondary_cta_labels": ["Contact sales"],
+    "navigation_elements": ["top-nav", "logo", "search-prominent"],
+    "copy_summary": "Bold headline 'Financial infrastructure for the internet' with animated gradient background. Company logos showing scale. Clean navigation to Products, Solutions, Developers, Resources.",
+    "patterns": [
+      "single-primary-cta",
+      "benefit-oriented-headline",
+      "hero-illustration",
+      "social-proof"
+    ],
+    "heuristics": {
+      "clarity": 5,
+      "cognitive_load": 4,
+      "visual_hierarchy": 5,
+      "feedback": 3,
+      "accessibility": 4,
+      "conversion_strength": 5
+    },
+    "notes": "The gradient animation is distinctive and memorable. 'Financial infrastructure' positions Stripe as foundational, not just a tool. Company logos (Amazon, Google, etc.) provide massive social proof. Two clear paths: self-serve and sales-assisted."
+  },
+  {
+    "screen_id": "landing-02",
+    "app_id": "stripe",
+    "flow_id": "landing",
+    "step_index": 1,
+    "image_path": "data/raw_screens/stripe/landing/02-products.png",
+    "screen_type": "features",
+    "layout_type": "grid",
+    "primary_user_goal": "Understand the product suite and find relevant solutions",
+    "primary_business_goal": "Showcase breadth of offerings and enable self-qualification",
+    "primary_cta_label": "",
+    "secondary_cta_labels": [],
+    "navigation_elements": ["sticky-cta"],
+    "copy_summary": "Product grid: Payments, Billing, Connect, Radar, Atlas, etc. Each with icon, name, and one-line description.",
+    "patterns": [
+      "card-layout",
+      "progressive-disclosure",
+      "filter-facets"
+    ],
+    "heuristics": {
+      "clarity": 5,
+      "cognitive_load": 3,
+      "visual_hierarchy": 4,
+      "feedback": 3,
+      "accessibility": 4,
+      "conversion_strength": 4
+    },
+    "notes": "The product complexity is managed through clean categorization. Each product has its own page for deep dives. Icons help differentiate products quickly. This is progressive disclosure done well."
+  },
+  {
+    "screen_id": "docs-01",
+    "app_id": "stripe",
+    "flow_id": "docs",
+    "step_index": 0,
+    "image_path": "data/raw_screens/stripe/docs/01-overview.png",
+    "screen_type": "documentation",
+    "layout_type": "three-column",
+    "primary_user_goal": "Learn how to integrate Stripe",
+    "primary_business_goal": "Enable self-serve integration and reduce support burden",
+    "primary_cta_label": "Get your API keys",
+    "secondary_cta_labels": [],
+    "navigation_elements": ["sidebar", "search-prominent", "breadcrumbs"],
+    "copy_summary": "Documentation overview with getting started guide, API reference sidebar, and code examples. Language selector for code samples.",
+    "patterns": [
+      "search-prominent",
+      "progressive-disclosure",
+      "contextual-help",
+      "breadcrumbs"
+    ],
+    "heuristics": {
+      "clarity": 5,
+      "cognitive_load": 4,
+      "visual_hierarchy": 5,
+      "feedback": 4,
+      "accessibility": 4,
+      "conversion_strength": 5
+    },
+    "notes": "Stripe's documentation is legendary. Code-first approach with working examples. Language selector respects developer preference. The three-column layout allows navigation while reading content."
+  },
+  {
+    "screen_id": "docs-02",
+    "app_id": "stripe",
+    "flow_id": "docs",
+    "step_index": 1,
+    "image_path": "data/raw_screens/stripe/docs/02-quickstart.png",
+    "screen_type": "tutorial",
+    "layout_type": "two-column",
+    "primary_user_goal": "Complete first integration quickly",
+    "primary_business_goal": "Get developers to first successful API call",
+    "primary_cta_label": "Create account",
+    "secondary_cta_labels": [],
+    "navigation_elements": ["progress-indicator", "sidebar"],
+    "copy_summary": "Step-by-step quickstart: Install SDK, Add API key, Create checkout session, Test payment. Copy-paste code blocks with syntax highlighting.",
+    "patterns": [
+      "progress-indicator",
+      "contextual-help",
+      "single-primary-cta",
+      "smart-defaults"
+    ],
+    "heuristics": {
+      "clarity": 5,
+      "cognitive_load": 4,
+      "visual_hierarchy": 5,
+      "feedback": 5,
+      "accessibility": 4,
+      "conversion_strength": 5
+    },
+    "notes": "The quickstart is optimized for time-to-first-payment. Code is copy-pasteable. Test mode keys provided immediately. Each step has clear success criteria."
+  },
+  {
+    "screen_id": "dashboard-01",
+    "app_id": "stripe",
+    "flow_id": "dashboard",
+    "step_index": 0,
+    "image_path": "data/raw_screens/stripe/dashboard/01-home.png",
+    "screen_type": "dashboard",
+    "layout_type": "card-grid",
+    "primary_user_goal": "Monitor payments and business health",
+    "primary_business_goal": "Provide actionable insights and drive feature adoption",
+    "primary_cta_label": "",
+    "secondary_cta_labels": [],
+    "navigation_elements": ["sidebar", "search-prominent", "notification-badge"],
+    "copy_summary": "Dashboard home showing gross volume, successful payments, new customers. Quick actions and recent activity. Test/Live mode toggle prominent.",
+    "patterns": [
+      "card-layout",
+      "search-prominent",
+      "notification-badge",
+      "contextual-help"
+    ],
+    "heuristics": {
+      "clarity": 5,
+      "cognitive_load": 4,
+      "visual_hierarchy": 5,
+      "feedback": 4,
+      "accessibility": 4,
+      "conversion_strength": 4
+    },
+    "notes": "Test/Live mode toggle is prominent - critical for developers. Key metrics immediately visible. The card-based layout makes different data types scannable. Onboarding checklist for new accounts."
+  },
+  {
+    "screen_id": "dashboard-02",
+    "app_id": "stripe",
+    "flow_id": "dashboard",
+    "step_index": 1,
+    "image_path": "data/raw_screens/stripe/dashboard/02-payments.png",
+    "screen_type": "list",
+    "layout_type": "table",
+    "primary_user_goal": "View and manage payment transactions",
+    "primary_business_goal": "Enable transaction management and issue resolution",
+    "primary_cta_label": "Create payment",
+    "secondary_cta_labels": ["Export"],
+    "navigation_elements": ["sidebar", "filter-facets", "search-prominent"],
+    "copy_summary": "Payments table with status, amount, customer, date columns. Filters for status, date range, amount. Quick actions on each row.",
+    "patterns": [
+      "filter-facets",
+      "search-prominent",
+      "card-layout",
+      "lazy-loading"
+    ],
+    "heuristics": {
+      "clarity": 5,
+      "cognitive_load": 4,
+      "visual_hierarchy": 5,
+      "feedback": 4,
+      "accessibility": 4,
+      "conversion_strength": 4
+    },
+    "notes": "Table is highly functional with sortable columns. Status badges use color effectively. Filters are comprehensive but not overwhelming. Pagination handles large datasets."
+  },
+  {
+    "screen_id": "dashboard-03",
+    "app_id": "stripe",
+    "flow_id": "dashboard",
+    "step_index": 2,
+    "image_path": "data/raw_screens/stripe/dashboard/03-payment-detail.png",
+    "screen_type": "detail",
+    "layout_type": "two-column",
+    "primary_user_goal": "Investigate specific payment and take action if needed",
+    "primary_business_goal": "Enable issue resolution and reduce support tickets",
+    "primary_cta_label": "Refund",
+    "secondary_cta_labels": ["Resend receipt"],
+    "navigation_elements": ["back-button", "breadcrumbs"],
+    "copy_summary": "Payment detail showing: Amount, status, customer info, payment method, timeline of events, metadata. Actions: Refund, capture, resend receipt.",
+    "patterns": [
+      "breadcrumbs",
+      "card-layout",
+      "contextual-help",
+      "single-primary-cta"
+    ],
+    "heuristics": {
+      "clarity": 5,
+      "cognitive_load": 4,
+      "visual_hierarchy": 5,
+      "feedback": 5,
+      "accessibility": 4,
+      "conversion_strength": 4
+    },
+    "notes": "Complete audit trail with timeline. All related objects linked (customer, invoice, etc.). Actions are contextual based on payment state. Metadata display helps debugging."
+  },
+  {
+    "screen_id": "onboarding-01",
+    "app_id": "stripe",
+    "flow_id": "onboarding",
+    "step_index": 0,
+    "image_path": "data/raw_screens/stripe/onboarding/01-account-setup.png",
+    "screen_type": "form",
+    "layout_type": "centered-card",
+    "primary_user_goal": "Complete account setup to start accepting payments",
+    "primary_business_goal": "Collect required compliance information",
+    "primary_cta_label": "Continue",
+    "secondary_cta_labels": [],
+    "navigation_elements": ["progress-indicator"],
+    "copy_summary": "Account activation form collecting: Business type, Country, Business details. Progress indicator shows steps remaining.",
+    "patterns": [
+      "progress-indicator",
+      "multi-step-form",
+      "single-primary-cta",
+      "inline-validation"
+    ],
+    "heuristics": {
+      "clarity": 5,
+      "cognitive_load": 4,
+      "visual_hierarchy": 5,
+      "feedback": 4,
+      "accessibility": 4,
+      "conversion_strength": 4
+    },
+    "notes": "Compliance requirements are complex but form breaks them into digestible steps. Inline validation prevents errors. Help text explains why information is needed. Can save progress and return."
+  },
+  {
+    "screen_id": "checkout-01",
+    "app_id": "stripe",
+    "flow_id": "checkout",
+    "step_index": 0,
+    "image_path": "data/raw_screens/stripe/checkout/01-hosted.png",
+    "screen_type": "checkout",
+    "layout_type": "two-column",
+    "primary_user_goal": "Complete purchase securely",
+    "primary_business_goal": "Maximize conversion with minimal friction",
+    "primary_cta_label": "Pay",
+    "secondary_cta_labels": [],
+    "navigation_elements": [],
+    "copy_summary": "Stripe Checkout showing order summary, payment methods (card, Apple Pay, Google Pay), email for receipt. Powered by Stripe badge.",
+    "patterns": [
+      "single-primary-cta",
+      "inline-validation",
+      "smart-defaults",
+      "input-masking"
+    ],
+    "heuristics": {
+      "clarity": 5,
+      "cognitive_load": 4,
+      "visual_hierarchy": 5,
+      "feedback": 5,
+      "accessibility": 5,
+      "conversion_strength": 5
+    },
+    "notes": "Stripe Checkout is optimized for conversion. Multiple payment methods reduce friction. Input masking for card numbers. Real-time validation. Trust signals (Stripe badge, lock icon). Mobile-optimized."
+  }
+]

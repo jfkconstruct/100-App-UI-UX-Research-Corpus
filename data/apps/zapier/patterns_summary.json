@@ -1,0 +1,375 @@
+{
+  "app_id": "zapier",
+  "total_screens": 10,
+  "patterns": [
+    {
+      "pattern_id": "progressive-disclosure",
+      "pattern_name": "Progressive Disclosure",
+      "frequency": 6,
+      "percentage": 60,
+      "avg_heuristics": {
+        "clarity": 4.3,
+        "cognitive_load": 3.9,
+        "visual_hierarchy": 4.2,
+        "feedback": 4.3,
+        "accessibility": 3.9,
+        "conversion_strength": 4.3
+      },
+      "screens": [
+        "zap-editor-trigger-01",
+        "zap-editor-trigger-02",
+        "zap-editor-action-01",
+        "zap-editor-test-01",
+        "pricing-01",
+        "templates-02"
+      ]
+    },
+    {
+      "pattern_id": "contextual-help",
+      "pattern_name": "Contextual Help",
+      "frequency": 5,
+      "percentage": 50,
+      "avg_heuristics": {
+        "clarity": 4.3,
+        "cognitive_load": 4,
+        "visual_hierarchy": 4.2,
+        "feedback": 4.5,
+        "accessibility": 3.9,
+        "conversion_strength": 4.2
+      },
+      "screens": [
+        "zap-editor-trigger-01",
+        "zap-editor-trigger-02",
+        "zap-editor-action-01",
+        "zap-editor-test-01",
+        "templates-02"
+      ]
+    },
+    {
+      "pattern_id": "search-prominent",
+      "pattern_name": "Prominent Search",
+      "frequency": 4,
+      "percentage": 40,
+      "avg_heuristics": {
+        "clarity": 4.5,
+        "cognitive_load": 3.8,
+        "visual_hierarchy": 4.3,
+        "feedback": 4.1,
+        "accessibility": 4,
+        "conversion_strength": 4.1
+      },
+      "screens": [
+        "app-directory-01",
+        "zap-editor-trigger-01",
+        "dashboard-01",
+        "templates-01"
+      ]
+    },
+    {
+      "pattern_id": "inline-validation",
+      "pattern_name": "Inline Validation",
+      "frequency": 4,
+      "percentage": 40,
+      "avg_heuristics": {
+        "clarity": 4.3,
+        "cognitive_load": 4,
+        "visual_hierarchy": 4.1,
+        "feedback": 4.6,
+        "accessibility": 3.9,
+        "conversion_strength": 4.3
+      },
+      "screens": [
+        "zap-editor-trigger-02",
+        "zap-editor-action-01",
+        "zap-editor-test-01",
+        "templates-02"
+      ]
+    },
+    {
+      "pattern_id": "social-proof",
+      "pattern_name": "Social Proof",
+      "frequency": 3,
+      "percentage": 30,
+      "avg_heuristics": {
+        "clarity": 4.3,
+        "cognitive_load": 3.7,
+        "visual_hierarchy": 4.2,
+        "feedback": 3.7,
+        "accessibility": 4,
+        "conversion_strength": 4.5
+      },
+      "screens": [
+        "landing-01",
+        "pricing-01",
+        "templates-01"
+      ]
+    },
+    {
+      "pattern_id": "filter-facets",
+      "pattern_name": "Filter Facets",
+      "frequency": 3,
+      "percentage": 30,
+      "avg_heuristics": {
+        "clarity": 4.5,
+        "cognitive_load": 3.7,
+        "visual_hierarchy": 4.2,
+        "feedback": 4.2,
+        "accessibility": 4,
+        "conversion_strength": 4.2
+      },
+      "screens": [
+        "app-directory-01",
+        "dashboard-01",
+        "templates-01"
+      ]
+    },
+    {
+      "pattern_id": "card-layout",
+      "pattern_name": "Card Layout",
+      "frequency": 3,
+      "percentage": 30,
+      "avg_heuristics": {
+        "clarity": 4.5,
+        "cognitive_load": 3.7,
+        "visual_hierarchy": 4.2,
+        "feedback": 4.2,
+        "accessibility": 4,
+        "conversion_strength": 4.2
+      },
+      "screens": [
+        "app-directory-01",
+        "dashboard-01",
+        "templates-01"
+      ]
+    },
+    {
+      "pattern_id": "multi-step-form",
+      "pattern_name": "Multi-Step Form",
+      "frequency": 3,
+      "percentage": 30,
+      "avg_heuristics": {
+        "clarity": 4.3,
+        "cognitive_load": 4,
+        "visual_hierarchy": 4.3,
+        "feedback": 4.3,
+        "accessibility": 3.8,
+        "conversion_strength": 4.3
+      },
+      "screens": [
+        "zap-editor-trigger-01",
+        "zap-editor-action-01",
+        "templates-02"
+      ]
+    },
+    {
+      "pattern_id": "lazy-loading",
+      "pattern_name": "Lazy Loading",
+      "frequency": 2,
+      "percentage": 20,
+      "avg_heuristics": {
+        "clarity": 4.5,
+        "cognitive_load": 3.5,
+        "visual_hierarchy": 4,
+        "feedback": 4,
+        "accessibility": 4,
+        "conversion_strength": 4.3
+      },
+      "screens": [
+        "app-directory-01",
+        "templates-01"
+      ]
+    },
+    {
+      "pattern_id": "smart-defaults",
+      "pattern_name": "Smart Defaults",
+      "frequency": 2,
+      "percentage": 20,
+      "avg_heuristics": {
+        "clarity": 4.5,
+        "cognitive_load": 4.3,
+        "visual_hierarchy": 4.5,
+        "feedback": 4.3,
+        "accessibility": 4,
+        "conversion_strength": 4.5
+      },
+      "screens": [
+        "zap-editor-trigger-01",
+        "templates-02"
+      ]
+    },
+    {
+      "pattern_id": "benefit-oriented-headline",
+      "pattern_name": "Benefit-Oriented Headline",
+      "frequency": 1,
+      "percentage": 10,
+      "avg_heuristics": {
+        "clarity": 4.5,
+        "cognitive_load": 4,
+        "visual_hierarchy": 4.5,
+        "feedback": 3.5,
+        "accessibility": 4,
+        "conversion_strength": 4.5
+      },
+      "screens": [
+        "landing-01"
+      ]
+    },
+    {
+      "pattern_id": "hero-illustration",
+      "pattern_name": "Hero Illustration",
+      "frequency": 1,
+      "percentage": 10,
+      "avg_heuristics": {
+        "clarity": 4.5,
+        "cognitive_load": 4,
+        "visual_hierarchy": 4.5,
+        "feedback": 3.5,
+        "accessibility": 4,
+        "conversion_strength": 4.5
+      },
+      "screens": [
+        "landing-01"
+      ]
+    },
+    {
+      "pattern_id": "single-primary-cta",
+      "pattern_name": "Single Primary CTA",
+      "frequency": 1,
+      "percentage": 10,
+      "avg_heuristics": {
+        "clarity": 4.5,
+        "cognitive_load": 4,
+        "visual_hierarchy": 4.5,
+        "feedback": 3.5,
+        "accessibility": 4,
+        "conversion_strength": 4.5
+      },
+      "screens": [
+        "landing-01"
+      ]
+    },
+    {
+      "pattern_id": "success-confirmation",
+      "pattern_name": "Success Confirmation",
+      "frequency": 1,
+      "percentage": 10,
+      "avg_heuristics": {
+        "clarity": 4.5,
+        "cognitive_load": 4,
+        "visual_hierarchy": 4,
+        "feedback": 5,
+        "accessibility": 4,
+        "conversion_strength": 4.5
+      },
+      "screens": [
+        "zap-editor-test-01"
+      ]
+    }
+  ],
+  "flows": [
+    {
+      "flow_id": "marketing-to-signup",
+      "flow_name": "Marketing to Sign-up",
+      "unique_patterns": [
+        "benefit-oriented-headline",
+        "hero-illustration",
+        "social-proof",
+        "single-primary-cta",
+        "animated-product-demo"
+      ],
+      "pattern_combinations": []
+    },
+    {
+      "flow_id": "app-discovery",
+      "flow_name": "App Discovery",
+      "unique_patterns": [
+        "search-prominent",
+        "filter-facets",
+        "card-layout",
+        "lazy-loading",
+        "popularity-indicators"
+      ],
+      "pattern_combinations": []
+    },
+    {
+      "flow_id": "zap-creation",
+      "flow_name": "Zap Creation",
+      "unique_patterns": [
+        "progressive-disclosure",
+        "multi-step-form",
+        "search-prominent",
+        "contextual-help",
+        "smart-defaults",
+        "trust-indicators",
+        "inline-validation",
+        "drag-and-drop",
+        "data-mapping",
+        "success-confirmation",
+        "error-recovery"
+      ],
+      "pattern_combinations": [
+        [
+          "multi-step-form",
+          "progressive-disclosure"
+        ],
+        [
+          "contextual-help",
+          "progressive-disclosure"
+        ],
+        [
+          "contextual-help",
+          "multi-step-form"
+        ],
+        [
+          "inline-validation",
+          "progressive-disclosure"
+        ],
+        [
+          "contextual-help",
+          "inline-validation"
+        ]
+      ]
+    },
+    {
+      "flow_id": "zap-management",
+      "flow_name": "Zap Management",
+      "unique_patterns": [
+        "card-layout",
+        "search-prominent",
+        "filter-facets",
+        "status-indicators",
+        "quick-actions"
+      ],
+      "pattern_combinations": []
+    },
+    {
+      "flow_id": "pricing-evaluation",
+      "flow_name": "Pricing Evaluation",
+      "unique_patterns": [
+        "comparison-table",
+        "progressive-disclosure",
+        "social-proof",
+        "trust-indicators",
+        "pricing-anchor"
+      ],
+      "pattern_combinations": []
+    },
+    {
+      "flow_id": "template-discovery",
+      "flow_name": "Template Discovery",
+      "unique_patterns": [
+        "card-layout",
+        "search-prominent",
+        "filter-facets",
+        "social-proof",
+        "lazy-loading",
+        "multi-step-form",
+        "progressive-disclosure",
+        "smart-defaults",
+        "inline-validation",
+        "contextual-help"
+      ],
+      "pattern_combinations": []
+    }
+  ]
+}

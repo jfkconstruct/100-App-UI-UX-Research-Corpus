@@ -1,0 +1,261 @@
+{
+  "app_id": "typeform",
+  "total_screens": 10,
+  "patterns": [
+    {
+      "pattern_id": "progressive-disclosure",
+      "pattern_name": "Progressive Disclosure",
+      "frequency": 4,
+      "percentage": 40,
+      "avg_heuristics": {
+        "clarity": 4.8,
+        "cognitive_load": 3.5,
+        "visual_hierarchy": 4.5,
+        "feedback": 5,
+        "accessibility": 3.8,
+        "conversion_strength": 4.3
+      },
+      "screens": [
+        "typeform-form-builder",
+        "typeform-question-editor",
+        "typeform-logic-branching",
+        "typeform-respondent-experience"
+      ]
+    },
+    {
+      "pattern_id": "single-primary-cta",
+      "pattern_name": "Single Primary CTA",
+      "frequency": 2,
+      "percentage": 20,
+      "avg_heuristics": {
+        "clarity": 5,
+        "cognitive_load": 4,
+        "visual_hierarchy": 5,
+        "feedback": 4.5,
+        "accessibility": 4,
+        "conversion_strength": 4.5
+      },
+      "screens": [
+        "typeform-landing",
+        "typeform-share-publish"
+      ]
+    },
+    {
+      "pattern_id": "filter-facets",
+      "pattern_name": "Filter Facets",
+      "frequency": 2,
+      "percentage": 20,
+      "avg_heuristics": {
+        "clarity": 5,
+        "cognitive_load": 3.5,
+        "visual_hierarchy": 5,
+        "feedback": 4.5,
+        "accessibility": 4,
+        "conversion_strength": 4
+      },
+      "screens": [
+        "typeform-template-gallery",
+        "typeform-results-analytics"
+      ]
+    },
+    {
+      "pattern_id": "card-layout",
+      "pattern_name": "Card Layout",
+      "frequency": 1,
+      "percentage": 10,
+      "avg_heuristics": {
+        "clarity": 5,
+        "cognitive_load": 4,
+        "visual_hierarchy": 5,
+        "feedback": 5,
+        "accessibility": 4,
+        "conversion_strength": 4
+      },
+      "screens": [
+        "typeform-template-gallery"
+      ]
+    },
+    {
+      "pattern_id": "search-prominent",
+      "pattern_name": "Prominent Search",
+      "frequency": 1,
+      "percentage": 10,
+      "avg_heuristics": {
+        "clarity": 5,
+        "cognitive_load": 4,
+        "visual_hierarchy": 5,
+        "feedback": 5,
+        "accessibility": 4,
+        "conversion_strength": 4
+      },
+      "screens": [
+        "typeform-template-gallery"
+      ]
+    },
+    {
+      "pattern_id": "lazy-loading",
+      "pattern_name": "Lazy Loading",
+      "frequency": 1,
+      "percentage": 10,
+      "avg_heuristics": {
+        "clarity": 5,
+        "cognitive_load": 4,
+        "visual_hierarchy": 5,
+        "feedback": 5,
+        "accessibility": 4,
+        "conversion_strength": 4
+      },
+      "screens": [
+        "typeform-template-gallery"
+      ]
+    },
+    {
+      "pattern_id": "free-trial-cta",
+      "pattern_name": "Free Trial CTA",
+      "frequency": 1,
+      "percentage": 10,
+      "avg_heuristics": {
+        "clarity": 5,
+        "cognitive_load": 4,
+        "visual_hierarchy": 5,
+        "feedback": 3,
+        "accessibility": 4,
+        "conversion_strength": 5
+      },
+      "screens": [
+        "typeform-pricing"
+      ]
+    },
+    {
+      "pattern_id": "progress-indicator",
+      "pattern_name": "Progress Indicator",
+      "frequency": 1,
+      "percentage": 10,
+      "avg_heuristics": {
+        "clarity": 5,
+        "cognitive_load": 5,
+        "visual_hierarchy": 5,
+        "feedback": 5,
+        "accessibility": 4,
+        "conversion_strength": 5
+      },
+      "screens": [
+        "typeform-respondent-experience"
+      ]
+    }
+  ],
+  "flows": [
+    {
+      "flow_id": "typeform-signup-to-create",
+      "flow_name": "New User: Signup to First Form",
+      "unique_patterns": [
+        "single-primary-cta",
+        "social-proof-banner",
+        "hero-with-product-preview",
+        "use-case-grid",
+        "sticky-header",
+        "video-demo"
+      ],
+      "pattern_combinations": []
+    },
+    {
+      "flow_id": "typeform-template-to-form",
+      "flow_name": "Template to Published Form",
+      "unique_patterns": [
+        "card-layout",
+        "search-prominent",
+        "filter-facets",
+        "category-navigation",
+        "hover-preview",
+        "lazy-loading",
+        "popularity-indicators",
+        "progressive-disclosure",
+        "drag-drop-reorder",
+        "contextual-toolbar",
+        "inline-editing",
+        "auto-save",
+        "preview-mode",
+        "question-type-cards",
+        "live-preview",
+        "toggle-switches",
+        "rich-text-editor",
+        "media-upload",
+        "conversational-defaults",
+        "theme-gallery",
+        "color-picker",
+        "font-selector",
+        "background-upload",
+        "premium-themes",
+        "brand-color-extraction",
+        "single-primary-cta",
+        "copy-to-clipboard",
+        "embed-code-generator",
+        "share-options-grid",
+        "qr-code-generation",
+        "access-control",
+        "custom-domain"
+      ],
+      "pattern_combinations": [
+        [
+          "inline-editing",
+          "progressive-disclosure"
+        ]
+      ]
+    },
+    {
+      "flow_id": "typeform-advanced-form",
+      "flow_name": "Advanced Form: Logic and Personalization",
+      "unique_patterns": [
+        "flowchart-visualization",
+        "conditional-logic-builder",
+        "natural-language-conditions",
+        "visual-path-preview",
+        "progressive-disclosure",
+        "premium-badge"
+      ],
+      "pattern_combinations": []
+    },
+    {
+      "flow_id": "typeform-respondent-journey",
+      "flow_name": "Respondent: Form Completion",
+      "unique_patterns": [
+        "one-at-a-time",
+        "progressive-disclosure",
+        "keyboard-navigation",
+        "progress-indicator",
+        "smooth-transitions",
+        "conversational-copy",
+        "full-screen-focus"
+      ],
+      "pattern_combinations": []
+    },
+    {
+      "flow_id": "typeform-analyze-results",
+      "flow_name": "Analyze and Export Results",
+      "unique_patterns": [
+        "dashboard-metrics",
+        "data-visualization",
+        "filter-facets",
+        "export-options",
+        "individual-response-view",
+        "drop-off-funnel",
+        "premium-analytics"
+      ],
+      "pattern_combinations": []
+    },
+    {
+      "flow_id": "typeform-upgrade",
+      "flow_name": "Free to Paid Upgrade",
+      "unique_patterns": [
+        "pricing-comparison",
+        "annual-discount-highlight",
+        "feature-comparison-table",
+        "free-trial-cta",
+        "social-proof-banner",
+        "faq-accordion",
+        "tiered-feature-reveal"
+      ],
+      "pattern_combinations": []
+    }
+  ]
+}

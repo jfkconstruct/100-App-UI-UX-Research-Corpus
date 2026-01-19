@@ -1,0 +1,122 @@
+[
+  {
+    "flow_id": "onboarding",
+    "name": "New User Onboarding",
+    "primary_user_goal": "Get from landing page to first successful deployment",
+    "business_goal": "Maximize activation rate by minimizing time-to-first-deploy",
+    "entry_point": "Landing page or GitHub OAuth callback",
+    "exit_point": "Successful first deployment with running service",
+    "screens": ["railway-landing", "railway-project-canvas", "railway-service-deployment", "railway-deployment-detail"],
+    "estimated_completion_time": "Under 5 minutes for GitHub-connected deploy",
+    "friction_points": [
+      "GitHub OAuth permission scope may concern some users",
+      "Repository selection can be overwhelming for users with many repos"
+    ],
+    "optimization_notes": "Railway optimizes heavily for GitHub-based deployment, making this the golden path. Template deployment offers an alternative for exploration."
+  },
+  {
+    "flow_id": "deployment",
+    "name": "Service Deployment Flow",
+    "primary_user_goal": "Deploy new code or service to the platform",
+    "business_goal": "Make deployment so easy users prefer Railway over alternatives",
+    "entry_point": "New Service button on canvas or GitHub push",
+    "exit_point": "Running deployment with accessible URL",
+    "screens": ["railway-project-canvas", "railway-service-deployment", "railway-deployment-detail"],
+    "estimated_completion_time": "30 seconds for configuration, 2-5 minutes for build",
+    "friction_points": [
+      "Build failures require log inspection",
+      "Custom Dockerfile setups need more configuration"
+    ],
+    "optimization_notes": "Framework auto-detection removes most configuration decisions. Nixpacks build system handles most languages automatically."
+  },
+  {
+    "flow_id": "template-deployment",
+    "name": "Template Marketplace Deployment",
+    "primary_user_goal": "Deploy a pre-configured application stack without manual setup",
+    "business_goal": "Reduce time-to-value and showcase platform capabilities",
+    "entry_point": "Template marketplace or direct template link",
+    "exit_point": "Fully configured project with all services running",
+    "screens": ["railway-template-marketplace", "railway-service-deployment", "railway-project-canvas"],
+    "estimated_completion_time": "Under 3 minutes for most templates",
+    "friction_points": [
+      "Some templates require environment variable configuration",
+      "Complex templates may need post-deploy setup steps"
+    ],
+    "optimization_notes": "One-click deploy button minimizes friction. Templates include sensible defaults. Post-deploy instructions guide users through any required configuration."
+  },
+  {
+    "flow_id": "database-setup",
+    "name": "Database Provisioning Flow",
+    "primary_user_goal": "Create a managed database and connect it to my application",
+    "business_goal": "Increase platform stickiness through data service adoption",
+    "entry_point": "Add Database button on canvas",
+    "exit_point": "Running database with connection string in environment variables",
+    "screens": ["railway-project-canvas", "railway-database-provision", "railway-environment-variables"],
+    "estimated_completion_time": "Under 1 minute",
+    "friction_points": [
+      "Users may not understand connection string format",
+      "Data import from external databases requires manual steps"
+    ],
+    "optimization_notes": "Auto-generated connection strings with reference syntax enable zero-config database connections. Canvas visualization shows database as connected service."
+  },
+  {
+    "flow_id": "configuration",
+    "name": "Environment Configuration Flow",
+    "primary_user_goal": "Manage environment variables and project settings",
+    "business_goal": "Enable proper configuration management for production readiness",
+    "entry_point": "Variables tab or Settings menu",
+    "exit_point": "Saved configuration with redeployed services",
+    "screens": ["railway-environment-variables", "railway-project-settings"],
+    "estimated_completion_time": "2-5 minutes depending on complexity",
+    "friction_points": [
+      "Variable reference syntax has learning curve",
+      "Environment inheritance can be confusing initially"
+    ],
+    "optimization_notes": "RAW editor mode enables bulk editing. Import from .env reduces migration effort. Preview shows resolved values before deploy."
+  },
+  {
+    "flow_id": "debugging",
+    "name": "Log Debugging Flow",
+    "primary_user_goal": "Diagnose and fix issues with running services",
+    "business_goal": "Enable self-service debugging to reduce support burden",
+    "entry_point": "Logs tab or deployment failure notification",
+    "exit_point": "Identified issue with clear path to resolution",
+    "screens": ["railway-logs-viewer", "railway-deployment-detail"],
+    "estimated_completion_time": "Variable based on issue complexity",
+    "friction_points": [
+      "Log retention limits on free tier",
+      "Complex distributed issues span multiple services"
+    ],
+    "optimization_notes": "Color-coded log levels enable quick scanning. Search and filtering narrow down issues. Deployment-specific logs isolate changes."
+  },
+  {
+    "flow_id": "project-management",
+    "name": "Project Canvas Management",
+    "primary_user_goal": "Visualize and manage complex multi-service architectures",
+    "business_goal": "Demonstrate value of Railway for growing infrastructure",
+    "entry_point": "Project dashboard after login",
+    "exit_point": "Organized canvas with all services visible",
+    "screens": ["railway-project-canvas"],
+    "estimated_completion_time": "Ongoing interaction",
+    "friction_points": [
+      "Large projects can become visually cluttered",
+      "Service grouping is manual"
+    ],
+    "optimization_notes": "Zoom and pan enable navigation of complex canvases. Connection lines auto-route to minimize crossing. Service cards collapse to reduce clutter."
+  },
+  {
+    "flow_id": "billing",
+    "name": "Usage and Billing Flow",
+    "primary_user_goal": "Understand and control infrastructure spending",
+    "business_goal": "Build trust through transparency and prevent bill shock",
+    "entry_point": "Usage menu item or spending alert",
+    "exit_point": "Clear understanding of costs with optional spending limits set",
+    "screens": ["railway-pricing-usage", "railway-project-settings"],
+    "estimated_completion_time": "3-5 minutes for full review",
+    "friction_points": [
+      "Usage-based pricing can feel unpredictable initially",
+      "Service-level optimization requires technical knowledge"
+    ],
+    "optimization_notes": "Real-time cost estimation provides immediate feedback. Spending limits prevent unexpected charges. Service attribution enables targeted optimization."
+  }
+]

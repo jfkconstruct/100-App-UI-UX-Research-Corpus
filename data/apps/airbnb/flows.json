@@ -1,0 +1,42 @@
+[
+  {
+    "flow_id": "search-to-book",
+    "name": "Search to Booking",
+    "primary_user_goal": "Find and book a place to stay",
+    "business_goal": "Convert browsers into bookers with maximum revenue",
+    "entry_point": "Homepage search bar or category browsing",
+    "exit_point": "Booking confirmation with trip details",
+    "screens": [
+      "landing-01",
+      "search-results-02",
+      "listing-detail-03",
+      "photo-gallery-04",
+      "booking-dates-05",
+      "checkout-06",
+      "confirmation-07"
+    ]
+  },
+  {
+    "flow_id": "host-management",
+    "name": "Host Listing Management",
+    "primary_user_goal": "Create and manage property listings",
+    "business_goal": "Grow supply side of marketplace with quality listings",
+    "entry_point": "Host dashboard or 'Become a Host' CTA",
+    "exit_point": "Published listing or updated listing settings",
+    "screens": [
+      "host-dashboard-08",
+      "host-listing-editor-09"
+    ]
+  },
+  {
+    "flow_id": "post-stay",
+    "name": "Post-Stay Experience",
+    "primary_user_goal": "Leave feedback and plan next trip",
+    "business_goal": "Generate reviews for social proof and encourage repeat bookings",
+    "entry_point": "Post-checkout notification or email",
+    "exit_point": "Submitted review or dismissed prompt",
+    "screens": [
+      "reviews-ratings-10"
+    ]
+  }
+]

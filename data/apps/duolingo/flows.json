@@ -1,0 +1,38 @@
+[
+  {
+    "flow_id": "landing",
+    "name": "Landing Page",
+    "primary_user_goal": "Understand what Duolingo is and decide to start",
+    "business_goal": "Convert visitors to onboarding flow",
+    "entry_point": "Direct URL or marketing",
+    "exit_point": "Click 'Get started'",
+    "screens": ["landing-01"]
+  },
+  {
+    "flow_id": "onboarding",
+    "name": "Onboarding",
+    "primary_user_goal": "Set up learning preferences and complete first lesson",
+    "business_goal": "Demonstrate value before signup and convert to registered user",
+    "entry_point": "Click 'Get started' from landing",
+    "exit_point": "Account created or 'Later' clicked",
+    "screens": ["onboarding-01", "onboarding-02", "onboarding-03", "onboarding-04", "onboarding-05", "onboarding-06"]
+  },
+  {
+    "flow_id": "home",
+    "name": "Home Dashboard",
+    "primary_user_goal": "Continue learning journey and track progress",
+    "business_goal": "Drive daily engagement and lesson completion",
+    "entry_point": "Login or app open",
+    "exit_point": "Start lesson or navigate to other section",
+    "screens": ["home-01", "home-02"]
+  },
+  {
+    "flow_id": "lesson",
+    "name": "Lesson Flow",
+    "primary_user_goal": "Learn new language content through practice",
+    "business_goal": "Deliver educational value and maintain engagement",
+    "entry_point": "Tap lesson on learning path",
+    "exit_point": "Lesson complete celebration",
+    "screens": ["lesson-01", "lesson-02", "lesson-03"]
+  }
+]

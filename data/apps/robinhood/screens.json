@@ -1,0 +1,313 @@
+[
+  {
+    "screen_id": "robinhood-landing",
+    "app_id": "robinhood",
+    "flow_id": "onboarding",
+    "step_index": 0,
+    "image_path": "screens/landing.png",
+    "screen_type": "marketing_landing",
+    "layout_type": "hero_cta",
+    "primary_user_goal": "Understand what Robinhood offers and decide whether to sign up",
+    "primary_business_goal": "Convert visitors into new account signups with compelling value proposition",
+    "primary_cta_label": "Sign Up",
+    "secondary_cta_labels": ["Log In", "Learn More"],
+    "navigation_elements": ["Logo", "Products dropdown", "Learn dropdown", "Support", "Log In", "Sign Up"],
+    "copy_summary": "Bold headline emphasizing commission-free investing with messaging around democratizing finance. Features minimalist design with signature green brand color. Hero section showcases app screenshots with real-time portfolio visualization. Value props highlight $0 commissions, fractional shares, and 24/7 crypto trading.",
+    "patterns": [
+      "single-primary-cta",
+      "hero-section",
+      "social-proof",
+      "trust-badges",
+      "sticky-header"
+    ],
+    "heuristics": {
+      "clarity": 5,
+      "cognitive_load": 5,
+      "visual_hierarchy": 5,
+      "feedback": 3,
+      "accessibility": 4,
+      "conversion_strength": 5
+    },
+    "notes": "The landing page is remarkably clean compared to traditional brokerage sites. Uses bold typography and generous whitespace. The green color palette creates brand recognition. Trust elements (SIPC, FINRA) are present but not overwhelming. Mobile app screenshots serve as social proof of the product experience."
+  },
+  {
+    "screen_id": "robinhood-signup",
+    "app_id": "robinhood",
+    "flow_id": "onboarding",
+    "step_index": 1,
+    "image_path": "screens/signup.png",
+    "screen_type": "registration",
+    "layout_type": "form_focused",
+    "primary_user_goal": "Create an account quickly with minimal friction",
+    "primary_business_goal": "Capture user information and begin KYC process",
+    "primary_cta_label": "Continue",
+    "secondary_cta_labels": ["Sign in instead", "Continue with Apple", "Continue with Google"],
+    "navigation_elements": ["Back arrow", "Progress indicator"],
+    "copy_summary": "Multi-step onboarding broken into digestible chunks. Each screen asks for only 1-2 pieces of information. Friendly, conversational tone in form labels. Clear explanation of why information is needed (regulatory requirements).",
+    "patterns": [
+      "progressive-disclosure",
+      "single-input-forms",
+      "inline-validation",
+      "social-login",
+      "progress-indicator"
+    ],
+    "heuristics": {
+      "clarity": 5,
+      "cognitive_load": 4,
+      "visual_hierarchy": 5,
+      "feedback": 5,
+      "accessibility": 4,
+      "conversion_strength": 5
+    },
+    "notes": "Robinhood pioneered the one-question-per-screen approach for complex financial onboarding. Real-time validation reduces form errors. SSN collection is handled sensitively with clear security messaging. The process feels fast despite collecting significant KYC data. Apple/Google sign-in options reduce friction."
+  },
+  {
+    "screen_id": "robinhood-portfolio-home",
+    "app_id": "robinhood",
+    "flow_id": "core_experience",
+    "step_index": 0,
+    "image_path": "screens/portfolio-home.png",
+    "screen_type": "dashboard",
+    "layout_type": "data_visualization",
+    "primary_user_goal": "Check portfolio value and daily performance at a glance",
+    "primary_business_goal": "Engage users with real-time data to encourage trading activity",
+    "primary_cta_label": "Search",
+    "secondary_cta_labels": ["Deposit", "Transfer"],
+    "navigation_elements": ["Search icon", "Notifications bell", "Bottom tab bar (Home, Search, Rewards, Profile)"],
+    "copy_summary": "Dominant portfolio value display with real-time gain/loss. Interactive line chart showing performance over selectable time periods (1D, 1W, 1M, 3M, 1Y, ALL). Holdings list with individual stock performance. News feed integrated below portfolio. Buying power prominently displayed.",
+    "patterns": [
+      "card-layout",
+      "bottom-tab-bar",
+      "pull-to-refresh",
+      "real-time-updates",
+      "data-visualization",
+      "skeleton-screen",
+      "infinite-scroll"
+    ],
+    "heuristics": {
+      "clarity": 5,
+      "cognitive_load": 3,
+      "visual_hierarchy": 5,
+      "feedback": 5,
+      "accessibility": 3,
+      "conversion_strength": 4
+    },
+    "notes": "The portfolio home is the crown jewel of Robinhood's UX. The interactive chart responds to touch, showing exact values as you scrub. Green/red color coding for gains/losses is intuitive but may cause accessibility issues. Real-time updates create engagement but may encourage obsessive checking. The design deliberately surfaces volatile movements to drive engagement."
+  },
+  {
+    "screen_id": "robinhood-stock-detail",
+    "app_id": "robinhood",
+    "flow_id": "research",
+    "step_index": 1,
+    "image_path": "screens/stock-detail.png",
+    "screen_type": "detail_view",
+    "layout_type": "scrolling_detail",
+    "primary_user_goal": "Research a stock and make an informed investment decision",
+    "primary_business_goal": "Provide enough information to convert research into trades",
+    "primary_cta_label": "Trade",
+    "secondary_cta_labels": ["Add to Lists", "Set Alert", "Share"],
+    "navigation_elements": ["Back arrow", "Share icon", "Add to watchlist star"],
+    "copy_summary": "Stock ticker and company name prominently displayed. Large interactive price chart with time period selection. Key stats section (Market Cap, P/E Ratio, Dividend Yield, 52W High/Low). About section with company description. Analyst ratings visualization. News articles related to the stock. People Also Bought section for discovery.",
+    "patterns": [
+      "sticky-cta",
+      "data-visualization",
+      "card-layout",
+      "progressive-disclosure",
+      "social-proof",
+      "related-content"
+    ],
+    "heuristics": {
+      "clarity": 4,
+      "cognitive_load": 3,
+      "visual_hierarchy": 5,
+      "feedback": 4,
+      "accessibility": 3,
+      "conversion_strength": 5
+    },
+    "notes": "Robinhood simplified stock research for beginners by curating essential metrics and hiding complexity. The 'Trade' button is always visible via sticky footer, reducing friction to conversion. Analyst ratings are visualized simply (Buy/Hold/Sell bars). The 'People Also Bought' section uses social proof to drive discovery but has been criticized for encouraging herd behavior."
+  },
+  {
+    "screen_id": "robinhood-buy-flow",
+    "app_id": "robinhood",
+    "flow_id": "trading",
+    "step_index": 0,
+    "image_path": "screens/buy-flow.png",
+    "screen_type": "transaction",
+    "layout_type": "form_focused",
+    "primary_user_goal": "Purchase shares of a stock quickly and confidently",
+    "primary_business_goal": "Complete trade transactions with minimal abandonment",
+    "primary_cta_label": "Review Order",
+    "secondary_cta_labels": ["Buy in Dollars", "Buy in Shares", "Order Types"],
+    "navigation_elements": ["Close X", "Order type selector"],
+    "copy_summary": "Clean order entry interface with large numerical input. Toggle between dollar amount and share quantity. Available buying power shown. Estimated shares/cost calculated in real-time. Market/Limit order type selection. Clear order review before submission.",
+    "patterns": [
+      "single-primary-cta",
+      "inline-validation",
+      "progressive-disclosure",
+      "real-time-updates",
+      "confirmation-dialog"
+    ],
+    "heuristics": {
+      "clarity": 5,
+      "cognitive_load": 4,
+      "visual_hierarchy": 5,
+      "feedback": 5,
+      "accessibility": 4,
+      "conversion_strength": 5
+    },
+    "notes": "The buy flow is intentionally streamlined to reduce friction. Fractional shares allow dollar-based investing which is more intuitive for beginners. Order types are simplified (Market vs Limit) with educational tooltips. The review step provides a moment of reflection without being obtrusive. Post-purchase confetti animation (now optional) celebrated the action."
+  },
+  {
+    "screen_id": "robinhood-sell-flow",
+    "app_id": "robinhood",
+    "flow_id": "trading",
+    "step_index": 1,
+    "image_path": "screens/sell-flow.png",
+    "screen_type": "transaction",
+    "layout_type": "form_focused",
+    "primary_user_goal": "Sell shares and understand the financial outcome",
+    "primary_business_goal": "Facilitate smooth selling while showing estimated profit/loss",
+    "primary_cta_label": "Review Order",
+    "secondary_cta_labels": ["Sell All", "Sell in Dollars", "Sell in Shares"],
+    "navigation_elements": ["Close X", "Order type selector"],
+    "copy_summary": "Current position and average cost displayed. Estimated credit calculated in real-time. Profit/loss indicator shows impact of sale. Sell All button for quick full liquidation. Same clean interface as buy flow for consistency.",
+    "patterns": [
+      "single-primary-cta",
+      "inline-validation",
+      "confirmation-dialog",
+      "real-time-updates"
+    ],
+    "heuristics": {
+      "clarity": 5,
+      "cognitive_load": 4,
+      "visual_hierarchy": 5,
+      "feedback": 5,
+      "accessibility": 4,
+      "conversion_strength": 4
+    },
+    "notes": "Selling flow mirrors buying for consistency. The estimated profit/loss display helps users understand the outcome before confirming. 'Sell All' provides a quick exit option. Tax implications are not prominently displayed, which some consider a UX gap for financial literacy."
+  },
+  {
+    "screen_id": "robinhood-search-discover",
+    "app_id": "robinhood",
+    "flow_id": "discovery",
+    "step_index": 0,
+    "image_path": "screens/search-discover.png",
+    "screen_type": "search",
+    "layout_type": "search_results",
+    "primary_user_goal": "Find stocks to research and potentially invest in",
+    "primary_business_goal": "Drive discovery of tradeable assets to increase trading volume",
+    "primary_cta_label": "Search",
+    "secondary_cta_labels": [],
+    "navigation_elements": ["Search bar", "Category filters", "Bottom tab bar"],
+    "copy_summary": "Prominent search bar with auto-complete. Curated collections (100 Most Popular, Top Movers, Upcoming Earnings). Category browsing (Tech, Healthcare, Energy, etc.). Recent searches for quick access. Trending stocks list updated in real-time.",
+    "patterns": [
+      "search-prominent",
+      "card-layout",
+      "category-filters",
+      "auto-complete",
+      "recent-searches",
+      "trending-content"
+    ],
+    "heuristics": {
+      "clarity": 5,
+      "cognitive_load": 4,
+      "visual_hierarchy": 4,
+      "feedback": 5,
+      "accessibility": 4,
+      "conversion_strength": 4
+    },
+    "notes": "The discover screen is optimized for exploration. Collections like 'Top Movers' and 'Most Popular' provide entry points for users who don't know what to search. This has been criticized for potentially encouraging trend-following. Auto-complete searches both stocks and crypto, making the experience seamless across asset classes."
+  },
+  {
+    "screen_id": "robinhood-news-feed",
+    "app_id": "robinhood",
+    "flow_id": "research",
+    "step_index": 0,
+    "image_path": "screens/news-feed.png",
+    "screen_type": "content_feed",
+    "layout_type": "card_list",
+    "primary_user_goal": "Stay informed about market news and portfolio-relevant updates",
+    "primary_business_goal": "Increase engagement and time-in-app through content consumption",
+    "primary_cta_label": "Read More",
+    "secondary_cta_labels": ["Filter by Holdings", "Filter by Watchlist"],
+    "navigation_elements": ["Filter tabs", "Back to portfolio"],
+    "copy_summary": "Curated news feed from multiple financial sources. Articles tagged with relevant stock tickers. Personalized based on holdings and watchlist. Market summary cards for quick updates. Earnings calendar integration.",
+    "patterns": [
+      "card-layout",
+      "infinite-scroll",
+      "content-filtering",
+      "personalization",
+      "pull-to-refresh"
+    ],
+    "heuristics": {
+      "clarity": 4,
+      "cognitive_load": 3,
+      "visual_hierarchy": 4,
+      "feedback": 4,
+      "accessibility": 4,
+      "conversion_strength": 3
+    },
+    "notes": "News is integrated throughout the app rather than siloed. Articles link directly to relevant stock pages, creating natural paths to trading. The feed personalizes based on your portfolio, keeping content relevant. This feature competes with dedicated financial news apps while keeping users in the Robinhood ecosystem."
+  },
+  {
+    "screen_id": "robinhood-account-settings",
+    "app_id": "robinhood",
+    "flow_id": "account_management",
+    "step_index": 0,
+    "image_path": "screens/account-settings.png",
+    "screen_type": "settings",
+    "layout_type": "list_menu",
+    "primary_user_goal": "Manage account settings, security, and personal information",
+    "primary_business_goal": "Enable self-service account management while promoting premium features",
+    "primary_cta_label": "Get Robinhood Gold",
+    "secondary_cta_labels": ["Enable Two-Factor", "Documents", "Help"],
+    "navigation_elements": ["Back arrow", "Section headers"],
+    "copy_summary": "Profile section with personal info and documents. Investing section for account settings. Security settings with biometric and 2FA options. Robinhood Gold upsell prominently placed. Legal documents and disclosures accessible. Help and support options.",
+    "patterns": [
+      "list-menu",
+      "section-headers",
+      "upsell-placement",
+      "security-badges"
+    ],
+    "heuristics": {
+      "clarity": 5,
+      "cognitive_load": 4,
+      "visual_hierarchy": 4,
+      "feedback": 4,
+      "accessibility": 4,
+      "conversion_strength": 4
+    },
+    "notes": "Settings are organized into logical groups. Robinhood Gold (premium tier) is promoted but not aggressively. Security features like biometric login and 2FA are easy to enable. Tax documents are accessible during tax season. The interface is clean but extensive options are well-organized through progressive disclosure."
+  },
+  {
+    "screen_id": "robinhood-deposit-withdraw",
+    "app_id": "robinhood",
+    "flow_id": "money_movement",
+    "step_index": 0,
+    "image_path": "screens/deposit-withdraw.png",
+    "screen_type": "transaction",
+    "layout_type": "form_focused",
+    "primary_user_goal": "Add or withdraw funds from the Robinhood account",
+    "primary_business_goal": "Facilitate deposits to increase assets under management",
+    "primary_cta_label": "Transfer",
+    "secondary_cta_labels": ["Deposit", "Withdraw", "Set up Recurring"],
+    "navigation_elements": ["Close X", "Bank account selector"],
+    "copy_summary": "Simple amount entry interface. Linked bank account displayed with easy switching. Instant deposit limits shown for Robinhood Gold users. Transfer timeline explained (1-5 business days for standard). Recurring deposit setup option promoted.",
+    "patterns": [
+      "single-primary-cta",
+      "inline-validation",
+      "progressive-disclosure",
+      "upsell-placement"
+    ],
+    "heuristics": {
+      "clarity": 5,
+      "cognitive_load": 5,
+      "visual_hierarchy": 5,
+      "feedback": 5,
+      "accessibility": 4,
+      "conversion_strength": 5
+    },
+    "notes": "Money movement is streamlined with Plaid integration for bank linking. Instant deposits (up to limits) reduce friction between intent and action. Recurring deposits encourage dollar-cost averaging behavior. The interface clearly shows when funds will be available, managing expectations. Robinhood Gold benefits (higher instant deposit limits) are subtly promoted."
+  }
+]

@@ -1,0 +1,331 @@
+{
+  "app_id": "headspace",
+  "total_screens": 10,
+  "patterns": [
+    {
+      "pattern_id": "card-layout",
+      "pattern_name": "Card Layout",
+      "frequency": 7,
+      "percentage": 70,
+      "avg_heuristics": {
+        "clarity": 4.9,
+        "cognitive_load": 3.9,
+        "visual_hierarchy": 4.6,
+        "feedback": 4,
+        "accessibility": 4,
+        "conversion_strength": 4.3
+      },
+      "screens": [
+        "onboarding-01",
+        "onboarding-02",
+        "home-01",
+        "courses-01",
+        "sleep-01",
+        "progress-01",
+        "subscription-01"
+      ]
+    },
+    {
+      "pattern_id": "progress-indicator",
+      "pattern_name": "Progress Indicator",
+      "frequency": 6,
+      "percentage": 60,
+      "avg_heuristics": {
+        "clarity": 5,
+        "cognitive_load": 4.3,
+        "visual_hierarchy": 4.7,
+        "feedback": 4.5,
+        "accessibility": 4,
+        "conversion_strength": 4.2
+      },
+      "screens": [
+        "onboarding-01",
+        "onboarding-02",
+        "home-01",
+        "meditation-01",
+        "meditation-02",
+        "progress-01"
+      ]
+    },
+    {
+      "pattern_id": "single-primary-cta",
+      "pattern_name": "Single Primary CTA",
+      "frequency": 5,
+      "percentage": 50,
+      "avg_heuristics": {
+        "clarity": 5,
+        "cognitive_load": 4.4,
+        "visual_hierarchy": 5,
+        "feedback": 4,
+        "accessibility": 4,
+        "conversion_strength": 4.6
+      },
+      "screens": [
+        "landing-01",
+        "home-01",
+        "meditation-01",
+        "meditation-02",
+        "subscription-01"
+      ]
+    },
+    {
+      "pattern_id": "hero-illustration",
+      "pattern_name": "Hero Illustration",
+      "frequency": 4,
+      "percentage": 40,
+      "avg_heuristics": {
+        "clarity": 5,
+        "cognitive_load": 4.5,
+        "visual_hierarchy": 5,
+        "feedback": 4,
+        "accessibility": 4,
+        "conversion_strength": 4.5
+      },
+      "screens": [
+        "landing-01",
+        "onboarding-01",
+        "meditation-02",
+        "sleep-01"
+      ]
+    },
+    {
+      "pattern_id": "social-proof",
+      "pattern_name": "Social Proof",
+      "frequency": 3,
+      "percentage": 30,
+      "avg_heuristics": {
+        "clarity": 5,
+        "cognitive_load": 4.3,
+        "visual_hierarchy": 4.7,
+        "feedback": 3.7,
+        "accessibility": 4,
+        "conversion_strength": 4.3
+      },
+      "screens": [
+        "landing-01",
+        "progress-01",
+        "subscription-01"
+      ]
+    },
+    {
+      "pattern_id": "bottom-tab-bar",
+      "pattern_name": "Bottom Tab Bar",
+      "frequency": 3,
+      "percentage": 30,
+      "avg_heuristics": {
+        "clarity": 4.7,
+        "cognitive_load": 3.3,
+        "visual_hierarchy": 4.7,
+        "feedback": 4,
+        "accessibility": 4,
+        "conversion_strength": 4.3
+      },
+      "screens": [
+        "home-01",
+        "courses-01",
+        "sleep-01"
+      ]
+    },
+    {
+      "pattern_id": "free-trial-cta",
+      "pattern_name": "Free Trial CTA",
+      "frequency": 2,
+      "percentage": 20,
+      "avg_heuristics": {
+        "clarity": 5,
+        "cognitive_load": 4.5,
+        "visual_hierarchy": 5,
+        "feedback": 3,
+        "accessibility": 4,
+        "conversion_strength": 5
+      },
+      "screens": [
+        "landing-01",
+        "subscription-01"
+      ]
+    },
+    {
+      "pattern_id": "progressive-disclosure",
+      "pattern_name": "Progressive Disclosure",
+      "frequency": 2,
+      "percentage": 20,
+      "avg_heuristics": {
+        "clarity": 5,
+        "cognitive_load": 4.5,
+        "visual_hierarchy": 4.5,
+        "feedback": 4,
+        "accessibility": 4,
+        "conversion_strength": 4.5
+      },
+      "screens": [
+        "onboarding-01",
+        "onboarding-02"
+      ]
+    },
+    {
+      "pattern_id": "notification-badge",
+      "pattern_name": "Notification Badge",
+      "frequency": 2,
+      "percentage": 20,
+      "avg_heuristics": {
+        "clarity": 5,
+        "cognitive_load": 3.5,
+        "visual_hierarchy": 4.5,
+        "feedback": 4.5,
+        "accessibility": 4,
+        "conversion_strength": 4
+      },
+      "screens": [
+        "home-01",
+        "progress-01"
+      ]
+    },
+    {
+      "pattern_id": "benefit-oriented-headline",
+      "pattern_name": "Benefit-Oriented Headline",
+      "frequency": 1,
+      "percentage": 10,
+      "avg_heuristics": {
+        "clarity": 5,
+        "cognitive_load": 5,
+        "visual_hierarchy": 5,
+        "feedback": 3,
+        "accessibility": 4,
+        "conversion_strength": 5
+      },
+      "screens": [
+        "landing-01"
+      ]
+    },
+    {
+      "pattern_id": "success-confirmation",
+      "pattern_name": "Success Confirmation",
+      "frequency": 1,
+      "percentage": 10,
+      "avg_heuristics": {
+        "clarity": 5,
+        "cognitive_load": 5,
+        "visual_hierarchy": 5,
+        "feedback": 5,
+        "accessibility": 4,
+        "conversion_strength": 4
+      },
+      "screens": [
+        "meditation-02"
+      ]
+    }
+  ],
+  "flows": [
+    {
+      "flow_id": "landing",
+      "flow_name": "Landing Page",
+      "unique_patterns": [
+        "single-primary-cta",
+        "hero-illustration",
+        "benefit-oriented-headline",
+        "free-trial-cta",
+        "social-proof"
+      ],
+      "pattern_combinations": []
+    },
+    {
+      "flow_id": "onboarding",
+      "flow_name": "Onboarding",
+      "unique_patterns": [
+        "progress-indicator",
+        "card-layout",
+        "progressive-disclosure",
+        "hero-illustration"
+      ],
+      "pattern_combinations": [
+        [
+          "card-layout",
+          "progress-indicator"
+        ],
+        [
+          "progress-indicator",
+          "progressive-disclosure"
+        ],
+        [
+          "card-layout",
+          "progressive-disclosure"
+        ]
+      ]
+    },
+    {
+      "flow_id": "home",
+      "flow_name": "Today Dashboard",
+      "unique_patterns": [
+        "bottom-tab-bar",
+        "card-layout",
+        "progress-indicator",
+        "single-primary-cta",
+        "personalization",
+        "notification-badge"
+      ],
+      "pattern_combinations": []
+    },
+    {
+      "flow_id": "meditation",
+      "flow_name": "Meditation Session",
+      "unique_patterns": [
+        "progress-indicator",
+        "single-primary-cta",
+        "immersive-experience",
+        "success-confirmation",
+        "hero-illustration"
+      ],
+      "pattern_combinations": [
+        [
+          "progress-indicator",
+          "single-primary-cta"
+        ]
+      ]
+    },
+    {
+      "flow_id": "courses",
+      "flow_name": "Course Browser",
+      "unique_patterns": [
+        "bottom-tab-bar",
+        "card-layout",
+        "filter-bar",
+        "search-bar"
+      ],
+      "pattern_combinations": []
+    },
+    {
+      "flow_id": "sleep",
+      "flow_name": "Sleep Content",
+      "unique_patterns": [
+        "bottom-tab-bar",
+        "card-layout",
+        "category-tabs",
+        "hero-illustration"
+      ],
+      "pattern_combinations": []
+    },
+    {
+      "flow_id": "progress",
+      "flow_name": "Progress Tracking",
+      "unique_patterns": [
+        "progress-indicator",
+        "card-layout",
+        "notification-badge",
+        "social-proof"
+      ],
+      "pattern_combinations": []
+    },
+    {
+      "flow_id": "subscription",
+      "flow_name": "Subscription Conversion",
+      "unique_patterns": [
+        "single-primary-cta",
+        "free-trial-cta",
+        "card-layout",
+        "social-proof",
+        "pricing-comparison"
+      ],
+      "pattern_combinations": []
+    }
+  ]
+}

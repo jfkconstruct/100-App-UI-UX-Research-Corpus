@@ -1,0 +1,383 @@
+{
+  "app_id": "figma",
+  "total_screens": 10,
+  "patterns": [
+    {
+      "pattern_id": "progressive-disclosure",
+      "pattern_name": "Progressive Disclosure",
+      "frequency": 5,
+      "percentage": 50,
+      "avg_heuristics": {
+        "clarity": 4.4,
+        "cognitive_load": 3.6,
+        "visual_hierarchy": 4.4,
+        "feedback": 4.4,
+        "accessibility": 4,
+        "conversion_strength": 4.2
+      },
+      "screens": [
+        "landing-02",
+        "onboarding-02",
+        "editor-01",
+        "editor-03",
+        "prototype-01"
+      ]
+    },
+    {
+      "pattern_id": "contextual-help",
+      "pattern_name": "Contextual Help",
+      "frequency": 4,
+      "percentage": 40,
+      "avg_heuristics": {
+        "clarity": 4.5,
+        "cognitive_load": 3.5,
+        "visual_hierarchy": 4.3,
+        "feedback": 4.8,
+        "accessibility": 4,
+        "conversion_strength": 4.5
+      },
+      "screens": [
+        "editor-01",
+        "editor-02",
+        "prototype-01",
+        "sharing-01"
+      ]
+    },
+    {
+      "pattern_id": "single-primary-cta",
+      "pattern_name": "Single Primary CTA",
+      "frequency": 3,
+      "percentage": 30,
+      "avg_heuristics": {
+        "clarity": 5,
+        "cognitive_load": 4.7,
+        "visual_hierarchy": 5,
+        "feedback": 3.7,
+        "accessibility": 4,
+        "conversion_strength": 5
+      },
+      "screens": [
+        "landing-01",
+        "onboarding-01",
+        "sharing-01"
+      ]
+    },
+    {
+      "pattern_id": "card-layout",
+      "pattern_name": "Card Layout",
+      "frequency": 3,
+      "percentage": 30,
+      "avg_heuristics": {
+        "clarity": 4.7,
+        "cognitive_load": 4,
+        "visual_hierarchy": 4.3,
+        "feedback": 4,
+        "accessibility": 4,
+        "conversion_strength": 4
+      },
+      "screens": [
+        "onboarding-02",
+        "editor-03",
+        "community-01"
+      ]
+    },
+    {
+      "pattern_id": "hero-illustration",
+      "pattern_name": "Hero Illustration",
+      "frequency": 2,
+      "percentage": 20,
+      "avg_heuristics": {
+        "clarity": 5,
+        "cognitive_load": 4.5,
+        "visual_hierarchy": 5,
+        "feedback": 3.5,
+        "accessibility": 4,
+        "conversion_strength": 5
+      },
+      "screens": [
+        "landing-01",
+        "landing-02"
+      ]
+    },
+    {
+      "pattern_id": "social-proof",
+      "pattern_name": "Social Proof",
+      "frequency": 2,
+      "percentage": 20,
+      "avg_heuristics": {
+        "clarity": 5,
+        "cognitive_load": 5,
+        "visual_hierarchy": 5,
+        "feedback": 3.5,
+        "accessibility": 4,
+        "conversion_strength": 5
+      },
+      "screens": [
+        "landing-01",
+        "onboarding-01"
+      ]
+    },
+    {
+      "pattern_id": "search-prominent",
+      "pattern_name": "Prominent Search",
+      "frequency": 2,
+      "percentage": 20,
+      "avg_heuristics": {
+        "clarity": 4.5,
+        "cognitive_load": 3.5,
+        "visual_hierarchy": 4,
+        "feedback": 4.5,
+        "accessibility": 4,
+        "conversion_strength": 4
+      },
+      "screens": [
+        "editor-01",
+        "community-01"
+      ]
+    },
+    {
+      "pattern_id": "lazy-loading",
+      "pattern_name": "Lazy Loading",
+      "frequency": 2,
+      "percentage": 20,
+      "avg_heuristics": {
+        "clarity": 4.5,
+        "cognitive_load": 4,
+        "visual_hierarchy": 4,
+        "feedback": 4,
+        "accessibility": 4,
+        "conversion_strength": 4
+      },
+      "screens": [
+        "editor-03",
+        "community-01"
+      ]
+    },
+    {
+      "pattern_id": "benefit-oriented-headline",
+      "pattern_name": "Benefit-Oriented Headline",
+      "frequency": 1,
+      "percentage": 10,
+      "avg_heuristics": {
+        "clarity": 5,
+        "cognitive_load": 5,
+        "visual_hierarchy": 5,
+        "feedback": 3,
+        "accessibility": 4,
+        "conversion_strength": 5
+      },
+      "screens": [
+        "landing-01"
+      ]
+    },
+    {
+      "pattern_id": "sticky-cta",
+      "pattern_name": "Sticky CTA",
+      "frequency": 1,
+      "percentage": 10,
+      "avg_heuristics": {
+        "clarity": 5,
+        "cognitive_load": 4,
+        "visual_hierarchy": 5,
+        "feedback": 4,
+        "accessibility": 4,
+        "conversion_strength": 5
+      },
+      "screens": [
+        "landing-02"
+      ]
+    },
+    {
+      "pattern_id": "inline-validation",
+      "pattern_name": "Inline Validation",
+      "frequency": 1,
+      "percentage": 10,
+      "avg_heuristics": {
+        "clarity": 5,
+        "cognitive_load": 5,
+        "visual_hierarchy": 5,
+        "feedback": 4,
+        "accessibility": 4,
+        "conversion_strength": 5
+      },
+      "screens": [
+        "onboarding-01"
+      ]
+    },
+    {
+      "pattern_id": "progress-indicator",
+      "pattern_name": "Progress Indicator",
+      "frequency": 1,
+      "percentage": 10,
+      "avg_heuristics": {
+        "clarity": 5,
+        "cognitive_load": 4,
+        "visual_hierarchy": 5,
+        "feedback": 4,
+        "accessibility": 4,
+        "conversion_strength": 4
+      },
+      "screens": [
+        "onboarding-02"
+      ]
+    },
+    {
+      "pattern_id": "user-avatar",
+      "pattern_name": "User Avatar",
+      "frequency": 1,
+      "percentage": 10,
+      "avg_heuristics": {
+        "clarity": 5,
+        "cognitive_load": 4,
+        "visual_hierarchy": 4,
+        "feedback": 5,
+        "accessibility": 4,
+        "conversion_strength": 5
+      },
+      "screens": [
+        "editor-02"
+      ]
+    },
+    {
+      "pattern_id": "notification-badge",
+      "pattern_name": "Notification Badge",
+      "frequency": 1,
+      "percentage": 10,
+      "avg_heuristics": {
+        "clarity": 5,
+        "cognitive_load": 4,
+        "visual_hierarchy": 4,
+        "feedback": 5,
+        "accessibility": 4,
+        "conversion_strength": 5
+      },
+      "screens": [
+        "editor-02"
+      ]
+    },
+    {
+      "pattern_id": "search-autocomplete",
+      "pattern_name": "Search Autocomplete",
+      "frequency": 1,
+      "percentage": 10,
+      "avg_heuristics": {
+        "clarity": 4,
+        "cognitive_load": 4,
+        "visual_hierarchy": 4,
+        "feedback": 4,
+        "accessibility": 4,
+        "conversion_strength": 4
+      },
+      "screens": [
+        "editor-03"
+      ]
+    },
+    {
+      "pattern_id": "smart-defaults",
+      "pattern_name": "Smart Defaults",
+      "frequency": 1,
+      "percentage": 10,
+      "avg_heuristics": {
+        "clarity": 5,
+        "cognitive_load": 4,
+        "visual_hierarchy": 5,
+        "feedback": 4,
+        "accessibility": 4,
+        "conversion_strength": 5
+      },
+      "screens": [
+        "sharing-01"
+      ]
+    },
+    {
+      "pattern_id": "filter-facets",
+      "pattern_name": "Filter Facets",
+      "frequency": 1,
+      "percentage": 10,
+      "avg_heuristics": {
+        "clarity": 5,
+        "cognitive_load": 4,
+        "visual_hierarchy": 4,
+        "feedback": 4,
+        "accessibility": 4,
+        "conversion_strength": 4
+      },
+      "screens": [
+        "community-01"
+      ]
+    }
+  ],
+  "flows": [
+    {
+      "flow_id": "landing",
+      "flow_name": "Landing Page",
+      "unique_patterns": [
+        "single-primary-cta",
+        "benefit-oriented-headline",
+        "hero-illustration",
+        "social-proof",
+        "progressive-disclosure",
+        "sticky-cta"
+      ],
+      "pattern_combinations": []
+    },
+    {
+      "flow_id": "onboarding",
+      "flow_name": "Onboarding",
+      "unique_patterns": [
+        "single-primary-cta",
+        "inline-validation",
+        "social-proof",
+        "progress-indicator",
+        "card-layout",
+        "progressive-disclosure"
+      ],
+      "pattern_combinations": []
+    },
+    {
+      "flow_id": "editor",
+      "flow_name": "Design Editor",
+      "unique_patterns": [
+        "search-prominent",
+        "contextual-help",
+        "progressive-disclosure",
+        "user-avatar",
+        "notification-badge",
+        "search-autocomplete",
+        "card-layout",
+        "lazy-loading"
+      ],
+      "pattern_combinations": []
+    },
+    {
+      "flow_id": "prototype",
+      "flow_name": "Prototyping",
+      "unique_patterns": [
+        "contextual-help",
+        "progressive-disclosure"
+      ],
+      "pattern_combinations": []
+    },
+    {
+      "flow_id": "sharing",
+      "flow_name": "Sharing",
+      "unique_patterns": [
+        "single-primary-cta",
+        "smart-defaults",
+        "contextual-help"
+      ],
+      "pattern_combinations": []
+    },
+    {
+      "flow_id": "community",
+      "flow_name": "Community",
+      "unique_patterns": [
+        "search-prominent",
+        "filter-facets",
+        "card-layout",
+        "lazy-loading"
+      ],
+      "pattern_combinations": []
+    }
+  ]
+}

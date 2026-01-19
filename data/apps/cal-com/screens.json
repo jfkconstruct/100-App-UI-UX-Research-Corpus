@@ -1,0 +1,328 @@
+[
+  {
+    "screen_id": "landing-01",
+    "app_id": "cal-com",
+    "flow_id": "landing",
+    "step_index": 0,
+    "image_path": "data/raw_screens/cal-com/landing/01-homepage.png",
+    "screen_type": "landing",
+    "layout_type": "hero-cta",
+    "primary_user_goal": "Understand Cal.com's value as a scheduling solution",
+    "primary_business_goal": "Convert visitors to signup or self-host",
+    "primary_cta_label": "Get started",
+    "secondary_cta_labels": ["Sign in", "Self-host", "View demo"],
+    "navigation_elements": ["top-nav", "logo", "product-dropdown"],
+    "copy_summary": "Hero headline 'Scheduling infrastructure for everyone' with emphasis on open-source and self-hosting options. Product demo animation shows booking flow. Trust badges from notable companies.",
+    "patterns": [
+      "single-primary-cta",
+      "benefit-oriented-headline",
+      "hero-illustration",
+      "social-proof"
+    ],
+    "heuristics": {
+      "clarity": 5,
+      "cognitive_load": 5,
+      "visual_hierarchy": 5,
+      "feedback": 3,
+      "accessibility": 4,
+      "conversion_strength": 5
+    },
+    "notes": "Clean, modern design with dark and light mode options. The open-source angle is prominently featured, differentiating from Calendly. Self-host option visible early shows developer-friendliness. Company logos provide strong social proof."
+  },
+  {
+    "screen_id": "pricing-01",
+    "app_id": "cal-com",
+    "flow_id": "landing",
+    "step_index": 1,
+    "image_path": "data/raw_screens/cal-com/landing/02-pricing.png",
+    "screen_type": "pricing",
+    "layout_type": "card-comparison",
+    "primary_user_goal": "Compare plans and understand costs",
+    "primary_business_goal": "Drive paid conversions while maintaining free tier adoption",
+    "primary_cta_label": "Start for free",
+    "secondary_cta_labels": ["Contact sales", "Self-host"],
+    "navigation_elements": ["top-nav", "billing-toggle"],
+    "copy_summary": "Four-tier pricing: Free, Team, Organization, Enterprise. Feature comparison matrix. Generous free tier for individuals. Monthly/yearly toggle with savings shown.",
+    "patterns": [
+      "card-layout",
+      "progressive-disclosure",
+      "single-primary-cta",
+      "social-proof"
+    ],
+    "heuristics": {
+      "clarity": 5,
+      "cognitive_load": 4,
+      "visual_hierarchy": 5,
+      "feedback": 3,
+      "accessibility": 4,
+      "conversion_strength": 5
+    },
+    "notes": "Transparent pricing with generous free tier creates trust. Self-host option is unique differentiator. Feature comparison is scannable. The 'most popular' tag guides choice without being pushy."
+  },
+  {
+    "screen_id": "booking-01",
+    "app_id": "cal-com",
+    "flow_id": "booking",
+    "step_index": 0,
+    "image_path": "data/raw_screens/cal-com/booking/01-public-page.png",
+    "screen_type": "booking",
+    "layout_type": "two-column",
+    "primary_user_goal": "See available meeting types and select one to book",
+    "primary_business_goal": "Enable easy discovery and selection of booking options",
+    "primary_cta_label": "",
+    "secondary_cta_labels": [],
+    "navigation_elements": ["user-profile-card"],
+    "copy_summary": "Public booking page showing host profile, bio, and available event types as clickable cards. Each event type shows duration and brief description.",
+    "patterns": [
+      "card-layout",
+      "progressive-disclosure",
+      "smart-defaults"
+    ],
+    "heuristics": {
+      "clarity": 5,
+      "cognitive_load": 5,
+      "visual_hierarchy": 5,
+      "feedback": 3,
+      "accessibility": 5,
+      "conversion_strength": 4
+    },
+    "notes": "Clean, branded booking page creates professional impression. Event type cards are scannable. Host photo and bio build trust. Minimal distractions keep focus on booking action. Mobile-responsive design works on all devices."
+  },
+  {
+    "screen_id": "booking-02",
+    "app_id": "cal-com",
+    "flow_id": "booking",
+    "step_index": 1,
+    "image_path": "data/raw_screens/cal-com/booking/02-time-selection.png",
+    "screen_type": "time-picker",
+    "layout_type": "two-column",
+    "primary_user_goal": "Find and select an available time slot",
+    "primary_business_goal": "Minimize friction in time selection to maximize booking completion",
+    "primary_cta_label": "",
+    "secondary_cta_labels": ["Back"],
+    "navigation_elements": ["calendar-nav", "timezone-selector"],
+    "copy_summary": "Calendar view on left showing available dates (highlighted). Time slots on right grouped by time of day. Timezone prominently displayed with easy switching.",
+    "patterns": [
+      "smart-defaults",
+      "progressive-disclosure",
+      "filter-facets"
+    ],
+    "heuristics": {
+      "clarity": 5,
+      "cognitive_load": 4,
+      "visual_hierarchy": 5,
+      "feedback": 5,
+      "accessibility": 4,
+      "conversion_strength": 5
+    },
+    "notes": "The calendar clearly shows available vs unavailable dates. Auto-detected timezone prevents errors. Time slots are chunked by morning/afternoon/evening for scannability. Smooth transitions maintain context."
+  },
+  {
+    "screen_id": "booking-03",
+    "app_id": "cal-com",
+    "flow_id": "booking",
+    "step_index": 2,
+    "image_path": "data/raw_screens/cal-com/booking/03-confirmation-form.png",
+    "screen_type": "form",
+    "layout_type": "two-column",
+    "primary_user_goal": "Provide contact details to confirm booking",
+    "primary_business_goal": "Capture booking with necessary information",
+    "primary_cta_label": "Confirm",
+    "secondary_cta_labels": ["Back", "Reschedule"],
+    "navigation_elements": ["back-button"],
+    "copy_summary": "Booking summary on left (event type, date, time, timezone). Form on right collecting name, email, and optional notes. Custom questions if configured by host.",
+    "patterns": [
+      "single-primary-cta",
+      "inline-validation",
+      "smart-defaults",
+      "progressive-disclosure"
+    ],
+    "heuristics": {
+      "clarity": 5,
+      "cognitive_load": 5,
+      "visual_hierarchy": 5,
+      "feedback": 4,
+      "accessibility": 4,
+      "conversion_strength": 5
+    },
+    "notes": "Minimal required fields reduce friction. Booking summary provides confirmation of selection. Guest can add guests for group bookings. Optional fields clearly marked. No account required to book."
+  },
+  {
+    "screen_id": "booking-04",
+    "app_id": "cal-com",
+    "flow_id": "booking",
+    "step_index": 3,
+    "image_path": "data/raw_screens/cal-com/booking/04-success.png",
+    "screen_type": "confirmation",
+    "layout_type": "centered-card",
+    "primary_user_goal": "Confirm booking was successful and get calendar invite",
+    "primary_business_goal": "Ensure booking completion and reduce no-shows",
+    "primary_cta_label": "Add to calendar",
+    "secondary_cta_labels": ["Reschedule", "Cancel booking"],
+    "navigation_elements": [],
+    "copy_summary": "Success message with checkmark. Full booking details displayed. Add to calendar buttons for Google, Outlook, Apple, and ICS download. Reschedule and cancel links.",
+    "patterns": [
+      "single-primary-cta",
+      "progressive-disclosure",
+      "card-layout"
+    ],
+    "heuristics": {
+      "clarity": 5,
+      "cognitive_load": 5,
+      "visual_hierarchy": 5,
+      "feedback": 5,
+      "accessibility": 5,
+      "conversion_strength": 4
+    },
+    "notes": "Clear success state with checkmark provides instant feedback. Multiple calendar options ensure compatibility. Self-service reschedule and cancel reduce host burden. Email confirmation is sent automatically."
+  },
+  {
+    "screen_id": "dashboard-01",
+    "app_id": "cal-com",
+    "flow_id": "dashboard",
+    "step_index": 0,
+    "image_path": "data/raw_screens/cal-com/dashboard/01-bookings.png",
+    "screen_type": "dashboard",
+    "layout_type": "two-column",
+    "primary_user_goal": "View and manage upcoming and past bookings",
+    "primary_business_goal": "Drive daily engagement and booking management",
+    "primary_cta_label": "",
+    "secondary_cta_labels": [],
+    "navigation_elements": ["sidebar", "tabs", "filter-facets"],
+    "copy_summary": "Left sidebar with navigation. Main area shows booking list with tabs for Upcoming, Recurring, Past, Cancelled. Each booking shows attendee, event type, date/time, and action buttons.",
+    "patterns": [
+      "card-layout",
+      "filter-facets",
+      "progressive-disclosure",
+      "search-prominent"
+    ],
+    "heuristics": {
+      "clarity": 5,
+      "cognitive_load": 4,
+      "visual_hierarchy": 4,
+      "feedback": 4,
+      "accessibility": 4,
+      "conversion_strength": 3
+    },
+    "notes": "Clean booking management interface. Quick actions (reschedule, cancel, join) are accessible. Filter by event type or date range. Empty states guide new users. Responsive layout works on mobile."
+  },
+  {
+    "screen_id": "event-type-01",
+    "app_id": "cal-com",
+    "flow_id": "event-setup",
+    "step_index": 0,
+    "image_path": "data/raw_screens/cal-com/event-types/01-list.png",
+    "screen_type": "list",
+    "layout_type": "card-grid",
+    "primary_user_goal": "View and manage event types",
+    "primary_business_goal": "Enable creation of diverse booking options",
+    "primary_cta_label": "New event type",
+    "secondary_cta_labels": [],
+    "navigation_elements": ["sidebar", "tabs"],
+    "copy_summary": "Grid of event type cards showing name, duration, link. Toggle to enable/disable. Quick actions for edit, duplicate, delete. Team event types tab for collaborative scheduling.",
+    "patterns": [
+      "card-layout",
+      "single-primary-cta",
+      "progressive-disclosure",
+      "smart-defaults"
+    ],
+    "heuristics": {
+      "clarity": 5,
+      "cognitive_load": 4,
+      "visual_hierarchy": 4,
+      "feedback": 4,
+      "accessibility": 4,
+      "conversion_strength": 4
+    },
+    "notes": "Event type cards are scannable with key info visible. Enable/disable toggle is intuitive. Duplicate feature speeds up creation of similar event types. Link preview shows how booking page will look."
+  },
+  {
+    "screen_id": "event-type-02",
+    "app_id": "cal-com",
+    "flow_id": "event-setup",
+    "step_index": 1,
+    "image_path": "data/raw_screens/cal-com/event-types/02-setup.png",
+    "screen_type": "form",
+    "layout_type": "tabbed-form",
+    "primary_user_goal": "Configure event type settings",
+    "primary_business_goal": "Enable powerful customization while maintaining simplicity",
+    "primary_cta_label": "Save",
+    "secondary_cta_labels": ["Cancel", "Preview"],
+    "navigation_elements": ["sidebar", "form-tabs", "back-button"],
+    "copy_summary": "Tabbed settings: Event Setup, Availability, Assignment, Limits, Advanced. Event setup shows title, description, URL, duration, location options. Preview button to see public page.",
+    "patterns": [
+      "progressive-disclosure",
+      "smart-defaults",
+      "inline-validation",
+      "single-primary-cta"
+    ],
+    "heuristics": {
+      "clarity": 4,
+      "cognitive_load": 3,
+      "visual_hierarchy": 4,
+      "feedback": 4,
+      "accessibility": 4,
+      "conversion_strength": 4
+    },
+    "notes": "Tabbed interface organizes complex settings logically. Smart defaults mean most users only need to set title and duration. Advanced options hidden but accessible. Location options include video conferencing, phone, in-person, and custom."
+  },
+  {
+    "screen_id": "availability-01",
+    "app_id": "cal-com",
+    "flow_id": "availability",
+    "step_index": 0,
+    "image_path": "data/raw_screens/cal-com/availability/01-schedule.png",
+    "screen_type": "settings",
+    "layout_type": "two-column",
+    "primary_user_goal": "Set weekly availability schedule",
+    "primary_business_goal": "Ensure accurate availability to prevent booking conflicts",
+    "primary_cta_label": "Save",
+    "secondary_cta_labels": ["Duplicate", "Delete"],
+    "navigation_elements": ["sidebar", "back-button"],
+    "copy_summary": "Weekly schedule editor showing each day with time ranges. Add multiple time blocks per day. Set schedule name and timezone. Copy times to multiple days.",
+    "patterns": [
+      "smart-defaults",
+      "progressive-disclosure",
+      "inline-validation"
+    ],
+    "heuristics": {
+      "clarity": 5,
+      "cognitive_load": 4,
+      "visual_hierarchy": 4,
+      "feedback": 4,
+      "accessibility": 4,
+      "conversion_strength": 3
+    },
+    "notes": "Visual schedule editor is intuitive. Multiple schedules supported for different scenarios. Copy time feature saves repetitive input. Timezone setting prevents confusion for remote teams. Default schedule clearly marked."
+  },
+  {
+    "screen_id": "integrations-01",
+    "app_id": "cal-com",
+    "flow_id": "integrations",
+    "step_index": 0,
+    "image_path": "data/raw_screens/cal-com/integrations/01-list.png",
+    "screen_type": "list",
+    "layout_type": "card-grid",
+    "primary_user_goal": "Connect calendars and other apps",
+    "primary_business_goal": "Increase stickiness through integrations",
+    "primary_cta_label": "Connect",
+    "secondary_cta_labels": [],
+    "navigation_elements": ["sidebar", "category-tabs", "search-prominent"],
+    "copy_summary": "Integration grid organized by category: Calendars, Video Conferencing, Payment, Automation, CRM. Each integration shows logo, name, description, and connect status. Search to find specific integrations.",
+    "patterns": [
+      "card-layout",
+      "filter-facets",
+      "search-prominent",
+      "progressive-disclosure"
+    ],
+    "heuristics": {
+      "clarity": 5,
+      "cognitive_load": 4,
+      "visual_hierarchy": 4,
+      "feedback": 4,
+      "accessibility": 4,
+      "conversion_strength": 4
+    },
+    "notes": "Rich integration ecosystem displayed clearly. Categories help discovery. Connected integrations show status with disconnect option. Calendar integrations are prioritized as most critical. OAuth flows are streamlined."
+  }
+]

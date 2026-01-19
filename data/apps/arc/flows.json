@@ -1,0 +1,237 @@
+[
+  {
+    "flow_id": "onboarding",
+    "name": "New User Onboarding",
+    "primary_user_goal": "Download Arc and learn its unique interface paradigm",
+    "business_goal": "Convert website visitors into active Arc users and guide them through the learning curve",
+    "entry_point": "Landing page visit",
+    "exit_point": "Completed setup with at least one Space configured",
+    "screens": ["arc-landing", "arc-download"],
+    "description": "Arc's onboarding is critical because it asks users to unlearn decades of browser muscle memory. The flow balances excitement about new possibilities with gentle tutorials for unfamiliar concepts like vertical tabs and Spaces.",
+    "key_moments": [
+      "First impression of vertical tabs",
+      "Understanding the sidebar hierarchy",
+      "Creating first Space",
+      "Experiencing Command Bar",
+      "Auto-archive explanation"
+    ],
+    "friction_points": [
+      "Paradigm shift from horizontal to vertical tabs",
+      "Understanding pinned vs today's tabs distinction",
+      "Learning new keyboard shortcuts"
+    ],
+    "success_metrics": [
+      "Completion rate of onboarding tutorial",
+      "Creation of second Space within first week",
+      "Return visits after initial download"
+    ]
+  },
+  {
+    "flow_id": "core-browsing",
+    "name": "Daily Browsing Workflow",
+    "primary_user_goal": "Browse the web efficiently with minimal tab chaos",
+    "business_goal": "Prove Arc's productivity benefits through daily usage superiority",
+    "entry_point": "Opening Arc or clicking external link",
+    "exit_point": "Closing Arc or switching to another app",
+    "screens": ["arc-main-browser", "arc-command-bar", "arc-little-arc"],
+    "description": "The core browsing flow demonstrates Arc's reimagined approach to everyday web use. Users navigate primarily through the Command Bar, manage tabs in the sidebar, and handle quick lookups through Little Arc without cluttering their workspace.",
+    "key_moments": [
+      "Cmd+T to open Command Bar",
+      "Quick switching between open tabs",
+      "Auto-archiving clearing old tabs",
+      "Little Arc for external links"
+    ],
+    "friction_points": [
+      "Muscle memory for traditional browser shortcuts",
+      "Finding the URL bar initially",
+      "Understanding tab auto-archiving behavior"
+    ],
+    "success_metrics": [
+      "Command Bar usage frequency",
+      "Average tabs open (should decrease over time)",
+      "Little Arc vs full tab ratio for external links"
+    ]
+  },
+  {
+    "flow_id": "context-management",
+    "name": "Context Switching with Spaces",
+    "primary_user_goal": "Maintain separate browsing contexts for different life areas",
+    "business_goal": "Create switching costs that increase Arc loyalty and demonstrate unique value",
+    "entry_point": "Creating a new Space or switching between existing Spaces",
+    "exit_point": "Settled into appropriate Space for current task",
+    "screens": ["arc-spaces", "arc-main-browser"],
+    "description": "Spaces enable users to maintain completely separate browsing contexts. A user might have Work, Personal, and Side Project spaces, each with different tabs, pinned items, and even different browser profiles for login separation.",
+    "key_moments": [
+      "Creating first additional Space",
+      "Customizing Space with color and icon",
+      "Realizing tabs don't mix between Spaces",
+      "Using different profiles per Space"
+    ],
+    "friction_points": [
+      "Deciding how to organize Spaces",
+      "Moving tabs between Spaces",
+      "Remembering which Space contains what"
+    ],
+    "success_metrics": [
+      "Number of Spaces created",
+      "Frequency of Space switches",
+      "Profile usage per Space"
+    ]
+  },
+  {
+    "flow_id": "multitasking",
+    "name": "Split View Multitasking",
+    "primary_user_goal": "Work with multiple pages simultaneously without window management",
+    "business_goal": "Position Arc as essential for knowledge work and productivity",
+    "entry_point": "Need to view two pages side-by-side",
+    "exit_point": "Task completed or split closed",
+    "screens": ["arc-split-view", "arc-main-browser"],
+    "description": "Split View allows users to view multiple web pages side-by-side within a single Arc window. Users can drag tabs to create splits, resize panels, and link tabs together for persistent split arrangements.",
+    "key_moments": [
+      "First split creation via drag",
+      "Discovering keyboard shortcut for splits",
+      "Linking tabs to preserve arrangement",
+      "Resizing panels for optimal ratio"
+    ],
+    "friction_points": [
+      "Discovering the split view feature",
+      "Understanding linked vs unlinked splits",
+      "Managing splits on smaller screens"
+    ],
+    "success_metrics": [
+      "Split view creation frequency",
+      "Average split duration",
+      "Linked split usage"
+    ]
+  },
+  {
+    "flow_id": "navigation",
+    "name": "Command Bar Navigation",
+    "primary_user_goal": "Quickly find and navigate to content without mouse interaction",
+    "business_goal": "Train users on keyboard-centric workflow that increases efficiency and Arc loyalty",
+    "entry_point": "Pressing Cmd+T or clicking URL area",
+    "exit_point": "Navigating to destination or dismissing bar",
+    "screens": ["arc-command-bar"],
+    "description": "The Command Bar unifies URL entry, tab switching, history search, bookmark access, and Arc actions into a single keyboard-driven interface. It's the primary way power users interact with Arc.",
+    "key_moments": [
+      "Discovering search includes open tabs",
+      "Using fuzzy matching for fast access",
+      "Finding Arc actions in Command Bar",
+      "Keyboard-only navigation workflow"
+    ],
+    "friction_points": [
+      "Expectation of separate URL bar and tab search",
+      "Learning that Cmd+T does more than new tab",
+      "Discovering all available commands"
+    ],
+    "success_metrics": [
+      "Command Bar invocations per session",
+      "Command completion vs abandonment",
+      "Diversity of command types used"
+    ]
+  },
+  {
+    "flow_id": "quick-tasks",
+    "name": "Little Arc Quick Lookup",
+    "primary_user_goal": "Look something up quickly without adding to tab clutter",
+    "business_goal": "Demonstrate Arc's thoughtful approach to tab management and hygiene",
+    "entry_point": "Clicking external link or invoking Little Arc manually",
+    "exit_point": "Closing Little Arc or promoting to full tab",
+    "screens": ["arc-little-arc"],
+    "description": "Little Arc provides a minimal popup browser for ephemeral tasks. When clicking links from other apps, Little Arc opens instead of creating a new tab. Users can promote important content to full tabs or dismiss after quick lookup.",
+    "key_moments": [
+      "First external link opening in Little Arc",
+      "Realizing it didn't create a permanent tab",
+      "Promoting content to full tab when needed",
+      "Understanding the ephemeral philosophy"
+    ],
+    "friction_points": [
+      "Initial confusion about popup vs new tab",
+      "Wanting external links to always open as tabs",
+      "Feature discoverability"
+    ],
+    "success_metrics": [
+      "Little Arc sessions vs promotions to tabs",
+      "Average Little Arc session duration",
+      "User preference settings changes"
+    ]
+  },
+  {
+    "flow_id": "content-capture",
+    "name": "Easel Content Capture and Organization",
+    "primary_user_goal": "Capture, annotate, and organize web research visually",
+    "business_goal": "Expand Arc's value proposition into knowledge management",
+    "entry_point": "Creating new Easel or capturing content to existing Easel",
+    "exit_point": "Completed visual organization or shared Easel",
+    "screens": ["arc-easels"],
+    "description": "Easels provide infinite canvas spaces for visual organization of web content. Users can capture live screenshots, add notes, draw connections, and share their visual research with others.",
+    "key_moments": [
+      "First content capture to Easel",
+      "Discovering captures are live/interactive",
+      "Adding annotations and connections",
+      "Sharing Easel with collaborator"
+    ],
+    "friction_points": [
+      "Understanding when Easels are useful vs overkill",
+      "Learning canvas interaction patterns",
+      "Feature complexity for simple needs"
+    ],
+    "success_metrics": [
+      "Easels created per user",
+      "Items per Easel",
+      "Easel sharing frequency"
+    ]
+  },
+  {
+    "flow_id": "customization",
+    "name": "Boost Website Customization",
+    "primary_user_goal": "Fix or improve a website's appearance and usability",
+    "business_goal": "Increase user investment and community engagement through personalization",
+    "entry_point": "Wanting to change a website's appearance",
+    "exit_point": "Boost created and applied",
+    "screens": ["arc-boosts"],
+    "description": "Boosts allow users to customize any website's appearance without technical knowledge. From simple color changes to hiding elements to full CSS overrides, Boosts persist and can be shared with the Arc community.",
+    "key_moments": [
+      "First simple customization (hide element)",
+      "Discovering community Boosts",
+      "Creating reusable custom CSS",
+      "Sharing a Boost with others"
+    ],
+    "friction_points": [
+      "Discoverability of Boost feature",
+      "Technical complexity for advanced customization",
+      "Understanding which changes are possible"
+    ],
+    "success_metrics": [
+      "Boosts created per user",
+      "Community Boost installations",
+      "Boost retention over time"
+    ]
+  },
+  {
+    "flow_id": "configuration",
+    "name": "Settings and Preferences Configuration",
+    "primary_user_goal": "Configure Arc to match personal workflow and preferences",
+    "business_goal": "Enable power user customization while maintaining approachability",
+    "entry_point": "Opening Settings via menu or keyboard shortcut",
+    "exit_point": "Configuration complete",
+    "screens": ["arc-settings"],
+    "description": "Arc's settings balance power and simplicity, offering deep customization while keeping defaults sensible. Settings include keyboard shortcuts, AI features (Arc Max), profile management, and advanced browser configurations.",
+    "key_moments": [
+      "Discovering keyboard shortcut customization",
+      "Enabling Arc Max AI features",
+      "Setting up multiple profiles",
+      "Finding specific setting via search"
+    ],
+    "friction_points": [
+      "Finding specific settings without search",
+      "Understanding implications of advanced options",
+      "Profile vs Space confusion"
+    ],
+    "success_metrics": [
+      "Settings page visits",
+      "Settings changes from defaults",
+      "Arc Max feature adoption"
+    ]
+  }
+]

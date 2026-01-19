@@ -1,0 +1,22 @@
+{
+  "app_id": "airbnb",
+  "name": "Airbnb",
+  "platforms": ["web", "ios", "android"],
+  "category": "travel",
+  "url": "https://www.airbnb.com",
+  "store_links": {
+    "ios": "https://apps.apple.com/app/airbnb/id401626263",
+    "android": "https://play.google.com/store/apps/details?id=com.airbnb.android"
+  },
+  "analysis_date": "2025-01-19",
+  "why_interesting": [
+    "Search-first design that immediately surfaces core functionality",
+    "Industry-leading trust signals for a two-sided marketplace",
+    "Beautiful imagery-driven experience that sells the dream",
+    "Transparent pricing breakdowns that build confidence",
+    "Seamless booking flow with minimal friction",
+    "Excellent mobile-first responsive design",
+    "Strong host/guest dual-sided experience",
+    "Innovative category and experience-based browsing"
+  ]
+}

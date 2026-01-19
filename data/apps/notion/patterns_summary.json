@@ -1,0 +1,381 @@
+{
+  "app_id": "notion",
+  "total_screens": 9,
+  "patterns": [
+    {
+      "pattern_id": "single-primary-cta",
+      "pattern_name": "Single Primary CTA",
+      "frequency": 4,
+      "percentage": 44.4,
+      "avg_heuristics": {
+        "clarity": 4.5,
+        "cognitive_load": 4.3,
+        "visual_hierarchy": 4.4,
+        "feedback": 4,
+        "accessibility": 3.9,
+        "conversion_strength": 4.1
+      },
+      "screens": [
+        "onboarding-01",
+        "onboarding-02",
+        "onboarding-04",
+        "template-selection-02"
+      ]
+    },
+    {
+      "pattern_id": "hero-illustration",
+      "pattern_name": "Hero Illustration",
+      "frequency": 4,
+      "percentage": 44.4,
+      "avg_heuristics": {
+        "clarity": 4.4,
+        "cognitive_load": 3.8,
+        "visual_hierarchy": 4.3,
+        "feedback": 3.5,
+        "accessibility": 3.6,
+        "conversion_strength": 4.4
+      },
+      "screens": [
+        "onboarding-01",
+        "onboarding-03",
+        "template-selection-01",
+        "template-selection-02"
+      ]
+    },
+    {
+      "pattern_id": "card-layout",
+      "pattern_name": "Card Layout",
+      "frequency": 4,
+      "percentage": 44.4,
+      "avg_heuristics": {
+        "clarity": 4.4,
+        "cognitive_load": 3.8,
+        "visual_hierarchy": 4.1,
+        "feedback": 3.8,
+        "accessibility": 3.6,
+        "conversion_strength": 4.3
+      },
+      "screens": [
+        "onboarding-02",
+        "onboarding-03",
+        "page-creation-02",
+        "template-selection-01"
+      ]
+    },
+    {
+      "pattern_id": "progress-indicator",
+      "pattern_name": "Progress Indicator",
+      "frequency": 3,
+      "percentage": 33.3,
+      "avg_heuristics": {
+        "clarity": 4.3,
+        "cognitive_load": 4,
+        "visual_hierarchy": 4.2,
+        "feedback": 3.7,
+        "accessibility": 3.7,
+        "conversion_strength": 4.2
+      },
+      "screens": [
+        "onboarding-01",
+        "onboarding-02",
+        "onboarding-03"
+      ]
+    },
+    {
+      "pattern_id": "progressive-disclosure",
+      "pattern_name": "Progressive Disclosure",
+      "frequency": 3,
+      "percentage": 33.3,
+      "avg_heuristics": {
+        "clarity": 4.3,
+        "cognitive_load": 3.8,
+        "visual_hierarchy": 4.2,
+        "feedback": 3.8,
+        "accessibility": 3.7,
+        "conversion_strength": 4.2
+      },
+      "screens": [
+        "onboarding-02",
+        "onboarding-03",
+        "page-creation-02"
+      ]
+    },
+    {
+      "pattern_id": "contextual-help",
+      "pattern_name": "Contextual Help",
+      "frequency": 3,
+      "percentage": 33.3,
+      "avg_heuristics": {
+        "clarity": 4.3,
+        "cognitive_load": 4.2,
+        "visual_hierarchy": 4.3,
+        "feedback": 4,
+        "accessibility": 3.8,
+        "conversion_strength": 3.8
+      },
+      "screens": [
+        "onboarding-04",
+        "page-creation-01",
+        "page-creation-02"
+      ]
+    },
+    {
+      "pattern_id": "minimal-navigation",
+      "pattern_name": "Minimal Navigation",
+      "frequency": 2,
+      "percentage": 22.2,
+      "avg_heuristics": {
+        "clarity": 4.3,
+        "cognitive_load": 4.3,
+        "visual_hierarchy": 4.3,
+        "feedback": 3.3,
+        "accessibility": 3.8,
+        "conversion_strength": 3.8
+      },
+      "screens": [
+        "onboarding-01",
+        "page-creation-01"
+      ]
+    },
+    {
+      "pattern_id": "success-confirmation",
+      "pattern_name": "Success Confirmation",
+      "frequency": 2,
+      "percentage": 22.2,
+      "avg_heuristics": {
+        "clarity": 4.5,
+        "cognitive_load": 4.5,
+        "visual_hierarchy": 4.3,
+        "feedback": 5,
+        "accessibility": 3.8,
+        "conversion_strength": 4
+      },
+      "screens": [
+        "onboarding-04",
+        "template-selection-03"
+      ]
+    },
+    {
+      "pattern_id": "benefit-oriented-headline",
+      "pattern_name": "Benefit-Oriented Headline",
+      "frequency": 1,
+      "percentage": 11.1,
+      "avg_heuristics": {
+        "clarity": 4.5,
+        "cognitive_load": 4,
+        "visual_hierarchy": 4.5,
+        "feedback": 3.5,
+        "accessibility": 3.5,
+        "conversion_strength": 4
+      },
+      "screens": [
+        "onboarding-01"
+      ]
+    },
+    {
+      "pattern_id": "smart-defaults",
+      "pattern_name": "Smart Defaults",
+      "frequency": 1,
+      "percentage": 11.1,
+      "avg_heuristics": {
+        "clarity": 4,
+        "cognitive_load": 3.5,
+        "visual_hierarchy": 4,
+        "feedback": 3.5,
+        "accessibility": 3.5,
+        "conversion_strength": 4.5
+      },
+      "screens": [
+        "onboarding-03"
+      ]
+    },
+    {
+      "pattern_id": "empty-state",
+      "pattern_name": "Empty State",
+      "frequency": 1,
+      "percentage": 11.1,
+      "avg_heuristics": {
+        "clarity": 4,
+        "cognitive_load": 4.5,
+        "visual_hierarchy": 4,
+        "feedback": 3,
+        "accessibility": 4,
+        "conversion_strength": 3.5
+      },
+      "screens": [
+        "page-creation-01"
+      ]
+    },
+    {
+      "pattern_id": "search-autocomplete",
+      "pattern_name": "Search Autocomplete",
+      "frequency": 1,
+      "percentage": 11.1,
+      "avg_heuristics": {
+        "clarity": 4.5,
+        "cognitive_load": 3.5,
+        "visual_hierarchy": 4.5,
+        "feedback": 4,
+        "accessibility": 3.5,
+        "conversion_strength": 4
+      },
+      "screens": [
+        "page-creation-02"
+      ]
+    },
+    {
+      "pattern_id": "search-prominent",
+      "pattern_name": "Prominent Search",
+      "frequency": 1,
+      "percentage": 11.1,
+      "avg_heuristics": {
+        "clarity": 4.5,
+        "cognitive_load": 3.5,
+        "visual_hierarchy": 4,
+        "feedback": 3.5,
+        "accessibility": 3.5,
+        "conversion_strength": 4.5
+      },
+      "screens": [
+        "template-selection-01"
+      ]
+    },
+    {
+      "pattern_id": "filter-facets",
+      "pattern_name": "Filter Facets",
+      "frequency": 1,
+      "percentage": 11.1,
+      "avg_heuristics": {
+        "clarity": 4.5,
+        "cognitive_load": 3.5,
+        "visual_hierarchy": 4,
+        "feedback": 3.5,
+        "accessibility": 3.5,
+        "conversion_strength": 4.5
+      },
+      "screens": [
+        "template-selection-01"
+      ]
+    },
+    {
+      "pattern_id": "lazy-loading",
+      "pattern_name": "Lazy Loading",
+      "frequency": 1,
+      "percentage": 11.1,
+      "avg_heuristics": {
+        "clarity": 4.5,
+        "cognitive_load": 3.5,
+        "visual_hierarchy": 4,
+        "feedback": 3.5,
+        "accessibility": 3.5,
+        "conversion_strength": 4.5
+      },
+      "screens": [
+        "template-selection-01"
+      ]
+    },
+    {
+      "pattern_id": "sticky-cta",
+      "pattern_name": "Sticky CTA",
+      "frequency": 1,
+      "percentage": 11.1,
+      "avg_heuristics": {
+        "clarity": 4.5,
+        "cognitive_load": 4,
+        "visual_hierarchy": 4.5,
+        "feedback": 3.5,
+        "accessibility": 4,
+        "conversion_strength": 4.5
+      },
+      "screens": [
+        "template-selection-02"
+      ]
+    },
+    {
+      "pattern_id": "toast-notification",
+      "pattern_name": "Toast Notification",
+      "frequency": 1,
+      "percentage": 11.1,
+      "avg_heuristics": {
+        "clarity": 4.5,
+        "cognitive_load": 4.5,
+        "visual_hierarchy": 4,
+        "feedback": 5,
+        "accessibility": 3.5,
+        "conversion_strength": 4
+      },
+      "screens": [
+        "template-selection-03"
+      ]
+    }
+  ],
+  "flows": [
+    {
+      "flow_id": "onboarding",
+      "flow_name": "Onboarding",
+      "unique_patterns": [
+        "progress-indicator",
+        "single-primary-cta",
+        "benefit-oriented-headline",
+        "hero-illustration",
+        "minimal-navigation",
+        "card-layout",
+        "progressive-disclosure",
+        "smart-defaults",
+        "success-confirmation",
+        "contextual-help"
+      ],
+      "pattern_combinations": [
+        [
+          "progress-indicator",
+          "single-primary-cta"
+        ],
+        [
+          "hero-illustration",
+          "progress-indicator"
+        ],
+        [
+          "card-layout",
+          "progress-indicator"
+        ],
+        [
+          "progress-indicator",
+          "progressive-disclosure"
+        ],
+        [
+          "card-layout",
+          "progressive-disclosure"
+        ]
+      ]
+    },
+    {
+      "flow_id": "page-creation",
+      "flow_name": "Page Creation",
+      "unique_patterns": [
+        "empty-state",
+        "contextual-help",
+        "minimal-navigation",
+        "search-autocomplete",
+        "card-layout",
+        "progressive-disclosure"
+      ],
+      "pattern_combinations": []
+    },
+    {
+      "flow_id": "template-selection",
+      "flow_name": "Template Selection",
+      "unique_patterns": [
+        "card-layout",
+        "search-prominent",
+        "filter-facets",
+        "hero-illustration",
+        "lazy-loading",
+        "single-primary-cta",
+        "sticky-cta",
+        "success-confirmation",
+        "toast-notification"
+      ],
+      "pattern_combinations": []
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "app_id": "arc",
+  "name": "Arc Browser",
+  "category": "productivity",
+  "subcategory": "web-browser",
+  "platforms": ["macos", "windows", "ios"],
+  "url": "https://arc.net",
+  "company": "The Browser Company",
+  "founded_year": 2019,
+  "analysis_date": "2026-01-19",
+  "version_analyzed": "1.50",
+  "why_interesting": "Arc represents the most radical reimagining of browser UX in decades. While built on Chromium, it completely reinvents the browser interface with vertical tabs, Spaces for context switching, Little Arc for quick tasks, and native split-view multitasking. The Browser Company treats the browser as an operating system for the web, introducing concepts like Easels for visual note-taking and Boosts for user-controlled website customization. Arc challenges every assumption about browser design while maintaining compatibility with existing web standards.",
+  "key_innovations": [
+    "Vertical sidebar tabs replacing horizontal tab bar",
+    "Spaces for contextual workspace separation",
+    "Little Arc mini-browser for ephemeral tasks",
+    "Native split-view without extensions",
+    "Command bar as primary navigation interface",
+    "Easels for capturing and annotating web content",
+    "Boosts for customizing any website's appearance",
+    "Auto-archiving of unused tabs",
+    "Pinned tabs and favorites organizational hierarchy"
+  ],
+  "target_audience": [
+    "Power users seeking better tab management",
+    "Knowledge workers juggling multiple contexts",
+    "Designers and creatives needing visual workflows",
+    "Developers working across multiple projects",
+    "Users overwhelmed by traditional browser tab sprawl"
+  ],
+  "business_model": "Freemium with potential premium features",
+  "competitive_landscape": [
+    "Chrome",
+    "Safari",
+    "Firefox",
+    "Brave",
+    "Vivaldi",
+    "Sidekick"
+  ],
+  "notable_design_patterns": [
+    "Vertical navigation paradigm",
+    "Spatial organization (Spaces)",
+    "Command palette as primary UI",
+    "Progressive disclosure of features",
+    "Gesture-based interactions",
+    "Contextual mini-apps (Little Arc)"
+  ]
+}

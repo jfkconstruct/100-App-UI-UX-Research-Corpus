@@ -1,0 +1,66 @@
+{
+  "app_id": "canva",
+  "name": "Canva",
+  "tagline": "Design anything. Publish anywhere.",
+  "category": "design",
+  "subcategories": ["graphic-design", "templates", "collaboration", "marketing"],
+  "platforms": ["web", "ios", "android", "desktop-mac", "desktop-windows"],
+  "url": "https://www.canva.com",
+  "company": "Canva Pty Ltd",
+  "founded": 2012,
+  "headquarters": "Sydney, Australia",
+  "analysis_date": "2026-01-19",
+  "version_analyzed": "web-2026",
+  "monthly_active_users": "190M+",
+  "why_interesting": [
+    "Democratized professional design for non-designers through intuitive drag-and-drop interface",
+    "Template-first approach reduces blank canvas anxiety and accelerates time-to-completion",
+    "Exceptional progressive disclosure - simple surface hides powerful features for advanced users",
+    "Freemium model with strategic feature gating drives conversions without frustrating free users",
+    "Pioneered real-time collaborative design editing in browser-based tools",
+    "Extensive asset library (100M+ elements) with smart search and AI-powered suggestions",
+    "Magic tools (AI features) seamlessly integrated without disrupting familiar workflows",
+    "Onboarding excellence - users create first design within minutes of signup",
+    "Cross-platform consistency maintains muscle memory across devices",
+    "Content-aware resize and brand kit features solve real enterprise pain points"
+  ],
+  "key_metrics": {
+    "designs_created": "15B+ all-time",
+    "templates_available": "1M+",
+    "stock_elements": "100M+",
+    "countries_served": "190+",
+    "languages_supported": "100+"
+  },
+  "competitive_landscape": {
+    "direct_competitors": ["Adobe Express", "Figma", "Piktochart", "Visme", "Crello"],
+    "indirect_competitors": ["PowerPoint", "Google Slides", "Photoshop", "Illustrator"],
+    "key_differentiator": "Lowest barrier to entry for professional-quality design output"
+  },
+  "business_model": {
+    "type": "freemium",
+    "free_tier": "Core editing, limited templates, watermarked premium content",
+    "pro_tier": "Canva Pro - $12.99/month - Brand kit, premium content, background remover",
+    "teams_tier": "Canva Teams - $14.99/user/month - Collaboration, workflows, approvals",
+    "enterprise_tier": "Canva Enterprise - Custom pricing - SSO, advanced admin, dedicated support"
+  },
+  "notable_ux_innovations": [
+    "One-click background removal",
+    "Magic Resize for multi-platform content",
+    "Brand Kit for enterprise consistency",
+    "Content Planner for social scheduling",
+    "Magic Write AI copywriting assistant",
+    "Text-to-image AI generation",
+    "Real-time multiplayer editing"
+  ],
+  "tags": [
+    "template-driven",
+    "drag-and-drop",
+    "non-designer-friendly",
+    "freemium",
+    "collaborative",
+    "ai-enhanced",
+    "cross-platform",
+    "asset-library",
+    "brand-management"
+  ]
+}

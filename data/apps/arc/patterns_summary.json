@@ -1,0 +1,195 @@
+{
+  "app_id": "arc",
+  "total_screens": 10,
+  "patterns": [
+    {
+      "pattern_id": "progressive-disclosure",
+      "pattern_name": "Progressive Disclosure",
+      "frequency": 5,
+      "percentage": 50,
+      "avg_heuristics": {
+        "clarity": 4.6,
+        "cognitive_load": 4,
+        "visual_hierarchy": 4.8,
+        "feedback": 4.4,
+        "accessibility": 4.4,
+        "conversion_strength": 4
+      },
+      "screens": [
+        "arc-landing",
+        "arc-download",
+        "arc-spaces",
+        "arc-boosts",
+        "arc-settings"
+      ]
+    },
+    {
+      "pattern_id": "search-prominent",
+      "pattern_name": "Prominent Search",
+      "frequency": 2,
+      "percentage": 20,
+      "avg_heuristics": {
+        "clarity": 4.5,
+        "cognitive_load": 3.5,
+        "visual_hierarchy": 5,
+        "feedback": 5,
+        "accessibility": 4,
+        "conversion_strength": 4
+      },
+      "screens": [
+        "arc-main-browser",
+        "arc-command-bar"
+      ]
+    },
+    {
+      "pattern_id": "contextual-help",
+      "pattern_name": "Contextual Help",
+      "frequency": 2,
+      "percentage": 20,
+      "avg_heuristics": {
+        "clarity": 5,
+        "cognitive_load": 4,
+        "visual_hierarchy": 5,
+        "feedback": 4.5,
+        "accessibility": 4.5,
+        "conversion_strength": 3.5
+      },
+      "screens": [
+        "arc-command-bar",
+        "arc-settings"
+      ]
+    },
+    {
+      "pattern_id": "social-proof",
+      "pattern_name": "Social Proof",
+      "frequency": 1,
+      "percentage": 10,
+      "avg_heuristics": {
+        "clarity": 5,
+        "cognitive_load": 4,
+        "visual_hierarchy": 5,
+        "feedback": 4,
+        "accessibility": 4,
+        "conversion_strength": 5
+      },
+      "screens": [
+        "arc-landing"
+      ]
+    }
+  ],
+  "flows": [
+    {
+      "flow_id": "onboarding",
+      "flow_name": "New User Onboarding",
+      "unique_patterns": [
+        "hero-section",
+        "video-showcase",
+        "social-proof",
+        "feature-highlights",
+        "progressive-disclosure",
+        "platform-detection",
+        "download-prominent",
+        "trust-signals"
+      ],
+      "pattern_combinations": []
+    },
+    {
+      "flow_id": "core-browsing",
+      "flow_name": "Daily Browsing Workflow",
+      "unique_patterns": [
+        "vertical-navigation",
+        "collapsible-sidebar",
+        "hierarchical-organization",
+        "contextual-actions",
+        "keyboard-shortcuts",
+        "search-prominent"
+      ],
+      "pattern_combinations": []
+    },
+    {
+      "flow_id": "context-management",
+      "flow_name": "Context Switching with Spaces",
+      "unique_patterns": [
+        "workspace-separation",
+        "color-coding",
+        "gesture-navigation",
+        "keyboard-shortcuts",
+        "progressive-disclosure"
+      ],
+      "pattern_combinations": []
+    },
+    {
+      "flow_id": "multitasking",
+      "flow_name": "Split View Multitasking",
+      "unique_patterns": [
+        "split-panel",
+        "drag-and-drop",
+        "resize-handles",
+        "linked-items",
+        "contextual-actions"
+      ],
+      "pattern_combinations": []
+    },
+    {
+      "flow_id": "navigation",
+      "flow_name": "Command Bar Navigation",
+      "unique_patterns": [
+        "command-palette",
+        "search-prominent",
+        "fuzzy-search",
+        "keyboard-shortcuts",
+        "categorized-results",
+        "contextual-help"
+      ],
+      "pattern_combinations": []
+    },
+    {
+      "flow_id": "quick-tasks",
+      "flow_name": "Little Arc Quick Lookup",
+      "unique_patterns": [
+        "ephemeral-ui",
+        "popup-window",
+        "quick-actions",
+        "minimal-chrome",
+        "contextual-actions"
+      ],
+      "pattern_combinations": []
+    },
+    {
+      "flow_id": "content-capture",
+      "flow_name": "Easel Content Capture and Organization",
+      "unique_patterns": [
+        "infinite-canvas",
+        "drag-and-drop",
+        "freeform-layout",
+        "collaborative-editing",
+        "content-capture"
+      ],
+      "pattern_combinations": []
+    },
+    {
+      "flow_id": "customization",
+      "flow_name": "Boost Website Customization",
+      "unique_patterns": [
+        "user-customization",
+        "wysiwyg-editor",
+        "progressive-disclosure",
+        "community-sharing",
+        "live-preview"
+      ],
+      "pattern_combinations": []
+    },
+    {
+      "flow_id": "configuration",
+      "flow_name": "Settings and Preferences Configuration",
+      "unique_patterns": [
+        "settings-sidebar",
+        "search-settings",
+        "progressive-disclosure",
+        "grouped-settings",
+        "contextual-help"
+      ],
+      "pattern_combinations": []
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "app_id": "zapier",
+  "name": "Zapier",
+  "platforms": ["web"],
+  "category": "productivity",
+  "url": "https://zapier.com",
+  "analysis_date": "2026-01-19",
+  "why_interesting": [
+    "Industry-leading no-code automation platform with intuitive visual workflow builder",
+    "Excellent progressive disclosure that hides complexity while enabling powerful automations",
+    "Trigger-action paradigm that makes complex logic accessible to non-technical users",
+    "Massive app directory (6000+ integrations) with exceptional search and discovery UX",
+    "Template marketplace that dramatically reduces time-to-value for new users",
+    "Multi-step workflow editor that balances power with simplicity",
+    "Strong contextual help and inline validation throughout the Zap creation process"
+  ]
+}

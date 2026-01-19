@@ -1,0 +1,278 @@
+{
+  "app_id": "railway",
+  "total_screens": 10,
+  "patterns": [
+    {
+      "pattern_id": "card-layout",
+      "pattern_name": "Card Layout",
+      "frequency": 2,
+      "percentage": 20,
+      "avg_heuristics": {
+        "clarity": 5,
+        "cognitive_load": 4,
+        "visual_hierarchy": 5,
+        "feedback": 4.5,
+        "accessibility": 3.5,
+        "conversion_strength": 4.5
+      },
+      "screens": [
+        "railway-project-canvas",
+        "railway-template-marketplace"
+      ]
+    },
+    {
+      "pattern_id": "progressive-disclosure",
+      "pattern_name": "Progressive Disclosure",
+      "frequency": 2,
+      "percentage": 20,
+      "avg_heuristics": {
+        "clarity": 5,
+        "cognitive_load": 4.5,
+        "visual_hierarchy": 4.5,
+        "feedback": 5,
+        "accessibility": 4,
+        "conversion_strength": 4.5
+      },
+      "screens": [
+        "railway-service-deployment",
+        "railway-pricing-usage"
+      ]
+    },
+    {
+      "pattern_id": "search-prominent",
+      "pattern_name": "Prominent Search",
+      "frequency": 2,
+      "percentage": 20,
+      "avg_heuristics": {
+        "clarity": 4.5,
+        "cognitive_load": 4,
+        "visual_hierarchy": 4.5,
+        "feedback": 4.5,
+        "accessibility": 3.5,
+        "conversion_strength": 4
+      },
+      "screens": [
+        "railway-logs-viewer",
+        "railway-template-marketplace"
+      ]
+    },
+    {
+      "pattern_id": "smart-defaults",
+      "pattern_name": "Smart Defaults",
+      "frequency": 1,
+      "percentage": 10,
+      "avg_heuristics": {
+        "clarity": 5,
+        "cognitive_load": 5,
+        "visual_hierarchy": 4,
+        "feedback": 5,
+        "accessibility": 4,
+        "conversion_strength": 5
+      },
+      "screens": [
+        "railway-service-deployment"
+      ]
+    },
+    {
+      "pattern_id": "inline-validation",
+      "pattern_name": "Inline Validation",
+      "frequency": 1,
+      "percentage": 10,
+      "avg_heuristics": {
+        "clarity": 5,
+        "cognitive_load": 5,
+        "visual_hierarchy": 4,
+        "feedback": 5,
+        "accessibility": 4,
+        "conversion_strength": 5
+      },
+      "screens": [
+        "railway-service-deployment"
+      ]
+    },
+    {
+      "pattern_id": "contextual-help",
+      "pattern_name": "Contextual Help",
+      "frequency": 1,
+      "percentage": 10,
+      "avg_heuristics": {
+        "clarity": 5,
+        "cognitive_load": 5,
+        "visual_hierarchy": 4,
+        "feedback": 5,
+        "accessibility": 4,
+        "conversion_strength": 5
+      },
+      "screens": [
+        "railway-service-deployment"
+      ]
+    },
+    {
+      "pattern_id": "infinite-scroll",
+      "pattern_name": "Infinite Scroll",
+      "frequency": 1,
+      "percentage": 10,
+      "avg_heuristics": {
+        "clarity": 4,
+        "cognitive_load": 4,
+        "visual_hierarchy": 4,
+        "feedback": 5,
+        "accessibility": 3,
+        "conversion_strength": 3
+      },
+      "screens": [
+        "railway-logs-viewer"
+      ]
+    },
+    {
+      "pattern_id": "toast-notification",
+      "pattern_name": "Toast Notification",
+      "frequency": 1,
+      "percentage": 10,
+      "avg_heuristics": {
+        "clarity": 4,
+        "cognitive_load": 4,
+        "visual_hierarchy": 4,
+        "feedback": 4,
+        "accessibility": 4,
+        "conversion_strength": 3
+      },
+      "screens": [
+        "railway-project-settings"
+      ]
+    }
+  ],
+  "flows": [
+    {
+      "flow_id": "onboarding",
+      "flow_name": "New User Onboarding",
+      "unique_patterns": [
+        "hero-with-product-preview",
+        "social-proof-logos",
+        "feature-grid",
+        "gradient-background",
+        "sticky-navigation",
+        "dark-theme-default"
+      ],
+      "pattern_combinations": []
+    },
+    {
+      "flow_id": "deployment",
+      "flow_name": "Service Deployment Flow",
+      "unique_patterns": [
+        "progressive-disclosure",
+        "smart-defaults",
+        "framework-detection",
+        "step-indicator",
+        "inline-validation",
+        "contextual-help",
+        "modal-workflow",
+        "split-panel",
+        "timeline-view",
+        "build-phases",
+        "status-indicators",
+        "log-streaming",
+        "commit-linking",
+        "rollback-action",
+        "phase-duration"
+      ],
+      "pattern_combinations": []
+    },
+    {
+      "flow_id": "template-deployment",
+      "flow_name": "Template Marketplace Deployment",
+      "unique_patterns": [
+        "search-prominent",
+        "card-layout",
+        "category-filters",
+        "deploy-count-social-proof",
+        "template-preview",
+        "one-click-deploy",
+        "community-contributions",
+        "featured-carousel"
+      ],
+      "pattern_combinations": []
+    },
+    {
+      "flow_id": "database-setup",
+      "flow_name": "Database Provisioning Flow",
+      "unique_patterns": [
+        "card-grid",
+        "icon-labels",
+        "one-click-provision",
+        "pricing-preview",
+        "region-selector",
+        "quick-action"
+      ],
+      "pattern_combinations": []
+    },
+    {
+      "flow_id": "configuration",
+      "flow_name": "Environment Configuration Flow",
+      "unique_patterns": [
+        "table-layout",
+        "masked-secrets",
+        "reveal-toggle",
+        "environment-inheritance",
+        "bulk-import",
+        "variable-references",
+        "search-filter",
+        "copy-to-clipboard",
+        "sidebar-navigation",
+        "form-sections",
+        "danger-zone",
+        "role-based-access",
+        "environment-management",
+        "token-generation",
+        "confirmation-dialogs",
+        "toast-notification"
+      ],
+      "pattern_combinations": []
+    },
+    {
+      "flow_id": "debugging",
+      "flow_name": "Log Debugging Flow",
+      "unique_patterns": [
+        "terminal-aesthetic",
+        "real-time-streaming",
+        "color-coded-levels",
+        "search-prominent",
+        "time-range-filter",
+        "pause-resume",
+        "infinite-scroll",
+        "log-level-filter"
+      ],
+      "pattern_combinations": []
+    },
+    {
+      "flow_id": "project-management",
+      "flow_name": "Project Canvas Management",
+      "unique_patterns": [
+        "canvas-visualization",
+        "card-layout",
+        "connection-lines",
+        "status-indicators",
+        "environment-switcher",
+        "zoom-controls",
+        "contextual-menu",
+        "drag-and-drop"
+      ],
+      "pattern_combinations": []
+    },
+    {
+      "flow_id": "billing",
+      "flow_name": "Usage and Billing Flow",
+      "unique_patterns": [
+        "usage-metrics",
+        "cost-breakdown",
+        "spending-graph",
+        "plan-comparison",
+        "spending-alerts",
+        "real-time-estimation",
+        "progressive-disclosure",
+        "service-attribution"
+      ],
+      "pattern_combinations": []
+    }
+  ]
+}

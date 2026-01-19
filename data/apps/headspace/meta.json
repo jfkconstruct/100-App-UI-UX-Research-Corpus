@@ -1,0 +1,18 @@
+{
+  "app_id": "headspace",
+  "name": "Headspace",
+  "category": "health-fitness",
+  "platforms": ["web", "ios", "android"],
+  "url": "https://www.headspace.com",
+  "analyzed_version": "2024",
+  "analysis_date": "2026-01-19",
+  "why_interesting": [
+    "Calming visual design with distinctive pastel color palette and playful illustrations",
+    "Habit formation excellence through streaks, reminders, and gentle nudges",
+    "Playful character animations that humanize meditation practice",
+    "Andy Puddicombe character creates trust and personal connection",
+    "Subscription conversion masterclass with strategic free trial placement",
+    "Sleep content innovation with sleepcasts and wind-down experiences",
+    "Onboarding that personalizes based on meditation goals and experience"
+  ]
+}

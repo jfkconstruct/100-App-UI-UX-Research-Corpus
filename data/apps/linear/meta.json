@@ -1,0 +1,15 @@
+{
+  "app_id": "linear",
+  "name": "Linear",
+  "category": "productivity",
+  "platforms": ["web", "ios", "android", "desktop"],
+  "url": "https://linear.app",
+  "analyzed_version": "2024",
+  "analysis_date": "2026-01-19",
+  "why_interesting": [
+    "Speed and keyboard shortcuts as core design principle",
+    "Opinionated workflows that reduce decision fatigue",
+    "Command palette pattern done excellently",
+    "Minimal, focused interface with hidden depth"
+  ]
+}

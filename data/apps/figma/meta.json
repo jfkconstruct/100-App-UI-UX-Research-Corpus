@@ -1,0 +1,15 @@
+{
+  "app_id": "figma",
+  "name": "Figma",
+  "category": "design",
+  "platforms": ["web", "desktop"],
+  "url": "https://www.figma.com",
+  "analyzed_version": "2024",
+  "analysis_date": "2026-01-19",
+  "why_interesting": [
+    "Real-time collaborative features seamlessly integrated",
+    "Zero-friction start with templates and examples",
+    "Complex design tool with excellent discoverability",
+    "Multiplayer cursors and collaboration patterns"
+  ]
+}

@@ -1,0 +1,358 @@
+[
+  {
+    "screen_id": "landing-01",
+    "app_id": "duolingo",
+    "flow_id": "landing",
+    "step_index": 0,
+    "image_path": "data/raw_screens/duolingo/landing/01-homepage.png",
+    "screen_type": "landing",
+    "layout_type": "hero-cta",
+    "primary_user_goal": "Understand what Duolingo offers and get started learning",
+    "primary_business_goal": "Convert visitors to start the onboarding flow",
+    "primary_cta_label": "Get started",
+    "secondary_cta_labels": ["I already have an account"],
+    "navigation_elements": ["logo", "language-selector"],
+    "copy_summary": "Large friendly mascot (Duo the owl) with headline 'The free, fun, and effective way to learn a language!' Clean green branding with minimal distractions.",
+    "patterns": [
+      "single-primary-cta",
+      "benefit-oriented-headline",
+      "hero-illustration",
+      "minimal-navigation",
+      "social-proof"
+    ],
+    "heuristics": {
+      "clarity": 5,
+      "cognitive_load": 5,
+      "visual_hierarchy": 5,
+      "feedback": 3,
+      "accessibility": 4,
+      "conversion_strength": 5
+    },
+    "notes": "Exceptionally clean landing page. The mascot creates emotional connection immediately. 'Free' prominently featured reduces barrier. No pricing or feature comparisons - just one clear action. The green branding is distinctive and memorable."
+  },
+  {
+    "screen_id": "onboarding-01",
+    "app_id": "duolingo",
+    "flow_id": "onboarding",
+    "step_index": 0,
+    "image_path": "data/raw_screens/duolingo/onboarding/01-language-select.png",
+    "screen_type": "selection",
+    "layout_type": "grid",
+    "primary_user_goal": "Choose which language to learn",
+    "primary_business_goal": "Personalize experience and increase commitment",
+    "primary_cta_label": "",
+    "secondary_cta_labels": [],
+    "navigation_elements": ["back-button"],
+    "copy_summary": "Question 'I want to learn...' with grid of language options. Each language shows flag icon and native name. Popular languages featured prominently.",
+    "patterns": [
+      "card-layout",
+      "progressive-disclosure",
+      "smart-defaults"
+    ],
+    "heuristics": {
+      "clarity": 5,
+      "cognitive_load": 4,
+      "visual_hierarchy": 5,
+      "feedback": 4,
+      "accessibility": 4,
+      "conversion_strength": 4
+    },
+    "notes": "Immediate personalization creates investment. Flag icons provide instant recognition. Selection advances automatically - no separate 'Continue' button reduces friction. Popular languages shown first reduces decision time."
+  },
+  {
+    "screen_id": "onboarding-02",
+    "app_id": "duolingo",
+    "flow_id": "onboarding",
+    "step_index": 1,
+    "image_path": "data/raw_screens/duolingo/onboarding/02-goal-setting.png",
+    "screen_type": "survey",
+    "layout_type": "card-list",
+    "primary_user_goal": "Set daily learning commitment",
+    "primary_business_goal": "Establish habit baseline for retention",
+    "primary_cta_label": "",
+    "secondary_cta_labels": [],
+    "navigation_elements": ["progress-indicator", "back-button"],
+    "copy_summary": "Question 'What's your daily goal?' with options: Casual (5 min), Regular (10 min), Serious (15 min), Intense (20 min). Each shows time commitment clearly.",
+    "patterns": [
+      "progress-indicator",
+      "card-layout",
+      "smart-defaults",
+      "progressive-disclosure"
+    ],
+    "heuristics": {
+      "clarity": 5,
+      "cognitive_load": 5,
+      "visual_hierarchy": 4,
+      "feedback": 4,
+      "accessibility": 4,
+      "conversion_strength": 5
+    },
+    "notes": "Brilliant commitment device. 'Casual' option reduces perceived barrier. Time-based goals are concrete and achievable. This creates a contract the user makes with themselves. Default selection on 'Regular' is smart middle ground."
+  },
+  {
+    "screen_id": "onboarding-03",
+    "app_id": "duolingo",
+    "flow_id": "onboarding",
+    "step_index": 2,
+    "image_path": "data/raw_screens/duolingo/onboarding/03-experience-level.png",
+    "screen_type": "survey",
+    "layout_type": "card-list",
+    "primary_user_goal": "Indicate current knowledge level for appropriate placement",
+    "primary_business_goal": "Segment users for optimal difficulty matching",
+    "primary_cta_label": "",
+    "secondary_cta_labels": [],
+    "navigation_elements": ["progress-indicator", "back-button"],
+    "copy_summary": "Question 'How much [language] do you know?' with options from complete beginner to advanced. Includes placement test option.",
+    "patterns": [
+      "progress-indicator",
+      "card-layout",
+      "progressive-disclosure"
+    ],
+    "heuristics": {
+      "clarity": 5,
+      "cognitive_load": 4,
+      "visual_hierarchy": 4,
+      "feedback": 4,
+      "accessibility": 4,
+      "conversion_strength": 4
+    },
+    "notes": "Respects existing knowledge - doesn't force beginners through basics. Placement test option for confident users. Clean options without jargon. This prevents frustration from content that's too easy or too hard."
+  },
+  {
+    "screen_id": "onboarding-04",
+    "app_id": "duolingo",
+    "flow_id": "onboarding",
+    "step_index": 3,
+    "image_path": "data/raw_screens/duolingo/onboarding/04-first-lesson.png",
+    "screen_type": "lesson",
+    "layout_type": "full-screen",
+    "primary_user_goal": "Complete first learning activity and experience value",
+    "primary_business_goal": "Demonstrate product value before asking for account creation",
+    "primary_cta_label": "Check",
+    "secondary_cta_labels": [],
+    "navigation_elements": ["progress-indicator", "close-button"],
+    "copy_summary": "Interactive lesson showing image-word matching. Clear progress bar at top. Simple instruction with immediate feedback on answers.",
+    "patterns": [
+      "progress-indicator",
+      "single-primary-cta",
+      "success-confirmation",
+      "contextual-help"
+    ],
+    "heuristics": {
+      "clarity": 5,
+      "cognitive_load": 5,
+      "visual_hierarchy": 5,
+      "feedback": 5,
+      "accessibility": 4,
+      "conversion_strength": 5
+    },
+    "notes": "Key insight: lesson BEFORE signup. User experiences value immediately. Simple matching exercise ensures early success. Green progress bar creates momentum. Immediate feedback (correct/incorrect) is satisfying. This is the hook."
+  },
+  {
+    "screen_id": "onboarding-05",
+    "app_id": "duolingo",
+    "flow_id": "onboarding",
+    "step_index": 4,
+    "image_path": "data/raw_screens/duolingo/onboarding/05-lesson-complete.png",
+    "screen_type": "success",
+    "layout_type": "celebration",
+    "primary_user_goal": "Feel accomplished and motivated to continue",
+    "primary_business_goal": "Create positive emotion and drive to signup",
+    "primary_cta_label": "Continue",
+    "secondary_cta_labels": [],
+    "navigation_elements": [],
+    "copy_summary": "Celebration screen with confetti animation. Shows XP earned, accuracy percentage, and streak start. Duo mascot celebrating.",
+    "patterns": [
+      "success-confirmation",
+      "single-primary-cta",
+      "hero-illustration"
+    ],
+    "heuristics": {
+      "clarity": 5,
+      "cognitive_load": 5,
+      "visual_hierarchy": 5,
+      "feedback": 5,
+      "accessibility": 4,
+      "conversion_strength": 5
+    },
+    "notes": "Dopamine hit through celebration. XP system introduced naturally. 'You started a streak!' plants the seed for retention mechanic. The confetti and animation make it feel like a real achievement. This emotional high is when they ask for signup."
+  },
+  {
+    "screen_id": "onboarding-06",
+    "app_id": "duolingo",
+    "flow_id": "onboarding",
+    "step_index": 5,
+    "image_path": "data/raw_screens/duolingo/onboarding/06-create-profile.png",
+    "screen_type": "signup",
+    "layout_type": "form",
+    "primary_user_goal": "Save progress and create account",
+    "primary_business_goal": "Convert to registered user",
+    "primary_cta_label": "Create profile",
+    "secondary_cta_labels": ["Continue with Google", "Continue with Facebook", "Later"],
+    "navigation_elements": [],
+    "copy_summary": "Save your progress prompt. Social login options prominent. Email/password form. 'Later' option available but de-emphasized.",
+    "patterns": [
+      "single-primary-cta",
+      "social-proof",
+      "progressive-disclosure",
+      "smart-defaults"
+    ],
+    "heuristics": {
+      "clarity": 4,
+      "cognitive_load": 4,
+      "visual_hierarchy": 4,
+      "feedback": 3,
+      "accessibility": 4,
+      "conversion_strength": 5
+    },
+    "notes": "Signup comes AFTER value demonstration - classic product-led growth. 'Save your progress' framing makes signup feel protective, not extractive. Social logins reduce friction. 'Later' option respects autonomy but is subtle."
+  },
+  {
+    "screen_id": "home-01",
+    "app_id": "duolingo",
+    "flow_id": "home",
+    "step_index": 0,
+    "image_path": "data/raw_screens/duolingo/home/01-learning-path.png",
+    "screen_type": "dashboard",
+    "layout_type": "vertical-scroll",
+    "primary_user_goal": "Continue learning from where they left off",
+    "primary_business_goal": "Drive daily engagement and lesson completion",
+    "primary_cta_label": "Start",
+    "secondary_cta_labels": [],
+    "navigation_elements": ["bottom-tab-bar", "streak-indicator", "hearts-indicator", "gems-indicator"],
+    "copy_summary": "Vertical skill tree showing learning path. Current lesson highlighted. Units organized by topic. Progress indicators on each skill node.",
+    "patterns": [
+      "bottom-tab-bar",
+      "progress-indicator",
+      "notification-badge",
+      "card-layout",
+      "single-primary-cta"
+    ],
+    "heuristics": {
+      "clarity": 4,
+      "cognitive_load": 3,
+      "visual_hierarchy": 4,
+      "feedback": 5,
+      "accessibility": 4,
+      "conversion_strength": 5
+    },
+    "notes": "The learning path visualization is brilliant - shows progress AND remaining journey. Current lesson is unmistakably clear. Gamification elements (streaks, gems, hearts) always visible. Slightly higher cognitive load due to many elements, but users learn the system quickly."
+  },
+  {
+    "screen_id": "home-02",
+    "app_id": "duolingo",
+    "flow_id": "home",
+    "step_index": 1,
+    "image_path": "data/raw_screens/duolingo/home/02-streak-display.png",
+    "screen_type": "modal",
+    "layout_type": "overlay",
+    "primary_user_goal": "Understand streak status and maintain motivation",
+    "primary_business_goal": "Reinforce daily habit and prevent churn",
+    "primary_cta_label": "Continue",
+    "secondary_cta_labels": [],
+    "navigation_elements": ["close-button"],
+    "copy_summary": "Streak celebration showing current streak count with flame icon. Calendar view of recent activity. Streak freeze availability shown.",
+    "patterns": [
+      "success-confirmation",
+      "progress-indicator",
+      "hero-illustration"
+    ],
+    "heuristics": {
+      "clarity": 5,
+      "cognitive_load": 4,
+      "visual_hierarchy": 5,
+      "feedback": 5,
+      "accessibility": 4,
+      "conversion_strength": 4
+    },
+    "notes": "Streaks are Duolingo's retention superpower. Visual streak counter creates loss aversion. Calendar shows investment over time. Streak freeze is smart monetization that preserves the habit. The flame icon is iconic and emotionally charged."
+  },
+  {
+    "screen_id": "lesson-01",
+    "app_id": "duolingo",
+    "flow_id": "lesson",
+    "step_index": 0,
+    "image_path": "data/raw_screens/duolingo/lesson/01-translation.png",
+    "screen_type": "exercise",
+    "layout_type": "full-screen",
+    "primary_user_goal": "Complete translation exercise correctly",
+    "primary_business_goal": "Teach language skills through practice",
+    "primary_cta_label": "Check",
+    "secondary_cta_labels": ["Skip"],
+    "navigation_elements": ["progress-indicator", "close-button", "hearts-indicator"],
+    "copy_summary": "Translation exercise with source sentence, word bank for constructing answer. Progress bar at top. Hearts remaining shown.",
+    "patterns": [
+      "progress-indicator",
+      "single-primary-cta",
+      "contextual-help",
+      "inline-validation"
+    ],
+    "heuristics": {
+      "clarity": 5,
+      "cognitive_load": 4,
+      "visual_hierarchy": 5,
+      "feedback": 5,
+      "accessibility": 4,
+      "conversion_strength": 4
+    },
+    "notes": "Word bank reduces typing friction and provides scaffolding. Progress bar creates momentum. Hearts add stakes without being punitive. Immediate feedback on check. Audio pronunciation available. Clean focus with no distractions."
+  },
+  {
+    "screen_id": "lesson-02",
+    "app_id": "duolingo",
+    "flow_id": "lesson",
+    "step_index": 1,
+    "image_path": "data/raw_screens/duolingo/lesson/02-correct-feedback.png",
+    "screen_type": "feedback",
+    "layout_type": "bottom-sheet",
+    "primary_user_goal": "Understand answer was correct and feel accomplished",
+    "primary_business_goal": "Reinforce correct behavior and maintain engagement",
+    "primary_cta_label": "Continue",
+    "secondary_cta_labels": [],
+    "navigation_elements": [],
+    "copy_summary": "Green success banner saying 'Correct!' with encouraging message. Sound effect plays. Continue button prominent.",
+    "patterns": [
+      "success-confirmation",
+      "single-primary-cta",
+      "toast-notification"
+    ],
+    "heuristics": {
+      "clarity": 5,
+      "cognitive_load": 5,
+      "visual_hierarchy": 5,
+      "feedback": 5,
+      "accessibility": 4,
+      "conversion_strength": 5
+    },
+    "notes": "Green color universally understood as success. Sound effect adds sensory reward. Quick transition keeps momentum. Encouraging messages vary to prevent monotony. This small dopamine hit is delivered dozens of times per session."
+  },
+  {
+    "screen_id": "lesson-03",
+    "app_id": "duolingo",
+    "flow_id": "lesson",
+    "step_index": 2,
+    "image_path": "data/raw_screens/duolingo/lesson/03-incorrect-feedback.png",
+    "screen_type": "feedback",
+    "layout_type": "bottom-sheet",
+    "primary_user_goal": "Understand mistake and learn correct answer",
+    "primary_business_goal": "Teach through errors without discouraging",
+    "primary_cta_label": "Continue",
+    "secondary_cta_labels": ["Report"],
+    "navigation_elements": [],
+    "copy_summary": "Red error banner showing 'Correct solution:' with the right answer. Explanation when relevant. Heart lost indicator.",
+    "patterns": [
+      "error-message",
+      "single-primary-cta",
+      "contextual-help"
+    ],
+    "heuristics": {
+      "clarity": 5,
+      "cognitive_load": 4,
+      "visual_hierarchy": 5,
+      "feedback": 5,
+      "accessibility": 4,
+      "conversion_strength": 4
+    },
+    "notes": "Errors are learning opportunities, not failures. Shows correct answer immediately for learning. Hearts system adds consequence but isn't harsh. Report option catches errors in content. Red color is clear but not alarming."
+  }
+]

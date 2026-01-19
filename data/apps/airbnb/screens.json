@@ -1,0 +1,318 @@
+[
+  {
+    "screen_id": "landing-01",
+    "app_id": "airbnb",
+    "flow_id": "search-to-book",
+    "step_index": 0,
+    "image_path": "data/raw_screens/airbnb/booking/01-landing.png",
+    "screen_type": "landing",
+    "layout_type": "full-screen",
+    "primary_user_goal": "Start searching for a place to stay",
+    "primary_business_goal": "Get users into the search funnel as quickly as possible",
+    "primary_cta_label": "Search",
+    "secondary_cta_labels": ["Anywhere", "Any week", "Add guests"],
+    "navigation_elements": ["search-prominent", "bottom-tab-bar", "hamburger-menu"],
+    "copy_summary": "Large hero search bar with 'Where to?' placeholder dominates the screen. Category pills below (Icons, Trending, Beachfront, Cabins, etc.) enable browsing. Hero imagery rotates showing aspirational travel destinations.",
+    "patterns": [
+      "search-prominent",
+      "hero-illustration",
+      "card-layout",
+      "bottom-tab-bar",
+      "filter-facets"
+    ],
+    "heuristics": {
+      "clarity": 5.0,
+      "cognitive_load": 4.5,
+      "visual_hierarchy": 5.0,
+      "feedback": 4.0,
+      "accessibility": 4.0,
+      "conversion_strength": 5.0
+    },
+    "notes": "Exceptional search-first design. The search bar is the undeniable focal point, immediately communicating purpose. Category pills provide alternative browsing entry points without cluttering. Hero imagery creates emotional connection and sells the travel dream. The three-part search (where, when, who) is intuitive and comprehensive. This is a masterclass in landing page design for a search-driven product."
+  },
+  {
+    "screen_id": "search-results-02",
+    "app_id": "airbnb",
+    "flow_id": "search-to-book",
+    "step_index": 1,
+    "image_path": "data/raw_screens/airbnb/booking/02-search-results.png",
+    "screen_type": "search-results",
+    "layout_type": "split-view",
+    "primary_user_goal": "Browse and compare available listings",
+    "primary_business_goal": "Surface relevant listings and encourage exploration",
+    "primary_cta_label": "",
+    "secondary_cta_labels": ["Filters", "Map", "Save"],
+    "navigation_elements": ["search-prominent", "filter-facets", "back-button", "bottom-tab-bar"],
+    "copy_summary": "Grid of listing cards showing photos, location, host status (Superhost badge), price per night, ratings, and dates. Filter bar at top with quick filters (Price, Type of place, etc.). Map toggle in corner.",
+    "patterns": [
+      "card-layout",
+      "filter-facets",
+      "social-proof",
+      "lazy-loading",
+      "infinite-scroll",
+      "like-favorite",
+      "search-prominent"
+    ],
+    "heuristics": {
+      "clarity": 4.5,
+      "cognitive_load": 4.0,
+      "visual_hierarchy": 4.5,
+      "feedback": 4.0,
+      "accessibility": 3.5,
+      "conversion_strength": 4.5
+    },
+    "notes": "Strong card-based layout with consistent information hierarchy. Photos are large and swipeable, supporting the visual-first approach. Social proof is embedded (ratings, Superhost badges). The heart icon for saving creates emotional engagement. Filter system is comprehensive but non-intrusive. Map toggle addresses users who prefer geographic browsing. Infinite scroll keeps exploration frictionless. Price display is clear with 'total before taxes' option."
+  },
+  {
+    "screen_id": "listing-detail-03",
+    "app_id": "airbnb",
+    "flow_id": "search-to-book",
+    "step_index": 2,
+    "image_path": "data/raw_screens/airbnb/booking/03-listing-detail.png",
+    "screen_type": "detail",
+    "layout_type": "long-scroll",
+    "primary_user_goal": "Evaluate listing thoroughly before booking",
+    "primary_business_goal": "Build confidence and drive booking conversion",
+    "primary_cta_label": "Reserve",
+    "secondary_cta_labels": ["Save", "Share", "Show all photos"],
+    "navigation_elements": ["back-button", "share-button", "sticky-cta"],
+    "copy_summary": "Large photo gallery with 'Show all' option. Title, location, and key amenities. Host profile with Superhost badge. Description with 'Show more' truncation. Amenities list, location map, reviews section with aggregated rating. Price breakdown and Reserve button in sticky footer.",
+    "patterns": [
+      "hero-illustration",
+      "social-proof",
+      "sticky-cta",
+      "progressive-disclosure",
+      "user-avatar",
+      "like-favorite",
+      "share-button",
+      "card-layout"
+    ],
+    "heuristics": {
+      "clarity": 4.5,
+      "cognitive_load": 3.5,
+      "visual_hierarchy": 4.5,
+      "feedback": 4.0,
+      "accessibility": 4.0,
+      "conversion_strength": 5.0
+    },
+    "notes": "Comprehensive detail page that addresses all user concerns. Photo gallery is immersive and sells the property visually. Host section builds trust (verified identity, response time, Superhost status). Reviews are prominently featured with category breakdown (cleanliness, accuracy, etc.). Price breakdown shows all fees transparently. Sticky Reserve button ensures CTA is always visible during scroll. Cognitive load is higher due to information density, but progressive disclosure helps. The page is designed to answer every question before booking."
+  },
+  {
+    "screen_id": "photo-gallery-04",
+    "app_id": "airbnb",
+    "flow_id": "search-to-book",
+    "step_index": 3,
+    "image_path": "data/raw_screens/airbnb/booking/04-photo-gallery.png",
+    "screen_type": "gallery",
+    "layout_type": "full-screen-modal",
+    "primary_user_goal": "View all listing photos in detail",
+    "primary_business_goal": "Increase confidence through visual exploration",
+    "primary_cta_label": "",
+    "secondary_cta_labels": ["Close", "Share", "Save"],
+    "navigation_elements": ["back-button", "share-button"],
+    "copy_summary": "Full-screen photo viewer with organized sections (Living space, Bedrooms, Bathroom, Outdoor, etc.). Navigation between photos via swipe or arrow buttons. Photo count indicator. High-resolution images with zoom capability.",
+    "patterns": [
+      "hero-illustration",
+      "progressive-disclosure",
+      "back-button",
+      "lazy-loading"
+    ],
+    "heuristics": {
+      "clarity": 5.0,
+      "cognitive_load": 5.0,
+      "visual_hierarchy": 5.0,
+      "feedback": 4.5,
+      "accessibility": 4.0,
+      "conversion_strength": 4.5
+    },
+    "notes": "Clean, focused photo experience. Photo organization by room type helps users find what they care about. Full-screen presentation maximizes visual impact. Clear navigation and photo count set expectations. Lazy loading ensures performance. The gallery supports the core premise that beautiful imagery sells bookings. Photo quality requirements from hosts ensure consistent experience."
+  },
+  {
+    "screen_id": "booking-dates-05",
+    "app_id": "airbnb",
+    "flow_id": "search-to-book",
+    "step_index": 4,
+    "image_path": "data/raw_screens/airbnb/booking/05-booking-dates.png",
+    "screen_type": "form",
+    "layout_type": "full-screen-modal",
+    "primary_user_goal": "Select travel dates for booking",
+    "primary_business_goal": "Capture dates to proceed with booking",
+    "primary_cta_label": "Save",
+    "secondary_cta_labels": ["Clear dates", "Close"],
+    "navigation_elements": ["back-button", "progress-indicator"],
+    "copy_summary": "Calendar view showing available dates. Blocked dates grayed out. Minimum night requirements displayed. Price per night shown. Check-in and check-out date selection with clear visual feedback.",
+    "patterns": [
+      "smart-defaults",
+      "inline-validation",
+      "progress-indicator",
+      "single-primary-cta",
+      "back-button"
+    ],
+    "heuristics": {
+      "clarity": 4.5,
+      "cognitive_load": 4.0,
+      "visual_hierarchy": 4.5,
+      "feedback": 5.0,
+      "accessibility": 4.0,
+      "conversion_strength": 4.5
+    },
+    "notes": "Clear calendar interface with availability visualization. Blocked dates are obviously unavailable. Price display helps decision-making. Minimum night requirements are surfaced early to prevent frustration. Strong feedback on date selection. The 'Clear dates' option provides easy error recovery. Flexible date searching ('I'm flexible') caters to users without fixed plans."
+  },
+  {
+    "screen_id": "checkout-06",
+    "app_id": "airbnb",
+    "flow_id": "search-to-book",
+    "step_index": 5,
+    "image_path": "data/raw_screens/airbnb/booking/06-checkout.png",
+    "screen_type": "checkout",
+    "layout_type": "long-scroll",
+    "primary_user_goal": "Complete booking with payment",
+    "primary_business_goal": "Maximize conversion with clear pricing and trust",
+    "primary_cta_label": "Confirm and pay",
+    "secondary_cta_labels": ["Pay in full", "Pay over time", "Edit"],
+    "navigation_elements": ["back-button", "progress-indicator"],
+    "copy_summary": "Trip summary with dates and guest count. Detailed price breakdown (nightly rate, cleaning fee, service fee, taxes). Payment options (Pay in full, Pay over time). Payment method selection. Cancellation policy. House rules acknowledgment. Reserve button at bottom.",
+    "patterns": [
+      "progress-indicator",
+      "single-primary-cta",
+      "smart-defaults",
+      "inline-validation",
+      "input-masking",
+      "multi-step-form",
+      "social-proof"
+    ],
+    "heuristics": {
+      "clarity": 4.5,
+      "cognitive_load": 3.5,
+      "visual_hierarchy": 4.0,
+      "feedback": 4.5,
+      "accessibility": 4.0,
+      "conversion_strength": 4.5
+    },
+    "notes": "Transparent pricing breakdown builds trust and reduces surprise at final cost. Payment flexibility (Pay over time) reduces price sensitivity friction. Saved payment methods enable faster checkout. Cancellation policy is clearly visible, reducing booking anxiety. House rules acknowledgment sets expectations. The page balances comprehensive information with clear progression toward CTA. Trust signals (secure payment, Airbnb guarantee) are present."
+  },
+  {
+    "screen_id": "confirmation-07",
+    "app_id": "airbnb",
+    "flow_id": "search-to-book",
+    "step_index": 6,
+    "image_path": "data/raw_screens/airbnb/booking/07-confirmation.png",
+    "screen_type": "success",
+    "layout_type": "full-screen",
+    "primary_user_goal": "Confirm booking was successful and understand next steps",
+    "primary_business_goal": "Celebrate success and guide to next actions",
+    "primary_cta_label": "View your trip",
+    "secondary_cta_labels": ["Message host", "Add to calendar", "Invite guests"],
+    "navigation_elements": ["bottom-tab-bar"],
+    "copy_summary": "Success animation with checkmark. 'Your booking is confirmed' headline. Trip summary with dates, location, and host info. Next steps: Message host, add to calendar, download check-in info. Countdown or 'X days until your trip' creates anticipation.",
+    "patterns": [
+      "success-confirmation",
+      "single-primary-cta",
+      "hero-illustration",
+      "contextual-help"
+    ],
+    "heuristics": {
+      "clarity": 5.0,
+      "cognitive_load": 4.5,
+      "visual_hierarchy": 5.0,
+      "feedback": 5.0,
+      "accessibility": 4.5,
+      "conversion_strength": 4.0
+    },
+    "notes": "Excellent success state with celebratory animation. Clear confirmation of what was booked. Next steps are actionable and useful (message host, calendar). The countdown creates positive anticipation. Links to manage trip and download info for offline access are thoughtful. This page turns transaction completion into excitement about the upcoming experience. Email confirmation backup provides additional reassurance."
+  },
+  {
+    "screen_id": "host-dashboard-08",
+    "app_id": "airbnb",
+    "flow_id": "host-management",
+    "step_index": 0,
+    "image_path": "data/raw_screens/airbnb/host/01-dashboard.png",
+    "screen_type": "dashboard",
+    "layout_type": "grid",
+    "primary_user_goal": "Manage listings and view booking status",
+    "primary_business_goal": "Enable efficient hosting and encourage more listings",
+    "primary_cta_label": "Create new listing",
+    "secondary_cta_labels": ["View calendar", "Manage listing", "Message guests"],
+    "navigation_elements": ["bottom-tab-bar", "notification-badge", "search-prominent"],
+    "copy_summary": "Overview of active listings with booking status. Upcoming reservations with guest info. Performance metrics (response rate, acceptance rate, rating). Earnings summary. Quick actions for common tasks. Notification center for messages and updates.",
+    "patterns": [
+      "card-layout",
+      "notification-badge",
+      "progress-indicator",
+      "contextual-help",
+      "user-avatar"
+    ],
+    "heuristics": {
+      "clarity": 4.0,
+      "cognitive_load": 3.5,
+      "visual_hierarchy": 4.0,
+      "feedback": 4.0,
+      "accessibility": 3.5,
+      "conversion_strength": 3.5
+    },
+    "notes": "Host dashboard successfully serves the other side of the marketplace. Key metrics are surfaced (response rate affects search ranking). Upcoming reservations are prominent for immediate action needs. The switch between guest and host modes is clear. Performance metrics encourage engagement with quality standards. Earnings visibility motivates continued hosting. The dashboard is denser than guest experience, appropriate for the more operational host context."
+  },
+  {
+    "screen_id": "host-listing-editor-09",
+    "app_id": "airbnb",
+    "flow_id": "host-management",
+    "step_index": 1,
+    "image_path": "data/raw_screens/airbnb/host/02-listing-editor.png",
+    "screen_type": "form",
+    "layout_type": "multi-step",
+    "primary_user_goal": "Create or edit a listing",
+    "primary_business_goal": "Increase listing quality and supply",
+    "primary_cta_label": "Next",
+    "secondary_cta_labels": ["Save and exit", "Preview"],
+    "navigation_elements": ["progress-indicator", "back-button"],
+    "copy_summary": "Step-by-step listing creation: Property type, space details, location, photos, title and description, pricing, availability, and house rules. Each step is focused with clear guidance. Photo upload with tips for great images.",
+    "patterns": [
+      "multi-step-form",
+      "progress-indicator",
+      "inline-validation",
+      "contextual-help",
+      "smart-defaults",
+      "single-primary-cta"
+    ],
+    "heuristics": {
+      "clarity": 4.5,
+      "cognitive_load": 4.0,
+      "visual_hierarchy": 4.5,
+      "feedback": 4.5,
+      "accessibility": 4.0,
+      "conversion_strength": 4.0
+    },
+    "notes": "Listing creation is broken into digestible steps to reduce overwhelming hosts. Progress indicator shows completion status. Each step has contextual help explaining why it matters (e.g., 'Photos are the #1 factor in booking decisions'). Smart defaults for pricing based on similar listings in area. Preview capability lets hosts see guest perspective before publishing. Save and exit respects that listing creation may span multiple sessions."
+  },
+  {
+    "screen_id": "reviews-ratings-10",
+    "app_id": "airbnb",
+    "flow_id": "post-stay",
+    "step_index": 0,
+    "image_path": "data/raw_screens/airbnb/post-stay/01-review.png",
+    "screen_type": "form",
+    "layout_type": "multi-step",
+    "primary_user_goal": "Leave a review and rating for the stay",
+    "primary_business_goal": "Generate social proof and maintain quality",
+    "primary_cta_label": "Submit review",
+    "secondary_cta_labels": ["Skip"],
+    "navigation_elements": ["progress-indicator", "back-button"],
+    "copy_summary": "Star rating for overall experience. Category ratings (cleanliness, accuracy, check-in, communication, location, value). Text review with prompts. Private feedback option for host. Tips for helpful reviews.",
+    "patterns": [
+      "multi-step-form",
+      "progress-indicator",
+      "inline-validation",
+      "single-primary-cta",
+      "contextual-help"
+    ],
+    "heuristics": {
+      "clarity": 4.5,
+      "cognitive_load": 4.0,
+      "visual_hierarchy": 4.5,
+      "feedback": 4.5,
+      "accessibility": 4.0,
+      "conversion_strength": 4.0
+    },
+    "notes": "Review flow is broken into sections to capture detailed feedback. Category ratings provide structured data for search ranking. Private feedback option encourages honest communication without public negativity. Prompts help users write more useful reviews. The design incentivizes review completion (reminder emails, in-app prompts) because reviews are critical to marketplace trust. Both guest and host reviews contribute to the mutual accountability system."
+  }
+]

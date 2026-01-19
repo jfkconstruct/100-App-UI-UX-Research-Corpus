@@ -1,0 +1,551 @@
+{
+  "app_id": "airbnb",
+  "total_screens": 10,
+  "patterns": [
+    {
+      "pattern_id": "progress-indicator",
+      "pattern_name": "Progress Indicator",
+      "frequency": 5,
+      "percentage": 50,
+      "avg_heuristics": {
+        "clarity": 4.4,
+        "cognitive_load": 3.8,
+        "visual_hierarchy": 4.3,
+        "feedback": 4.5,
+        "accessibility": 3.9,
+        "conversion_strength": 4.1
+      },
+      "screens": [
+        "booking-dates-05",
+        "checkout-06",
+        "host-dashboard-08",
+        "host-listing-editor-09",
+        "reviews-ratings-10"
+      ]
+    },
+    {
+      "pattern_id": "single-primary-cta",
+      "pattern_name": "Single Primary CTA",
+      "frequency": 5,
+      "percentage": 50,
+      "avg_heuristics": {
+        "clarity": 4.6,
+        "cognitive_load": 4,
+        "visual_hierarchy": 4.5,
+        "feedback": 4.7,
+        "accessibility": 4.1,
+        "conversion_strength": 4.2
+      },
+      "screens": [
+        "booking-dates-05",
+        "checkout-06",
+        "confirmation-07",
+        "host-listing-editor-09",
+        "reviews-ratings-10"
+      ]
+    },
+    {
+      "pattern_id": "hero-illustration",
+      "pattern_name": "Hero Illustration",
+      "frequency": 4,
+      "percentage": 40,
+      "avg_heuristics": {
+        "clarity": 4.9,
+        "cognitive_load": 4.4,
+        "visual_hierarchy": 4.9,
+        "feedback": 4.4,
+        "accessibility": 4.1,
+        "conversion_strength": 4.6
+      },
+      "screens": [
+        "landing-01",
+        "listing-detail-03",
+        "photo-gallery-04",
+        "confirmation-07"
+      ]
+    },
+    {
+      "pattern_id": "card-layout",
+      "pattern_name": "Card Layout",
+      "frequency": 4,
+      "percentage": 40,
+      "avg_heuristics": {
+        "clarity": 4.5,
+        "cognitive_load": 3.9,
+        "visual_hierarchy": 4.5,
+        "feedback": 4,
+        "accessibility": 3.8,
+        "conversion_strength": 4.5
+      },
+      "screens": [
+        "landing-01",
+        "search-results-02",
+        "listing-detail-03",
+        "host-dashboard-08"
+      ]
+    },
+    {
+      "pattern_id": "inline-validation",
+      "pattern_name": "Inline Validation",
+      "frequency": 4,
+      "percentage": 40,
+      "avg_heuristics": {
+        "clarity": 4.5,
+        "cognitive_load": 3.9,
+        "visual_hierarchy": 4.4,
+        "feedback": 4.6,
+        "accessibility": 4,
+        "conversion_strength": 4.3
+      },
+      "screens": [
+        "booking-dates-05",
+        "checkout-06",
+        "host-listing-editor-09",
+        "reviews-ratings-10"
+      ]
+    },
+    {
+      "pattern_id": "contextual-help",
+      "pattern_name": "Contextual Help",
+      "frequency": 4,
+      "percentage": 40,
+      "avg_heuristics": {
+        "clarity": 4.5,
+        "cognitive_load": 4,
+        "visual_hierarchy": 4.5,
+        "feedback": 4.5,
+        "accessibility": 4,
+        "conversion_strength": 3.9
+      },
+      "screens": [
+        "confirmation-07",
+        "host-dashboard-08",
+        "host-listing-editor-09",
+        "reviews-ratings-10"
+      ]
+    },
+    {
+      "pattern_id": "social-proof",
+      "pattern_name": "Social Proof",
+      "frequency": 3,
+      "percentage": 30,
+      "avg_heuristics": {
+        "clarity": 4.5,
+        "cognitive_load": 3.7,
+        "visual_hierarchy": 4.3,
+        "feedback": 4.2,
+        "accessibility": 3.8,
+        "conversion_strength": 4.7
+      },
+      "screens": [
+        "search-results-02",
+        "listing-detail-03",
+        "checkout-06"
+      ]
+    },
+    {
+      "pattern_id": "smart-defaults",
+      "pattern_name": "Smart Defaults",
+      "frequency": 3,
+      "percentage": 30,
+      "avg_heuristics": {
+        "clarity": 4.5,
+        "cognitive_load": 3.8,
+        "visual_hierarchy": 4.3,
+        "feedback": 4.7,
+        "accessibility": 4,
+        "conversion_strength": 4.3
+      },
+      "screens": [
+        "booking-dates-05",
+        "checkout-06",
+        "host-listing-editor-09"
+      ]
+    },
+    {
+      "pattern_id": "multi-step-form",
+      "pattern_name": "Multi-Step Form",
+      "frequency": 3,
+      "percentage": 30,
+      "avg_heuristics": {
+        "clarity": 4.5,
+        "cognitive_load": 3.8,
+        "visual_hierarchy": 4.3,
+        "feedback": 4.5,
+        "accessibility": 4,
+        "conversion_strength": 4.2
+      },
+      "screens": [
+        "checkout-06",
+        "host-listing-editor-09",
+        "reviews-ratings-10"
+      ]
+    },
+    {
+      "pattern_id": "search-prominent",
+      "pattern_name": "Prominent Search",
+      "frequency": 2,
+      "percentage": 20,
+      "avg_heuristics": {
+        "clarity": 4.8,
+        "cognitive_load": 4.3,
+        "visual_hierarchy": 4.8,
+        "feedback": 4,
+        "accessibility": 3.8,
+        "conversion_strength": 4.8
+      },
+      "screens": [
+        "landing-01",
+        "search-results-02"
+      ]
+    },
+    {
+      "pattern_id": "filter-facets",
+      "pattern_name": "Filter Facets",
+      "frequency": 2,
+      "percentage": 20,
+      "avg_heuristics": {
+        "clarity": 4.8,
+        "cognitive_load": 4.3,
+        "visual_hierarchy": 4.8,
+        "feedback": 4,
+        "accessibility": 3.8,
+        "conversion_strength": 4.8
+      },
+      "screens": [
+        "landing-01",
+        "search-results-02"
+      ]
+    },
+    {
+      "pattern_id": "lazy-loading",
+      "pattern_name": "Lazy Loading",
+      "frequency": 2,
+      "percentage": 20,
+      "avg_heuristics": {
+        "clarity": 4.8,
+        "cognitive_load": 4.5,
+        "visual_hierarchy": 4.8,
+        "feedback": 4.3,
+        "accessibility": 3.8,
+        "conversion_strength": 4.5
+      },
+      "screens": [
+        "search-results-02",
+        "photo-gallery-04"
+      ]
+    },
+    {
+      "pattern_id": "like-favorite",
+      "pattern_name": "Like/Favorite",
+      "frequency": 2,
+      "percentage": 20,
+      "avg_heuristics": {
+        "clarity": 4.5,
+        "cognitive_load": 3.8,
+        "visual_hierarchy": 4.5,
+        "feedback": 4,
+        "accessibility": 3.8,
+        "conversion_strength": 4.8
+      },
+      "screens": [
+        "search-results-02",
+        "listing-detail-03"
+      ]
+    },
+    {
+      "pattern_id": "progressive-disclosure",
+      "pattern_name": "Progressive Disclosure",
+      "frequency": 2,
+      "percentage": 20,
+      "avg_heuristics": {
+        "clarity": 4.8,
+        "cognitive_load": 4.3,
+        "visual_hierarchy": 4.8,
+        "feedback": 4.3,
+        "accessibility": 4,
+        "conversion_strength": 4.8
+      },
+      "screens": [
+        "listing-detail-03",
+        "photo-gallery-04"
+      ]
+    },
+    {
+      "pattern_id": "user-avatar",
+      "pattern_name": "User Avatar",
+      "frequency": 2,
+      "percentage": 20,
+      "avg_heuristics": {
+        "clarity": 4.3,
+        "cognitive_load": 3.5,
+        "visual_hierarchy": 4.3,
+        "feedback": 4,
+        "accessibility": 3.8,
+        "conversion_strength": 4.3
+      },
+      "screens": [
+        "listing-detail-03",
+        "host-dashboard-08"
+      ]
+    },
+    {
+      "pattern_id": "back-button",
+      "pattern_name": "Back Button",
+      "frequency": 2,
+      "percentage": 20,
+      "avg_heuristics": {
+        "clarity": 4.8,
+        "cognitive_load": 4.5,
+        "visual_hierarchy": 4.8,
+        "feedback": 4.8,
+        "accessibility": 4,
+        "conversion_strength": 4.5
+      },
+      "screens": [
+        "photo-gallery-04",
+        "booking-dates-05"
+      ]
+    },
+    {
+      "pattern_id": "bottom-tab-bar",
+      "pattern_name": "Bottom Tab Bar",
+      "frequency": 1,
+      "percentage": 10,
+      "avg_heuristics": {
+        "clarity": 5,
+        "cognitive_load": 4.5,
+        "visual_hierarchy": 5,
+        "feedback": 4,
+        "accessibility": 4,
+        "conversion_strength": 5
+      },
+      "screens": [
+        "landing-01"
+      ]
+    },
+    {
+      "pattern_id": "infinite-scroll",
+      "pattern_name": "Infinite Scroll",
+      "frequency": 1,
+      "percentage": 10,
+      "avg_heuristics": {
+        "clarity": 4.5,
+        "cognitive_load": 4,
+        "visual_hierarchy": 4.5,
+        "feedback": 4,
+        "accessibility": 3.5,
+        "conversion_strength": 4.5
+      },
+      "screens": [
+        "search-results-02"
+      ]
+    },
+    {
+      "pattern_id": "sticky-cta",
+      "pattern_name": "Sticky CTA",
+      "frequency": 1,
+      "percentage": 10,
+      "avg_heuristics": {
+        "clarity": 4.5,
+        "cognitive_load": 3.5,
+        "visual_hierarchy": 4.5,
+        "feedback": 4,
+        "accessibility": 4,
+        "conversion_strength": 5
+      },
+      "screens": [
+        "listing-detail-03"
+      ]
+    },
+    {
+      "pattern_id": "share-button",
+      "pattern_name": "Share Button",
+      "frequency": 1,
+      "percentage": 10,
+      "avg_heuristics": {
+        "clarity": 4.5,
+        "cognitive_load": 3.5,
+        "visual_hierarchy": 4.5,
+        "feedback": 4,
+        "accessibility": 4,
+        "conversion_strength": 5
+      },
+      "screens": [
+        "listing-detail-03"
+      ]
+    },
+    {
+      "pattern_id": "input-masking",
+      "pattern_name": "Input Masking",
+      "frequency": 1,
+      "percentage": 10,
+      "avg_heuristics": {
+        "clarity": 4.5,
+        "cognitive_load": 3.5,
+        "visual_hierarchy": 4,
+        "feedback": 4.5,
+        "accessibility": 4,
+        "conversion_strength": 4.5
+      },
+      "screens": [
+        "checkout-06"
+      ]
+    },
+    {
+      "pattern_id": "success-confirmation",
+      "pattern_name": "Success Confirmation",
+      "frequency": 1,
+      "percentage": 10,
+      "avg_heuristics": {
+        "clarity": 5,
+        "cognitive_load": 4.5,
+        "visual_hierarchy": 5,
+        "feedback": 5,
+        "accessibility": 4.5,
+        "conversion_strength": 4
+      },
+      "screens": [
+        "confirmation-07"
+      ]
+    },
+    {
+      "pattern_id": "notification-badge",
+      "pattern_name": "Notification Badge",
+      "frequency": 1,
+      "percentage": 10,
+      "avg_heuristics": {
+        "clarity": 4,
+        "cognitive_load": 3.5,
+        "visual_hierarchy": 4,
+        "feedback": 4,
+        "accessibility": 3.5,
+        "conversion_strength": 3.5
+      },
+      "screens": [
+        "host-dashboard-08"
+      ]
+    }
+  ],
+  "flows": [
+    {
+      "flow_id": "search-to-book",
+      "flow_name": "Search to Booking",
+      "unique_patterns": [
+        "search-prominent",
+        "hero-illustration",
+        "card-layout",
+        "bottom-tab-bar",
+        "filter-facets",
+        "social-proof",
+        "lazy-loading",
+        "infinite-scroll",
+        "like-favorite",
+        "sticky-cta",
+        "progressive-disclosure",
+        "user-avatar",
+        "share-button",
+        "back-button",
+        "smart-defaults",
+        "inline-validation",
+        "progress-indicator",
+        "single-primary-cta",
+        "input-masking",
+        "multi-step-form",
+        "success-confirmation",
+        "contextual-help"
+      ],
+      "pattern_combinations": [
+        [
+          "card-layout",
+          "search-prominent"
+        ],
+        [
+          "filter-facets",
+          "search-prominent"
+        ],
+        [
+          "card-layout",
+          "hero-illustration"
+        ],
+        [
+          "card-layout",
+          "filter-facets"
+        ],
+        [
+          "card-layout",
+          "social-proof"
+        ],
+        [
+          "card-layout",
+          "like-favorite"
+        ],
+        [
+          "like-favorite",
+          "social-proof"
+        ],
+        [
+          "hero-illustration",
+          "progressive-disclosure"
+        ],
+        [
+          "inline-validation",
+          "smart-defaults"
+        ],
+        [
+          "progress-indicator",
+          "smart-defaults"
+        ],
+        [
+          "single-primary-cta",
+          "smart-defaults"
+        ],
+        [
+          "inline-validation",
+          "progress-indicator"
+        ],
+        [
+          "inline-validation",
+          "single-primary-cta"
+        ],
+        [
+          "progress-indicator",
+          "single-primary-cta"
+        ]
+      ]
+    },
+    {
+      "flow_id": "host-management",
+      "flow_name": "Host Listing Management",
+      "unique_patterns": [
+        "card-layout",
+        "notification-badge",
+        "progress-indicator",
+        "contextual-help",
+        "user-avatar",
+        "multi-step-form",
+        "inline-validation",
+        "smart-defaults",
+        "single-primary-cta"
+      ],
+      "pattern_combinations": [
+        [
+          "contextual-help",
+          "progress-indicator"
+        ]
+      ]
+    },
+    {
+      "flow_id": "post-stay",
+      "flow_name": "Post-Stay Experience",
+      "unique_patterns": [
+        "multi-step-form",
+        "progress-indicator",
+        "inline-validation",
+        "single-primary-cta",
+        "contextual-help"
+      ],
+      "pattern_combinations": []
+    }
+  ]
+}

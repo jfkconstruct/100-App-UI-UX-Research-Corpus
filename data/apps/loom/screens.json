@@ -1,0 +1,312 @@
+[
+  {
+    "screen_id": "landing-01",
+    "app_id": "loom",
+    "flow_id": "marketing-to-signup",
+    "step_index": 0,
+    "image_path": "data/raw_screens/loom/marketing/01-landing.png",
+    "screen_type": "landing",
+    "layout_type": "full-screen",
+    "primary_user_goal": "Understand Loom's value proposition for async video communication",
+    "primary_business_goal": "Convert visitors to sign-ups and demonstrate video messaging benefits",
+    "primary_cta_label": "Get Loom for Free",
+    "secondary_cta_labels": ["Watch Demo", "Contact Sales", "Sign In"],
+    "navigation_elements": ["top-nav", "hamburger-menu"],
+    "copy_summary": "Hero headline emphasizing async video communication replacing meetings. Animated demo showing screen recording with webcam bubble. Social proof with enterprise logos and user count. Feature highlights for recording, sharing, and engagement.",
+    "patterns": [
+      "benefit-oriented-headline",
+      "hero-illustration",
+      "single-primary-cta",
+      "social-proof",
+      "animated-demo"
+    ],
+    "heuristics": {
+      "clarity": 4.5,
+      "cognitive_load": 4.0,
+      "visual_hierarchy": 4.5,
+      "feedback": 4.0,
+      "accessibility": 4.0,
+      "conversion_strength": 5.0
+    },
+    "notes": "Excellent landing page that immediately shows the product in action via animated demo. The 'Get Loom for Free' CTA reduces commitment friction. Social proof with recognizable logos builds trust. The value proposition of replacing meetings resonates with remote work trends. Clear differentiation from traditional screen recording tools through emphasis on communication rather than just capture."
+  },
+  {
+    "screen_id": "recording-setup-01",
+    "app_id": "loom",
+    "flow_id": "create-recording",
+    "step_index": 0,
+    "image_path": "data/raw_screens/loom/recording/01-setup.png",
+    "screen_type": "modal",
+    "layout_type": "centered-card",
+    "primary_user_goal": "Configure recording options before starting",
+    "primary_business_goal": "Enable quick recording start with appropriate settings",
+    "primary_cta_label": "Start Recording",
+    "secondary_cta_labels": ["Screen only", "Camera only", "Screen + Cam"],
+    "navigation_elements": ["close-button", "settings-gear"],
+    "copy_summary": "Recording configuration panel with three mode options: Screen only, Camera only, Screen + Camera. Camera preview shows current webcam feed. Microphone and camera source selectors. Screen/window selection for what to capture.",
+    "patterns": [
+      "single-primary-cta",
+      "toggle-selection",
+      "live-preview",
+      "smart-defaults",
+      "contextual-help"
+    ],
+    "heuristics": {
+      "clarity": 5.0,
+      "cognitive_load": 4.5,
+      "visual_hierarchy": 4.5,
+      "feedback": 5.0,
+      "accessibility": 4.0,
+      "conversion_strength": 4.5
+    },
+    "notes": "Clean recording setup that shows live camera preview, reducing anxiety about appearance. Three recording modes are visually distinct with icons. Smart defaults (Screen + Cam) match common use case. Microphone indicator confirms audio is working before recording. The compact modal doesn't feel overwhelming despite multiple options."
+  },
+  {
+    "screen_id": "recording-active-01",
+    "app_id": "loom",
+    "flow_id": "create-recording",
+    "step_index": 1,
+    "image_path": "data/raw_screens/loom/recording/02-active.png",
+    "screen_type": "overlay",
+    "layout_type": "floating-controls",
+    "primary_user_goal": "Record screen content while presenting via webcam",
+    "primary_business_goal": "Enable seamless recording without interrupting natural workflow",
+    "primary_cta_label": "Stop Recording",
+    "secondary_cta_labels": ["Pause", "Cancel", "Draw"],
+    "navigation_elements": ["floating-control-bar", "webcam-bubble"],
+    "copy_summary": "Minimal floating control bar at bottom with recording time, pause, stop, and drawing tools. Draggable webcam bubble in corner showing presenter. Red recording indicator confirms active capture. Drawing/annotation tools for emphasis.",
+    "patterns": [
+      "floating-controls",
+      "user-avatar",
+      "minimal-navigation",
+      "progress-indicator",
+      "toast-notification"
+    ],
+    "heuristics": {
+      "clarity": 5.0,
+      "cognitive_load": 5.0,
+      "visual_hierarchy": 4.5,
+      "feedback": 5.0,
+      "accessibility": 3.5,
+      "conversion_strength": 4.0
+    },
+    "notes": "Masterful recording UI that stays out of the way. The webcam bubble is draggable and resizable, giving creators control over their presence. Floating controls are minimal but complete. Time indicator provides feedback without distraction. Drawing tools enable emphasis during recording. The UI disappears when not needed but is easily accessible."
+  },
+  {
+    "screen_id": "post-recording-01",
+    "app_id": "loom",
+    "flow_id": "create-recording",
+    "step_index": 2,
+    "image_path": "data/raw_screens/loom/recording/03-post-recording.png",
+    "screen_type": "editor",
+    "layout_type": "split-view",
+    "primary_user_goal": "Review recording and prepare it for sharing",
+    "primary_business_goal": "Enable quick sharing while offering editing for quality control",
+    "primary_cta_label": "Copy Link",
+    "secondary_cta_labels": ["Edit Video", "Share to...", "Download"],
+    "navigation_elements": ["video-preview", "trim-timeline", "share-panel"],
+    "copy_summary": "Post-recording screen showing video preview with playback controls. Trim handles on timeline for quick edits. Instantly generated share link with copy button. Title editing field. Share destination options for Slack, email, etc.",
+    "patterns": [
+      "share-button",
+      "single-primary-cta",
+      "inline-editing",
+      "progress-indicator",
+      "contextual-help"
+    ],
+    "heuristics": {
+      "clarity": 4.5,
+      "cognitive_load": 4.0,
+      "visual_hierarchy": 4.5,
+      "feedback": 5.0,
+      "accessibility": 4.0,
+      "conversion_strength": 5.0
+    },
+    "notes": "Brilliant post-recording UX that prioritizes sharing over editing. The link is ready immediately - no upload wait required. Trim controls are visible but not mandatory. Copy Link as primary CTA reflects that most users want to share instantly. Title field auto-generates but allows customization. This screen is the key differentiator - zero friction from recording to sharing."
+  },
+  {
+    "screen_id": "player-01",
+    "app_id": "loom",
+    "flow_id": "view-recording",
+    "step_index": 0,
+    "image_path": "data/raw_screens/loom/player/01-viewer.png",
+    "screen_type": "player",
+    "layout_type": "full-screen",
+    "primary_user_goal": "Watch a shared video and understand the message",
+    "primary_business_goal": "Enable engagement through reactions and comments",
+    "primary_cta_label": "React",
+    "secondary_cta_labels": ["Comment", "Share", "Transcript"],
+    "navigation_elements": ["video-controls", "timeline-scrubber", "reaction-bar"],
+    "copy_summary": "Clean video player with standard controls. Emoji reaction bar below video for quick engagement. Comment input tied to current timestamp. Transcript panel option for accessibility. Creator info and video metadata displayed. Playback speed controls.",
+    "patterns": [
+      "user-avatar",
+      "comment-thread",
+      "toast-notification",
+      "contextual-help",
+      "lazy-loading"
+    ],
+    "heuristics": {
+      "clarity": 5.0,
+      "cognitive_load": 4.5,
+      "visual_hierarchy": 4.5,
+      "feedback": 4.5,
+      "accessibility": 4.5,
+      "conversion_strength": 4.0
+    },
+    "notes": "The player page is optimized for engagement. Emoji reactions are prominent and frictionless - one click to respond. Timestamped comments enable precise feedback. Transcript improves accessibility and searchability. The creator's face/name builds personal connection. Playback speed controls respect viewer's time. No account required to view reduces sharing friction."
+  },
+  {
+    "screen_id": "library-01",
+    "app_id": "loom",
+    "flow_id": "manage-library",
+    "step_index": 0,
+    "image_path": "data/raw_screens/loom/dashboard/01-library.png",
+    "screen_type": "gallery",
+    "layout_type": "grid",
+    "primary_user_goal": "Find and manage previously recorded videos",
+    "primary_business_goal": "Drive re-engagement and showcase video analytics",
+    "primary_cta_label": "New Video",
+    "secondary_cta_labels": ["Create folder", "Search", "Filter"],
+    "navigation_elements": ["sidebar", "search-prominent", "filter-facets"],
+    "copy_summary": "Grid layout showing video thumbnails with titles, view counts, and creation dates. Folder organization system. Search bar for finding specific recordings. Filter options by date, views, and shared status. Analytics preview (views, engagement) on each card.",
+    "patterns": [
+      "card-layout",
+      "search-prominent",
+      "filter-facets",
+      "notification-badge",
+      "lazy-loading"
+    ],
+    "heuristics": {
+      "clarity": 4.5,
+      "cognitive_load": 4.0,
+      "visual_hierarchy": 4.0,
+      "feedback": 4.0,
+      "accessibility": 4.0,
+      "conversion_strength": 4.0
+    },
+    "notes": "Clean library view that surfaces key metrics on each video card. View counts provide social proof and feedback to creators. Folder organization scales for heavy users. Quick actions on hover reduce clicks for common operations. The 'New Video' CTA is always visible, encouraging continued usage. Search is essential for users with many recordings."
+  },
+  {
+    "screen_id": "comments-01",
+    "app_id": "loom",
+    "flow_id": "view-recording",
+    "step_index": 1,
+    "image_path": "data/raw_screens/loom/player/02-comments.png",
+    "screen_type": "detail",
+    "layout_type": "split-view",
+    "primary_user_goal": "Provide or read feedback on specific video moments",
+    "primary_business_goal": "Increase engagement and make videos actionable",
+    "primary_cta_label": "Add Comment",
+    "secondary_cta_labels": ["Reply", "React", "Resolve"],
+    "navigation_elements": ["timeline-markers", "comment-list", "timestamp-links"],
+    "copy_summary": "Comments panel showing timestamped feedback. Timeline markers indicate where comments exist. Each comment shows author avatar, timestamp link, and message. Reply threads for discussion. Ability to mark comments as resolved.",
+    "patterns": [
+      "comment-thread",
+      "user-avatar",
+      "contextual-help",
+      "inline-editing",
+      "notification-badge"
+    ],
+    "heuristics": {
+      "clarity": 4.5,
+      "cognitive_load": 4.0,
+      "visual_hierarchy": 4.5,
+      "feedback": 4.5,
+      "accessibility": 4.0,
+      "conversion_strength": 3.5
+    },
+    "notes": "Timeline-based comments are Loom's killer feature for collaboration. Clicking a timestamp jumps to that exact moment in the video - providing perfect context. Resolve functionality turns comments into actionable items. Reply threads prevent comment clutter. Visual markers on the timeline show where feedback exists before watching. This transforms video from one-way broadcast to collaborative medium."
+  },
+  {
+    "screen_id": "sharing-01",
+    "app_id": "loom",
+    "flow_id": "share-recording",
+    "step_index": 0,
+    "image_path": "data/raw_screens/loom/sharing/01-share-options.png",
+    "screen_type": "modal",
+    "layout_type": "centered-card",
+    "primary_user_goal": "Share video through preferred channel or control access",
+    "primary_business_goal": "Maximize video distribution and track engagement",
+    "primary_cta_label": "Copy Link",
+    "secondary_cta_labels": ["Embed", "Email", "Slack", "Download"],
+    "navigation_elements": ["close-button", "tabs"],
+    "copy_summary": "Share modal with link copy, embed code, and direct share to Slack/email. Privacy settings for viewer access (anyone with link, workspace only, specific people). Notification preferences for engagement alerts. Custom thumbnail and password protection options.",
+    "patterns": [
+      "share-button",
+      "single-primary-cta",
+      "toggle-selection",
+      "contextual-help",
+      "progressive-disclosure"
+    ],
+    "heuristics": {
+      "clarity": 4.5,
+      "cognitive_load": 4.0,
+      "visual_hierarchy": 4.5,
+      "feedback": 4.0,
+      "accessibility": 4.0,
+      "conversion_strength": 4.5
+    },
+    "notes": "Comprehensive sharing options that balance simplicity with control. Copy Link is the default path - most users just need to share quickly. Privacy controls are visible but not mandatory. Integration with Slack, email, etc. reduces context switching. Embed option for documentation/wikis extends video utility. Password protection for sensitive content is available but not in the way."
+  },
+  {
+    "screen_id": "pricing-01",
+    "app_id": "loom",
+    "flow_id": "marketing-to-signup",
+    "step_index": 1,
+    "image_path": "data/raw_screens/loom/marketing/02-pricing.png",
+    "screen_type": "pricing",
+    "layout_type": "comparison-grid",
+    "primary_user_goal": "Understand pricing options and choose appropriate plan",
+    "primary_business_goal": "Convert free users to paid plans and drive team adoption",
+    "primary_cta_label": "Get Started",
+    "secondary_cta_labels": ["Start Free Trial", "Contact Sales", "Compare Plans"],
+    "navigation_elements": ["plan-toggle", "feature-comparison"],
+    "copy_summary": "Three-tier pricing (Free, Business, Enterprise) with clear feature differentiation. Monthly/annual toggle with savings highlight. Feature comparison matrix. Free tier emphasizes limitations that upgrade resolves. Enterprise tier focuses on security and admin controls.",
+    "patterns": [
+      "comparison-table",
+      "single-primary-cta",
+      "toggle-selection",
+      "social-proof",
+      "benefit-oriented-headline"
+    ],
+    "heuristics": {
+      "clarity": 4.5,
+      "cognitive_load": 3.5,
+      "visual_hierarchy": 4.5,
+      "feedback": 3.5,
+      "accessibility": 4.0,
+      "conversion_strength": 4.5
+    },
+    "notes": "Standard SaaS pricing page with clear tier differentiation. Free tier is genuinely useful, not crippled - builds goodwill. Business tier highlights collaboration features, targeting teams. Annual discount is prominently displayed. Feature comparison helps justify upgrade decisions. The middle tier is visually emphasized as 'recommended'. Enterprise contacts sales - appropriate for large deals."
+  },
+  {
+    "screen_id": "analytics-01",
+    "app_id": "loom",
+    "flow_id": "manage-library",
+    "step_index": 1,
+    "image_path": "data/raw_screens/loom/dashboard/02-analytics.png",
+    "screen_type": "analytics",
+    "layout_type": "dashboard",
+    "primary_user_goal": "Understand how viewers engage with videos",
+    "primary_business_goal": "Demonstrate ROI and encourage continued content creation",
+    "primary_cta_label": "View Details",
+    "secondary_cta_labels": ["Export", "Share Report"],
+    "navigation_elements": ["date-range-selector", "video-selector", "metric-cards"],
+    "copy_summary": "Video analytics dashboard showing views, unique viewers, watch time, and engagement rate. Viewer retention graph showing drop-off points. CTA click tracking. List of who watched with watch percentage. Engagement heatmap on timeline.",
+    "patterns": [
+      "progress-indicator",
+      "filter-facets",
+      "card-layout",
+      "contextual-help",
+      "lazy-loading"
+    ],
+    "heuristics": {
+      "clarity": 4.0,
+      "cognitive_load": 3.5,
+      "visual_hierarchy": 4.0,
+      "feedback": 4.5,
+      "accessibility": 3.5,
+      "conversion_strength": 4.0
+    },
+    "notes": "Analytics provide crucial feedback to video creators. Viewer retention graph reveals where content loses attention. Watch percentage per viewer enables follow-up with those who didn't finish. CTA tracking proves video effectiveness for sales/marketing use cases. The engagement heatmap shows which parts resonated. This data transforms video from content into measurable communication tool."
+  }
+]

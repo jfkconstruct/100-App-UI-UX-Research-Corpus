@@ -1,0 +1,304 @@
+[
+  {
+    "screen_id": "landing-01",
+    "app_id": "superhuman",
+    "flow_id": "landing",
+    "step_index": 0,
+    "image_path": "data/raw_screens/superhuman/landing/01-homepage.png",
+    "screen_type": "landing",
+    "layout_type": "hero-cta",
+    "primary_user_goal": "Understand Superhuman's value proposition for email productivity",
+    "primary_business_goal": "Generate qualified leads for waitlist/signup",
+    "primary_cta_label": "Get Superhuman",
+    "secondary_cta_labels": ["Log in", "See pricing"],
+    "navigation_elements": ["top-nav", "logo"],
+    "copy_summary": "Bold headline 'The fastest email experience ever made' with emphasis on speed and productivity. Product screenshots showing the clean interface. Social proof from executives and professionals.",
+    "patterns": [
+      "single-primary-cta",
+      "benefit-oriented-headline",
+      "hero-illustration",
+      "social-proof"
+    ],
+    "heuristics": {
+      "clarity": 5,
+      "cognitive_load": 5,
+      "visual_hierarchy": 5,
+      "feedback": 3,
+      "accessibility": 4,
+      "conversion_strength": 5
+    },
+    "notes": "Premium aesthetic with dark theme and high-contrast typography. The speed promise is immediately clear. Testimonials from recognizable tech figures build credibility. Minimal navigation keeps focus on conversion. The premium positioning justifies the high price point."
+  },
+  {
+    "screen_id": "waitlist-01",
+    "app_id": "superhuman",
+    "flow_id": "waitlist",
+    "step_index": 0,
+    "image_path": "data/raw_screens/superhuman/waitlist/01-signup-form.png",
+    "screen_type": "form",
+    "layout_type": "centered-card",
+    "primary_user_goal": "Join Superhuman to improve email productivity",
+    "primary_business_goal": "Capture qualified leads and create exclusivity perception",
+    "primary_cta_label": "Request access",
+    "secondary_cta_labels": ["Already have access? Log in"],
+    "navigation_elements": ["back-button", "logo"],
+    "copy_summary": "Clean form requesting email and brief context about email usage. Messaging about the 1-on-1 onboarding experience. Sets expectation that access is curated.",
+    "patterns": [
+      "single-primary-cta",
+      "inline-validation",
+      "progressive-disclosure",
+      "exclusivity-signal"
+    ],
+    "heuristics": {
+      "clarity": 5,
+      "cognitive_load": 5,
+      "visual_hierarchy": 5,
+      "feedback": 4,
+      "accessibility": 4,
+      "conversion_strength": 4
+    },
+    "notes": "The waitlist creates artificial scarcity and premium perception. Asking about email volume qualifies users. The mention of 1-on-1 onboarding differentiates from competitors and justifies premium pricing. Clean, focused form with no distractions."
+  },
+  {
+    "screen_id": "onboarding-01",
+    "app_id": "superhuman",
+    "flow_id": "onboarding",
+    "step_index": 0,
+    "image_path": "data/raw_screens/superhuman/onboarding/01-training-intro.png",
+    "screen_type": "onboarding",
+    "layout_type": "centered-card",
+    "primary_user_goal": "Learn how to use Superhuman effectively",
+    "primary_business_goal": "Ensure user success and reduce churn through education",
+    "primary_cta_label": "Schedule your onboarding",
+    "secondary_cta_labels": ["Watch video overview"],
+    "navigation_elements": ["progress-indicator"],
+    "copy_summary": "Welcome screen explaining the 1-on-1 onboarding process. Highlights that a specialist will teach keyboard shortcuts, workflows, and best practices. Calendar integration for scheduling.",
+    "patterns": [
+      "progress-indicator",
+      "single-primary-cta",
+      "contextual-help",
+      "smart-defaults"
+    ],
+    "heuristics": {
+      "clarity": 5,
+      "cognitive_load": 4,
+      "visual_hierarchy": 5,
+      "feedback": 4,
+      "accessibility": 4,
+      "conversion_strength": 5
+    },
+    "notes": "The mandatory 1-on-1 onboarding is Superhuman's signature differentiator. It ensures users learn the keyboard-first workflow properly, dramatically increasing retention. This high-touch approach works because of the premium price point."
+  },
+  {
+    "screen_id": "inbox-01",
+    "app_id": "superhuman",
+    "flow_id": "inbox",
+    "step_index": 0,
+    "image_path": "data/raw_screens/superhuman/inbox/01-main-view.png",
+    "screen_type": "dashboard",
+    "layout_type": "split-view",
+    "primary_user_goal": "Process email efficiently and reach inbox zero",
+    "primary_business_goal": "Drive daily engagement through superior email experience",
+    "primary_cta_label": "",
+    "secondary_cta_labels": [],
+    "navigation_elements": ["sidebar", "search-prominent", "split-inbox-tabs"],
+    "copy_summary": "Clean split-view with email list on left, preview on right. Minimal chrome maximizes content space. Keyboard shortcut hints visible. Split inbox tabs for Important, Other, and custom categories.",
+    "patterns": [
+      "search-prominent",
+      "card-layout",
+      "contextual-help",
+      "split-inbox",
+      "keyboard-first"
+    ],
+    "heuristics": {
+      "clarity": 5,
+      "cognitive_load": 4,
+      "visual_hierarchy": 5,
+      "feedback": 5,
+      "accessibility": 3,
+      "conversion_strength": 4
+    },
+    "notes": "The inbox view is optimized for speed. Every pixel serves a purpose. The split inbox automatically categorizes emails, reducing cognitive load. Keyboard shortcut hints train users toward efficiency. Dark theme reduces eye strain for heavy email users."
+  },
+  {
+    "screen_id": "compose-01",
+    "app_id": "superhuman",
+    "flow_id": "compose",
+    "step_index": 0,
+    "image_path": "data/raw_screens/superhuman/compose/01-new-email.png",
+    "screen_type": "modal",
+    "layout_type": "form",
+    "primary_user_goal": "Write and send email quickly",
+    "primary_business_goal": "Enable fast email throughput to prove speed value",
+    "primary_cta_label": "Send (Cmd+Enter)",
+    "secondary_cta_labels": ["Schedule send", "Save draft"],
+    "navigation_elements": ["close-button"],
+    "copy_summary": "Minimal compose window with To, Subject, Body. Autocomplete for recipients with photos and recent contacts. AI writing assistance available. Keyboard shortcuts for all actions.",
+    "patterns": [
+      "single-primary-cta",
+      "smart-defaults",
+      "inline-validation",
+      "search-autocomplete",
+      "contextual-help"
+    ],
+    "heuristics": {
+      "clarity": 5,
+      "cognitive_load": 5,
+      "visual_hierarchy": 5,
+      "feedback": 5,
+      "accessibility": 4,
+      "conversion_strength": 4
+    },
+    "notes": "Compose is stripped to essentials. Recipient autocomplete with photos reduces errors. AI assistance can draft entire emails. The Cmd+Enter to send is shown prominently, training keyboard behavior. Schedule send addresses async communication needs."
+  },
+  {
+    "screen_id": "command-palette-01",
+    "app_id": "superhuman",
+    "flow_id": "command",
+    "step_index": 0,
+    "image_path": "data/raw_screens/superhuman/command/01-cmd-k.png",
+    "screen_type": "command-palette",
+    "layout_type": "overlay",
+    "primary_user_goal": "Quickly perform any action without leaving keyboard",
+    "primary_business_goal": "Demonstrate speed advantage and enable power-user workflows",
+    "primary_cta_label": "",
+    "secondary_cta_labels": [],
+    "navigation_elements": ["search-autocomplete"],
+    "copy_summary": "Command palette activated by Cmd+K showing all available actions. Fuzzy search matches commands, contacts, labels. Recent actions shown first. Categories include Navigate, Compose, Triage, Settings.",
+    "patterns": [
+      "search-autocomplete",
+      "progressive-disclosure",
+      "contextual-help",
+      "keyboard-first"
+    ],
+    "heuristics": {
+      "clarity": 5,
+      "cognitive_load": 4,
+      "visual_hierarchy": 5,
+      "feedback": 5,
+      "accessibility": 3,
+      "conversion_strength": 4
+    },
+    "notes": "The Cmd+K command palette is Superhuman's power feature. Every action is accessible without mouse. Fuzzy matching means users don't need exact recall. Recent actions prioritized for efficiency. This is what makes Superhuman feel 'instantaneous'."
+  },
+  {
+    "screen_id": "split-inbox-01",
+    "app_id": "superhuman",
+    "flow_id": "inbox",
+    "step_index": 1,
+    "image_path": "data/raw_screens/superhuman/inbox/02-split-inbox-settings.png",
+    "screen_type": "settings",
+    "layout_type": "form",
+    "primary_user_goal": "Configure automatic email categorization",
+    "primary_business_goal": "Increase email processing efficiency to demonstrate value",
+    "primary_cta_label": "Save changes",
+    "secondary_cta_labels": ["Reset to defaults"],
+    "navigation_elements": ["sidebar", "back-button"],
+    "copy_summary": "Split inbox configuration showing categories: Important (VIPs, direct messages), Team Updates, Newsletters, Notifications. Rules for automatic sorting with AI assistance.",
+    "patterns": [
+      "smart-defaults",
+      "progressive-disclosure",
+      "inline-validation",
+      "contextual-help"
+    ],
+    "heuristics": {
+      "clarity": 4,
+      "cognitive_load": 3,
+      "visual_hierarchy": 4,
+      "feedback": 4,
+      "accessibility": 4,
+      "conversion_strength": 4
+    },
+    "notes": "Split inbox uses AI to auto-categorize emails, reducing manual sorting. VIP senders get priority. The system learns from user behavior. This feature directly addresses email overwhelm, a core pain point."
+  },
+  {
+    "screen_id": "shortcuts-01",
+    "app_id": "superhuman",
+    "flow_id": "help",
+    "step_index": 0,
+    "image_path": "data/raw_screens/superhuman/help/01-keyboard-shortcuts.png",
+    "screen_type": "help",
+    "layout_type": "grid",
+    "primary_user_goal": "Learn keyboard shortcuts to work faster",
+    "primary_business_goal": "Train users toward power-user behavior for retention",
+    "primary_cta_label": "",
+    "secondary_cta_labels": ["Start tutorial"],
+    "navigation_elements": ["close-button", "search-prominent"],
+    "copy_summary": "Comprehensive keyboard shortcut reference organized by category: Navigation (j/k), Actions (e for archive, # for delete), Compose (c), Search (/). Visual keyboard layout showing all shortcuts.",
+    "patterns": [
+      "search-prominent",
+      "card-layout",
+      "contextual-help",
+      "progressive-disclosure"
+    ],
+    "heuristics": {
+      "clarity": 5,
+      "cognitive_load": 3,
+      "visual_hierarchy": 4,
+      "feedback": 3,
+      "accessibility": 4,
+      "conversion_strength": 3
+    },
+    "notes": "The shortcuts panel is essential for Superhuman's value proposition. Vim-style navigation (j/k) appeals to developers. Shortcuts are mnemonic where possible (e=archive like Gmail). The visual keyboard helps spatial learners."
+  },
+  {
+    "screen_id": "settings-01",
+    "app_id": "superhuman",
+    "flow_id": "settings",
+    "step_index": 0,
+    "image_path": "data/raw_screens/superhuman/settings/01-general.png",
+    "screen_type": "settings",
+    "layout_type": "sidebar-detail",
+    "primary_user_goal": "Customize Superhuman to personal preferences",
+    "primary_business_goal": "Enable personalization to increase stickiness",
+    "primary_cta_label": "",
+    "secondary_cta_labels": [],
+    "navigation_elements": ["sidebar", "back-button"],
+    "copy_summary": "Settings organized by category: Account, Appearance, Shortcuts, Split Inbox, Signatures, AI, Notifications. Each section has focused options with clear explanations.",
+    "patterns": [
+      "smart-defaults",
+      "progressive-disclosure",
+      "contextual-help",
+      "inline-validation"
+    ],
+    "heuristics": {
+      "clarity": 4,
+      "cognitive_load": 4,
+      "visual_hierarchy": 4,
+      "feedback": 4,
+      "accessibility": 4,
+      "conversion_strength": 3
+    },
+    "notes": "Settings are comprehensive but not overwhelming. Smart defaults mean most users don't need to change anything. AI settings let users control automation level. The appearance options include themes for different lighting conditions."
+  },
+  {
+    "screen_id": "triage-01",
+    "app_id": "superhuman",
+    "flow_id": "triage",
+    "step_index": 0,
+    "image_path": "data/raw_screens/superhuman/triage/01-email-actions.png",
+    "screen_type": "detail",
+    "layout_type": "split-view",
+    "primary_user_goal": "Process email with quick actions (archive, snooze, reply)",
+    "primary_business_goal": "Enable inbox zero workflow to prove productivity value",
+    "primary_cta_label": "",
+    "secondary_cta_labels": [],
+    "navigation_elements": ["action-bar", "keyboard-hints"],
+    "copy_summary": "Email detail view with prominent action bar: Archive (e), Done, Snooze (h), Reply (r), Forward (f). Snooze options include smart suggestions like 'Tomorrow morning', 'Next week'. Undo available for all actions.",
+    "patterns": [
+      "contextual-help",
+      "smart-defaults",
+      "undo-capability",
+      "keyboard-first"
+    ],
+    "heuristics": {
+      "clarity": 5,
+      "cognitive_load": 4,
+      "visual_hierarchy": 5,
+      "feedback": 5,
+      "accessibility": 3,
+      "conversion_strength": 4
+    },
+    "notes": "The triage workflow is Superhuman's core loop. Each email gets a decision: archive, respond, snooze. Keyboard shortcuts make this flow blazingly fast. Snooze brings emails back at the right time. Undo prevents anxiety about mistakes."
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "flow_id": "marketing-to-signup",
+    "name": "Marketing to Sign-up",
+    "primary_user_goal": "Understand Zapier's value proposition and create an account",
+    "business_goal": "Convert website visitors to registered users",
+    "entry_point": "Homepage or marketing landing page",
+    "exit_point": "Account created and onboarding begins",
+    "screens": ["landing-01"]
+  },
+  {
+    "flow_id": "app-discovery",
+    "name": "App Discovery",
+    "primary_user_goal": "Find apps that integrate with Zapier or discover new integration possibilities",
+    "business_goal": "Showcase integration breadth and inspire automation ideas",
+    "entry_point": "App directory link or search",
+    "exit_point": "User selects an app to view integrations or starts creating a Zap",
+    "screens": ["app-directory-01"]
+  },
+  {
+    "flow_id": "zap-creation",
+    "name": "Zap Creation",
+    "primary_user_goal": "Create a working automation that connects two or more apps",
+    "business_goal": "Activate users by getting them to create their first successful Zap",
+    "entry_point": "Create Zap button or template selection",
+    "exit_point": "Zap is tested, turned on, and running",
+    "screens": ["zap-editor-trigger-01", "zap-editor-trigger-02", "zap-editor-action-01", "zap-editor-test-01"]
+  },
+  {
+    "flow_id": "zap-management",
+    "name": "Zap Management",
+    "primary_user_goal": "Monitor, edit, and organize existing automations",
+    "business_goal": "Drive ongoing engagement and expansion of automation usage",
+    "entry_point": "Dashboard or Zaps navigation",
+    "exit_point": "User completes management task (edit, toggle, organize)",
+    "screens": ["dashboard-01"]
+  },
+  {
+    "flow_id": "pricing-evaluation",
+    "name": "Pricing Evaluation",
+    "primary_user_goal": "Understand pricing and determine the right plan for their needs",
+    "business_goal": "Convert free users to paid plans and upsell to higher tiers",
+    "entry_point": "Pricing link or upgrade prompt",
+    "exit_point": "User selects a plan or starts a trial",
+    "screens": ["pricing-01"]
+  },
+  {
+    "flow_id": "template-discovery",
+    "name": "Template Discovery",
+    "primary_user_goal": "Find and use pre-built automations to save setup time",
+    "business_goal": "Accelerate time-to-value and reduce activation friction",
+    "entry_point": "Templates gallery or recommended templates",
+    "exit_point": "Template customized and Zap activated",
+    "screens": ["templates-01", "templates-02"]
+  }
+]

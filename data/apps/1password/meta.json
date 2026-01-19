@@ -1,0 +1,22 @@
+{
+  "app_id": "1password",
+  "name": "1Password",
+  "platforms": ["web", "ios", "android", "desktop", "browser-extension"],
+  "category": "security",
+  "url": "https://1password.com",
+  "store_links": {
+    "ios": "https://apps.apple.com/app/1password-password-manager/id1511601750",
+    "android": "https://play.google.com/store/apps/details?id=com.onepassword.android",
+    "chrome": "https://chrome.google.com/webstore/detail/1password/aeblfdkhhhdcdjpifhhbdiojplfjncoa"
+  },
+  "analysis_date": "2025-01-19",
+  "why_interesting": [
+    "Industry-leading security UX that makes complex cryptography feel simple",
+    "Watchtower feature transforms passive storage into proactive security monitoring",
+    "Browser extension auto-fill reduces friction while maintaining strong security posture",
+    "Family and team sharing model balances security with collaboration needs",
+    "Travel Mode innovation for protecting sensitive data at border crossings",
+    "Masterful balance between security requirements and user convenience",
+    "Biometric authentication integration that feels seamless across platforms"
+  ]
+}

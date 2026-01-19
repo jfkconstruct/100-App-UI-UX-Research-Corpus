@@ -6,8 +6,10 @@
   "scripts": {
     "capture": "ts-node scripts/capture_screenshots.ts",
     "gen-screens": "ts-node scripts/generate_screen_labels.ts",
+    "ai-analyze": "ts-node scripts/ai_assisted_analysis.ts",
     "extract-patterns": "ts-node scripts/extract_patterns.ts",
     "build-atlas": "ts-node scripts/build_atlas.ts",
+    "pipeline": "npm run capture && npm run ai-analyze && npm run extract-patterns && npm run build-atlas",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [

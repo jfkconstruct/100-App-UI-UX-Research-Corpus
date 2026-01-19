@@ -1,0 +1,161 @@
+[
+  {
+    "flow_id": "onboarding",
+    "name": "New User Onboarding",
+    "primary_user_goal": "Create an account and start investing as quickly as possible",
+    "business_goal": "Convert visitors into funded accounts with minimal drop-off",
+    "entry_point": "Landing page or app store download",
+    "exit_point": "Funded account with first trade completed",
+    "screens": [
+      "robinhood-landing",
+      "robinhood-signup"
+    ],
+    "key_metrics": [
+      "Signup completion rate",
+      "Time to first deposit",
+      "Time to first trade",
+      "KYC approval rate"
+    ],
+    "friction_points": [
+      "SSN collection (regulatory requirement)",
+      "Bank account linking",
+      "Identity verification delays"
+    ],
+    "ux_notes": "Robinhood's onboarding is a benchmark in fintech UX. The one-question-per-screen approach breaks down a complex KYC process into digestible steps. Real-time validation reduces errors. The flow prioritizes speed to first trade, with bank linking and full verification happening in parallel where possible."
+  },
+  {
+    "flow_id": "core_experience",
+    "name": "Portfolio Monitoring",
+    "primary_user_goal": "Check portfolio performance and stay informed about investments",
+    "business_goal": "Maximize engagement and time-in-app to increase trading likelihood",
+    "entry_point": "App open or push notification",
+    "exit_point": "App close or transition to trading flow",
+    "screens": [
+      "robinhood-portfolio-home",
+      "robinhood-news-feed"
+    ],
+    "key_metrics": [
+      "Daily active users",
+      "Session duration",
+      "Sessions per day",
+      "Chart interaction rate"
+    ],
+    "friction_points": [
+      "Information overload during volatile markets",
+      "Anxiety from real-time loss display"
+    ],
+    "ux_notes": "The portfolio home is designed for quick status checks and deeper exploration. The interactive chart encourages engagement through scrubbing. Real-time updates create a dynamic feel but may encourage over-checking. The design has been criticized for gamifying portfolio monitoring."
+  },
+  {
+    "flow_id": "research",
+    "name": "Stock Research",
+    "primary_user_goal": "Gather information to make informed investment decisions",
+    "business_goal": "Convert research activity into executed trades",
+    "entry_point": "Search, discover, or news article",
+    "exit_point": "Trade execution or watchlist addition",
+    "screens": [
+      "robinhood-news-feed",
+      "robinhood-stock-detail"
+    ],
+    "key_metrics": [
+      "Research to trade conversion",
+      "Average stocks researched per session",
+      "Watchlist additions",
+      "Time on stock detail pages"
+    ],
+    "friction_points": [
+      "Limited advanced research tools compared to traditional brokerages",
+      "Simplified metrics may not satisfy advanced users"
+    ],
+    "ux_notes": "Research features are deliberately simplified to avoid overwhelming beginners. Key metrics are curated and presented simply. Analyst ratings provide social proof. The persistent 'Trade' button creates a clear path from research to action. More advanced users may find the tools insufficient."
+  },
+  {
+    "flow_id": "trading",
+    "name": "Buy/Sell Execution",
+    "primary_user_goal": "Execute trades quickly and confidently",
+    "business_goal": "Complete transactions with minimal abandonment and maximum satisfaction",
+    "entry_point": "Trade button on stock detail or portfolio",
+    "exit_point": "Order confirmation and return to portfolio",
+    "screens": [
+      "robinhood-buy-flow",
+      "robinhood-sell-flow"
+    ],
+    "key_metrics": [
+      "Order completion rate",
+      "Time to complete order",
+      "Order modification rate",
+      "Post-trade satisfaction"
+    ],
+    "friction_points": [
+      "Order type complexity for beginners",
+      "Market volatility affecting fill prices"
+    ],
+    "ux_notes": "The trading flow is optimized for speed and simplicity. Dollar-based buying (fractional shares) is more intuitive than share quantities for beginners. The review step provides a moment of reflection without adding significant friction. Post-trade celebration (confetti) has been controversial for potentially encouraging trading."
+  },
+  {
+    "flow_id": "discovery",
+    "name": "Stock Discovery",
+    "primary_user_goal": "Find new investment opportunities",
+    "business_goal": "Expand user portfolios and increase trading volume",
+    "entry_point": "Search tab or discover section",
+    "exit_point": "Stock detail page or watchlist addition",
+    "screens": [
+      "robinhood-search-discover"
+    ],
+    "key_metrics": [
+      "Searches per session",
+      "Collection engagement",
+      "Discovery to trade conversion",
+      "New holdings from discovery"
+    ],
+    "friction_points": [
+      "Potential for trend-following behavior",
+      "FOMO from 'Top Movers' lists"
+    ],
+    "ux_notes": "Discovery is designed to help users who don't know what to invest in. Curated collections and trending lists provide starting points. This approach has been criticized for potentially encouraging herd behavior and FOMO-driven trading. The search auto-complete is fast and comprehensive."
+  },
+  {
+    "flow_id": "money_movement",
+    "name": "Deposit and Withdrawal",
+    "primary_user_goal": "Move money into or out of the Robinhood account",
+    "business_goal": "Increase assets under management and reduce withdrawal friction",
+    "entry_point": "Deposit button or account menu",
+    "exit_point": "Transfer confirmation",
+    "screens": [
+      "robinhood-deposit-withdraw"
+    ],
+    "key_metrics": [
+      "Deposit completion rate",
+      "Average deposit amount",
+      "Recurring deposit setup rate",
+      "Withdrawal to deposit ratio"
+    ],
+    "friction_points": [
+      "Bank linking for first-time users",
+      "Transfer time expectations"
+    ],
+    "ux_notes": "Money movement is streamlined through Plaid integration and instant deposits. Recurring deposits encourage consistent investing behavior. The interface clearly communicates transfer timelines. Robinhood Gold's higher instant deposit limits are promoted as an upsell."
+  },
+  {
+    "flow_id": "account_management",
+    "name": "Account Settings",
+    "primary_user_goal": "Manage personal information, security, and preferences",
+    "business_goal": "Enable self-service while promoting premium features",
+    "entry_point": "Profile icon or settings menu",
+    "exit_point": "Return to main app",
+    "screens": [
+      "robinhood-account-settings"
+    ],
+    "key_metrics": [
+      "2FA adoption rate",
+      "Gold conversion rate",
+      "Support ticket deflection",
+      "Settings completion rate"
+    ],
+    "friction_points": [
+      "Document retrieval during tax season",
+      "Account restriction appeals"
+    ],
+    "ux_notes": "Settings are well-organized with progressive disclosure. Security features are promoted but not forced. Robinhood Gold upsells are present but not aggressive. Tax documents and account statements are easily accessible. The interface handles complex account states (margin, options approval) gracefully."
+  }
+]

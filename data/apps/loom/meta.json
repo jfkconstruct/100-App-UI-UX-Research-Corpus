@@ -1,0 +1,23 @@
+{
+  "app_id": "loom",
+  "name": "Loom",
+  "platforms": ["web", "ios", "android", "desktop", "browser-extension"],
+  "category": "communication",
+  "url": "https://www.loom.com",
+  "store_links": {
+    "ios": "https://apps.apple.com/app/loom-video-messaging/id1474480829",
+    "android": "https://play.google.com/store/apps/details?id=com.loom.android",
+    "chrome": "https://chrome.google.com/webstore/detail/loom/liecbddmkiiihnedobmlmillhodjkdmb"
+  },
+  "analysis_date": "2024-12-15",
+  "why_interesting": [
+    "Pioneered async video messaging as a mainstream workplace communication tool",
+    "Innovative screen + webcam bubble recording creates personal yet professional videos",
+    "Instant sharing with auto-generated link eliminates upload/wait friction",
+    "Timeline-based comments enable precise, contextual feedback on video content",
+    "Emoji reactions provide lightweight engagement metrics for creators",
+    "Recording UX minimizes cognitive load with floating controls and countdown",
+    "Viewer engagement analytics help creators understand message effectiveness",
+    "Seamless integration with productivity tools (Slack, Notion, Gmail) extends reach"
+  ]
+}

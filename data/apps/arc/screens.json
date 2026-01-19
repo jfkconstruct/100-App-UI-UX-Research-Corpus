@@ -1,0 +1,360 @@
+[
+  {
+    "screen_id": "arc-landing",
+    "app_id": "arc",
+    "flow_id": "onboarding",
+    "step_index": 1,
+    "image_path": "screens/landing.png",
+    "screen_type": "marketing",
+    "layout_type": "hero-centered",
+    "primary_user_goal": "Understand what makes Arc different from other browsers",
+    "primary_business_goal": "Convert visitors to download Arc and join the browser revolution",
+    "primary_cta_label": "Download Arc",
+    "secondary_cta_labels": ["Watch Video", "See Features"],
+    "navigation_elements": ["Logo", "Features", "Company", "Blog", "Download"],
+    "copy_summary": "Arc positions itself as 'the browser built for you' with bold claims about reimagining how we use the internet. The landing page emphasizes that Arc is not just another browser but a new way to work and play online. Copy is aspirational and challenges the status quo of browser design.",
+    "patterns": [
+      "hero-section",
+      "video-showcase",
+      "social-proof",
+      "feature-highlights",
+      "progressive-disclosure"
+    ],
+    "heuristics": {
+      "clarity": 5,
+      "cognitive_load": 4,
+      "visual_hierarchy": 5,
+      "feedback": 4,
+      "accessibility": 4,
+      "conversion_strength": 5
+    },
+    "notes": "The landing page is visually stunning with smooth animations showcasing Arc's unique interface. The page creates intrigue rather than overwhelming with features. Social proof from prominent tech figures and companies builds credibility. The design itself demonstrates Arc's aesthetic sensibility."
+  },
+  {
+    "screen_id": "arc-download",
+    "app_id": "arc",
+    "flow_id": "onboarding",
+    "step_index": 2,
+    "image_path": "screens/download.png",
+    "screen_type": "conversion",
+    "layout_type": "form-centered",
+    "primary_user_goal": "Download Arc for their platform",
+    "primary_business_goal": "Convert interest into actual downloads and installations",
+    "primary_cta_label": "Download for Mac",
+    "secondary_cta_labels": ["Download for Windows", "Get iOS App", "Join Waitlist"],
+    "navigation_elements": ["Back to Home", "Platform Selector", "System Requirements"],
+    "copy_summary": "Clean download page with platform detection. Emphasizes the free nature of Arc and sets expectations for the onboarding experience. Includes brief system requirements and mentions what makes Arc worth the switch.",
+    "patterns": [
+      "platform-detection",
+      "download-prominent",
+      "trust-signals",
+      "progressive-disclosure"
+    ],
+    "heuristics": {
+      "clarity": 5,
+      "cognitive_load": 5,
+      "visual_hierarchy": 5,
+      "feedback": 4,
+      "accessibility": 5,
+      "conversion_strength": 5
+    },
+    "notes": "Arc automatically detects the user's platform and presents the appropriate download button. The page is intentionally minimal to reduce friction. Early Arc used a waitlist system to create exclusivity and manage growth - this scarcity drove demand and word-of-mouth marketing."
+  },
+  {
+    "screen_id": "arc-main-browser",
+    "app_id": "arc",
+    "flow_id": "core-browsing",
+    "step_index": 1,
+    "image_path": "screens/main-browser.png",
+    "screen_type": "workspace",
+    "layout_type": "sidebar-content",
+    "primary_user_goal": "Browse the web efficiently with organized tabs",
+    "primary_business_goal": "Demonstrate Arc's superior organization and productivity benefits",
+    "primary_cta_label": "New Tab",
+    "secondary_cta_labels": ["New Space", "Split View", "Open Command Bar"],
+    "navigation_elements": [
+      "Sidebar (collapsible)",
+      "Pinned Tabs",
+      "Today's Tabs",
+      "Space Switcher",
+      "URL/Command Bar",
+      "Split View Toggle",
+      "Extensions"
+    ],
+    "copy_summary": "The main browser view eliminates the traditional horizontal tab bar entirely. The left sidebar shows a clear hierarchy: Favorites at top, Pinned tabs below, then Today's tabs that auto-archive. The URL bar doubles as a command palette. Minimal chrome maximizes content viewing area.",
+    "patterns": [
+      "vertical-navigation",
+      "collapsible-sidebar",
+      "hierarchical-organization",
+      "contextual-actions",
+      "keyboard-shortcuts",
+      "search-prominent"
+    ],
+    "heuristics": {
+      "clarity": 4,
+      "cognitive_load": 3,
+      "visual_hierarchy": 5,
+      "feedback": 5,
+      "accessibility": 4,
+      "conversion_strength": 4
+    },
+    "notes": "The vertical tab paradigm is Arc's most distinctive feature. While initially unfamiliar, it provides much better scalability for many tabs compared to horizontal tabs that shrink to unreadable widths. The auto-archiving of 'Today's tabs' addresses tab hoarding behavior. The collapsible sidebar provides a distraction-free mode."
+  },
+  {
+    "screen_id": "arc-spaces",
+    "app_id": "arc",
+    "flow_id": "context-management",
+    "step_index": 1,
+    "image_path": "screens/spaces.png",
+    "screen_type": "workspace",
+    "layout_type": "sidebar-content",
+    "primary_user_goal": "Separate different contexts (work, personal, projects) into distinct workspaces",
+    "primary_business_goal": "Increase user investment and stickiness through personalized organization",
+    "primary_cta_label": "New Space",
+    "secondary_cta_labels": ["Rename Space", "Change Icon", "Change Color"],
+    "navigation_elements": [
+      "Space Dots (bottom of sidebar)",
+      "Space Switcher",
+      "Swipe Gestures",
+      "Keyboard Shortcuts"
+    ],
+    "copy_summary": "Spaces allow users to create entirely separate browsing contexts, each with its own set of tabs, pinned items, and even profiles. Users can assign colors and icons to quickly identify spaces. Switching spaces is instant with no performance penalty.",
+    "patterns": [
+      "workspace-separation",
+      "color-coding",
+      "gesture-navigation",
+      "keyboard-shortcuts",
+      "progressive-disclosure"
+    ],
+    "heuristics": {
+      "clarity": 4,
+      "cognitive_load": 4,
+      "visual_hierarchy": 5,
+      "feedback": 5,
+      "accessibility": 4,
+      "conversion_strength": 4
+    },
+    "notes": "Spaces solve the context-switching problem that plagues knowledge workers. Instead of mixing work and personal tabs, users maintain complete separation. Each Space can have different profiles for cookies/logins, enabling multiple account management. The gesture-based switching (swipe) makes transitions feel natural on trackpad-equipped devices."
+  },
+  {
+    "screen_id": "arc-split-view",
+    "app_id": "arc",
+    "flow_id": "multitasking",
+    "step_index": 1,
+    "image_path": "screens/split-view.png",
+    "screen_type": "workspace",
+    "layout_type": "split-panel",
+    "primary_user_goal": "View and work with multiple web pages simultaneously",
+    "primary_business_goal": "Position Arc as the productivity-focused browser alternative",
+    "primary_cta_label": "Add Split",
+    "secondary_cta_labels": ["Swap Positions", "Close Split", "Resize Panels"],
+    "navigation_elements": [
+      "Split View Toggle",
+      "Panel Resize Handle",
+      "Individual Tab Controls",
+      "Linked Tabs Indicator"
+    ],
+    "copy_summary": "Split View enables side-by-side browsing without requiring external window management. Users can drag tabs to create splits, resize panels, and even link tabs so they stay together. This is native functionality requiring no extensions.",
+    "patterns": [
+      "split-panel",
+      "drag-and-drop",
+      "resize-handles",
+      "linked-items",
+      "contextual-actions"
+    ],
+    "heuristics": {
+      "clarity": 4,
+      "cognitive_load": 3,
+      "visual_hierarchy": 4,
+      "feedback": 5,
+      "accessibility": 3,
+      "conversion_strength": 4
+    },
+    "notes": "Split View addresses a common workflow need that other browsers require third-party extensions or OS-level window management to achieve. The implementation feels native and polished. Users comparing documents, referencing while writing, or following tutorials benefit significantly. The ability to link splits so they move together is a thoughtful detail."
+  },
+  {
+    "screen_id": "arc-command-bar",
+    "app_id": "arc",
+    "flow_id": "navigation",
+    "step_index": 1,
+    "image_path": "screens/command-bar.png",
+    "screen_type": "modal",
+    "layout_type": "search-modal",
+    "primary_user_goal": "Quickly navigate, search, or perform actions without using the mouse",
+    "primary_business_goal": "Establish Arc as the power-user browser with superior keyboard efficiency",
+    "primary_cta_label": "Search or type a command",
+    "secondary_cta_labels": ["Recent", "Tabs", "Actions", "History"],
+    "navigation_elements": [
+      "Search Input",
+      "Category Filters",
+      "Result List",
+      "Keyboard Hints",
+      "Action Shortcuts"
+    ],
+    "copy_summary": "The Command Bar (Cmd+T) unifies URL navigation, tab switching, history search, and actions into a single interface. Users can search across open tabs, bookmarks, history, and even trigger Arc-specific actions. Results are intelligently ranked with keyboard shortcuts visible.",
+    "patterns": [
+      "command-palette",
+      "search-prominent",
+      "fuzzy-search",
+      "keyboard-shortcuts",
+      "categorized-results",
+      "contextual-help"
+    ],
+    "heuristics": {
+      "clarity": 5,
+      "cognitive_load": 4,
+      "visual_hierarchy": 5,
+      "feedback": 5,
+      "accessibility": 4,
+      "conversion_strength": 4
+    },
+    "notes": "The Command Bar follows the command palette pattern popularized by VS Code and Spotlight. It transforms browser navigation from a clicking exercise into a keyboard-centric workflow. The unified search across tabs, history, and actions reduces cognitive load - users don't need to remember where something is, just what it's called."
+  },
+  {
+    "screen_id": "arc-little-arc",
+    "app_id": "arc",
+    "flow_id": "quick-tasks",
+    "step_index": 1,
+    "image_path": "screens/little-arc.png",
+    "screen_type": "modal",
+    "layout_type": "popup-window",
+    "primary_user_goal": "Quickly look something up without disrupting current browsing context",
+    "primary_business_goal": "Differentiate Arc with unique ephemeral browsing for quick tasks",
+    "primary_cta_label": "Search or enter URL",
+    "secondary_cta_labels": ["Open in Arc", "Copy Link", "Close"],
+    "navigation_elements": [
+      "Compact URL Bar",
+      "Open in Arc Button",
+      "Close Button",
+      "Resize Handle"
+    ],
+    "copy_summary": "Little Arc is a minimal popup browser for quick lookups that don't warrant a full tab. It appears when clicking links from other apps or can be invoked manually. Content viewed in Little Arc doesn't clutter the main browser with temporary tabs.",
+    "patterns": [
+      "ephemeral-ui",
+      "popup-window",
+      "quick-actions",
+      "minimal-chrome",
+      "contextual-actions"
+    ],
+    "heuristics": {
+      "clarity": 5,
+      "cognitive_load": 5,
+      "visual_hierarchy": 5,
+      "feedback": 4,
+      "accessibility": 4,
+      "conversion_strength": 3
+    },
+    "notes": "Little Arc addresses the 'open a link, forget why you have this tab' problem elegantly. Quick lookups stay ephemeral by default. If users want to keep something, they explicitly promote it to a full tab. This inverts the traditional model where every link becomes a permanent tab by default. Brilliant solution for tab hygiene."
+  },
+  {
+    "screen_id": "arc-easels",
+    "app_id": "arc",
+    "flow_id": "content-capture",
+    "step_index": 1,
+    "image_path": "screens/easels.png",
+    "screen_type": "canvas",
+    "layout_type": "freeform-canvas",
+    "primary_user_goal": "Capture, annotate, and organize web content visually",
+    "primary_business_goal": "Expand Arc beyond browsing into knowledge management and creation",
+    "primary_cta_label": "New Easel",
+    "secondary_cta_labels": ["Add Capture", "Add Text", "Add Shape", "Share Easel"],
+    "navigation_elements": [
+      "Canvas Tools",
+      "Zoom Controls",
+      "Layer Management",
+      "Share Options",
+      "Easel Library"
+    ],
+    "copy_summary": "Easels are infinite canvases for capturing screenshots, adding notes, and visually organizing web research. Users can capture live website snapshots that remain interactive, add annotations, and share easels with collaborators. Easels live in the sidebar alongside tabs.",
+    "patterns": [
+      "infinite-canvas",
+      "drag-and-drop",
+      "freeform-layout",
+      "collaborative-editing",
+      "content-capture"
+    ],
+    "heuristics": {
+      "clarity": 4,
+      "cognitive_load": 3,
+      "visual_hierarchy": 4,
+      "feedback": 4,
+      "accessibility": 3,
+      "conversion_strength": 3
+    },
+    "notes": "Easels represent Arc's ambition beyond browsing into knowledge work tools. The feature competes with tools like Miro or FigJam but integrated directly into the browser. Live captures that maintain interactivity are technically impressive. This feature has a learning curve but offers unique value for research and planning workflows."
+  },
+  {
+    "screen_id": "arc-boosts",
+    "app_id": "arc",
+    "flow_id": "customization",
+    "step_index": 1,
+    "image_path": "screens/boosts.png",
+    "screen_type": "settings",
+    "layout_type": "panel-editor",
+    "primary_user_goal": "Customize website appearances to personal preferences",
+    "primary_business_goal": "Increase user investment and differentiation through personalization",
+    "primary_cta_label": "New Boost",
+    "secondary_cta_labels": ["Edit CSS", "Change Colors", "Hide Elements", "Share Boost"],
+    "navigation_elements": [
+      "Boost Library",
+      "CSS Editor",
+      "Color Picker",
+      "Element Selector",
+      "Preview Toggle"
+    ],
+    "copy_summary": "Boosts let users customize any website's appearance without technical knowledge. Change colors, hide annoying elements, adjust fonts, or write custom CSS. Boosts persist across sessions and can be shared with other Arc users. Community boosts are available for popular sites.",
+    "patterns": [
+      "user-customization",
+      "wysiwyg-editor",
+      "progressive-disclosure",
+      "community-sharing",
+      "live-preview"
+    ],
+    "heuristics": {
+      "clarity": 4,
+      "cognitive_load": 3,
+      "visual_hierarchy": 4,
+      "feedback": 5,
+      "accessibility": 4,
+      "conversion_strength": 3
+    },
+    "notes": "Boosts democratize website customization, letting non-technical users fix annoying design choices on sites they visit frequently. The feature ranges from simple (hide sidebar, change colors) to powerful (custom CSS). Community sharing creates a library of improvements. This empowers users in a way traditional browsers never attempted."
+  },
+  {
+    "screen_id": "arc-settings",
+    "app_id": "arc",
+    "flow_id": "configuration",
+    "step_index": 1,
+    "image_path": "screens/settings.png",
+    "screen_type": "settings",
+    "layout_type": "sidebar-detail",
+    "primary_user_goal": "Configure Arc to personal preferences and manage account",
+    "primary_business_goal": "Enable power users while maintaining simplicity for casual users",
+    "primary_cta_label": "General",
+    "secondary_cta_labels": ["Profiles", "Shortcuts", "Max", "Links", "Advanced"],
+    "navigation_elements": [
+      "Settings Categories",
+      "Search Settings",
+      "Profile Management",
+      "Keyboard Shortcuts",
+      "Arc Max (AI Features)"
+    ],
+    "copy_summary": "Settings are organized into logical categories with search functionality. Arc exposes powerful customization while keeping defaults sensible. The interface avoids overwhelming users with options, using progressive disclosure to hide advanced settings until needed.",
+    "patterns": [
+      "settings-sidebar",
+      "search-settings",
+      "progressive-disclosure",
+      "grouped-settings",
+      "contextual-help"
+    ],
+    "heuristics": {
+      "clarity": 5,
+      "cognitive_load": 4,
+      "visual_hierarchy": 5,
+      "feedback": 4,
+      "accessibility": 5,
+      "conversion_strength": 3
+    },
+    "notes": "Arc's settings demonstrate restraint - avoiding the hundreds of toggles that plague browsers like Firefox or Vivaldi. Settings are searchable, which is essential given the depth of customization available. The 'Arc Max' section for AI features shows the company's forward-thinking approach to browser capabilities."
+  }
+]

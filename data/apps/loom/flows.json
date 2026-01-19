@@ -1,0 +1,47 @@
+[
+  {
+    "flow_id": "marketing-to-signup",
+    "name": "Marketing to Sign-up",
+    "primary_user_goal": "Learn about Loom and decide to create an account",
+    "business_goal": "Convert website visitors to registered users",
+    "entry_point": "Landing page or marketing campaign",
+    "exit_point": "Account creation completion",
+    "screens": ["landing-01", "pricing-01"]
+  },
+  {
+    "flow_id": "create-recording",
+    "name": "Create Recording",
+    "primary_user_goal": "Record and share a video message quickly",
+    "business_goal": "Drive video creation and establish sharing habit",
+    "entry_point": "Browser extension click, desktop app, or web dashboard",
+    "exit_point": "Video link copied and ready to share",
+    "screens": ["recording-setup-01", "recording-active-01", "post-recording-01"]
+  },
+  {
+    "flow_id": "view-recording",
+    "name": "View Recording",
+    "primary_user_goal": "Watch a shared video and provide feedback",
+    "business_goal": "Enable engagement and demonstrate video value to potential new users",
+    "entry_point": "Shared Loom link from email, Slack, or other channel",
+    "exit_point": "Video watched, reaction/comment added, or viewer signs up",
+    "screens": ["player-01", "comments-01"]
+  },
+  {
+    "flow_id": "manage-library",
+    "name": "Manage Video Library",
+    "primary_user_goal": "Find, organize, and analyze previously recorded videos",
+    "business_goal": "Drive re-engagement and showcase analytics value",
+    "entry_point": "Dashboard navigation or notification about video activity",
+    "exit_point": "User finds desired video or creates new recording",
+    "screens": ["library-01", "analytics-01"]
+  },
+  {
+    "flow_id": "share-recording",
+    "name": "Share Recording",
+    "primary_user_goal": "Distribute video through appropriate channels with proper access controls",
+    "business_goal": "Maximize video reach and track distribution",
+    "entry_point": "Share button on video player or library",
+    "exit_point": "Link shared via copy, email, Slack, or embed",
+    "screens": ["sharing-01"]
+  }
+]

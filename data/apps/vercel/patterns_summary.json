@@ -1,0 +1,445 @@
+{
+  "app_id": "vercel",
+  "total_screens": 10,
+  "patterns": [
+    {
+      "pattern_id": "smart-defaults",
+      "pattern_name": "Smart Defaults",
+      "frequency": 3,
+      "percentage": 30,
+      "avg_heuristics": {
+        "clarity": 5,
+        "cognitive_load": 4.3,
+        "visual_hierarchy": 5,
+        "feedback": 4,
+        "accessibility": 4,
+        "conversion_strength": 4.3
+      },
+      "screens": [
+        "onboarding-01",
+        "onboarding-02",
+        "settings-01"
+      ]
+    },
+    {
+      "pattern_id": "search-prominent",
+      "pattern_name": "Prominent Search",
+      "frequency": 3,
+      "percentage": 30,
+      "avg_heuristics": {
+        "clarity": 5,
+        "cognitive_load": 3.7,
+        "visual_hierarchy": 4.7,
+        "feedback": 4.3,
+        "accessibility": 4,
+        "conversion_strength": 4
+      },
+      "screens": [
+        "onboarding-02",
+        "dashboard-01",
+        "logs-01"
+      ]
+    },
+    {
+      "pattern_id": "card-layout",
+      "pattern_name": "Card Layout",
+      "frequency": 3,
+      "percentage": 30,
+      "avg_heuristics": {
+        "clarity": 5,
+        "cognitive_load": 4,
+        "visual_hierarchy": 5,
+        "feedback": 4.3,
+        "accessibility": 4,
+        "conversion_strength": 4.3
+      },
+      "screens": [
+        "onboarding-02",
+        "dashboard-01",
+        "project-01"
+      ]
+    },
+    {
+      "pattern_id": "contextual-help",
+      "pattern_name": "Contextual Help",
+      "frequency": 3,
+      "percentage": 30,
+      "avg_heuristics": {
+        "clarity": 5,
+        "cognitive_load": 4,
+        "visual_hierarchy": 5,
+        "feedback": 4.7,
+        "accessibility": 4,
+        "conversion_strength": 4.3
+      },
+      "screens": [
+        "onboarding-02",
+        "project-01",
+        "deployment-01"
+      ]
+    },
+    {
+      "pattern_id": "breadcrumbs",
+      "pattern_name": "Breadcrumbs",
+      "frequency": 3,
+      "percentage": 30,
+      "avg_heuristics": {
+        "clarity": 5,
+        "cognitive_load": 4,
+        "visual_hierarchy": 5,
+        "feedback": 4.7,
+        "accessibility": 4,
+        "conversion_strength": 3.7
+      },
+      "screens": [
+        "project-01",
+        "deployment-01",
+        "settings-01"
+      ]
+    },
+    {
+      "pattern_id": "single-primary-cta",
+      "pattern_name": "Single Primary CTA",
+      "frequency": 2,
+      "percentage": 20,
+      "avg_heuristics": {
+        "clarity": 5,
+        "cognitive_load": 4.5,
+        "visual_hierarchy": 5,
+        "feedback": 3.5,
+        "accessibility": 4,
+        "conversion_strength": 5
+      },
+      "screens": [
+        "landing-01",
+        "onboarding-01"
+      ]
+    },
+    {
+      "pattern_id": "social-proof",
+      "pattern_name": "Social Proof",
+      "frequency": 2,
+      "percentage": 20,
+      "avg_heuristics": {
+        "clarity": 5,
+        "cognitive_load": 4,
+        "visual_hierarchy": 5,
+        "feedback": 3,
+        "accessibility": 4,
+        "conversion_strength": 5
+      },
+      "screens": [
+        "landing-01",
+        "pricing-01"
+      ]
+    },
+    {
+      "pattern_id": "lazy-loading",
+      "pattern_name": "Lazy Loading",
+      "frequency": 2,
+      "percentage": 20,
+      "avg_heuristics": {
+        "clarity": 5,
+        "cognitive_load": 3.5,
+        "visual_hierarchy": 4.5,
+        "feedback": 4.5,
+        "accessibility": 4,
+        "conversion_strength": 4
+      },
+      "screens": [
+        "onboarding-02",
+        "logs-01"
+      ]
+    },
+    {
+      "pattern_id": "filter-facets",
+      "pattern_name": "Filter Facets",
+      "frequency": 2,
+      "percentage": 20,
+      "avg_heuristics": {
+        "clarity": 5,
+        "cognitive_load": 3.5,
+        "visual_hierarchy": 4.5,
+        "feedback": 4.5,
+        "accessibility": 4,
+        "conversion_strength": 3.5
+      },
+      "screens": [
+        "dashboard-01",
+        "logs-01"
+      ]
+    },
+    {
+      "pattern_id": "benefit-oriented-headline",
+      "pattern_name": "Benefit-Oriented Headline",
+      "frequency": 1,
+      "percentage": 10,
+      "avg_heuristics": {
+        "clarity": 5,
+        "cognitive_load": 4,
+        "visual_hierarchy": 5,
+        "feedback": 3,
+        "accessibility": 4,
+        "conversion_strength": 5
+      },
+      "screens": [
+        "landing-01"
+      ]
+    },
+    {
+      "pattern_id": "hero-illustration",
+      "pattern_name": "Hero Illustration",
+      "frequency": 1,
+      "percentage": 10,
+      "avg_heuristics": {
+        "clarity": 5,
+        "cognitive_load": 4,
+        "visual_hierarchy": 5,
+        "feedback": 3,
+        "accessibility": 4,
+        "conversion_strength": 5
+      },
+      "screens": [
+        "landing-01"
+      ]
+    },
+    {
+      "pattern_id": "progressive-disclosure",
+      "pattern_name": "Progressive Disclosure",
+      "frequency": 1,
+      "percentage": 10,
+      "avg_heuristics": {
+        "clarity": 5,
+        "cognitive_load": 5,
+        "visual_hierarchy": 5,
+        "feedback": 4,
+        "accessibility": 4,
+        "conversion_strength": 5
+      },
+      "screens": [
+        "onboarding-01"
+      ]
+    },
+    {
+      "pattern_id": "notification-badge",
+      "pattern_name": "Notification Badge",
+      "frequency": 1,
+      "percentage": 10,
+      "avg_heuristics": {
+        "clarity": 5,
+        "cognitive_load": 4,
+        "visual_hierarchy": 5,
+        "feedback": 4,
+        "accessibility": 4,
+        "conversion_strength": 4
+      },
+      "screens": [
+        "dashboard-01"
+      ]
+    },
+    {
+      "pattern_id": "progress-indicator",
+      "pattern_name": "Progress Indicator",
+      "frequency": 1,
+      "percentage": 10,
+      "avg_heuristics": {
+        "clarity": 5,
+        "cognitive_load": 4,
+        "visual_hierarchy": 5,
+        "feedback": 5,
+        "accessibility": 4,
+        "conversion_strength": 4
+      },
+      "screens": [
+        "deployment-01"
+      ]
+    },
+    {
+      "pattern_id": "share-button",
+      "pattern_name": "Share Button",
+      "frequency": 1,
+      "percentage": 10,
+      "avg_heuristics": {
+        "clarity": 5,
+        "cognitive_load": 4,
+        "visual_hierarchy": 5,
+        "feedback": 5,
+        "accessibility": 4,
+        "conversion_strength": 4
+      },
+      "screens": [
+        "preview-01"
+      ]
+    },
+    {
+      "pattern_id": "inline-validation",
+      "pattern_name": "Inline Validation",
+      "frequency": 1,
+      "percentage": 10,
+      "avg_heuristics": {
+        "clarity": 5,
+        "cognitive_load": 4,
+        "visual_hierarchy": 5,
+        "feedback": 4,
+        "accessibility": 4,
+        "conversion_strength": 3
+      },
+      "screens": [
+        "settings-01"
+      ]
+    },
+    {
+      "pattern_id": "pricing-table",
+      "pattern_name": "Pricing Table",
+      "frequency": 1,
+      "percentage": 10,
+      "avg_heuristics": {
+        "clarity": 5,
+        "cognitive_load": 4,
+        "visual_hierarchy": 5,
+        "feedback": 3,
+        "accessibility": 4,
+        "conversion_strength": 5
+      },
+      "screens": [
+        "pricing-01"
+      ]
+    },
+    {
+      "pattern_id": "sticky-cta",
+      "pattern_name": "Sticky CTA",
+      "frequency": 1,
+      "percentage": 10,
+      "avg_heuristics": {
+        "clarity": 5,
+        "cognitive_load": 4,
+        "visual_hierarchy": 5,
+        "feedback": 3,
+        "accessibility": 4,
+        "conversion_strength": 5
+      },
+      "screens": [
+        "pricing-01"
+      ]
+    }
+  ],
+  "flows": [
+    {
+      "flow_id": "landing",
+      "flow_name": "Landing Page",
+      "unique_patterns": [
+        "single-primary-cta",
+        "benefit-oriented-headline",
+        "hero-illustration",
+        "social-proof",
+        "dark-mode-default"
+      ],
+      "pattern_combinations": []
+    },
+    {
+      "flow_id": "onboarding",
+      "flow_name": "Signup and First Deploy",
+      "unique_patterns": [
+        "social-login",
+        "single-primary-cta",
+        "progressive-disclosure",
+        "smart-defaults",
+        "search-prominent",
+        "lazy-loading",
+        "card-layout",
+        "contextual-help"
+      ],
+      "pattern_combinations": []
+    },
+    {
+      "flow_id": "dashboard",
+      "flow_name": "Project Dashboard",
+      "unique_patterns": [
+        "card-layout",
+        "search-prominent",
+        "filter-facets",
+        "notification-badge",
+        "team-switcher",
+        "activity-feed"
+      ],
+      "pattern_combinations": []
+    },
+    {
+      "flow_id": "project",
+      "flow_name": "Project Detail",
+      "unique_patterns": [
+        "breadcrumbs",
+        "card-layout",
+        "tabs",
+        "status-indicators",
+        "contextual-help",
+        "quick-actions"
+      ],
+      "pattern_combinations": []
+    },
+    {
+      "flow_id": "deployment",
+      "flow_name": "Deployment Detail",
+      "unique_patterns": [
+        "breadcrumbs",
+        "progress-indicator",
+        "real-time-updates",
+        "contextual-help",
+        "log-viewer",
+        "status-indicators"
+      ],
+      "pattern_combinations": []
+    },
+    {
+      "flow_id": "preview",
+      "flow_name": "Preview Deployment Review",
+      "unique_patterns": [
+        "floating-toolbar",
+        "contextual-comments",
+        "approval-workflow",
+        "share-button",
+        "status-indicators"
+      ],
+      "pattern_combinations": []
+    },
+    {
+      "flow_id": "logs",
+      "flow_name": "Runtime Logs",
+      "unique_patterns": [
+        "real-time-updates",
+        "filter-facets",
+        "search-prominent",
+        "log-viewer",
+        "lazy-loading",
+        "expandable-rows"
+      ],
+      "pattern_combinations": []
+    },
+    {
+      "flow_id": "settings",
+      "flow_name": "Project Settings",
+      "unique_patterns": [
+        "sidebar",
+        "breadcrumbs",
+        "form-sections",
+        "danger-zone",
+        "smart-defaults",
+        "inline-validation"
+      ],
+      "pattern_combinations": []
+    },
+    {
+      "flow_id": "pricing",
+      "flow_name": "Pricing Evaluation",
+      "unique_patterns": [
+        "pricing-table",
+        "feature-comparison",
+        "tiered-pricing",
+        "social-proof",
+        "faq-accordion",
+        "sticky-cta"
+      ],
+      "pattern_combinations": []
+    }
+  ]
+}

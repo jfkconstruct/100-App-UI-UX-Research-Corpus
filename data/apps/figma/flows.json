@@ -1,0 +1,56 @@
+[
+  {
+    "flow_id": "landing",
+    "name": "Landing Page",
+    "primary_user_goal": "Understand Figma's collaborative design platform",
+    "business_goal": "Convert visitors to signup",
+    "entry_point": "Direct URL or marketing",
+    "exit_point": "Click 'Get started for free'",
+    "screens": ["landing-01", "landing-02"]
+  },
+  {
+    "flow_id": "onboarding",
+    "name": "Onboarding",
+    "primary_user_goal": "Create account and set preferences",
+    "business_goal": "Convert to registered user with context",
+    "entry_point": "Signup click",
+    "exit_point": "Enter editor",
+    "screens": ["onboarding-01", "onboarding-02"]
+  },
+  {
+    "flow_id": "editor",
+    "name": "Design Editor",
+    "primary_user_goal": "Create and edit designs",
+    "business_goal": "Enable productive design work",
+    "entry_point": "Open file or create new",
+    "exit_point": "Close file or navigate away",
+    "screens": ["editor-01", "editor-02", "editor-03"]
+  },
+  {
+    "flow_id": "prototype",
+    "name": "Prototyping",
+    "primary_user_goal": "Create interactive prototypes",
+    "business_goal": "Enable end-to-end design workflow",
+    "entry_point": "Prototype tab",
+    "exit_point": "Present or return to design",
+    "screens": ["prototype-01"]
+  },
+  {
+    "flow_id": "sharing",
+    "name": "Sharing",
+    "primary_user_goal": "Share designs with others",
+    "business_goal": "Drive collaboration and user growth",
+    "entry_point": "Share button",
+    "exit_point": "Link copied or invites sent",
+    "screens": ["sharing-01"]
+  },
+  {
+    "flow_id": "community",
+    "name": "Community",
+    "primary_user_goal": "Find resources and inspiration",
+    "business_goal": "Increase platform value through ecosystem",
+    "entry_point": "Community nav",
+    "exit_point": "Duplicate file to drafts",
+    "screens": ["community-01"]
+  }
+]

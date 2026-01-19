@@ -1,0 +1,83 @@
+[
+  {
+    "flow_id": "landing",
+    "name": "Landing Page",
+    "primary_user_goal": "Understand Superhuman's value for email productivity",
+    "business_goal": "Convert visitors to waitlist signup",
+    "entry_point": "Direct URL or marketing campaign",
+    "exit_point": "Click 'Get Superhuman'",
+    "screens": ["landing-01"]
+  },
+  {
+    "flow_id": "waitlist",
+    "name": "Waitlist Signup",
+    "primary_user_goal": "Request access to Superhuman",
+    "business_goal": "Capture qualified leads and build exclusivity",
+    "entry_point": "Click CTA on landing page",
+    "exit_point": "Confirmation of waitlist status",
+    "screens": ["waitlist-01"]
+  },
+  {
+    "flow_id": "onboarding",
+    "name": "1-on-1 Onboarding",
+    "primary_user_goal": "Learn Superhuman's keyboard-first workflow",
+    "business_goal": "Ensure user success through personalized training",
+    "entry_point": "Account activation",
+    "exit_point": "Complete training session",
+    "screens": ["onboarding-01"]
+  },
+  {
+    "flow_id": "inbox",
+    "name": "Inbox Management",
+    "primary_user_goal": "Process email efficiently and reach inbox zero",
+    "business_goal": "Drive daily engagement and demonstrate speed value",
+    "entry_point": "Login or app launch",
+    "exit_point": "Inbox zero or session end",
+    "screens": ["inbox-01", "split-inbox-01"]
+  },
+  {
+    "flow_id": "compose",
+    "name": "Email Composition",
+    "primary_user_goal": "Write and send emails quickly",
+    "business_goal": "Enable fast communication throughput",
+    "entry_point": "Press 'c' or click Compose",
+    "exit_point": "Email sent or saved as draft",
+    "screens": ["compose-01"]
+  },
+  {
+    "flow_id": "command",
+    "name": "Command Palette",
+    "primary_user_goal": "Execute any action without leaving keyboard",
+    "business_goal": "Enable power-user efficiency and differentiation",
+    "entry_point": "Press Cmd+K",
+    "exit_point": "Action executed or palette dismissed",
+    "screens": ["command-palette-01"]
+  },
+  {
+    "flow_id": "triage",
+    "name": "Email Triage",
+    "primary_user_goal": "Make quick decisions on each email",
+    "business_goal": "Prove productivity value through fast processing",
+    "entry_point": "Select email in inbox",
+    "exit_point": "Email archived, snoozed, or replied",
+    "screens": ["triage-01"]
+  },
+  {
+    "flow_id": "help",
+    "name": "Keyboard Shortcuts Help",
+    "primary_user_goal": "Learn or remember keyboard shortcuts",
+    "business_goal": "Train users toward power-user behavior",
+    "entry_point": "Press '?' or access from menu",
+    "exit_point": "Close help panel",
+    "screens": ["shortcuts-01"]
+  },
+  {
+    "flow_id": "settings",
+    "name": "Settings",
+    "primary_user_goal": "Customize Superhuman experience",
+    "business_goal": "Enable personalization for retention",
+    "entry_point": "Cmd+, or settings menu",
+    "exit_point": "Return to inbox",
+    "screens": ["settings-01"]
+  }
+]
